@@ -128,12 +128,20 @@ function walk(dir) {
 
 let total = 0;
 for (const pkg of ['experience', 'console', 'account', 'demo-app', 'device-demo-app', 'core']) {
-  const dir = path.join(BASE_DIR, 'packages', pkg);
-  if (fs.existsSync(dir)) {
-    const count = walk(dir);
-    console.log(`  patched ${count} files in packages/${pkg}`);
-    total += count;
+  const pkgDir = path.join(BASE_DIR, 'packages', pkg);
+  if (!fs.existsSync(pkgDir)) {
+    continue;
   }
+
+  let count = 0;
+  for (const subdir of ['dist', 'static']) {
+    const dir = path.join(pkgDir, subdir);
+    if (fs.existsSync(dir)) {
+      count += walk(dir);
+    }
+  }
+  console.log(`  patched ${count} files in packages/${pkg}`);
+  total += count;
 }
 
 // Also patch root metadata files
