@@ -31,6 +31,9 @@ ENV LOGTO_OSS_SURVEY_ENDPOINT=${logto_oss_survey_endpoint}
 
 RUN pnpm -r build
 
+### Apply Riven branding ###
+RUN /bin/sh brand/scripts/productize.sh
+
 ### Add official connectors ###
 ARG additional_connector_args
 ENV ADDITIONAL_CONNECTOR_ARGS=${additional_connector_args}
@@ -46,6 +49,11 @@ RUN rm -rf .scripts pnpm-*.yaml packages/cloud
 
 ###### [STAGE] Seal ######
 FROM node:22-alpine AS app
+LABEL org.opencontainers.image.title="Riven Auth"
+LABEL org.opencontainers.image.vendor="Riven Holdings"
+LABEL org.opencontainers.image.version="0.1.0-riven"
+LABEL org.opencontainers.image.source="https://github.com/rivenai/riven-auth-source"
+LABEL org.riven.product="auth"
 WORKDIR /etc/logto
 ARG logto_oss_survey_endpoint=
 ARG private_key_rotation_grace_period=0
@@ -55,5 +63,6 @@ ENV PRIVATE_KEY_ROTATION_GRACE_PERIOD=${private_key_rotation_grace_period}
 COPY --from=builder /etc/logto .
 RUN mkdir -p /etc/logto/packages/cli/alteration-scripts && chmod g+w /etc/logto/packages/cli/alteration-scripts
 EXPOSE 3001
+EXPOSE 3002
 ENTRYPOINT ["npm", "run"]
 CMD ["start"]

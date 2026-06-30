@@ -164,23 +164,20 @@ export default class Tenant implements TenantContext {
       // Mount `/me` APIs for admin tenant
       app.use(mount('/me', initMeApis(tenantContext)));
 
-      // Mount Admin Console when needed
-      // Skip in multi-tenancy mode since Logto Cloud serves Admin Console in this case
-      if (!isMultiTenancy) {
-        app.use(koaConsoleRedirectProxy(queries));
-        app.use(
-          mount(
-            '/' + AdminApps.Console,
-            koaSpaProxy({
-              mountedApps,
-              queries,
-              packagePath: AdminApps.Console,
-              port: 5002,
-              prefix: AdminApps.Console,
-            })
-          )
-        );
-      }
+      // Mount Admin Console regardless of tenancy mode (Riven Auth always serves it)
+      app.use(koaConsoleRedirectProxy(queries));
+      app.use(
+        mount(
+          '/' + AdminApps.Console,
+          koaSpaProxy({
+            mountedApps,
+            queries,
+            packagePath: AdminApps.Console,
+            port: 5002,
+            prefix: AdminApps.Console,
+          })
+        )
+      );
     }
 
     // In OSS, no need for mounting demo app in the admin tenant since it may cause confusion
