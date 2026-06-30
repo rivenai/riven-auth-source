@@ -49,14 +49,14 @@ replace_icon "$BASE_DIR/logo.png" "$ASSET_DIR/logo.png"
 # -----------------------------------------------------------------------------
 # 2. Patch built JS/CSS/HTML to remove Logto branding
 # -----------------------------------------------------------------------------
-node "$BRAND_DIR/scripts/patch-dist.js"
+node "$BRAND_DIR/scripts/patch-dist.cjs"
 
 # -----------------------------------------------------------------------------
 # 3. Patch post-logout page (remove "Powered By" signature entirely)
 # -----------------------------------------------------------------------------
 POST_LOGOUT="$BASE_DIR/packages/core/static/html/post-logout/index.html"
 if [ -f "$POST_LOGOUT" ]; then
-  node "$BRAND_DIR/scripts/patch-html.js" "$POST_LOGOUT"
+  node "$BRAND_DIR/scripts/patch-html.cjs" "$POST_LOGOUT"
   echo "  patched: $POST_LOGOUT"
 fi
 
