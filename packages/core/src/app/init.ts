@@ -44,7 +44,7 @@ export default async function initApp(app: Koa): Promise<void> {
     })(ctx, next);
 
     // Set the header in the end to avoid other middleware from overwriting it
-    ctx.set('Logto-Core-Request-Id', requestId);
+    ctx.set('Riven-Core-Request-Id', requestId);
   });
 
   app.use(async (ctx, next) => {

@@ -5,7 +5,7 @@ const path = require('path');
 
 const baseDir = '/etc/logto';
 const packages = ['experience', 'console', 'account', 'demo-app', 'device-demo-app', 'core'];
-const forbidden = [/@logto[/-]/i, /Logto-Static-Package/i, /Logto-App-Id/i];
+const forbidden = [/@logto[/-]/i, /Logto-Static-Package/i, /Logto-App-Id/i, /Logto-Core-Request-Id/i, /urn:logto:/i];
 const allowed = [/^@logto\/connector-kit$/]; // allow exact upstream connector-kit in node_modules? No, we want none.
 
 const bad = [];
