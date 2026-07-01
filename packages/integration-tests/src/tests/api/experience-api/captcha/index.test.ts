@@ -1,5 +1,5 @@
-import { ConnectorType, InteractionEvent, SignInIdentifier, SignInMode } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { ConnectorType, InteractionEvent, SignInIdentifier, SignInMode } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import { mockSocialConnectorId } from '#src/__mocks__/connectors-mock.js';
 import { deleteUser } from '#src/api/admin-user.js';

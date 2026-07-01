@@ -1,4 +1,4 @@
-import type { AdminConsoleKey } from '@logto/phrases';
+import type { AdminConsoleKey } from '@riven/phrases';
 import classNames from 'classnames';
 import { useEffect, useMemo, useRef, useState, forwardRef } from 'react';
 import type { HTMLProps, ReactElement, ReactNode, ForwardedRef } from 'react';

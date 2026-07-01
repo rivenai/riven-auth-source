@@ -1,5 +1,5 @@
-import { adminTenantId, defaultTenantId } from '@logto/schemas';
-import { type UrlSet } from '@logto/shared';
+import { adminTenantId, defaultTenantId } from '@riven/schemas';
+import { type UrlSet } from '@riven/shared';
 import { conditionalString, trySafe } from '@silverhand/essentials';
 import { type CommonQueryMethods } from '@silverhand/slonik';
 

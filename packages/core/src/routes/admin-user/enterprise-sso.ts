@@ -2,7 +2,7 @@ import {
   type GetUserAllIdentitiesResponse,
   getUserAllIdentitiesResponseGuard,
   getUserSsoIdentityResponseGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, yes } from '@silverhand/essentials';
 import { object, string } from 'zod';
 

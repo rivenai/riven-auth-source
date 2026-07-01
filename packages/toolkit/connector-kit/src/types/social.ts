@@ -83,7 +83,7 @@ export const connectorSessionGuard = z
     state: z.string(),
   })
   .partial()
-  // Accept arbitrary unspecified keys so developers who can not publish @logto/connector-kit can more flexibly utilize connector session.
+  // Accept arbitrary unspecified keys so developers who can not publish @riven/connector-kit can more flexibly utilize connector session.
   .catchall(z.unknown());
 
 export type ConnectorSession = z.infer<typeof connectorSessionGuard>;

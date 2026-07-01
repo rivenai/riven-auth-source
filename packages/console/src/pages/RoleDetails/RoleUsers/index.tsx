@@ -1,4 +1,4 @@
-import { type User } from '@logto/schemas';
+import { type User } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useState } from 'react';
 import { toast } from 'react-hot-toast';

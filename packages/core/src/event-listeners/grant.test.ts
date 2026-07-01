@@ -1,5 +1,5 @@
-import type { LogKey } from '@logto/schemas';
-import { LogResult, token } from '@logto/schemas';
+import type { LogKey } from '@riven/schemas';
+import { LogResult, token } from '@riven/schemas';
 
 import { createMockLogContext } from '#src/test-utils/koa-audit-log.js';
 import { stringifyError } from '#src/utils/format.js';

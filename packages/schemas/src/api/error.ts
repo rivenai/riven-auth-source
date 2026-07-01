@@ -1,4 +1,4 @@
-import type { LogtoErrorCode } from '@logto/phrases';
+import type { LogtoErrorCode } from '@riven/phrases';
 
 export type RequestErrorMetadata = Record<string, unknown> & {
   code: LogtoErrorCode;

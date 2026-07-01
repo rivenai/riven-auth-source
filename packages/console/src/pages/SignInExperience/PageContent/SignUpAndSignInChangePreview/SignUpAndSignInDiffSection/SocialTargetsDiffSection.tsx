@@ -1,4 +1,4 @@
-import { isLanguageTag } from '@logto/language-kit';
+import { isLanguageTag } from '@riven/language-kit';
 import { conditional } from '@silverhand/essentials';
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';

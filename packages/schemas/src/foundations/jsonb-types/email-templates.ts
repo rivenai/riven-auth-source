@@ -3,4 +3,4 @@ export {
   templateTypeGuard,
   type EmailTemplateDetails,
   emailTemplateDetailsGuard,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';

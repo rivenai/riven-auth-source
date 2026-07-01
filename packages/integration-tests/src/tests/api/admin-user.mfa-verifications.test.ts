@@ -1,4 +1,4 @@
-import { MfaFactor } from '@logto/schemas';
+import { MfaFactor } from '@riven/schemas';
 
 import {
   createUserMfaVerification,

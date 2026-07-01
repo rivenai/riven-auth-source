@@ -3,7 +3,7 @@ import {
   accountCenterFieldControlGuard,
   deleteAccountUrlGuard,
   webauthnRelatedOriginsGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { deduplicate } from '@silverhand/essentials';
 import { z } from 'zod';
 

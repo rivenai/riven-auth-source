@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 import {
   InteractionEvent,
   MfaFactor,
@@ -7,8 +7,8 @@ import {
   SignInIdentifier,
   VerificationType,
   type Mfa,
-} from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 import type { Middleware } from 'koa';
 import type { IRouterParamContext } from 'koa-router';
 

@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
-import type { User, CreateUser } from '@logto/schemas';
-import { MfaFactor, Users } from '@logto/schemas';
-import { PhoneNumberParser } from '@logto/shared';
+import type { User, CreateUser } from '@riven/schemas';
+import { MfaFactor, Users } from '@riven/schemas';
+import { PhoneNumberParser } from '@riven/shared';
 import { cond, conditionalArray, type Nullable, pick } from '@silverhand/essentials';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

@@ -4,8 +4,8 @@ import {
   SsoProviderType,
   ssoConnectorProvidersResponseGuard,
   ssoConnectorWithProviderConfigGuard,
-} from '@logto/schemas';
-import { generateStandardShortId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardShortId } from '@riven/shared';
 import { assert, conditional } from '@silverhand/essentials';
 import { z } from 'zod';
 

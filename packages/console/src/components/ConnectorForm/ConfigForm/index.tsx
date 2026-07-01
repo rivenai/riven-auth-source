@@ -1,5 +1,5 @@
-import type { ConnectorConfigFormItem } from '@logto/connector-kit';
-import { ConnectorType } from '@logto/connector-kit';
+import type { ConnectorConfigFormItem } from '@riven/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 import { appendPath, conditional } from '@silverhand/essentials';
 import { useContext } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';

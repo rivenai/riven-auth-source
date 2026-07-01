@@ -1,4 +1,4 @@
-import { ConnectorType } from '@logto/schemas';
+import { ConnectorType } from '@riven/schemas';
 import { type Page } from 'puppeteer';
 
 import { logtoConsoleUrl as logtoConsoleUrlString } from '#src/constants.js';

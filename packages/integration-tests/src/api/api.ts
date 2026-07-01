@@ -1,4 +1,4 @@
-import { formUrlEncodedHeaders } from '@logto/shared';
+import { formUrlEncodedHeaders } from '@riven/shared';
 import { appendPath } from '@silverhand/essentials';
 import ky from 'ky';
 

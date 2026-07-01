@@ -14,7 +14,7 @@
  * new tenants before running this script and deploying the changes.
  */
 
-import { ConsoleLog, generateStandardId } from '@logto/shared';
+import { ConsoleLog, generateStandardId } from '@riven/shared';
 import { sql } from '@silverhand/slonik';
 
 import { type AlterationScript } from '../lib/types/alteration.js';

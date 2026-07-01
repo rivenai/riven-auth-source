@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { generateStandardId } from '@logto/shared';
+import { ConnectorType } from '@riven/connector-kit';
+import { generateStandardId } from '@riven/shared';
 
 import {
   mockSocialConnectorId,

@@ -1,5 +1,5 @@
-import type { CreateOidcModelInstance } from '@logto/schemas';
-import { Applications, OidcModelInstances } from '@logto/schemas';
+import type { CreateOidcModelInstance } from '@riven/schemas';
+import { Applications, OidcModelInstances } from '@riven/schemas';
 import { createMockPool, createMockQueryResult, sql } from '@silverhand/slonik';
 
 import { createMockOidcGrantInstance } from '#src/__mocks__/oidc-grant.js';

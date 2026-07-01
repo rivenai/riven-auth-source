@@ -2,9 +2,9 @@ import {
   findSupportedLanguageTag,
   matchExactLanguageTag,
   matchSupportedLanguageTag,
-} from '@logto/language-kit';
-import { builtInLanguages } from '@logto/phrases-experience';
-import { type SignInExperience } from '@logto/schemas';
+} from '@riven/language-kit';
+import { builtInLanguages } from '@riven/phrases-experience';
+import { type SignInExperience } from '@riven/schemas';
 import { conditionalArray } from '@silverhand/essentials';
 import type { i18n } from 'i18next';
 import _i18next from 'i18next';

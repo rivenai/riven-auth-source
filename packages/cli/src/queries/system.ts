@@ -1,5 +1,5 @@
-import type { AlterationState, System, SystemKey } from '@logto/schemas';
-import { systemGuards, Systems, AlterationStateKey } from '@logto/schemas';
+import type { AlterationState, System, SystemKey } from '@riven/schemas';
+import { systemGuards, Systems, AlterationStateKey } from '@riven/schemas';
 import type { Nullable } from '@silverhand/essentials';
 import type { CommonQueryMethods, DatabaseTransactionConnection } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

@@ -1,4 +1,4 @@
-import { ApplicationType } from '@logto/schemas';
+import { ApplicationType } from '@riven/schemas';
 
 import { generateM2mLog } from '#src/api/application.js';
 import { logtoConsoleUrl as logtoConsoleUrlString } from '#src/constants.js';

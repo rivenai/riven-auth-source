@@ -4,7 +4,7 @@ import {
   OneTimeTokenStatus,
   SignInIdentifier,
   SignInMode,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { deleteCaptchaProvider, updateCaptchaProvider } from '#src/api/captcha-provider.js';

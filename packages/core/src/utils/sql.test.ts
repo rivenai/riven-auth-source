@@ -1,4 +1,4 @@
-import type { Table } from '@logto/shared';
+import type { Table } from '@riven/shared';
 import { sql } from '@silverhand/slonik';
 import { SqlToken } from '@silverhand/slonik/dist/src/tokens.js';
 

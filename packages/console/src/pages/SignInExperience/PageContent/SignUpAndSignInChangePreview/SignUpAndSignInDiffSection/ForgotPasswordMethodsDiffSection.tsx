@@ -1,4 +1,4 @@
-import { ForgotPasswordMethod } from '@logto/schemas';
+import { ForgotPasswordMethod } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 
 import DiffSegment from './DiffSegment';

@@ -1,6 +1,6 @@
-import { TemplateType } from '@logto/connector-kit';
-import { UserScope } from '@logto/core-kit';
-import { SignInIdentifier } from '@logto/schemas';
+import { TemplateType } from '@riven/connector-kit';
+import { UserScope } from '@riven/core-kit';
+import { SignInIdentifier } from '@riven/schemas';
 
 import { mockEmailConnectorConfig } from '#src/__mocks__/connectors-mock.js';
 import { type MockEmailTemplatePayload } from '#src/__mocks__/email-templates.js';

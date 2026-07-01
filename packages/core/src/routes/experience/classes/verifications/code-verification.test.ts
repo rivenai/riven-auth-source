@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { SignInIdentifier, VerificationType } from '@logto/schemas';
+import { TemplateType } from '@riven/connector-kit';
+import { SignInIdentifier, VerificationType } from '@riven/schemas';
 
 import { type PasscodeLibrary } from '#src/libraries/passcode.js';
 import type Libraries from '#src/tenants/Libraries.js';

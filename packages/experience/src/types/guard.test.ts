@@ -1,4 +1,4 @@
-import { MfaFactor, VerificationType } from '@logto/schemas';
+import { MfaFactor, VerificationType } from '@riven/schemas';
 import * as s from 'superstruct';
 
 import { mfaErrorDataGuard, verificationIdsMapGuard } from './guard';

@@ -1,5 +1,5 @@
-import { extendedIdTokenClaimsByScope } from '@logto/core-kit';
-import { type ExtendedIdTokenClaim } from '@logto/schemas';
+import { extendedIdTokenClaimsByScope } from '@riven/core-kit';
+import { type ExtendedIdTokenClaim } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 
 import Checkbox from '@/ds-components/Checkbox';

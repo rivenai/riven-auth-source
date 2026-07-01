@@ -1,5 +1,5 @@
-import { MfaFactor, type CreateUser, type User } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { MfaFactor, type CreateUser, type User } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import { removeUndefinedKeys } from '@silverhand/essentials';
 
 import {

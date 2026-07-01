@@ -1,4 +1,4 @@
-import { type ApplicationType } from '@logto/schemas';
+import { type ApplicationType } from '@riven/schemas';
 
 export enum AuthorizationFlow {
   AuthorizationCode = 'authorization_code',

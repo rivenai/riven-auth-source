@@ -1,4 +1,4 @@
-import { consoleUserPreferenceKey } from '@logto/schemas';
+import { consoleUserPreferenceKey } from '@riven/schemas';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';
 import { mockUser } from '#src/__mocks__/user.js';

@@ -1,8 +1,8 @@
-import { type AdminConsoleKey } from '@logto/phrases';
+import { type AdminConsoleKey } from '@riven/phrases';
 import {
   ApplicationUserConsentScopeType,
   type ApplicationUserConsentScopesResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

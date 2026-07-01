@@ -1,5 +1,5 @@
 {
-  "name": "@logto/phrases-experience",
+  "name": "@riven/phrases-experience",
   "version": "1.13.1",
   "description": "Logto shared phrases (i18n) for experience.",
   "author": "Silverhand Inc. <contact@silverhand.io>",
@@ -33,8 +33,8 @@
     "url": "https://github.com/logto-io/logto/issues"
   },
   "dependencies": {
-    "@logto/core-kit": "workspace:^",
-    "@logto/language-kit": "workspace:^",
+    "@riven/core-kit": "workspace:^",
+    "@riven/language-kit": "workspace:^",
     "@silverhand/essentials": "^2.9.1"
   },
   "peerDependencies": {

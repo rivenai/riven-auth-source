@@ -1,4 +1,4 @@
-import { type ProtectedAppMetadata } from '@logto/schemas';
+import { type ProtectedAppMetadata } from '@riven/schemas';
 import { type Response } from 'got';
 import { type ZodType, z } from 'zod';
 

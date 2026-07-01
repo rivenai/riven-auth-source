@@ -1,11 +1,11 @@
-import { appInsights } from '@logto/app-insights/node';
-import { ConnectorType, type SendMessagePayload, TemplateType } from '@logto/connector-kit';
+import { appInsights } from '@riven/app-insights/node';
+import { ConnectorType, type SendMessagePayload, TemplateType } from '@riven/connector-kit';
 import {
   OrganizationInvitationStatus,
   type CreateOrganizationInvitation,
   type OrganizationInvitationEntity,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional, type Nullable, removeUndefinedKeys } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

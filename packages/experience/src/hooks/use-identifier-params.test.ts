@@ -1,4 +1,4 @@
-import { ExtraParamsKey, SignInIdentifier } from '@logto/schemas';
+import { ExtraParamsKey, SignInIdentifier } from '@riven/schemas';
 import { renderHook } from '@testing-library/react-hooks';
 import * as reactRouterDom from 'react-router-dom';
 

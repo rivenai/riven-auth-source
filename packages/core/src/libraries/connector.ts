@@ -1,17 +1,17 @@
-import { buildRawConnector, defaultConnectorMethods } from '@logto/cli/lib/connector/index.js';
+import { buildRawConnector, defaultConnectorMethods } from '@riven/cli/lib/connector/index.js';
 import type {
   AllConnector,
   ConnectorPlatform,
   EmailConnector,
   GetI18nEmailTemplate,
   SmsConnector,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   validateConfig,
   ServiceConnector,
   ConnectorType,
   TemplateType,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import { type Nullable, conditional, pick, trySafe } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

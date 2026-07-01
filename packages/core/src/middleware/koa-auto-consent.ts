@@ -1,4 +1,4 @@
-import { buildBuiltInApplicationDataForTenant, isBuiltInApplicationId } from '@logto/schemas';
+import { buildBuiltInApplicationDataForTenant, isBuiltInApplicationId } from '@riven/schemas';
 import { type MiddlewareType } from 'koa';
 import { type IRouterParamContext } from 'koa-router';
 import type { Provider } from 'oidc-provider';

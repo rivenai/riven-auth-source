@@ -1,5 +1,5 @@
-import resource from '@logto/phrases-experience';
-import { type CustomPhrase } from '@logto/schemas';
+import resource from '@riven/phrases-experience';
+import { type CustomPhrase } from '@riven/schemas';
 import deepmerge from 'deepmerge';
 
 import {

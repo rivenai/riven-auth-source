@@ -1,5 +1,5 @@
-import type { ConnectorFactoryResponse, ConnectorResponse } from '@logto/schemas';
-import { ConnectorType } from '@logto/schemas';
+import type { ConnectorFactoryResponse, ConnectorResponse } from '@riven/schemas';
+import { ConnectorType } from '@riven/schemas';
 
 import type { ConnectorGroup } from '@/types/connector';
 

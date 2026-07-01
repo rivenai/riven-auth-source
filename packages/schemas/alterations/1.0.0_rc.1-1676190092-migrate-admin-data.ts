@@ -1,7 +1,7 @@
 import { generateKeyPair } from 'node:crypto';
 import { promisify } from 'node:util';
 
-import { generateStandardId } from '@logto/shared/universal';
+import { generateStandardId } from '@riven/shared/universal';
 import inquirer from 'inquirer';
 import type { CommonQueryMethods, SerializableValue } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

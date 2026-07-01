@@ -1,6 +1,6 @@
-import { UserScope } from '@logto/core-kit';
-import { AccountCenterControlValue, MfaFactor, type User } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { UserScope } from '@riven/core-kit';
+import { AccountCenterControlValue, MfaFactor, type User } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import {
   mockSignInExperience,

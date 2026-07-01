@@ -1,4 +1,4 @@
-import { InteractionEvent, MfaFactor, SignInIdentifier } from '@logto/schemas';
+import { InteractionEvent, MfaFactor, SignInIdentifier } from '@riven/schemas';
 
 import { createUserMfaVerification } from '#src/api/admin-user.js';
 import { updateSignInExperience } from '#src/api/sign-in-experience.js';

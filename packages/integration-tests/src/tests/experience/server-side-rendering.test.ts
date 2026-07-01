@@ -1,4 +1,4 @@
-import { demoAppApplicationId, fullSignInExperienceGuard } from '@logto/schemas';
+import { demoAppApplicationId, fullSignInExperienceGuard } from '@riven/schemas';
 import { z } from 'zod';
 
 import { demoAppUrl } from '#src/constants.js';

@@ -1,4 +1,4 @@
-import { type AdminConsoleKey } from '@logto/phrases';
+import { type AdminConsoleKey } from '@riven/phrases';
 import { type TFuncKey } from 'i18next';
 
 import {

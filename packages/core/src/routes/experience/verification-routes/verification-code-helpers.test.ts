@@ -1,4 +1,4 @@
-import { InteractionEvent, SignInIdentifier } from '@logto/schemas';
+import { InteractionEvent, SignInIdentifier } from '@riven/schemas';
 
 import type Libraries from '#src/tenants/Libraries.js';
 import type Queries from '#src/tenants/Queries.js';

@@ -1,6 +1,6 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { demoAppApplicationId, InteractionEvent, MfaFactor } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { ConnectorType } from '@riven/connector-kit';
+import { demoAppApplicationId, InteractionEvent, MfaFactor } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';
 import { mockUser } from '#src/__mocks__/user.js';

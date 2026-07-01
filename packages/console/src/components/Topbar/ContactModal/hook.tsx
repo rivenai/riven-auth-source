@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import { Theme } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import { Theme } from '@riven/schemas';
 
 import CalendarDark from '@/assets/icons/calendar-dark.svg?react';
 import Calendar from '@/assets/icons/calendar.svg?react';

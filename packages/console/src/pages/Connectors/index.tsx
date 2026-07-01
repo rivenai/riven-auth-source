@@ -1,6 +1,6 @@
-import { ServiceConnector } from '@logto/connector-kit';
-import { ConnectorType } from '@logto/schemas';
-import type { ConnectorFactoryResponse } from '@logto/schemas';
+import { ServiceConnector } from '@riven/connector-kit';
+import { ConnectorType } from '@riven/schemas';
+import type { ConnectorFactoryResponse } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import classNames from 'classnames';
 import { useMemo } from 'react';

@@ -4,7 +4,7 @@ import {
   MfaFactor,
   MfaPolicy,
   SignInIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { authenticator } from 'otplib';
 
 import { createUserMfaVerification } from '#src/api/admin-user.js';

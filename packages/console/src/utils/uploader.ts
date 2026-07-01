@@ -1,4 +1,4 @@
-import { mimeTypeToFileExtensionMappings, type AllowedUploadMimeType } from '@logto/schemas';
+import { mimeTypeToFileExtensionMappings, type AllowedUploadMimeType } from '@riven/schemas';
 import { deduplicate } from '@silverhand/essentials';
 
 export const convertToFileExtensionArray = (mimeTypes: AllowedUploadMimeType[]) =>

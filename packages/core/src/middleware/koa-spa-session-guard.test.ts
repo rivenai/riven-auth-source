@@ -1,4 +1,4 @@
-import { createMockUtils } from '@logto/shared/esm';
+import { createMockUtils } from '@riven/shared/esm';
 import { Provider } from 'oidc-provider';
 import Sinon from 'sinon';
 

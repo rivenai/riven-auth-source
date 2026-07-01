@@ -1,4 +1,4 @@
-import type { LogtoErrorI18nKey } from '@logto/phrases';
+import type { LogtoErrorI18nKey } from '@riven/phrases';
 
 import initI18n from '#src/i18n/init.js';
 import { i18next } from '#src/utils/i18n.js';

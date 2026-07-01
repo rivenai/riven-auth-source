@@ -5,8 +5,8 @@ import {
   type VerificationCodeIdentifier,
   VerificationType,
   type Sentinel,
-} from '@logto/schemas';
-import { Action } from '@logto/schemas/lib/types/log/interaction.js';
+} from '@riven/schemas';
+import { Action } from '@riven/schemas/lib/types/log/interaction.js';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import { type PasscodeLibrary } from '#src/libraries/passcode.js';

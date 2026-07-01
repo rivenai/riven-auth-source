@@ -1,7 +1,7 @@
-import { ServiceConnector } from '@logto/connector-kit';
-import { emailRegEx, phoneInputRegEx } from '@logto/core-kit';
-import { ConnectorType } from '@logto/schemas';
-import { parsePhoneNumber } from '@logto/shared/universal';
+import { ServiceConnector } from '@riven/connector-kit';
+import { emailRegEx, phoneInputRegEx } from '@riven/core-kit';
+import { ConnectorType } from '@riven/schemas';
+import { parsePhoneNumber } from '@riven/shared/universal';
 import { conditional } from '@silverhand/essentials';
 import { useEffect, useState } from 'react';
 import { useForm, useFormContext } from 'react-hook-form';

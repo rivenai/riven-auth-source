@@ -1,5 +1,5 @@
-import { notImplemented } from '@logto/cli/lib/connector/consts.js';
-import { ConnectorType } from '@logto/connector-kit';
+import { notImplemented } from '@riven/cli/lib/connector/consts.js';
+import { ConnectorType } from '@riven/connector-kit';
 import { object, string } from 'zod';
 
 import koaGuard from '#src/middleware/koa-guard.js';
@@ -19,8 +19,8 @@ export default function connectorAuthorizationUriRoutes<T extends ManagementApiR
    * social identity to a Logto user.
    *
    * Note: Currently due to technical limitations, this API does not support the following connectors that
-   * rely on Logto interaction session: `@logto/apple`, `@logto/connector-saml`, `@logto/connector-oidc`
-   * and `@logto/connector-oauth`.
+   * rely on Logto interaction session: `@logto/apple`, `@riven/connector-saml`, `@riven/connector-oidc`
+   * and `@riven/connector-oauth`.
    *
    * @param {string} connectorId - The id of the connector
    * @param {string} state - A random string generated on the client side to prevent CSRF attack

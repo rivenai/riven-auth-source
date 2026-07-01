@@ -1,6 +1,6 @@
-import { parseJson } from '@logto/connector-kit';
-import { type CloudflareData, DomainStatus } from '@logto/schemas';
-import { ConsoleLog } from '@logto/shared';
+import { parseJson } from '@riven/connector-kit';
+import { type CloudflareData, DomainStatus } from '@riven/schemas';
+import { ConsoleLog } from '@riven/shared';
 import chalk from 'chalk';
 import { type Response } from 'got';
 import { type ZodType } from 'zod';

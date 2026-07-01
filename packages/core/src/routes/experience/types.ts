@@ -1,4 +1,4 @@
-import { type SocialUserInfo, socialUserInfoGuard, type ToZodObject } from '@logto/connector-kit';
+import { type SocialUserInfo, socialUserInfoGuard, type ToZodObject } from '@riven/connector-kit';
 import {
   type CreateUser,
   encryptedTokenSetGuard,
@@ -10,7 +10,7 @@ import {
   UserSsoIdentities,
   type UserSsoIdentity,
   webAuthnAuthenticationOptionsGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { Provider } from 'oidc-provider';
 import { z } from 'zod';
 

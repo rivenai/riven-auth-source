@@ -1,4 +1,4 @@
-import { type SsoConnectorWithProviderConfig, type SsoProviderType } from '@logto/schemas';
+import { type SsoConnectorWithProviderConfig, type SsoProviderType } from '@riven/schemas';
 import { z } from 'zod';
 
 /* Saml Connectors */
@@ -10,8 +10,8 @@ export type SamlSsoConnectorWithProviderConfig = Omit<
 };
 
 /**
- * All the following guards are copied from {@link @logto/core/packages/core/src/sso/types/saml }
- * @TODO: consider to move them to a shared package e.g. @logto/schemas
+ * All the following guards are copied from {@link @riven/core/packages/core/src/sso/types/saml }
+ * @TODO: consider to move them to a shared package e.g. @riven/schemas
  */
 const samlAttributeMappingGuard = z
   .object({

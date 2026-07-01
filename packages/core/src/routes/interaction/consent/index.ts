@@ -1,4 +1,4 @@
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import {
   ApplicationType,
   applicationSignInExperienceGuard,
@@ -9,7 +9,7 @@ import {
   publicApplicationGuard,
   publicUserInfoGuard,
   isBuiltInApplicationId,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, deduplicate } from '@silverhand/essentials';
 import type Router from 'koa-router';
 import { type IRouterParamContext } from 'koa-router';

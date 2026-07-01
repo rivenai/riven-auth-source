@@ -1,4 +1,4 @@
-import { ReservedPlanId } from '@logto/schemas';
+import { ReservedPlanId } from '@riven/schemas';
 
 import { type LogtoSkuQuota } from '@/types/skus';
 

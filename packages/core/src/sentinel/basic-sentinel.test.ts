@@ -4,7 +4,7 @@ import {
   SentinelActivityAction,
   SentinelActivityTargetType,
   SentinelDecision,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { addMinutes } from 'date-fns';
 
 import { createMockCommonQueryMethods, expectSqlString } from '#src/test-utils/query.js';

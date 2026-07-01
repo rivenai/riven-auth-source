@@ -1,5 +1,5 @@
-import { type I18nPhrases } from '@logto/connector-kit';
-import type { Translation } from '@logto/schemas';
+import { type I18nPhrases } from '@riven/connector-kit';
+import type { Translation } from '@riven/schemas';
 
 /**
  * @param fullTranslation The translation with full keys

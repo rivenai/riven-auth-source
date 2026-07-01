@@ -1,4 +1,4 @@
-import { deviceFlowXsrfCookieKey, oidcRoutes } from '@logto/schemas';
+import { deviceFlowXsrfCookieKey, oidcRoutes } from '@riven/schemas';
 import type { To } from 'react-router-dom';
 import { getCookie } from 'tiny-cookie';
 

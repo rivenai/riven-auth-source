@@ -395,7 +395,7 @@
   For example, in the JavaScript SDK:
 
   ```ts
-  import LogtoClient from "@logto/client";
+  import LogtoClient from "@riven/client";
 
   const logtoClient = new LogtoClient(/* your configuration */);
 
@@ -704,11 +704,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.12](https://github.com/logto-io/logto/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-10-19)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-beta.11](https://github.com/logto-io/logto/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-10-19)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-beta.10](https://github.com/logto-io/logto/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2022-09-28)
 
@@ -732,11 +732,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-beta.5](https://github.com/logto-io/logto/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-08-19)
 
@@ -750,7 +750,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.4](https://github.com/logto-io/logto/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-08-11)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-beta.3](https://github.com/logto-io/logto/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-08-01)
 
@@ -766,27 +766,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.1](https://github.com/logto-io/logto/compare/v1.0.0-beta.0...v1.0.0-beta.1) (2022-07-19)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-beta.0](https://github.com/logto-io/logto/compare/v1.0.0-alpha.4...v1.0.0-beta.0) (2022-07-14)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-alpha.3](https://github.com/logto-io/logto/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-07-07)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ## [1.0.0-alpha.1](https://github.com/logto-io/logto/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-07-05)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/integration-tests
+**Note:** Version bump only for package @riven/integration-tests
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

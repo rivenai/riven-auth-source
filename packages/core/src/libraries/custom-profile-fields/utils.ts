@@ -1,4 +1,4 @@
-import { isValidRegEx, numberAndAlphabetRegEx } from '@logto/core-kit';
+import { isValidRegEx, numberAndAlphabetRegEx } from '@riven/core-kit';
 import {
   textProfileFieldGuard,
   numberProfileFieldGuard,
@@ -12,7 +12,7 @@ import {
   CustomProfileFieldType,
   type CustomProfileField,
   type SignInExperience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { ZodError } from 'zod';
 
 import {

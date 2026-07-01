@@ -1,4 +1,4 @@
-import { SsoConnectors, SsoConnectorIdpInitiatedAuthConfigs } from '@logto/schemas';
+import { SsoConnectors, SsoConnectorIdpInitiatedAuthConfigs } from '@riven/schemas';
 import { z } from 'zod';
 
 export const ssoConnectorCreateGuard = SsoConnectors.createGuard

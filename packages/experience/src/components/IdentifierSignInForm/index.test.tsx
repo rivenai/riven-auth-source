@@ -1,5 +1,5 @@
-import type { SignIn, SsoConnectorMetadata } from '@logto/schemas';
-import { SignInIdentifier, experience } from '@logto/schemas';
+import type { SignIn, SsoConnectorMetadata } from '@riven/schemas';
+import { SignInIdentifier, experience } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { fireEvent, act, waitFor } from '@testing-library/react';
 

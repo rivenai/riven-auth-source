@@ -5,8 +5,8 @@ import {
   requestVerificationCodePayloadGuard,
   webAuthnAuthenticationOptionsGuard,
   webAuthnRegistrationOptionsGuard,
-} from '@logto/schemas';
-import { getUserDisplayName } from '@logto/shared';
+} from '@riven/schemas';
+import { getUserDisplayName } from '@riven/shared';
 import type Router from 'koa-router';
 import { type IRouterParamContext } from 'koa-router';
 import { authenticator } from 'otplib';

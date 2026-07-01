@@ -1,6 +1,6 @@
-import { ReservedScope, UserScope } from '@logto/core-kit';
-import { fetchTokenByRefreshToken } from '@logto/js';
-import { ApplicationType, SignInIdentifier, type GetUserSessionsResponse } from '@logto/schemas';
+import { ReservedScope, UserScope } from '@riven/core-kit';
+import { fetchTokenByRefreshToken } from '@riven/js';
+import { ApplicationType, SignInIdentifier, type GetUserSessionsResponse } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { assignUserConsentScopes } from '#src/api/application-user-consent-scope.js';

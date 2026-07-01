@@ -7,7 +7,7 @@ import {
   userMfaDataKey,
   type JsonObject,
   type MfaVerification,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type Context } from 'koa';
 import type { Provider } from 'oidc-provider';
 

@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 

@@ -1,5 +1,5 @@
-import type { LanguageTag } from '@logto/language-kit';
-import { languages } from '@logto/language-kit';
+import type { LanguageTag } from '@riven/language-kit';
+import { languages } from '@riven/language-kit';
 import classNames from 'classnames';
 import { useEffect, useRef } from 'react';
 

@@ -1,4 +1,4 @@
-import { jsonGuard, jsonObjectGuard, type Json, type JsonObject } from '@logto/schemas';
+import { jsonGuard, jsonObjectGuard, type Json, type JsonObject } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { t } from 'i18next';
 

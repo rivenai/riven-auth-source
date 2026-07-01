@@ -1,6 +1,6 @@
 /* eslint-disable max-lines */
-import { ConnectorType, ReservedPlanId } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { ConnectorType, ReservedPlanId } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 import { mockSubscriptionData } from '#src/__mocks__/cloud-connection.js';
 

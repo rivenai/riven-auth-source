@@ -7,7 +7,7 @@ import {
   jwtCustomizerGrantContextGuard,
   jwtCustomizerUserContextGuard,
   jwtCustomizerUserInteractionContextGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import prettier from 'prettier';
 import { type ZodTypeAny } from 'zod';
 import { printNode, zodToTs } from 'zod-to-ts';

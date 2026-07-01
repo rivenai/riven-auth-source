@@ -1,4 +1,4 @@
-import { OrganizationScopes } from '@logto/schemas';
+import { OrganizationScopes } from '@riven/schemas';
 
 import SchemaRouter from '#src/utils/SchemaRouter.js';
 

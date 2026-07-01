@@ -17,7 +17,7 @@ import type {
   UserProfileResponse,
   UserSsoIdentity,
   UsersPasswordEncryptionMethod,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, type Nullable } from '@silverhand/essentials';
 
 import { authedAdminApi } from './api.js';

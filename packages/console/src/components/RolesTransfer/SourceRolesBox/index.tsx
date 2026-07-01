@@ -1,5 +1,5 @@
-import type { RoleResponse } from '@logto/schemas';
-import { RoleType } from '@logto/schemas';
+import type { RoleResponse } from '@riven/schemas';
+import { RoleType } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import classNames from 'classnames';
 import type { ChangeEvent } from 'react';

@@ -3,7 +3,7 @@ import {
   type SnakeCaseOidcConfig,
   internalPrefix,
   hasSecrets,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 import { useCallback, useContext, useMemo, useState } from 'react';
 import { Trans, useTranslation } from 'react-i18next';

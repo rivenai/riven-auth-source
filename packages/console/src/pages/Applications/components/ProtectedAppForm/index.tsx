@@ -1,6 +1,6 @@
-import { isLocalhost, validateUriOrigin } from '@logto/core-kit';
-import { ApplicationType, type Application, type RequestErrorBody } from '@logto/schemas';
-import { isValidSubdomain } from '@logto/shared/universal';
+import { isLocalhost, validateUriOrigin } from '@riven/core-kit';
+import { ApplicationType, type Application, type RequestErrorBody } from '@riven/schemas';
+import { isValidSubdomain } from '@riven/shared/universal';
 import { condString, conditional } from '@silverhand/essentials';
 import classNames from 'classnames';
 import { HTTPError } from 'ky';

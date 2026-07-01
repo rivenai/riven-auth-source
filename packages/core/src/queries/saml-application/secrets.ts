@@ -2,7 +2,7 @@ import {
   type CreateSamlApplicationSecret,
   SamlApplicationSecrets,
   type SamlApplicationSecret,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

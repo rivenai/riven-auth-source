@@ -1,13 +1,13 @@
-import type { ConnectorSession, SocialUserInfo } from '@logto/connector-kit';
+import type { ConnectorSession, SocialUserInfo } from '@riven/connector-kit';
 import {
   connectorSessionGuard,
   GoogleConnector,
   isExternalGoogleOneTap,
   isGoogleOneTap as isGoogleOneTapChecker,
   logtoGoogleOneTapCookieKey,
-} from '@logto/connector-kit';
-import type { SocialConnectorPayload } from '@logto/schemas';
-import { ConnectorType } from '@logto/schemas';
+} from '@riven/connector-kit';
+import type { SocialConnectorPayload } from '@riven/schemas';
+import { ConnectorType } from '@riven/schemas';
 import type { Context } from 'koa';
 import type { Provider } from 'oidc-provider';
 import { z } from 'zod';

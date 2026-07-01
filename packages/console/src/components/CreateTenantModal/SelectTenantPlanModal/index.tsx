@@ -1,4 +1,4 @@
-import { ReservedPlanId } from '@logto/schemas';
+import { ReservedPlanId } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useState } from 'react';
 import { Trans, useTranslation } from 'react-i18next';

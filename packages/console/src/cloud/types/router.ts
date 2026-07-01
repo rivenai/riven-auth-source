@@ -1,5 +1,5 @@
-import type router from '@logto/cloud/routes';
-import { type tenantAuthRouter } from '@logto/cloud/routes';
+import type router from '@riven/cloud/routes';
+import { type tenantAuthRouter } from '@riven/cloud/routes';
 import { type GuardedResponse, type RouterRoutes } from '@withtyped/client';
 
 type GetRoutes = RouterRoutes<typeof router>['get'];

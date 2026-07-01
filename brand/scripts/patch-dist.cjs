@@ -58,15 +58,19 @@ const codeSafeReplacements = [
   { from: /logto_main-content/g, to: 'riven_main-content' },
   { from: /logto_custom-content/g, to: 'riven_custom-content' },
 
+  // Package names and connector prefixes that leak into built artifacts
+  { from: /@logto\//g, to: '@riven/' },
+  { from: /@logto-/g, to: '@riven-' },
+
   // Internal identifiers that cross the HTTP boundary (scopes, cookies, headers)
   { from: /urn:logto:/g, to: 'urn:riven:' },
   { from: /logto_user_id/g, to: 'riven_user_id' },
   { from: /logto-native-sdk/g, to: 'riven-native-sdk' },
-  { from: /Logto-Static-Package/g, to: 'Riven-Static-Package' },
-  { from: /Logto-App-Id/g, to: 'Riven-App-Id' },
-  { from: /logtoCoreRequestId/g, to: 'rivenCoreRequestId' },
-  { from: /x-logto-request-id/g, to: 'x-riven-request-id' },
-  { from: /logto-core-request-id/g, to: 'riven-core-request-id' },
+  { from: /Riven-Static-Package/g, to: 'Riven-Static-Package' },
+  { from: /Riven-App-Id/g, to: 'Riven-App-Id' },
+  { from: /rivenCoreRequestId/g, to: 'rivenCoreRequestId' },
+  { from: /x-riven-request-id/g, to: 'x-riven-request-id' },
+  { from: /riven-core-request-id/g, to: 'riven-core-request-id' },
   { from: /logtoNativeSdk/g, to: 'rivenNativeSdk' },
   { from: /logtoSsr/g, to: 'rivenSsr' },
   { from: /hideLogtoBranding/g, to: 'hideRivenBranding' },
@@ -75,7 +79,7 @@ const codeSafeReplacements = [
 ];
 
 // Replacements only applied to text files where breaking JS is not a concern.
-// The negative lookbehind for '@' preserves workspace package names like '@logto/core'.
+// The negative lookbehind for '@' preserves workspace package names like '@riven/core'.
 const textReplacements = [
   { from: /(?<!@)Logto/g, to: PRODUCT_NAME },
   { from: /logto\.io/g, to: PRODUCT_URL },

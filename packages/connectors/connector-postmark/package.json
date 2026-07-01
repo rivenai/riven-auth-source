@@ -1,10 +1,10 @@
 {
-  "name": "@logto/connector-postmark",
+  "name": "@riven/connector-postmark",
   "version": "1.2.2",
   "description": "Postmark connector implementation.",
   "author": "Sten Sandvik <stenrs@gmail.com>",
   "dependencies": {
-    "@logto/connector-kit": "workspace:^",
+    "@riven/connector-kit": "workspace:^",
     "@silverhand/essentials": "^2.9.0",
     "postmark": "^4.0.5",
     "zod": "3.24.3"

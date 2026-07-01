@@ -1,4 +1,4 @@
-import { logtoConfigGuards, LogtoTenantConfigKey } from '@logto/schemas';
+import { logtoConfigGuards, LogtoTenantConfigKey } from '@riven/schemas';
 import { appendPath, trySafe } from '@silverhand/essentials';
 import type { MiddlewareType } from 'koa';
 import type { IRouterParamContext } from 'koa-router';

@@ -1,4 +1,4 @@
-import { validateRedirectUrl } from '@logto/core-kit';
+import { validateRedirectUrl } from '@riven/core-kit';
 
 export const uriValidator = (value: string) => {
   try {

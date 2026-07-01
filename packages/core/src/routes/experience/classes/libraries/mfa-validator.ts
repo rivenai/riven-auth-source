@@ -5,7 +5,7 @@ import {
   userMfaDataKey,
   type Mfa,
   type User,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type Optional } from '@silverhand/essentials';
 
 import { isNoSkipMfaPolicy } from '#src/libraries/sign-in-experience/mfa-policy.js';

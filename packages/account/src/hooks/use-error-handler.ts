@@ -1,4 +1,4 @@
-import type { RequestErrorBody } from '@logto/schemas';
+import type { RequestErrorBody } from '@riven/schemas';
 import { HTTPError, TimeoutError } from 'ky';
 import { useCallback, useContext } from 'react';
 import { useTranslation } from 'react-i18next';

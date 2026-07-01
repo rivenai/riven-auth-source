@@ -1,4 +1,4 @@
-import { ApplicationUserConsentScopeType } from '@logto/schemas';
+import { ApplicationUserConsentScopeType } from '@riven/schemas';
 
 import { type PermissionTabType } from './type';
 

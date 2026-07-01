@@ -1,12 +1,12 @@
 /* eslint-disable max-lines */
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import {
   VerificationType,
   MfaFactor,
   AccountCenterControlValue,
   userMfaVerificationResponseGuard,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { z } from 'zod';
 
 import koaGuard from '#src/middleware/koa-guard.js';

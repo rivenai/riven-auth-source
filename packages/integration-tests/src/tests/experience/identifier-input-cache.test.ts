@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { demoAppApplicationId, SignInIdentifier, SignInMode } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { demoAppApplicationId, SignInIdentifier, SignInMode } from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 
 import { updateSignInExperience } from '#src/api/sign-in-experience.js';

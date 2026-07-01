@@ -1,4 +1,4 @@
-import { adminConsoleApplicationId, type User } from '@logto/schemas';
+import { adminConsoleApplicationId, type User } from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 
 import { authedAdminTenantApi } from '#src/api/api.js';

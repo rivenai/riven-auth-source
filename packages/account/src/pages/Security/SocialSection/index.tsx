@@ -1,6 +1,6 @@
 import DynamicT from '@experience/shared/components/DynamicT';
 import { getLogoUrl } from '@experience/shared/utils/logo';
-import { AccountCenterControlValue, type Identity } from '@logto/schemas';
+import { AccountCenterControlValue, type Identity } from '@riven/schemas';
 import classNames from 'classnames';
 import { useContext, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

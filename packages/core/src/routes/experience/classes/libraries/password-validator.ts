@@ -1,5 +1,5 @@
-import { PasswordPolicyChecker, type UserInfo } from '@logto/core-kit';
-import { UsersPasswordEncryptionMethod, type SignInExperience, type User } from '@logto/schemas';
+import { PasswordPolicyChecker, type UserInfo } from '@riven/core-kit';
+import { UsersPasswordEncryptionMethod, type SignInExperience, type User } from '@riven/schemas';
 import { argon2Verify } from 'hash-wasm';
 
 import RequestError from '#src/errors/RequestError/index.js';

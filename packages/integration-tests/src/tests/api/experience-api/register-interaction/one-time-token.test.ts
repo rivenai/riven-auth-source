@@ -1,4 +1,4 @@
-import { InteractionEvent, SignInIdentifier, SignInMode } from '@logto/schemas';
+import { InteractionEvent, SignInIdentifier, SignInMode } from '@riven/schemas';
 
 import { deleteUser, updateSignInExperience } from '#src/api/index.js';
 import { createOneTimeToken } from '#src/api/one-time-token.js';

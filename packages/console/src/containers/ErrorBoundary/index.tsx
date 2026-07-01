@@ -1,4 +1,4 @@
-import { LogtoClientError, LogtoError, OidcError, LogtoRequestError } from '@logto/react';
+import { LogtoClientError, LogtoError, OidcError, LogtoRequestError } from '@riven/react';
 import { conditional } from '@silverhand/essentials';
 import { ResponseError } from '@withtyped/client';
 import { type TFunction } from 'i18next';
@@ -15,7 +15,7 @@ import { isInCallback } from '@/utils/url';
  * Returns true if the error is an OIDC invalid_grant error.
  *
  * OIDC request error is globally converted to the LogtoRequestError.
- * @see {@link @logto/core/packages/core/src/middleware/koa-oidc-error-handler.ts}
+ * @see {@link @riven/core/packages/core/src/middleware/koa-oidc-error-handler.ts}
  * We need to check the error code to determine if it is an OIDC invalid_grant error.
  */
 const isOidcInvalidGrantError = (error: Error) => {

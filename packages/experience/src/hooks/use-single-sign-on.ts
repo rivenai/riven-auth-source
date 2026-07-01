@@ -1,4 +1,4 @@
-import { VerificationType } from '@logto/schemas';
+import { VerificationType } from '@riven/schemas';
 import { useCallback, useContext } from 'react';
 
 import UserInteractionContext from '@/Providers/UserInteractionContextProvider/UserInteractionContext';

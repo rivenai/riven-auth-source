@@ -6,7 +6,7 @@ import {
   type TokenSetMetadata,
   VerificationType,
   tokenSetMetadataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { z } from 'zod';
 

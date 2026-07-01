@@ -1,4 +1,4 @@
-import { type CaptchaType } from '@logto/schemas';
+import { type CaptchaType } from '@riven/schemas';
 import { useState } from 'react';
 import Modal from 'react-modal';
 

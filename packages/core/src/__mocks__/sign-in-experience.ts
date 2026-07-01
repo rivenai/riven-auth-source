@@ -5,8 +5,8 @@ import type {
   Color,
   SignUp,
   SignIn,
-} from '@logto/schemas';
-import { SignInMode, SignInIdentifier, MfaPolicy, AgreeToTermsPolicy } from '@logto/schemas';
+} from '@riven/schemas';
+import { SignInMode, SignInIdentifier, MfaPolicy, AgreeToTermsPolicy } from '@riven/schemas';
 
 export const mockColor: Color = {
   primaryColor: '#000',

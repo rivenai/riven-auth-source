@@ -1,6 +1,6 @@
-import type { LocalePhrase } from '@logto/phrases-experience';
-import resource from '@logto/phrases-experience';
-import type { LanguageInfo } from '@logto/schemas';
+import type { LocalePhrase } from '@riven/phrases-experience';
+import resource from '@riven/phrases-experience';
+import type { LanguageInfo } from '@riven/schemas';
 import { isObject } from '@silverhand/essentials';
 import type { Resource } from 'i18next';
 import i18next from 'i18next';

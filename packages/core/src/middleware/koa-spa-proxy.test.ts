@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import { pickDefault, createMockUtils } from '@logto/shared/esm';
+import { pickDefault, createMockUtils } from '@riven/shared/esm';
 import Sinon from 'sinon';
 
 import { EnvSet, UserApps } from '#src/env-set/index.js';

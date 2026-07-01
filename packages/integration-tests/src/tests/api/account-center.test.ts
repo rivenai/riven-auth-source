@@ -1,4 +1,4 @@
-import { AccountCenterControlValue } from '@logto/schemas';
+import { AccountCenterControlValue } from '@riven/schemas';
 
 import {
   disableAccountCenter,

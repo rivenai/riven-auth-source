@@ -1,4 +1,4 @@
-import { type LogtoJwtTokenKeyType } from '@logto/schemas';
+import { type LogtoJwtTokenKeyType } from '@riven/schemas';
 import { type ResponseError } from '@withtyped/client';
 import useSWR from 'swr';
 

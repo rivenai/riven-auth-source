@@ -1,5 +1,5 @@
-import { ApplicationType, RoleType } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { ApplicationType, RoleType } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { HTTPError } from 'ky';
 
 import { assignRolesToApplication, createApplication } from '#src/api/index.js';

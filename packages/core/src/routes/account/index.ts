@@ -1,4 +1,4 @@
-import { usernameRegEx, UserScope } from '@logto/core-kit';
+import { usernameRegEx, UserScope } from '@riven/core-kit';
 import {
   userProfileResponseGuard,
   userProfileGuard,
@@ -7,7 +7,7 @@ import {
   userMfaDataKey,
   userMfaSettingsResponseGuard,
   jsonObjectGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { z } from 'zod';
 

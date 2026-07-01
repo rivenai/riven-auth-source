@@ -1,4 +1,4 @@
-import { LogtoClientError, LogtoError, LogtoRequestError } from '@logto/react';
+import { LogtoClientError, LogtoError, LogtoRequestError } from '@riven/react';
 import { HTTPError } from 'ky';
 import type { ReactNode } from 'react';
 import { Component } from 'react';

@@ -1,4 +1,4 @@
-import { type SamlApplicationConfig, SamlApplicationConfigs } from '@logto/schemas';
+import { type SamlApplicationConfig, SamlApplicationConfigs } from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

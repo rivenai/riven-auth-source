@@ -1,5 +1,5 @@
-import { PersonalAccessTokens } from '@logto/schemas';
-import { generateStandardSecret } from '@logto/shared';
+import { PersonalAccessTokens } from '@riven/schemas';
+import { generateStandardSecret } from '@riven/shared';
 import { z } from 'zod';
 
 import RequestError from '#src/errors/RequestError/index.js';

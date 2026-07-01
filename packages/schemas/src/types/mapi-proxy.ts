@@ -13,7 +13,7 @@
  * This module provides utilities to manage mapi proxy.
  */
 
-import { generateStandardSecret } from '@logto/shared/universal';
+import { generateStandardSecret } from '@riven/shared/universal';
 
 import {
   RoleType,

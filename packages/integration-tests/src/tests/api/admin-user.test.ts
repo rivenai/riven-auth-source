@@ -1,5 +1,5 @@
 /* eslint-disable max-lines -- will fix in the next PR */
-import { UsersPasswordEncryptionMethod, ConnectorType, SignInIdentifier } from '@logto/schemas';
+import { UsersPasswordEncryptionMethod, ConnectorType, SignInIdentifier } from '@riven/schemas';
 import { HTTPError } from 'ky';
 
 import {

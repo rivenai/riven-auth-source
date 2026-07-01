@@ -1,4 +1,4 @@
-import { generateStandardId } from '@logto/shared/universal';
+import { generateStandardId } from '@riven/shared/universal';
 
 import { RoleType } from '../db-entries/index.js';
 import type { CreateScope, Role } from '../db-entries/index.js';

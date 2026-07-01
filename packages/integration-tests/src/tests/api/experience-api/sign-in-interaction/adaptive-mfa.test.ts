@@ -1,4 +1,4 @@
-import { MfaFactor, MfaPolicy, SignInIdentifier } from '@logto/schemas';
+import { MfaFactor, MfaPolicy, SignInIdentifier } from '@riven/schemas';
 import { authenticator } from 'otplib';
 
 import {

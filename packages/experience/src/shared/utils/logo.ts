@@ -1,5 +1,5 @@
-import type { Branding } from '@logto/schemas';
-import { Theme } from '@logto/schemas';
+import type { Branding } from '@riven/schemas';
+import { Theme } from '@riven/schemas';
 import type { Nullable } from '@silverhand/essentials';
 
 export type GetLogoUrl = {

@@ -1,5 +1,5 @@
-import { LogtoOidcConfigKey, OidcSigningKeyStatus } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { LogtoOidcConfigKey, OidcSigningKeyStatus } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 const { jest } = import.meta;
 const { mockEsm } = createMockUtils(jest);

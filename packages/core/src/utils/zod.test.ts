@@ -1,10 +1,10 @@
-import { languages, languageTagGuard } from '@logto/language-kit';
+import { languages, languageTagGuard } from '@riven/language-kit';
 import {
   ApplicationType,
   jsonObjectGuard,
   translationGuard,
   customContentGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { string, boolean, number, object, nativeEnum, unknown, literal, union } from 'zod';
 
 import RequestError from '#src/errors/RequestError/index.js';

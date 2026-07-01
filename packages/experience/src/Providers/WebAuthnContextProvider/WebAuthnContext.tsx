@@ -1,4 +1,4 @@
-import { type WebAuthnAuthenticationOptions } from '@logto/schemas';
+import { type WebAuthnAuthenticationOptions } from '@riven/schemas';
 import { noop } from '@silverhand/essentials';
 import { createContext } from 'react';
 

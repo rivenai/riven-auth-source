@@ -1,5 +1,5 @@
-import { SignInIdentifier } from '@logto/schemas';
-import type { VerificationCodeIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
+import type { VerificationCodeIdentifier } from '@riven/schemas';
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 

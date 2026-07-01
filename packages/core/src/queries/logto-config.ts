@@ -14,7 +14,7 @@ import {
   type LogtoOidcConfigType,
   signingKeyRotationStateGuard,
   type SigningKeyRotationState,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 import { type z } from 'zod';

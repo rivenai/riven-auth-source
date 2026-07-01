@@ -1,5 +1,5 @@
-import { type Sentinel } from '@logto/schemas';
-import { TtlCache } from '@logto/shared';
+import { type Sentinel } from '@riven/schemas';
+import { TtlCache } from '@riven/shared';
 import { createMockPool, createMockQueryResult } from '@silverhand/slonik';
 
 import { WellKnownCache } from '#src/caches/well-known.js';

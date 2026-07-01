@@ -1,4 +1,4 @@
-import { CaptchaType } from '@logto/schemas';
+import { CaptchaType } from '@riven/schemas';
 
 import recaptchaEnterprise from '@/assets/images/recaptcha.svg?react';
 import turnstile from '@/assets/images/turnstile.svg?react';

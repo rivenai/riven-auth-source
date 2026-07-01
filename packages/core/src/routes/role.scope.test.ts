@@ -1,5 +1,5 @@
-import type { Role } from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+import type { Role } from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 
 import {
   mockAdminUserRole,

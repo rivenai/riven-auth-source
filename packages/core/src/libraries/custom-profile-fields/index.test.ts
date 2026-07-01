@@ -1,4 +1,4 @@
-import type { SignInExperience } from '@logto/schemas';
+import type { SignInExperience } from '@riven/schemas';
 
 import { EnvSet } from '#src/env-set/index.js';
 import { MockQueries } from '#src/test-utils/tenant.js';

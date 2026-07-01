@@ -1,8 +1,8 @@
-import type { ConnectorFactory } from '@logto/cli/lib/connector/index.js';
-import type router from '@logto/cloud/routes';
-import { ConnectorPlatform, DemoConnector } from '@logto/connector-kit';
-import type { Connector } from '@logto/schemas';
-import { ConnectorType } from '@logto/schemas';
+import type { ConnectorFactory } from '@riven/cli/lib/connector/index.js';
+import type router from '@riven/cloud/routes';
+import { ConnectorPlatform, DemoConnector } from '@riven/connector-kit';
+import type { Connector } from '@riven/schemas';
+import { ConnectorType } from '@riven/schemas';
 import { any } from 'zod';
 
 import type { LogtoConnector } from '#src/utils/connectors/types.js';

@@ -1,4 +1,4 @@
-import { ConnectorType } from '@logto/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 import type { TFuncKey } from 'i18next';
 
 import { getEmailConnectorUpsellCopyKeys, shouldShowEmailConnectorUpsellBanner } from './utils';

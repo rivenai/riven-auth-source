@@ -1,5 +1,5 @@
-import { ApplicationType } from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+import { ApplicationType } from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 
 import {
   mockAdminApplicationRole,

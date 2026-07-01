@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 import classNames from 'classnames';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Controller, useFormContext, type ControllerRenderProps } from 'react-hook-form';

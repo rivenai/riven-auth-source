@@ -2,19 +2,19 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import type { ConnectorFactory } from '@logto/cli/lib/connector/index.js';
-import { loadConnectorFactories as _loadConnectorFactories } from '@logto/cli/lib/connector/index.js';
-import { connectorDirectory } from '@logto/cli/lib/constants.js';
-import { getConnectorPackagesFromDirectory } from '@logto/cli/lib/utils.js';
-import type router from '@logto/cloud/routes';
+import type { ConnectorFactory } from '@riven/cli/lib/connector/index.js';
+import { loadConnectorFactories as _loadConnectorFactories } from '@riven/cli/lib/connector/index.js';
+import { connectorDirectory } from '@riven/cli/lib/constants.js';
+import { getConnectorPackagesFromDirectory } from '@riven/cli/lib/utils.js';
+import type router from '@riven/cloud/routes';
 import {
   demoConnectorIds,
   ConnectorType,
   type EmailConnector,
   type SmsConnector,
-} from '@logto/connector-kit';
-import type { ConnectorFactoryResponse, ConnectorResponse } from '@logto/schemas';
-import { findPackage } from '@logto/shared';
+} from '@riven/connector-kit';
+import type { ConnectorFactoryResponse, ConnectorResponse } from '@riven/schemas';
+import { findPackage } from '@riven/shared';
 import { conditional, deduplicate, pick, trySafe } from '@silverhand/essentials';
 
 import { EnvSet } from '#src/env-set/index.js';

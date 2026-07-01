@@ -1,4 +1,4 @@
-import { ApplicationType, type Application } from '@logto/schemas';
+import { ApplicationType, type Application } from '@riven/schemas';
 import { type Nullable, joinPath, cond } from '@silverhand/essentials';
 import { useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

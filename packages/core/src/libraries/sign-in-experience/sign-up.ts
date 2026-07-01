@@ -1,5 +1,5 @@
-import type { SignUp } from '@logto/schemas';
-import { SignInIdentifier, ConnectorType, AlternativeSignUpIdentifier } from '@logto/schemas';
+import type { SignUp } from '@riven/schemas';
+import { SignInIdentifier, ConnectorType, AlternativeSignUpIdentifier } from '@riven/schemas';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import assertThat from '#src/utils/assert-that.js';

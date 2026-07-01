@@ -34,6 +34,9 @@ RUN pnpm -r build
 ### Apply Riven branding ###
 RUN /bin/sh brand/scripts/productize.sh
 
+### Verify no upstream identifiers leaked into shipped artifacts ###
+RUN node brand/scripts/verify-no-logto.cjs
+
 ### Add official connectors ###
 ARG additional_connector_args
 ENV ADDITIONAL_CONNECTOR_ARGS=${additional_connector_args}
@@ -51,7 +54,7 @@ RUN rm -rf .scripts pnpm-*.yaml packages/cloud
 FROM node:22-alpine AS app
 LABEL org.opencontainers.image.title="Riven Auth"
 LABEL org.opencontainers.image.vendor="Riven Holdings"
-LABEL org.opencontainers.image.version="0.1.0-riven"
+LABEL org.opencontainers.image.version="0.0.1-sovereign-p1"
 LABEL org.opencontainers.image.source="https://github.com/rivenai/riven-auth-source"
 LABEL org.riven.product="auth"
 WORKDIR /etc/logto

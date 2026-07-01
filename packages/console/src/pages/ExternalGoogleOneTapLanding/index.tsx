@@ -1,6 +1,6 @@
-import { GoogleConnector, logtoGoogleOneTapCookieKey } from '@logto/connector-kit';
-import { useLogto } from '@logto/react';
-import { ExtraParamsKey } from '@logto/schemas';
+import { GoogleConnector, logtoGoogleOneTapCookieKey } from '@riven/connector-kit';
+import { useLogto } from '@riven/react';
+import { ExtraParamsKey } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';

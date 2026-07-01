@@ -1,5 +1,5 @@
-import { type UserClaim, userClaimsList } from '@logto/core-kit';
-import { type SamlApplicationResponse, samlAttributeMappingKeys } from '@logto/schemas';
+import { type UserClaim, userClaimsList } from '@riven/core-kit';
+import { type SamlApplicationResponse, samlAttributeMappingKeys } from '@riven/schemas';
 import { conditionalArray } from '@silverhand/essentials';
 import { useForm, Controller } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

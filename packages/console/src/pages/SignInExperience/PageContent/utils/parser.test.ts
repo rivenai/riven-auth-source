@@ -6,7 +6,7 @@ import {
   SignInIdentifier,
   SignInMode,
   type SignInExperience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { sieFormDataParser, signInExperienceToUpdatedDataParser } from './parser';
 

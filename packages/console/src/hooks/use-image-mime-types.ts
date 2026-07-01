@@ -1,4 +1,4 @@
-import type { AllowedUploadMimeType } from '@logto/schemas';
+import type { AllowedUploadMimeType } from '@riven/schemas';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 

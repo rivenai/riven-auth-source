@@ -1,6 +1,6 @@
-import type { LogContextPayload, LogKey } from '@logto/schemas';
-import { LogResult } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import type { LogContextPayload, LogKey } from '@riven/schemas';
+import { LogResult } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional, type Optional, pick } from '@silverhand/essentials';
 import type { Context, MiddlewareType } from 'koa';
 import type { IRouterParamContext } from 'koa-router';

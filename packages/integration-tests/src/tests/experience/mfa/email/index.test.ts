@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { SignInIdentifier } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { SignInIdentifier } from '@riven/schemas';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { updateSignInExperience } from '#src/api/sign-in-experience.js';

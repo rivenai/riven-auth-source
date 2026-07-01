@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 import { Editor } from '@monaco-editor/react';
 import classNames from 'classnames';
 import { useState } from 'react';

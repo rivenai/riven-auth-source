@@ -1,4 +1,4 @@
-import { ReservedPlanId, TenantTag, defaultManagementApi } from '@logto/schemas';
+import { ReservedPlanId, TenantTag, defaultManagementApi } from '@riven/schemas';
 import dayjs from 'dayjs';
 
 import {

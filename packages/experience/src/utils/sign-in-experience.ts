@@ -3,7 +3,7 @@
  * Remove this once we have a better way to get the sign in experience through SSR
  */
 
-import { SignInIdentifier, VerificationType } from '@logto/schemas';
+import { SignInIdentifier, VerificationType } from '@riven/schemas';
 import { isObject } from '@silverhand/essentials';
 import i18next from 'i18next';
 

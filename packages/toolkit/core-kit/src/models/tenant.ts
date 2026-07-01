@@ -1,4 +1,4 @@
-import { generateStandardId } from '@logto/shared/universal';
+import { generateStandardId } from '@riven/shared/universal';
 
 // Use lowercase letters for tenant IDs to improve compatibility
 const generateTenantId = () => generateStandardId(6);

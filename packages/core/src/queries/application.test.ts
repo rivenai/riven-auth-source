@@ -1,4 +1,4 @@
-import { Applications } from '@logto/schemas';
+import { Applications } from '@riven/schemas';
 import { createMockPool, createMockQueryResult, sql } from '@silverhand/slonik';
 import { snakeCase } from 'snake-case';
 

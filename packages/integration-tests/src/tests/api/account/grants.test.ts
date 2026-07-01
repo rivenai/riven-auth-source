@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { AccountCenterControlValue } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { AccountCenterControlValue } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { enableAllAccountCenterFields, updateAccountCenter } from '#src/api/account-center.js';

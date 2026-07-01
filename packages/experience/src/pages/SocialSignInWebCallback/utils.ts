@@ -1,5 +1,5 @@
-import { GoogleConnector } from '@logto/connector-kit';
-import { ExtraParamsKey } from '@logto/schemas';
+import { GoogleConnector } from '@riven/connector-kit';
+import { ExtraParamsKey } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 
 /**

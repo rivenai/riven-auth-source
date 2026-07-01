@@ -7,7 +7,7 @@ import {
   type UrlProfileField,
   type AddressProfileField,
   type CheckboxProfileField,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export const nameData = {
   name: `name`,

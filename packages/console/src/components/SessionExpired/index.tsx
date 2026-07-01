@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import { useEffect } from 'react';
 
 import useRedirectUri from '@/hooks/use-redirect-uri';

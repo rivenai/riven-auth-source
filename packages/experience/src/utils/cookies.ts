@@ -1,5 +1,5 @@
-import { logtoGoogleOneTapCookieKey } from '@logto/connector-kit';
-import { adminConsoleApplicationId, logtoCookieKey, logtoUiCookieGuard } from '@logto/schemas';
+import { logtoGoogleOneTapCookieKey } from '@riven/connector-kit';
+import { adminConsoleApplicationId, logtoCookieKey, logtoUiCookieGuard } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { getCookie } from 'tiny-cookie';
 

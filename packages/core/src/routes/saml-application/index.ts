@@ -6,8 +6,8 @@ import {
   samlApplicationResponseGuard,
   samlApplicationSecretResponseGuard,
   SamlApplicationSecrets,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { removeUndefinedKeys } from '@silverhand/essentials';
 import { z } from 'zod';
 

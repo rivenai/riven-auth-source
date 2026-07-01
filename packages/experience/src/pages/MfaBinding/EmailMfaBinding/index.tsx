@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 
 import VerificationCodeMfaBinding from '../VerificationCodeMfaBinding';
 

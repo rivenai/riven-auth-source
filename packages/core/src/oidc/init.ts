@@ -4,9 +4,9 @@ import assert from 'node:assert';
 import { readFileSync } from 'node:fs';
 import querystring from 'node:querystring';
 
-import { logtoGoogleOneTapCookieKey } from '@logto/connector-kit';
-import { userClaims } from '@logto/core-kit';
-import type { I18nKey } from '@logto/phrases';
+import { logtoGoogleOneTapCookieKey } from '@riven/connector-kit';
+import { userClaims } from '@riven/core-kit';
+import type { I18nKey } from '@riven/phrases';
 import {
   customClientMetadataDefault,
   CustomClientMetadataKey,
@@ -14,7 +14,7 @@ import {
   inSeconds,
   logtoCookieKey,
   ExtraParamsKey,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { trySafe, tryThat } from '@silverhand/essentials';
 import { type i18n } from 'i18next';
 import { type KoaContextWithOIDC, Provider, type ResourceServer, errors } from 'oidc-provider';

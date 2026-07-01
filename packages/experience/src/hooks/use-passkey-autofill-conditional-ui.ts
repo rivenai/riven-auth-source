@@ -3,7 +3,7 @@ import {
   MfaFactor,
   webAuthnAuthenticationOptionsTimeout,
   type WebAuthnAuthenticationOptions,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { browserSupportsWebAuthnAutofill } from '@simplewebauthn/browser';
 import { useCallback, useContext, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

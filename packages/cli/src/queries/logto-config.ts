@@ -1,5 +1,5 @@
-import type { LogtoConfig, LogtoConfigKey, logtoConfigGuards } from '@logto/schemas';
-import { LogtoConfigs } from '@logto/schemas';
+import type { LogtoConfig, LogtoConfigKey, logtoConfigGuards } from '@riven/schemas';
+import { LogtoConfigs } from '@riven/schemas';
 import type { Nullable } from '@silverhand/essentials';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

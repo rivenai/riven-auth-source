@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 
-import { uploadFileGuard, maxUploadFileSize, adminTenantId } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { uploadFileGuard, maxUploadFileSize, adminTenantId } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import pRetry, { AbortError } from 'p-retry';
 import { object, z } from 'zod';
 

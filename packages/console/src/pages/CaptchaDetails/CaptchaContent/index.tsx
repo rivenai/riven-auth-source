@@ -1,4 +1,4 @@
-import type { CaptchaProvider } from '@logto/schemas';
+import type { CaptchaProvider } from '@riven/schemas';
 import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

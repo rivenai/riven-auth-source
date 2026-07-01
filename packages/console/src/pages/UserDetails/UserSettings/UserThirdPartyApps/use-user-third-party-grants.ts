@@ -1,4 +1,4 @@
-import type { GetUserApplicationGrantsResponse } from '@logto/schemas';
+import type { GetUserApplicationGrantsResponse } from '@riven/schemas';
 import { useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import useSWR from 'swr';

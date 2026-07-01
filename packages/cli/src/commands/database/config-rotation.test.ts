@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 const { getEffectiveRotationGracePeriod, parseRotationGracePeriod } = await import(
   './config-rotation.js'
 );
-const { LogtoOidcConfigKey } = await import('@logto/schemas');
+const { LogtoOidcConfigKey } = await import('@riven/schemas');
 
 describe('parseRotationGracePeriod()', () => {
   it('returns undefined when env is not set', () => {

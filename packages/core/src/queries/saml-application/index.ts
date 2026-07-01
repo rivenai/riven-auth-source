@@ -1,4 +1,4 @@
-import { type ToZodObject } from '@logto/connector-kit';
+import { type ToZodObject } from '@riven/connector-kit';
 import {
   SamlApplicationConfigs,
   SamlApplicationSecrets,
@@ -7,7 +7,7 @@ import {
   type Application,
   type SamlApplicationConfig,
   type SamlApplicationSecret,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 import { z } from 'zod';

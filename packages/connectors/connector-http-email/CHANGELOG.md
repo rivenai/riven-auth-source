@@ -1,4 +1,4 @@
-# @logto/connector-http-email
+# @riven/connector-http-email
 
 ## 0.4.1
 
@@ -6,7 +6,7 @@
 
 - Updated dependencies [4e25126228]
 - Updated dependencies [4e25126228]
-  - @logto/connector-kit@5.0.0
+  - @riven/connector-kit@5.0.0
 
 ## 0.4.0
 
@@ -20,7 +20,7 @@
 
 - Updated dependencies [462e430445]
 - Updated dependencies [7c87ebc068]
-  - @logto/connector-kit@4.7.0
+  - @riven/connector-kit@4.7.0
 
 ## 0.3.2
 
@@ -28,14 +28,14 @@
 
 - Updated dependencies [ad4f9d6abf]
 - Updated dependencies [5da6792d40]
-  - @logto/connector-kit@4.6.0
+  - @riven/connector-kit@4.6.0
 
 ## 0.3.1
 
 ### Patch Changes
 
 - Updated dependencies [34964af46]
-  - @logto/connector-kit@4.4.0
+  - @riven/connector-kit@4.4.0
 
 ## 0.3.0
 
@@ -46,7 +46,7 @@
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/connector-kit@4.3.0
+  - @riven/connector-kit@4.3.0
 
 ## 0.2.1
 
@@ -54,7 +54,7 @@
 
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/connector-kit@4.1.1
+  - @riven/connector-kit@4.1.1
 
 ## 0.2.0
 

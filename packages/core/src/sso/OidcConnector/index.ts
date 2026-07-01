@@ -1,6 +1,6 @@
-import { type TokenResponse } from '@logto/connector-kit';
-import { type ExtendedSocialUserInfo } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared/universal';
+import { type TokenResponse } from '@riven/connector-kit';
+import { type ExtendedSocialUserInfo } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared/universal';
 import { conditional } from '@silverhand/essentials';
 import camelcaseKeys from 'camelcase-keys';
 import snakecaseKeys from 'snakecase-keys';
@@ -35,7 +35,7 @@ import {
  * @remark General connector for OIDC provider.
  * This class provides the basic functionality to connect with a OIDC provider.
  * All the OIDC single sign-on connector should extend this class.
- *  @see @logto/connector-kit.
+ *  @see @riven/connector-kit.
  *
  * @property config The OIDC connector config
  * @method getOidcConfig Fetch the full-list of OIDC config from the issuer. Throws error if config is invalid

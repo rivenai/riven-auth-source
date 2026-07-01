@@ -1,4 +1,4 @@
-import { userMfaDataKey, userPasskeySignInDataKey } from '@logto/schemas';
+import { userMfaDataKey, userPasskeySignInDataKey } from '@riven/schemas';
 
 import { buildUpdatedUserLogtoConfig, buildUserLogtoConfigResponse } from './user-logto-config.js';
 

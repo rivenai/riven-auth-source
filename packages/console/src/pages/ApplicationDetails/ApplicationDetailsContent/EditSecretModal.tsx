@@ -1,4 +1,4 @@
-import { type ApplicationSecret } from '@logto/schemas';
+import { type ApplicationSecret } from '@riven/schemas';
 import { useCallback } from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

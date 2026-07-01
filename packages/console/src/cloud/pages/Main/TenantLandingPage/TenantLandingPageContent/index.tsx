@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import classNames from 'classnames';
 import { useContext, useState } from 'react';
 

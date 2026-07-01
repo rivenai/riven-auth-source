@@ -1,4 +1,4 @@
-import { CompanySize, Project, Theme } from '@logto/schemas';
+import { CompanySize, Project, Theme } from '@riven/schemas';
 import { useContext, useEffect } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';

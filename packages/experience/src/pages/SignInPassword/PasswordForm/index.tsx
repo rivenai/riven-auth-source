@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { cond } from '@silverhand/essentials';
 import classNames from 'classnames';
 import { useCallback, useContext, useEffect } from 'react';

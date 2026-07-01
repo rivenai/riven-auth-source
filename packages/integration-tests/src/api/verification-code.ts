@@ -1,4 +1,4 @@
-import type { VerifyVerificationCodePayload } from '@logto/schemas';
+import type { VerifyVerificationCodePayload } from '@riven/schemas';
 
 import { authedAdminApi } from './api.js';
 

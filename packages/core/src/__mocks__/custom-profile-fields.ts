@@ -1,4 +1,4 @@
-import { CustomProfileFieldType, type CustomProfileField } from '@logto/schemas';
+import { CustomProfileFieldType, type CustomProfileField } from '@riven/schemas';
 
 export const mockCustomProfileFields: CustomProfileField[] = [
   {

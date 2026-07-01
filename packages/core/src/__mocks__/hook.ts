@@ -1,4 +1,4 @@
-import { type Hook, InteractionHookEvent } from '@logto/schemas';
+import { type Hook, InteractionHookEvent } from '@riven/schemas';
 
 export const mockNanoIdForHook = 'random_string';
 

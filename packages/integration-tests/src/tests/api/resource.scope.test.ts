@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 
-import { defaultManagementApi } from '@logto/schemas';
+import { defaultManagementApi } from '@riven/schemas';
 import { HTTPError } from 'ky';
 
 import { createResource } from '#src/api/index.js';

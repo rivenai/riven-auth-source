@@ -3,7 +3,7 @@ import {
   webAuthnRegistrationOptionsGuard,
   type WebAuthnAuthenticationOptions,
   type WebAuthnRegistrationOptions,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import {
   browserSupportsWebAuthn,

@@ -1,5 +1,5 @@
-import { type Application } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { type Application } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 import {
   mockProtectedAppConfigProviderConfig,

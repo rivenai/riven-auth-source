@@ -1,4 +1,4 @@
-import { generateStandardId } from '@logto/shared/universal';
+import { generateStandardId } from '@riven/shared/universal';
 import { deduplicate } from '@silverhand/essentials';
 import { sql } from '@silverhand/slonik';
 
@@ -33,7 +33,7 @@ const alteration: AlterationScript = {
      * Each tenant has only one built-in management API resource and one attached internal admin role.
      * Each internal admin role has only one scope (`PredefinedScope.All`).
      *
-     * Can go to @logto/schemas/src/{utils,seeds}/* to find more details.
+     * Can go to @riven/schemas/src/{utils,seeds}/* to find more details.
      *
      * Based on this setup, we can use the following query to get all internal admin roles.
      */
@@ -176,7 +176,7 @@ const alteration: AlterationScript = {
      * Each tenant has only one built-in management API resource and one attached management API access role.
      * Each management API access role role has only one scope (`PredefinedScope.All`).
      *
-     * Can go to @logto/schemas/src/{utils,seeds}/* to find more details.
+     * Can go to @riven/schemas/src/{utils,seeds}/* to find more details.
      *
      * Based on this setup, we can use the following query to get all internal admin roles.
      */

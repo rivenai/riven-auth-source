@@ -1,6 +1,6 @@
-import { ConnectorType, GoogleConnector } from '@logto/connector-kit';
-import { VerificationType, type SocialVerificationRecordData } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { ConnectorType, GoogleConnector } from '@riven/connector-kit';
+import { VerificationType, type SocialVerificationRecordData } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 import { mockConnector } from '#src/__mocks__/connector.js';
 import RequestError from '#src/errors/RequestError/index.js';
@@ -15,7 +15,7 @@ const { mockEsmWithActual } = createMockUtils(jest);
 
 const isExternalGoogleOneTapChecker = jest.fn().mockReturnValue(false);
 
-await mockEsmWithActual('@logto/connector-kit', () => ({
+await mockEsmWithActual('@riven/connector-kit', () => ({
   isExternalGoogleOneTap: isExternalGoogleOneTapChecker,
 }));
 

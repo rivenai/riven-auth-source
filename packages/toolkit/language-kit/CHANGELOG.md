@@ -75,23 +75,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.28](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.27...v1.0.0-beta.28) (2022-12-06)
 
-**Note:** Version bump only for package @logto/language-kit
+**Note:** Version bump only for package @riven/language-kit
 
 ## [1.0.0-beta.26](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.25...v1.0.0-beta.26) (2022-11-23)
 
-**Note:** Version bump only for package @logto/language-kit
+**Note:** Version bump only for package @riven/language-kit
 
 ## [1.0.0-beta.24](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2022-11-22)
 
-**Note:** Version bump only for package @logto/language-kit
+**Note:** Version bump only for package @riven/language-kit
 
 ## [1.0.0-beta.21](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.20...v1.0.0-beta.21) (2022-11-11)
 
-**Note:** Version bump only for package @logto/language-kit
+**Note:** Version bump only for package @riven/language-kit
 
 ## [1.0.0-beta.20](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.19...v1.0.0-beta.20) (2022-10-21)
 
-**Note:** Version bump only for package @logto/language-kit
+**Note:** Version bump only for package @riven/language-kit
 
 ## [1.0.0-beta.19](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.18...v1.0.0-beta.19) (2022-10-19)
 

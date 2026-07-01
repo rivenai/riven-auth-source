@@ -2,7 +2,7 @@ import {
   type EmailTemplateDetails,
   type CreateEmailTemplate,
   type EmailTemplate,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { authedAdminApi } from './index.js';
 

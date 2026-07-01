@@ -1,5 +1,5 @@
-import type { SystemKey } from '@logto/schemas';
-import { systemGuards, systemKeys } from '@logto/schemas';
+import type { SystemKey } from '@riven/schemas';
+import { systemGuards, systemKeys } from '@riven/schemas';
 import { noop } from '@silverhand/essentials';
 import chalk from 'chalk';
 import type { CommandModule } from 'yargs';

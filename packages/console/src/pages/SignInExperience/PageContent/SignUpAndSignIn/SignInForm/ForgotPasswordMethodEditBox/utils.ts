@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import { ForgotPasswordMethod } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import { ForgotPasswordMethod } from '@riven/schemas';
 
 type ForgotPasswordMethodPhrase = {
   [key in ForgotPasswordMethod]: AdminConsoleKey;

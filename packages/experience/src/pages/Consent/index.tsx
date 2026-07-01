@@ -1,5 +1,5 @@
-import { ReservedResource } from '@logto/core-kit';
-import { type ConsentInfoResponse } from '@logto/schemas';
+import { ReservedResource } from '@riven/core-kit';
+import { type ConsentInfoResponse } from '@riven/schemas';
 import { useCallback, useEffect, useState } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 

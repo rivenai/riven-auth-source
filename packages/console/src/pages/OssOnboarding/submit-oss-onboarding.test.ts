@@ -1,4 +1,4 @@
-import { CompanySize, Project, type OssUserOnboardingData } from '@logto/schemas';
+import { CompanySize, Project, type OssUserOnboardingData } from '@riven/schemas';
 import type { Options } from 'ky';
 
 import type { OssOnboardingFormData } from './utils';

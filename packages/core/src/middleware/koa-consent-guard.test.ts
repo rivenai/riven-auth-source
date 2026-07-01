@@ -1,4 +1,4 @@
-import { OneTimeTokenStatus } from '@logto/schemas';
+import { OneTimeTokenStatus } from '@riven/schemas';
 import { Provider } from 'oidc-provider';
 
 import RequestError from '#src/errors/RequestError/index.js';

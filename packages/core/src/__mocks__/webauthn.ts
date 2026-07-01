@@ -6,7 +6,7 @@ import {
   type BindWebAuthn,
   type WebAuthnVerificationPayload,
   webAuthnAuthenticationOptionsTimeout,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export const mockWebAuthnRegistrationOptions: WebAuthnRegistrationOptions = {
   rp: {

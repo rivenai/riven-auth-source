@@ -1,5 +1,5 @@
-import { DemoConnector } from '@logto/connector-kit';
-import { PasswordPolicyChecker } from '@logto/core-kit';
+import { DemoConnector } from '@riven/connector-kit';
+import { PasswordPolicyChecker } from '@riven/core-kit';
 import {
   ConnectorType,
   SignInExperiences,
@@ -7,7 +7,7 @@ import {
   MfaPolicy,
   ProductEvent,
   type SignInExperience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, type Optional, tryThat } from '@silverhand/essentials';
 import { literal, object, string, z } from 'zod';
 

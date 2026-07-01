@@ -1,4 +1,4 @@
-import { ConnectorType } from '@logto/schemas';
+import { ConnectorType } from '@riven/schemas';
 
 import assertThat from '#src/utils/assert-that.js';
 import type { LogtoConnector } from '#src/utils/connectors/types.js';

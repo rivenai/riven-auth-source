@@ -1,4 +1,4 @@
-import type { UserProfileResponse } from '@logto/schemas';
+import type { UserProfileResponse } from '@riven/schemas';
 
 import { createAuthenticatedKy } from './base-ky';
 

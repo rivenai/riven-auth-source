@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { SessionGrantRevokeTarget } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { SessionGrantRevokeTarget } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { enableAllAccountCenterFields } from '#src/api/account-center.js';

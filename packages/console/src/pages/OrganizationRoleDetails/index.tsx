@@ -1,4 +1,4 @@
-import { roleTypeToKey, type OrganizationRole } from '@logto/schemas';
+import { roleTypeToKey, type OrganizationRole } from '@riven/schemas';
 import classNames from 'classnames';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';

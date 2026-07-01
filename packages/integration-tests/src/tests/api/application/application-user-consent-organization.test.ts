@@ -1,4 +1,4 @@
-import { ApplicationType, type Organization } from '@logto/schemas';
+import { ApplicationType, type Organization } from '@riven/schemas';
 
 import {
   postApplicationUserConsentOrganization,

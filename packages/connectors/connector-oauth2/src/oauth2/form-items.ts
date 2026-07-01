@@ -1,4 +1,4 @@
-import { type ConnectorConfigFormItem, ConnectorConfigFormItemType } from '@logto/connector-kit';
+import { type ConnectorConfigFormItem, ConnectorConfigFormItemType } from '@riven/connector-kit';
 
 import { TokenEndpointAuthMethod, ClientSecretJwtSigningAlgorithm } from './types.js';
 

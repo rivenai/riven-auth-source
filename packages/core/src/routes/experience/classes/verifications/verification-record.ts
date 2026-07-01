@@ -1,4 +1,4 @@
-import { type BindMfa, type User, type VerificationType } from '@logto/schemas';
+import { type BindMfa, type User, type VerificationType } from '@riven/schemas';
 
 type Data<T> = {
   id: string;

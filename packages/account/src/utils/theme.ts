@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 
 const darkThemeWatchMedia = window.matchMedia('(prefers-color-scheme: dark)');
 

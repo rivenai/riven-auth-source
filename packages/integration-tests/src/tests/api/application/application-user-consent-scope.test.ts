@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { ApplicationType, ApplicationUserConsentScopeType } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { ApplicationType, ApplicationUserConsentScopeType } from '@riven/schemas';
 
 import {
   assignUserConsentScopes,

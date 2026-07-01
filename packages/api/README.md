@@ -1,11 +1,11 @@
-# @logto/api
+# @riven/api
 
 A TypeScript SDK for interacting with Logto's Management API using client credentials authentication.
 
 ## Installation
 
 ```bash
-npm install @logto/api
+npm install @riven/api
 ```
 
 ## Quick start
@@ -25,7 +25,7 @@ For detailed setup instructions, visit: https://a.logto.io/m2m-mapi
 #### Logto Cloud
 
 ```ts
-import { createManagementApi } from '@logto/api/management';
+import { createManagementApi } from '@riven/api/management';
 
 // For Logto Cloud
 const { apiClient } = createManagementApi('your-tenant-id', {
@@ -41,7 +41,7 @@ console.log(response.data);
 #### Self-hosted / OSS
 
 ```ts
-import { createManagementApi } from '@logto/api/management';
+import { createManagementApi } from '@riven/api/management';
 
 const { apiClient } = createManagementApi('default', {
   clientId: 'your-client-id',
@@ -56,7 +56,7 @@ const { apiClient } = createManagementApi('default', {
 For advanced use cases where you need full control over the authentication logic, use `createApiClient`:
 
 ```ts
-import { createApiClient } from '@logto/api/management';
+import { createApiClient } from '@riven/api/management';
 
 const client = createApiClient({
   baseUrl: 'https://your-logto-instance.com',

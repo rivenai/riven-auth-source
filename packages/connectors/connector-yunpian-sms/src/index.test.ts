@@ -1,6 +1,6 @@
 import nock from 'nock';
 
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 
 import { endpoint } from './constant.js';
 import createConnector from './index.js';

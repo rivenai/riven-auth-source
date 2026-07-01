@@ -1,4 +1,4 @@
-import { UsersPasswordEncryptionMethod, type Role, type User } from '@logto/schemas';
+import { UsersPasswordEncryptionMethod, type Role, type User } from '@riven/schemas';
 
 import { type UserProfileResponseWithPasswordHash } from '#src/api/admin-user.js';
 import { assignRolesToUser, authedAdminApi, createUser, deleteUser } from '#src/api/index.js';

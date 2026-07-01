@@ -1,5 +1,5 @@
-import type { Resource } from '@logto/schemas';
-import { isManagementApi, Theme } from '@logto/schemas';
+import type { Resource } from '@riven/schemas';
+import { isManagementApi, Theme } from '@riven/schemas';
 import { conditionalArray } from '@silverhand/essentials';
 import classNames from 'classnames';
 import { useEffect, useState } from 'react';

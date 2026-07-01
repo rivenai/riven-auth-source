@@ -1,5 +1,5 @@
-import { InteractionHookEvent } from '@logto/schemas';
-import { ConsoleLog } from '@logto/shared';
+import { InteractionHookEvent } from '@riven/schemas';
+import { ConsoleLog } from '@riven/shared';
 import { type ParameterizedContext } from 'koa';
 import { type Provider } from 'oidc-provider';
 

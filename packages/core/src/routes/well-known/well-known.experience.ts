@@ -1,4 +1,4 @@
-import { fullSignInExperienceGuard } from '@logto/schemas';
+import { fullSignInExperienceGuard } from '@riven/schemas';
 import { z } from 'zod';
 
 import koaGuard from '#src/middleware/koa-guard.js';

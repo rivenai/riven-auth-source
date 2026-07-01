@@ -1,4 +1,4 @@
-import { InteractionEvent } from '@logto/schemas';
+import { InteractionEvent } from '@riven/schemas';
 import { useCallback } from 'react';
 
 import { skipMfaSuggestion } from '@/apis/experience';

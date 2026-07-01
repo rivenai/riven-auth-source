@@ -1,6 +1,6 @@
-import { LogtoOidcConfigKey, OidcSigningKeyStatus, type AdminConsoleData } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { LogtoOidcConfigKey, OidcSigningKeyStatus, type AdminConsoleData } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import Sinon from 'sinon';
 
 import { mockAdminConsoleData, mockCookieKeys, mockPrivateKeys } from '#src/__mocks__/index.js';
@@ -35,7 +35,7 @@ const { exportJWK } = await mockEsmWithActual('#src/utils/jwks.js', () => ({
 }));
 
 const { generateOidcPrivateKey } = await mockEsmWithActual(
-  '@logto/cli/lib/commands/database/utils.js',
+  '@riven/cli/lib/commands/database/utils.js',
   () => ({
     generateOidcCookieKey: jest.fn(() => newCookieKey),
     generateOidcPrivateKey: jest.fn(async () => newPrivateKey),

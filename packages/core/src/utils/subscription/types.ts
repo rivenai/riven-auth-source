@@ -1,5 +1,5 @@
-import type router from '@logto/cloud/routes';
-import { type ToZodObject } from '@logto/connector-kit';
+import type router from '@riven/cloud/routes';
+import { type ToZodObject } from '@riven/connector-kit';
 import { type RouterRoutes } from '@withtyped/client';
 import { z, type ZodType } from 'zod';
 
@@ -55,7 +55,7 @@ export type ReportSubscriptionUpdatesUsageKey = Exclude<
   'organizationsEnabled'
 >;
 
-// Have to manually define this variable since we can only get the literal union from the @logto/cloud/routes module.
+// Have to manually define this variable since we can only get the literal union from the @riven/cloud/routes module.
 export const allReportSubscriptionUpdatesUsageKeys = Object.freeze([
   'machineToMachineLimit',
   'resourcesLimit',

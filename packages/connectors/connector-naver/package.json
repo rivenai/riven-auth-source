@@ -1,10 +1,10 @@
 {
-  "name": "@logto/connector-naver",
+  "name": "@riven/connector-naver",
   "version": "1.4.4",
   "description": "Naver connector implementation.",
   "author": "Kyungyoon Kim. <ruddbs5302@gmail.com>",
   "dependencies": {
-    "@logto/connector-kit": "workspace:^",
+    "@riven/connector-kit": "workspace:^",
     "@silverhand/essentials": "^2.9.1",
     "got": "^14.0.0",
     "snakecase-keys": "^8.0.1",

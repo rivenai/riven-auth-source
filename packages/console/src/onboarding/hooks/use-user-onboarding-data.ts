@@ -2,7 +2,7 @@ import {
   type UserOnboardingData,
   userOnboardingDataGuard,
   userOnboardingDataKey,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useCallback, useMemo } from 'react';
 import { z } from 'zod';
 

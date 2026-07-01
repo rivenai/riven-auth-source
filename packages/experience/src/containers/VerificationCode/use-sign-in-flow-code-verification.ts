@@ -2,7 +2,7 @@ import {
   InteractionEvent,
   SignInIdentifier,
   type VerificationCodeIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 

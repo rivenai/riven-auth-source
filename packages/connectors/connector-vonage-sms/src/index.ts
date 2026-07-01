@@ -5,7 +5,7 @@ import type {
   SendMessageFunction,
   CreateConnector,
   SmsConnector,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
@@ -13,7 +13,7 @@ import {
   ConnectorType,
   replaceSendMessageHandlebars,
   getConfigTemplateByType,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import { Auth } from '@vonage/auth';
 import { Vonage } from '@vonage/server-sdk';
 

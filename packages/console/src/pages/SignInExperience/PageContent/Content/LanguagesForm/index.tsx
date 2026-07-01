@@ -1,5 +1,5 @@
-import { languages as uiLanguageNameMapping } from '@logto/language-kit';
-import type { SignInExperience } from '@logto/schemas';
+import { languages as uiLanguageNameMapping } from '@riven/language-kit';
+import type { SignInExperience } from '@riven/schemas';
 import { useEffect, useMemo } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';

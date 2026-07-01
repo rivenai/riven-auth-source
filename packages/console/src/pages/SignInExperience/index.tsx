@@ -1,4 +1,4 @@
-import type { AccountCenter, SignInExperience as SignInExperienceType } from '@logto/schemas';
+import type { AccountCenter, SignInExperience as SignInExperienceType } from '@riven/schemas';
 import { useMemo, type ReactNode } from 'react';
 import useSWR from 'swr';
 

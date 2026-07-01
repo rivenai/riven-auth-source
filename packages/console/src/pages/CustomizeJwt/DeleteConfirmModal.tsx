@@ -1,4 +1,4 @@
-import { type LogtoJwtTokenKeyType } from '@logto/schemas';
+import { type LogtoJwtTokenKeyType } from '@riven/schemas';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSWRConfig } from 'swr';

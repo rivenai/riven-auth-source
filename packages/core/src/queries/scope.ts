@@ -1,5 +1,5 @@
-import type { CreateScope, Scope } from '@logto/schemas';
-import { Resources, Scopes } from '@logto/schemas';
+import type { CreateScope, Scope } from '@riven/schemas';
+import { Resources, Scopes } from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

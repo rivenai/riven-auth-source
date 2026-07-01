@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { hookEvents } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { hookEvents } from '@riven/schemas';
 
 import { enableAllAccountCenterFields } from '#src/api/account-center.js';
 import { authedAdminApi } from '#src/api/api.js';

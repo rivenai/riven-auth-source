@@ -8,7 +8,7 @@ import type {
   OidcConfigKey,
   OidcConfigKeysResponse,
   OidcPrivateKey,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import {
   LogtoConfigs,
   LogtoJwtTokenKey,
@@ -22,8 +22,8 @@ import {
   idTokenConfigGuard,
   jwtCustomizerConfigGuard,
   logtoOidcConfigGuard,
-} from '@logto/schemas';
-import { type ConsoleLog } from '@logto/shared';
+} from '@riven/schemas';
+import { type ConsoleLog } from '@riven/shared';
 import chalk from 'chalk';
 import { ZodError, z } from 'zod';
 

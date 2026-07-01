@@ -1,4 +1,4 @@
-import { type CreateUser, type User } from '@logto/schemas';
+import { type CreateUser, type User } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 
 import { type ConnectorLibrary } from '#src/libraries/connector.js';

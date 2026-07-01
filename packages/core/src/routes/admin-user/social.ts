@@ -1,11 +1,11 @@
-import { notImplemented } from '@logto/cli/lib/connector/consts.js';
+import { notImplemented } from '@riven/cli/lib/connector/consts.js';
 import {
   ConnectorType,
   identityGuard,
   identitiesGuard,
   userProfileResponseGuard,
   getUserSocialIdentityResponseGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, has, yes } from '@silverhand/essentials';
 import { object, record, string, unknown } from 'zod';
 

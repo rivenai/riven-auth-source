@@ -1,10 +1,10 @@
-import { type TemplateType, type SocialUserInfo } from '@logto/connector-kit';
+import { type TemplateType, type SocialUserInfo } from '@riven/connector-kit';
 import {
   type VerificationType,
   type InteractionEvent,
   type User,
   type VerificationIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export type RedirectResponse = {
   redirectTo: string;

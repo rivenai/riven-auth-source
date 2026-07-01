@@ -1,15 +1,15 @@
 /* eslint-disable max-lines */
 // TODO: refactor this file to reduce LOC
-import { parseJson } from '@logto/connector-kit';
-import { userClaims, type UserClaim, UserScope, ReservedScope } from '@logto/core-kit';
-import { Prompt, QueryKey } from '@logto/js';
+import { parseJson } from '@riven/connector-kit';
+import { userClaims, type UserClaim, UserScope, ReservedScope } from '@riven/core-kit';
+import { Prompt, QueryKey } from '@riven/js';
 import {
   type SamlAcsUrl,
   BindingType,
   NameIdFormat,
   type SamlAttributeMapping,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { cond, conditional, tryThat, type Nullable, type Optional } from '@silverhand/essentials';
 import camelcaseKeys, { type CamelCaseKeys } from 'camelcase-keys';
 import { XMLValidator } from 'fast-xml-parser';

@@ -1,7 +1,7 @@
 import {
   type DesensitizedSocialTokenSetSecret,
   type DesensitizedEnterpriseSsoTokenSetSecret,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { TokenStatus } from '@/types/connector';
 

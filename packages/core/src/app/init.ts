@@ -2,8 +2,8 @@ import fs from 'node:fs/promises';
 import http2 from 'node:http2';
 import path from 'node:path';
 
-import { appInsights } from '@logto/app-insights/node';
-import { ConsoleLog } from '@logto/shared';
+import { appInsights } from '@riven/app-insights/node';
+import { ConsoleLog } from '@riven/shared';
 import { toTitle, trySafe } from '@silverhand/essentials';
 import chalk from 'chalk';
 import type Koa from 'koa';

@@ -1,4 +1,4 @@
-import { AccountCenterControlValue, type ExperienceSocialConnector } from '@logto/schemas';
+import { AccountCenterControlValue, type ExperienceSocialConnector } from '@riven/schemas';
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';

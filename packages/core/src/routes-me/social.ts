@@ -1,5 +1,5 @@
-import { notImplemented } from '@logto/cli/lib/connector/index.js';
-import { ConnectorType } from '@logto/schemas';
+import { notImplemented } from '@riven/cli/lib/connector/index.js';
+import { ConnectorType } from '@riven/schemas';
 import { has } from '@silverhand/essentials';
 import { object, record, string, unknown } from 'zod';
 

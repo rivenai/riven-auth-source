@@ -1,4 +1,4 @@
-import { ReservedPlanId } from '@logto/schemas';
+import { ReservedPlanId } from '@riven/schemas';
 import { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { Trans, useTranslation } from 'react-i18next';

@@ -2,7 +2,7 @@ import {
   ApplicationUserConsentScopeType,
   type OrganizationScope,
   type ApplicationUserConsentScopesResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useState, useMemo } from 'react';
 import useSWR from 'swr';
 

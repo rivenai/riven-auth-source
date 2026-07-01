@@ -1,4 +1,4 @@
-import type { SigningKeyRotationState } from '@logto/schemas';
+import type { SigningKeyRotationState } from '@riven/schemas';
 
 import { WellKnownCache } from '#src/caches/well-known.js';
 

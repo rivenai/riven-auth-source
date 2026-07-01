@@ -1,12 +1,12 @@
-# @logto/connector-gitlab
+# @riven/connector-gitlab
 
 ## 1.2.5
 
 ### Patch Changes
 
 - Updated dependencies [3350b13ec8]
-  - @logto/shared@3.4.0
-  - @logto/connector-oauth@1.7.5
+  - @riven/shared@3.4.0
+  - @riven/connector-oauth@1.7.5
 
 ## 1.2.4
 
@@ -14,16 +14,16 @@
 
 - Updated dependencies [4e25126228]
 - Updated dependencies [4e25126228]
-  - @logto/connector-kit@5.0.0
-  - @logto/connector-oauth@1.7.4
+  - @riven/connector-kit@5.0.0
+  - @riven/connector-oauth@1.7.4
 
 ## 1.2.3
 
 ### Patch Changes
 
 - Updated dependencies [317f9744d1]
-  - @logto/shared@3.3.1
-  - @logto/connector-oauth@1.7.3
+  - @riven/shared@3.3.1
+  - @riven/connector-oauth@1.7.3
 
 ## 1.2.2
 
@@ -31,8 +31,8 @@
 
 - Updated dependencies [462e430445]
 - Updated dependencies [7c87ebc068]
-  - @logto/connector-kit@4.7.0
-  - @logto/connector-oauth@1.7.2
+  - @riven/connector-kit@4.7.0
+  - @riven/connector-oauth@1.7.2
 
 ## 1.2.1
 
@@ -40,8 +40,8 @@
 
 - Updated dependencies [ad4f9d6abf]
 - Updated dependencies [5da6792d40]
-  - @logto/connector-kit@4.6.0
-  - @logto/connector-oauth@1.7.1
+  - @riven/connector-kit@4.6.0
+  - @riven/connector-oauth@1.7.1
 
 ## 1.2.0
 
@@ -57,8 +57,8 @@
 
 - Updated dependencies [0343699d7]
 - Updated dependencies [34964af46]
-  - @logto/connector-oauth@1.7.0
-  - @logto/connector-kit@4.4.0
+  - @riven/connector-oauth@1.7.0
+  - @riven/connector-kit@4.4.0
 
 ## 1.1.0
 
@@ -69,9 +69,9 @@
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/connector-oauth@1.6.0
-  - @logto/connector-kit@4.3.0
-  - @logto/shared@3.2.0
+  - @riven/connector-oauth@1.6.0
+  - @riven/connector-kit@4.3.0
+  - @riven/shared@3.2.0
 
 ## 1.0.1
 
@@ -79,9 +79,9 @@
 
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/connector-oauth@1.5.1
-  - @logto/connector-kit@4.1.1
-  - @logto/shared@3.1.4
+  - @riven/connector-oauth@1.5.1
+  - @riven/connector-kit@4.1.1
+  - @riven/shared@3.1.4
 
 ## 1.0.0
 
@@ -105,4 +105,4 @@
 ### Patch Changes
 
 - Updated dependencies [27d2c91d2]
-  - @logto/connector-oauth@1.5.0
+  - @riven/connector-oauth@1.5.0

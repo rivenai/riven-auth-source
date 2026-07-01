@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform, ConnectorConfigFormItemType } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform, ConnectorConfigFormItemType } from '@riven/connector-kit';
 
 export const authorizationEndpoint = 'https://nid.naver.com/oauth2.0/authorize';
 export const accessTokenEndpoint = 'https://nid.naver.com/oauth2.0/token';

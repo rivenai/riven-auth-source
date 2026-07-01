@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { renderHook } from '@testing-library/react';
 
 import UserInteractionContextProvider from '@/Providers/UserInteractionContextProvider';

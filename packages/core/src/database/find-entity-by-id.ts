@@ -1,4 +1,4 @@
-import type { SchemaLike, GeneratedSchema } from '@logto/schemas';
+import type { SchemaLike, GeneratedSchema } from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql, NotFoundError } from '@silverhand/slonik';
 

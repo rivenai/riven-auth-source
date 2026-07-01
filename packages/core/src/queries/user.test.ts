@@ -1,4 +1,4 @@
-import { MfaFactor, Users } from '@logto/schemas';
+import { MfaFactor, Users } from '@riven/schemas';
 import { createMockPool, createMockQueryResult, sql } from '@silverhand/slonik';
 import Sinon from 'sinon';
 

@@ -1,4 +1,4 @@
-import type { AllConnector, CreateConnector } from '@logto/connector-kit';
+import type { AllConnector, CreateConnector } from '@riven/connector-kit';
 import type { BaseRoutes, Router } from '@withtyped/server';
 
 /**

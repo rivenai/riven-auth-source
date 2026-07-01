@@ -1,4 +1,4 @@
-import type { CustomPhrase, Translation } from '@logto/schemas';
+import type { CustomPhrase, Translation } from '@riven/schemas';
 
 import { authedAdminApi } from './api.js';
 

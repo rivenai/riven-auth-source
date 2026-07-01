@@ -1,5 +1,5 @@
-import { Prompt } from '@logto/node';
-import { ApplicationType } from '@logto/schemas';
+import { Prompt } from '@riven/node';
+import { ApplicationType } from '@riven/schemas';
 
 import { createApplication, deleteApplication } from '#src/api/index.js';
 import { demoAppRedirectUri } from '#src/constants.js';

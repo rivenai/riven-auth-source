@@ -1,4 +1,4 @@
-import type { SignInExperience, SignIn, SsoConnectorMetadata } from '@logto/schemas';
+import type { SignInExperience, SignIn, SsoConnectorMetadata } from '@riven/schemas';
 import {
   AgreeToTermsPolicy,
   ConnectorPlatform,
@@ -6,7 +6,7 @@ import {
   MfaPolicy,
   SignInIdentifier,
   SignInMode,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import type { SignInExperienceResponse } from '@/types';
 

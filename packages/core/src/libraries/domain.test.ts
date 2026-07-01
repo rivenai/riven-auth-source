@@ -1,5 +1,5 @@
-import { DomainStatus } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { DomainStatus } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 import {
   mockCloudflareData,

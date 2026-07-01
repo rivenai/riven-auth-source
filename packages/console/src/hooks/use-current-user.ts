@@ -1,5 +1,5 @@
-import { useLogto } from '@logto/react';
-import type { JsonObject, RequestErrorBody, UserProfileResponse } from '@logto/schemas';
+import { useLogto } from '@riven/react';
+import type { JsonObject, RequestErrorBody, UserProfileResponse } from '@riven/schemas';
 import { HTTPError } from 'ky';
 import { useCallback } from 'react';
 import { toast } from 'react-hot-toast';

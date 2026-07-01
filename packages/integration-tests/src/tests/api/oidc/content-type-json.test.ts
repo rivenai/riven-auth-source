@@ -1,4 +1,4 @@
-import { demoAppApplicationId } from '@logto/schemas';
+import { demoAppApplicationId } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import ky, { HTTPError } from 'ky';
 import { type KyHeadersInit } from 'node_modules/ky/distribution/types/options.js';

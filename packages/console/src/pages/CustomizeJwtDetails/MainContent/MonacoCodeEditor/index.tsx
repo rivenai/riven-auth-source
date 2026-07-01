@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import { Editor, useMonaco, type OnMount } from '@monaco-editor/react';
 import { type Nullable } from '@silverhand/essentials';
 import classNames from 'classnames';

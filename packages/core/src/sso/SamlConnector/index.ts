@@ -1,4 +1,4 @@
-import { type SsoSamlAssertionContent } from '@logto/schemas';
+import { type SsoSamlAssertionContent } from '@riven/schemas';
 import { conditional, type Optional } from '@silverhand/essentials';
 import { XMLValidator } from 'fast-xml-parser';
 import * as saml from 'samlify';

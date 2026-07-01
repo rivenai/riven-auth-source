@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { ConnectorType, type RequestVerificationCodePayload } from '@logto/schemas';
+import { TemplateType } from '@riven/connector-kit';
+import { ConnectorType, type RequestVerificationCodePayload } from '@riven/schemas';
 
 import { requestVerificationCode, verifyVerificationCode } from '#src/api/verification-code.js';
 import {

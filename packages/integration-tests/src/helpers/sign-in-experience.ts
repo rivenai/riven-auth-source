@@ -1,5 +1,5 @@
-import type { SignInExperience } from '@logto/schemas';
-import { SignInMode, SignInIdentifier, MfaFactor, MfaPolicy, ConnectorType } from '@logto/schemas';
+import type { SignInExperience } from '@riven/schemas';
+import { SignInMode, SignInIdentifier, MfaFactor, MfaPolicy, ConnectorType } from '@riven/schemas';
 
 import { updateSignInExperience } from '#src/api/index.js';
 

@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import { ConnectorPlatform, ConnectorType } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import { ConnectorPlatform, ConnectorType } from '@riven/schemas';
 
 import EmailConnector from '@/assets/icons/connector-email.svg?react';
 import SmsConnectorIcon from '@/assets/icons/connector-sms.svg?react';

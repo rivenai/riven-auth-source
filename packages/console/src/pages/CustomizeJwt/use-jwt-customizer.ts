@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKey, type JwtCustomizerConfigs } from '@logto/schemas';
+import { LogtoJwtTokenKey, type JwtCustomizerConfigs } from '@riven/schemas';
 import { type ResponseError } from '@withtyped/client';
 import { useMemo } from 'react';
 import useSWR from 'swr';

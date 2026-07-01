@@ -1,5 +1,5 @@
-import { appInsights } from '@logto/app-insights/node';
-import type { RequestErrorBody } from '@logto/schemas';
+import { appInsights } from '@riven/app-insights/node';
+import type { RequestErrorBody } from '@riven/schemas';
 import { isHttpError } from 'http-errors';
 import type { Middleware } from 'koa';
 import { HttpError } from 'koa';

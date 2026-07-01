@@ -1,5 +1,5 @@
-import type { LogtoErrorCode } from '@logto/phrases';
-import { InteractionEvent, eventGuard, identifierPayloadGuard, profileGuard } from '@logto/schemas';
+import type { LogtoErrorCode } from '@riven/phrases';
+import { InteractionEvent, eventGuard, identifierPayloadGuard, profileGuard } from '@riven/schemas';
 import type Router from 'koa-router';
 import { z } from 'zod';
 

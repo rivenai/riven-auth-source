@@ -1,5 +1,5 @@
-import { InteractionEvent } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { InteractionEvent } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import { createMockLogContext } from '#src/test-utils/koa-audit-log.js';
 import { MockTenant } from '#src/test-utils/tenant.js';

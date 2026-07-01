@@ -3,7 +3,7 @@ import {
   type ConnectorMetadata,
   type GoogleOneTapConfig,
   googleOneTapConfigGuard,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import { z } from 'zod';
 
 import {

@@ -1,4 +1,4 @@
-import type { AllConnector } from '@logto/connector-kit';
+import type { AllConnector } from '@riven/connector-kit';
 import {
   type Application,
   type ApplicationSignInExperience,
@@ -6,10 +6,10 @@ import {
   Connectors,
   type Organization,
   type User,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type z } from 'zod';
 
-export { ConnectorType } from '@logto/schemas';
+export { ConnectorType } from '@riven/schemas';
 
 /**
  * The connector type with full context.

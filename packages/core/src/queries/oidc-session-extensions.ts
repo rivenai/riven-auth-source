@@ -3,7 +3,7 @@ import {
   OidcSessionExtensions,
   type OidcSessionExtension,
   OidcModelInstances,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type Nullable } from '@silverhand/essentials';
 import { sql, type CommonQueryMethods } from '@silverhand/slonik';
 

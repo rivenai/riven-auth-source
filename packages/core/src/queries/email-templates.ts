@@ -4,7 +4,7 @@ import {
   EmailTemplates,
   type CreateEmailTemplate,
   type TemplateType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { sql, type CommonQueryMethods } from '@silverhand/slonik';
 

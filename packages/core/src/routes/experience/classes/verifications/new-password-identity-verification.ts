@@ -4,8 +4,8 @@ import {
   VerificationType,
   type NewPasswordIdentityVerificationRecordData,
   type SanitizedNewPasswordIdentityVerificationRecordData,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import type Libraries from '#src/tenants/Libraries.js';
@@ -24,7 +24,7 @@ export {
   type SanitizedNewPasswordIdentityVerificationRecordData,
   newPasswordIdentityVerificationRecordDataGuard,
   sanitizedNewPasswordIdentityVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 /**
  * NewPasswordIdentityVerification class is used for creating a new user using password + identifier.

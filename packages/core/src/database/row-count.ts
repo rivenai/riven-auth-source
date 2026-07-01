@@ -1,5 +1,5 @@
-import { type GeneratedSchema } from '@logto/schemas';
-import { type SchemaLike } from '@logto/shared';
+import { type GeneratedSchema } from '@riven/schemas';
+import { type SchemaLike } from '@riven/shared';
 import type { CommonQueryMethods, IdentifierSqlToken } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

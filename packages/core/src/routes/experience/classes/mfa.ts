@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { type ToZodObject } from '@logto/connector-kit';
+import { type ToZodObject } from '@riven/connector-kit';
 import {
   type BindBackupCode,
   bindBackupCodeGuard,
@@ -21,8 +21,8 @@ import {
   userMfaDataGuard,
   AlternativeSignUpIdentifier,
   SignInIdentifier,
-} from '@logto/schemas';
-import { generateStandardId, maskEmail, maskPhone } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId, maskEmail, maskPhone } from '@riven/shared';
 import { cond, condObject, deduplicate, pick } from '@silverhand/essentials';
 import { z } from 'zod';
 

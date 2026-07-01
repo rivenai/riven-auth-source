@@ -2,7 +2,7 @@ import {
   type InteractionEvent,
   type VerificationCodeIdentifier,
   SignInIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { type ExperienceClient } from '#src/client/experience/index.js';
 

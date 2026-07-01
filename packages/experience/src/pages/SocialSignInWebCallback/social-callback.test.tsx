@@ -1,4 +1,4 @@
-import { VerificationType } from '@logto/schemas';
+import { VerificationType } from '@riven/schemas';
 import { renderHook, waitFor } from '@testing-library/react';
 import { Navigate, Route, Routes, useSearchParams } from 'react-router-dom';
 

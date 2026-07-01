@@ -1,7 +1,7 @@
 import crypto, { randomInt } from 'node:crypto';
 import path from 'node:path';
 
-import { generateStandardId } from '@logto/shared';
+import { generateStandardId } from '@riven/shared';
 import { assert } from '@silverhand/essentials';
 import { type Page } from 'puppeteer';
 

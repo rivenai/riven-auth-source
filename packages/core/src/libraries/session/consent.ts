@@ -1,4 +1,4 @@
-import { jsonObjectGuard } from '@logto/schemas';
+import { jsonObjectGuard } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import type { Context } from 'koa';
 import type { PromptDetail, Provider } from 'oidc-provider';

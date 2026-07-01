@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { InteractionEvent, MfaFactor, SignInIdentifier } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { InteractionEvent, MfaFactor, SignInIdentifier } from '@riven/schemas';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { initExperienceClient, logoutClient, processSession } from '#src/helpers/client.js';

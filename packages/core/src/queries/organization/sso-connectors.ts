@@ -3,7 +3,7 @@ import {
   OrganizationJitSsoConnectors,
   Organizations,
   SsoConnectors,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type CommonQueryMethods, sql } from '@silverhand/slonik';
 
 import { TwoRelationsQueries } from '#src/utils/RelationQueries.js';

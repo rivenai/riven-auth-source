@@ -1,10 +1,10 @@
-import { ConnectorType } from '@logto/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 import {
   SignInMode,
   SignInIdentifier,
   type PartialPasswordPolicy,
   type SentinelPolicy,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { type ElementHandle, type Browser, type Page, type Frame } from 'puppeteer';
 

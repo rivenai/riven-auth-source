@@ -1,5 +1,5 @@
-import type { LogtoErrorCode } from '@logto/phrases';
-import type { RequestErrorBody } from '@logto/schemas';
+import type { LogtoErrorCode } from '@riven/phrases';
+import type { RequestErrorBody } from '@riven/schemas';
 import { HTTPError, TimeoutError } from 'ky';
 import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';

@@ -1,4 +1,4 @@
-import { ApplicationType, BindingType, NameIdFormat } from '@logto/schemas';
+import { ApplicationType, BindingType, NameIdFormat } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 
 import {

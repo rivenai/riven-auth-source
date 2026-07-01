@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
-import { type AdminConsoleKey } from '@logto/phrases';
-import type { Application } from '@logto/schemas';
-import { ApplicationType } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import type { Application } from '@riven/schemas';
+import { ApplicationType } from '@riven/schemas';
 import { type ReactElement, useContext, useEffect, useMemo } from 'react';
 import { FormProvider, useController, useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

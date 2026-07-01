@@ -1,5 +1,5 @@
-import type { AccessTokenJwtCustomizer, ClientCredentialsJwtCustomizer } from '@logto/schemas';
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import type { AccessTokenJwtCustomizer, ClientCredentialsJwtCustomizer } from '@riven/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 import { z } from 'zod';
 
 import { Action } from '../CustomizeJwt/utils/type';

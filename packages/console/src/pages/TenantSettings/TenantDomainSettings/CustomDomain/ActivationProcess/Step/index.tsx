@@ -1,5 +1,5 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import { DomainStatus } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import { DomainStatus } from '@riven/schemas';
 import classNames from 'classnames';
 import { type ReactNode } from 'react';
 

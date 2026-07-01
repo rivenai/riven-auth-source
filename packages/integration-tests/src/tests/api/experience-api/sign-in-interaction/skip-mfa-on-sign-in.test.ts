@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { MfaFactor, MfaPolicy } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { MfaFactor, MfaPolicy } from '@riven/schemas';
 
 import { enableAllAccountCenterFields } from '#src/api/account-center.js';
 import { createUserMfaVerification } from '#src/api/admin-user.js';

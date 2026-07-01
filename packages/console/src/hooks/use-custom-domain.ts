@@ -1,4 +1,4 @@
-import { DomainStatus, type Domain } from '@logto/schemas';
+import { DomainStatus, type Domain } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useCallback, useContext, useMemo } from 'react';
 import useSWR from 'swr';

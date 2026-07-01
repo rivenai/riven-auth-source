@@ -1,4 +1,4 @@
-import type { User, UserGeoLocation } from '@logto/schemas';
+import type { User, UserGeoLocation } from '@riven/schemas';
 import type { Nullable, Optional } from '@silverhand/essentials';
 
 import type {

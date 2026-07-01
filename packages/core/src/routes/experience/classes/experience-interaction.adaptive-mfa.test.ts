@@ -7,8 +7,8 @@ import {
   type User,
   userMfaDataKey,
   VerificationType,
-} from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import { type Optional } from '@silverhand/essentials';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';

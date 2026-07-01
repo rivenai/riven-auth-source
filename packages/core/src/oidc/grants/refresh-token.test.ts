@@ -1,4 +1,4 @@
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import { type KoaContextWithOIDC, errors, type Adapter } from 'oidc-provider';
 import Sinon from 'sinon';
 

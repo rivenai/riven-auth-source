@@ -8,7 +8,7 @@ import {
   jsonObjectGuard,
   jwtCustomizerConfigsGuard,
   jwtCustomizerTestRequestBodyGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { removeUndefinedKeys } from '@silverhand/essentials';
 import { ResponseError } from '@withtyped/client';
 import { ZodError, z } from 'zod';

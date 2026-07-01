@@ -1,1 +1,1 @@
-export { maskEmail, maskPhone } from '@logto/shared/universal';
+export { maskEmail, maskPhone } from '@riven/shared/universal';

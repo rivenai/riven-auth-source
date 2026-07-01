@@ -1,5 +1,5 @@
-import { type IdTokenClaims, LogtoProvider, useLogto, type Prompt } from '@logto/react';
-import { demoAppApplicationId } from '@logto/schemas';
+import { type IdTokenClaims, LogtoProvider, useLogto, type Prompt } from '@riven/react';
+import { demoAppApplicationId } from '@riven/schemas';
 import i18next from 'i18next';
 import { useCallback, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';

@@ -1,7 +1,7 @@
 import { got } from 'got';
 import nock from 'nock';
 
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 
 import { emailEndpoint, usageEndpoint } from './constant.js';
 import createConnector from './index.js';

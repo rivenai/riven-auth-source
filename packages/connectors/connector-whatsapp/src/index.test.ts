@@ -1,6 +1,6 @@
 import nock from 'nock';
 
-import { TemplateType, ConnectorErrorCodes } from '@logto/connector-kit';
+import { TemplateType, ConnectorErrorCodes } from '@riven/connector-kit';
 
 import createConnector from './index.js';
 import { mockedConfig } from './mock.js';

@@ -1,4 +1,4 @@
-# @logto/connector-sendgrid-email
+# @riven/connector-sendgrid-email
 
 ## 1.5.2
 
@@ -6,7 +6,7 @@
 
 - Updated dependencies [4e25126228]
 - Updated dependencies [4e25126228]
-  - @logto/connector-kit@5.0.0
+  - @riven/connector-kit@5.0.0
 
 ## 1.5.1
 
@@ -15,7 +15,7 @@
 - 462e430445: fall back to `TemplateType.Generic` if a usage-specific template is not found
 - Updated dependencies [462e430445]
 - Updated dependencies [7c87ebc068]
-  - @logto/connector-kit@4.7.0
+  - @riven/connector-kit@4.7.0
 
 ## 1.5.0
 
@@ -27,14 +27,14 @@
 
 - Updated dependencies [ad4f9d6abf]
 - Updated dependencies [5da6792d40]
-  - @logto/connector-kit@4.6.0
+  - @riven/connector-kit@4.6.0
 
 ## 1.4.1
 
 ### Patch Changes
 
 - Updated dependencies [34964af46]
-  - @logto/connector-kit@4.4.0
+  - @riven/connector-kit@4.4.0
 
 ## 1.4.0
 
@@ -45,7 +45,7 @@
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/connector-kit@4.3.0
+  - @riven/connector-kit@4.3.0
 
 ## 1.3.0
 
@@ -77,24 +77,24 @@
 
   ### Supported email connectors
 
-  - `@logto/connector-aliyun-dm`
-  - `@logto/connector-aws-ses`
-  - `@logto/connector-mailgun`
-  - `@logto/connector-sendgrid-email`
-  - `@logto/connector-smtp`
+  - `@riven/connector-aliyun-dm`
+  - `@riven/connector-aws-ses`
+  - `@riven/connector-mailgun`
+  - `@riven/connector-sendgrid-email`
+  - `@riven/connector-smtp`
 
   ### Unsupported email connectors
 
   The following email connectors have their templates managed at the provider side and do not support reading templates from Logto.
   The user's preferred language will be passed to the provider as the `locale` parameter in the email sending request payload. For i18n support, administrators must manage the template selection logic at the provider side.
 
-  - `@logto/connector-postmark`
-  - `@logto/connector-http-email`
+  - `@riven/connector-postmark`
+  - `@riven/connector-http-email`
 
 ### Patch Changes
 
 - Updated dependencies [b0135bcd3]
-  - @logto/connector-kit@4.2.0
+  - @riven/connector-kit@4.2.0
 
 ## 1.2.1
 
@@ -102,7 +102,7 @@
 
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/connector-kit@4.1.1
+  - @riven/connector-kit@4.1.1
 
 ## 1.2.0
 
@@ -121,7 +121,7 @@
 - Updated dependencies [6308ee185]
 - Updated dependencies [15953609b]
 - Updated dependencies [6308ee185]
-  - @logto/connector-kit@4.0.0
+  - @riven/connector-kit@4.0.0
 
 ## 1.1.1
 
@@ -131,7 +131,7 @@
 - Updated dependencies [57d97a4df]
 - Updated dependencies [57d97a4df]
 - Updated dependencies [2c10c2423]
-  - @logto/connector-kit@3.0.0
+  - @riven/connector-kit@3.0.0
 
 ## 1.1.0
 
@@ -151,14 +151,14 @@
 - Updated dependencies [570a4ea9e]
 - Updated dependencies [570a4ea9e]
 - Updated dependencies [6befe6014]
-  - @logto/connector-kit@2.1.0
+  - @riven/connector-kit@2.1.0
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [d24aaedf5]
-  - @logto/connector-kit@2.0.0
+  - @riven/connector-kit@2.0.0
 
 ## 1.0.1
 

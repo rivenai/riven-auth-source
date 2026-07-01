@@ -1,14 +1,14 @@
-import { type ConnectorFactory } from '@logto/cli/lib/connector/index.js';
-import type router from '@logto/cloud/routes';
-import { demoConnectorIds, validateConfig } from '@logto/connector-kit';
+import { type ConnectorFactory } from '@riven/cli/lib/connector/index.js';
+import type router from '@riven/cloud/routes';
+import { demoConnectorIds, validateConfig } from '@riven/connector-kit';
 import {
   Connectors,
   ConnectorType,
   connectorResponseGuard,
   type JsonObject,
   ProductEvent,
-} from '@logto/schemas';
-import { generateStandardShortId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardShortId } from '@riven/shared';
 import { conditional } from '@silverhand/essentials';
 import cleanDeep from 'clean-deep';
 import { string, object } from 'zod';

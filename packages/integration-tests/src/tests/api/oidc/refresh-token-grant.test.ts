@@ -1,9 +1,9 @@
 import assert from 'node:assert';
 
-import { decodeAccessToken } from '@logto/js';
-import { type LogtoConfig, Prompt, PersistKey } from '@logto/node';
-import { GrantType, InteractionEvent, demoAppApplicationId } from '@logto/schemas';
-import { formUrlEncodedHeaders } from '@logto/shared';
+import { decodeAccessToken } from '@riven/js';
+import { type LogtoConfig, Prompt, PersistKey } from '@riven/node';
+import { GrantType, InteractionEvent, demoAppApplicationId } from '@riven/schemas';
+import { formUrlEncodedHeaders } from '@riven/shared';
 import { isKeyInObject, removeUndefinedKeys } from '@silverhand/essentials';
 import { createRemoteJWKSet, jwtVerify } from 'jose';
 import ky, { HTTPError } from 'ky';

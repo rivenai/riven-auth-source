@@ -1,5 +1,5 @@
-import { GoogleConnector } from '@logto/connector-kit';
-import { builtInLanguages } from '@logto/phrases-experience';
+import { GoogleConnector } from '@riven/connector-kit';
+import { builtInLanguages } from '@riven/phrases-experience';
 import type {
   ConnectorMetadata,
   FullSignInExperience,
@@ -7,8 +7,8 @@ import type {
   PartialColor,
   SignInExperience,
   SsoConnectorMetadata,
-} from '@logto/schemas';
-import { adminTenantId, ConnectorType, ForgotPasswordMethod, TenantTag } from '@logto/schemas';
+} from '@riven/schemas';
+import { adminTenantId, ConnectorType, ForgotPasswordMethod, TenantTag } from '@riven/schemas';
 import { deduplicate, trySafe } from '@silverhand/essentials';
 import deepmerge from 'deepmerge';
 

@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import { Trans, useTranslation } from 'react-i18next';
 
 import EmailSentIconDark from '@/assets/icons/email-sent-dark.svg?react';

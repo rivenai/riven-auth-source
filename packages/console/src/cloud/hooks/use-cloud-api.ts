@@ -1,7 +1,7 @@
-import type router from '@logto/cloud/routes';
-import { type tenantAuthRouter } from '@logto/cloud/routes';
-import { useLogto } from '@logto/react';
-import { getTenantOrganizationId } from '@logto/schemas';
+import type router from '@riven/cloud/routes';
+import { type tenantAuthRouter } from '@riven/cloud/routes';
+import { useLogto } from '@riven/react';
+import { getTenantOrganizationId } from '@riven/schemas';
 import { conditional, trySafe } from '@silverhand/essentials';
 import Client, { ResponseError } from '@withtyped/client';
 import { useContext, useMemo } from 'react';

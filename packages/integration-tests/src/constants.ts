@@ -3,7 +3,7 @@ import {
   SsoProviderName,
   demoAppApplicationId,
   type CreateSsoConnector,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath, getEnv, yes } from '@silverhand/essentials';
 
 export const logtoUrl = getEnv('INTEGRATION_TESTS_LOGTO_URL', 'http://localhost:3001');

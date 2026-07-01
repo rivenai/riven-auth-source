@@ -1,7 +1,7 @@
 import {
   type ApplicationSignInExperienceCreate,
   type ApplicationSignInExperience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { authedAdminApi } from './api.js';
 

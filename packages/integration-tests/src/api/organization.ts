@@ -7,7 +7,7 @@ import {
   type CreateOrganization,
   type Application,
   type OrganizationRole,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { authedAdminApi } from './api.js';
 import { ApiFactory, RelationApiFactory } from './factory.js';

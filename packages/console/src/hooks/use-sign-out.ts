@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import { usePostHog } from 'posthog-js/react';
 import { useCallback } from 'react';
 

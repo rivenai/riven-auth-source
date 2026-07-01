@@ -1,4 +1,4 @@
-import { type Application, ApplicationType } from '@logto/schemas';
+import { type Application, ApplicationType } from '@riven/schemas';
 
 import {
   createApplication as createApplicationApi,

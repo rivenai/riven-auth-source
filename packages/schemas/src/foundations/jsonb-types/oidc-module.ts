@@ -1,4 +1,4 @@
-import { validateRedirectUrl } from '@logto/core-kit';
+import { validateRedirectUrl } from '@riven/core-kit';
 import { z } from 'zod';
 
 import { type ToZodObject } from '../../utils/zod.js';

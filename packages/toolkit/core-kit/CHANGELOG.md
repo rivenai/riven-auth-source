@@ -11,7 +11,7 @@
 ### Patch Changes
 
 - Updated dependencies [3350b13ec8]
-  - @logto/shared@3.4.0
+  - @riven/shared@3.4.0
 
 ## 2.8.0
 
@@ -26,7 +26,7 @@
 ### Patch Changes
 
 - Updated dependencies [5ab931e7ac]
-  - @logto/language-kit@1.3.0
+  - @riven/language-kit@1.3.0
 
 ## 2.7.1
 
@@ -51,7 +51,7 @@
 ### Patch Changes
 
 - Updated dependencies [317f9744d1]
-  - @logto/shared@3.3.1
+  - @riven/shared@3.3.1
 
 ## 2.6.1
 
@@ -68,8 +68,8 @@
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/language-kit@1.2.0
-  - @logto/shared@3.2.0
+  - @riven/language-kit@1.2.0
+  - @riven/shared@3.2.0
 
 ## 2.5.4
 
@@ -77,8 +77,8 @@
 
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/language-kit@1.1.1
-  - @logto/shared@3.1.4
+  - @riven/language-kit@1.1.1
+  - @riven/shared@3.1.4
 
 ## 2.5.3
 
@@ -90,7 +90,7 @@
   - Utilize `userClaimsList` to derive the `UserClaim` type, ensuring consistency and maintainability.
 
 - Updated dependencies [a8080e891]
-  - @logto/shared@3.1.3
+  - @riven/shared@3.1.3
 
 ## 2.5.2
 
@@ -145,7 +145,7 @@
 
 ### Patch Changes
 
-- @logto/shared@3.1.0
+- @riven/shared@3.1.0
 
 ## 2.3.0
 
@@ -161,8 +161,8 @@
 - Updated dependencies [acb7fd3fe]
 - Updated dependencies [9089dbf84]
 - Updated dependencies [31e60811d]
-  - @logto/shared@3.1.0
-  - @logto/language-kit@1.1.0
+  - @riven/shared@3.1.0
+  - @riven/language-kit@1.1.0
 
 ## 2.2.1
 
@@ -195,7 +195,7 @@
 ### Patch Changes
 
 - Updated dependencies [18181f892]
-  - @logto/shared@3.0.0
+  - @riven/shared@3.0.0
 
 ## 2.1.1
 
@@ -248,7 +248,7 @@
 ### Patch Changes
 
 - Updated dependencies [310698b0d]
-  - @logto/shared@2.0.1
+  - @riven/shared@2.0.1
 
 ## 2.0.1
 
@@ -268,7 +268,7 @@
 
 - Updated dependencies [4945b0be2]
 - Updated dependencies [30033421c]
-  - @logto/shared@2.0.0
+  - @riven/shared@2.0.0
 
 ## 1.1.0
 
@@ -288,7 +288,7 @@
 ### Patch Changes
 
 - Updated dependencies [738675a7d]
-  - @logto/language-kit@1.0.0
+  - @riven/language-kit@1.0.0
 
 ## 1.0.0-beta.30
 
@@ -302,7 +302,7 @@
 ### Patch Changes
 
 - Updated dependencies [738675a7]
-  - @logto/language-kit@1.0.0-beta.30
+  - @riven/language-kit@1.0.0-beta.30
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
@@ -315,11 +315,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.28](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.27...v1.0.0-beta.28) (2022-12-06)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.26](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.25...v1.0.0-beta.26) (2022-11-23)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.25](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.24...v1.0.0-beta.25) (2022-11-22)
 
@@ -329,19 +329,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.24](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2022-11-22)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.21](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.20...v1.0.0-beta.21) (2022-11-11)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.20](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.19...v1.0.0-beta.20) (2022-10-21)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.19](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.18...v1.0.0-beta.19) (2022-10-19)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.18](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2022-10-12)
 
@@ -351,7 +351,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.17](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2022-10-12)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.16](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-09-28)
 
@@ -373,15 +373,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.13](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2022-09-19)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.12](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-09-17)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## [1.0.0-beta.11](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-09-16)
 
-**Note:** Version bump only for package @logto/core-kit
+**Note:** Version bump only for package @riven/core-kit
 
 ## 1.0.0-beta.10 (2022-09-16)
 
@@ -401,15 +401,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ## [1.0.0-beta.5](https://github.com/logto-io/logto/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-08-19)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ## [1.0.0-beta.4](https://github.com/logto-io/logto/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-08-11)
 
@@ -425,23 +425,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.1](https://github.com/logto-io/logto/compare/v1.0.0-beta.0...v1.0.0-beta.1) (2022-07-19)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ## [1.0.0-beta.0](https://github.com/logto-io/logto/compare/v1.0.0-alpha.4...v1.0.0-beta.0) (2022-07-14)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ## [1.0.0-alpha.3](https://github.com/logto-io/logto/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-07-07)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/shared
+**Note:** Version bump only for package @riven/shared
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

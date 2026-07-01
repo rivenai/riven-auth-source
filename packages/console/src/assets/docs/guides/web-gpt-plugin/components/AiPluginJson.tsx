@@ -1,4 +1,4 @@
-import { type SnakeCaseOidcConfig } from '@logto/schemas';
+import { type SnakeCaseOidcConfig } from '@riven/schemas';
 import useSWR from 'swr';
 
 import { openIdProviderConfigPath } from '@/consts/oidc';

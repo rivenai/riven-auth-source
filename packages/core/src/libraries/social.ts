@@ -1,9 +1,9 @@
-import { appInsights } from '@logto/app-insights/node';
-import type { GetSession, SocialUserInfo } from '@logto/connector-kit';
-import { socialUserInfoGuard } from '@logto/connector-kit';
-import type { EncryptedTokenSet, SecretSocialConnectorRelationPayload, User } from '@logto/schemas';
-import { ConnectorType } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { appInsights } from '@riven/app-insights/node';
+import type { GetSession, SocialUserInfo } from '@riven/connector-kit';
+import { socialUserInfoGuard } from '@riven/connector-kit';
+import type { EncryptedTokenSet, SecretSocialConnectorRelationPayload, User } from '@riven/schemas';
+import { ConnectorType } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { trySafe, type Nullable } from '@silverhand/essentials';
 import type { InteractionResults } from 'oidc-provider';
 import { z } from 'zod';

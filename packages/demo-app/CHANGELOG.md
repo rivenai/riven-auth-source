@@ -29,7 +29,7 @@
   Removed ParcelJS and replaced with Vite. No breaking changes should be expected, but use a minor version bump to catch your attention.
 
   > [!Important]
-  > The browserlist configuration for `@logto/experience` and been synced with what is stated in README.md.
+  > The browserlist configuration for `@riven/experience` and been synced with what is stated in README.md.
 
 ## 1.3.0
 
@@ -80,11 +80,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.12](https://github.com/logto-io/logto/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-10-19)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.11](https://github.com/logto-io/logto/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-10-19)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.10](https://github.com/logto-io/logto/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2022-09-28)
 
@@ -100,15 +100,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.5](https://github.com/logto-io/logto/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-08-19)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.4](https://github.com/logto-io/logto/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-08-11)
 
@@ -119,7 +119,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.3](https://github.com/logto-io/logto/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-08-01)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.2](https://github.com/logto-io/logto/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-07-25)
 
@@ -129,11 +129,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.1](https://github.com/logto-io/logto/compare/v1.0.0-beta.0...v1.0.0-beta.1) (2022-07-19)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-beta.0](https://github.com/logto-io/logto/compare/v1.0.0-alpha.4...v1.0.0-beta.0) (2022-07-14)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-alpha.4](https://github.com/logto-io/logto/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2022-07-08)
 
@@ -143,43 +143,43 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-alpha.3](https://github.com/logto-io/logto/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-07-07)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-alpha.2](https://github.com/logto-io/logto/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-07-07)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-alpha.1](https://github.com/logto-io/logto/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-07-05)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ## [1.0.0-alpha.0](https://github.com/logto-io/logto/compare/v0.1.2-alpha.5...v1.0.0-alpha.0) (2022-07-04)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.2-alpha.4](https://github.com/logto-io/logto/compare/v0.1.2-alpha.3...v0.1.2-alpha.4) (2022-07-03)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.2-alpha.3](https://github.com/logto-io/logto/compare/v0.1.2-alpha.2...v0.1.2-alpha.3) (2022-07-03)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.2-alpha.2](https://github.com/logto-io/logto/compare/v0.1.2-alpha.1...v0.1.2-alpha.2) (2022-07-02)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.2-alpha.0](https://github.com/logto-io/logto/compare/v0.1.1-alpha.0...v0.1.2-alpha.0) (2022-07-02)
 
-**Note:** Version bump only for package @logto/demo-app
+**Note:** Version bump only for package @riven/demo-app
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

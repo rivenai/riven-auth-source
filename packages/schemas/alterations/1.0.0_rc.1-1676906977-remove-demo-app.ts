@@ -1,4 +1,4 @@
-import { generateStandardId } from '@logto/shared/universal';
+import { generateStandardId } from '@riven/shared/universal';
 import chalk from 'chalk';
 import inquirer from 'inquirer';
 import { sql } from '@silverhand/slonik';

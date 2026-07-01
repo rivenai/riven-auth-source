@@ -1,4 +1,4 @@
-import { GoogleConnector } from '@logto/connector-kit';
+import { GoogleConnector } from '@riven/connector-kit';
 import { useContext, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 

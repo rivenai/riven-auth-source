@@ -10,7 +10,7 @@ import {
   type VerificationCodeIdentifier,
   type WebAuthnAuthenticationOptions,
   type WebAuthnVerificationPayload,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import MockClient from '#src/client/index.js';
 

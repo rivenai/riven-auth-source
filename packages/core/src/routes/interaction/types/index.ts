@@ -1,4 +1,4 @@
-import type { SocialUserInfo } from '@logto/connector-kit';
+import type { SocialUserInfo } from '@riven/connector-kit';
 import type {
   UsernamePasswordPayload,
   EmailPasswordPayload,
@@ -9,7 +9,7 @@ import type {
   Profile,
   BindMfa,
   VerifyMfaResult,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { z } from 'zod';
 
 import type {
@@ -33,7 +33,7 @@ export type SocialVerifiedIdentifierPayload = SocialEmailPayload | SocialPhonePa
 /**
  * Legacy type for the interaction API.
  * Use the latest experience API instead.
- * Moved to `@logto/schemas`
+ * Moved to `@riven/schemas`
  */
 export type SocialAuthorizationUrlPayload = z.infer<typeof socialAuthorizationUrlPayloadGuard>;
 

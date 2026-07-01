@@ -1,4 +1,4 @@
-import { MissingProfile } from '@logto/schemas';
+import { MissingProfile } from '@riven/schemas';
 import { useLocation, useParams } from 'react-router-dom';
 import { validate } from 'superstruct';
 

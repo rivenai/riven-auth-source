@@ -2,7 +2,7 @@ import {
   SessionGrantRevokeTarget,
   getUserSessionResponseGuard,
   getUserSessionsResponseGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { nativeEnum, object, string } from 'zod';
 

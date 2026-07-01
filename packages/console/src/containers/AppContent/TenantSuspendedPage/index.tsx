@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 
 import ErrorDark from '@/assets/images/error-dark.svg?react';
 import Error from '@/assets/images/error.svg?react';

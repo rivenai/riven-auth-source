@@ -1,4 +1,4 @@
-import { InteractionEvent, interaction, SignInIdentifier } from '@logto/schemas';
+import { InteractionEvent, interaction, SignInIdentifier } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { deleteUser } from '#src/api/admin-user.js';

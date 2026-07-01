@@ -2,7 +2,7 @@ import {
   type OssUserOnboardingData,
   ossUserOnboardingDataGuard,
   ossUserOnboardingDataKey,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useCallback, useMemo } from 'react';
 import { z } from 'zod';
 

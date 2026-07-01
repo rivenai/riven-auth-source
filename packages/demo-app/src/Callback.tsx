@@ -1,4 +1,4 @@
-import { useHandleSignInCallback, useLogto } from '@logto/react';
+import { useHandleSignInCallback, useLogto } from '@riven/react';
 import { useEffect } from 'react';
 
 const Callback = () => {

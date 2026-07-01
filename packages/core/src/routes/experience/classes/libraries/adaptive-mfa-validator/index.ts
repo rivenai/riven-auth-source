@@ -1,4 +1,4 @@
-import { InteractionEvent, type User, type UserGeoLocation } from '@logto/schemas';
+import { InteractionEvent, type User, type UserGeoLocation } from '@riven/schemas';
 import { conditional, type Nullable, type Optional, trySafe } from '@silverhand/essentials';
 
 import { type WithLogContext, type LogEntry } from '#src/middleware/koa-audit-log.js';

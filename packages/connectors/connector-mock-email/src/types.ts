@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { templateTypeGuard } from '@logto/connector-kit';
+import { templateTypeGuard } from '@riven/connector-kit';
 
 export enum ContextType {
   Text = 'text/plain',

@@ -1,7 +1,7 @@
-import { ConnectorPlatform } from '@logto/connector-kit';
-import type { Connector } from '@logto/schemas';
-import { ConnectorType } from '@logto/schemas';
-import { pickDefault, createMockUtils } from '@logto/shared/esm';
+import { ConnectorPlatform } from '@riven/connector-kit';
+import type { Connector } from '@riven/schemas';
+import { ConnectorType } from '@riven/schemas';
+import { pickDefault, createMockUtils } from '@riven/shared/esm';
 import { type Nullable } from '@silverhand/essentials';
 import { any } from 'zod';
 
@@ -39,11 +39,11 @@ const { loadConnectorFactories } = await mockEsmWithActual(
   })
 );
 
-const { buildRawConnector } = await mockEsmWithActual('@logto/cli/lib/connector/index.js', () => ({
+const { buildRawConnector } = await mockEsmWithActual('@riven/cli/lib/connector/index.js', () => ({
   buildRawConnector: jest.fn(),
 }));
 
-const { validateConfig } = await mockEsmWithActual('@logto/connector-kit', () => ({
+const { validateConfig } = await mockEsmWithActual('@riven/connector-kit', () => ({
   validateConfig: jest.fn(),
 }));
 

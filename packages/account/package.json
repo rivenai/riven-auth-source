@@ -1,5 +1,5 @@
 {
-  "name": "@logto/account",
+  "name": "@riven/account",
   "version": "0.4.0",
   "description": "Logto account center app.",
   "author": "Silverhand Inc. <contact@silverhand.io>",
@@ -20,13 +20,13 @@
     "stylelint": "stylelint \"src/**/*.scss\""
   },
   "devDependencies": {
-    "@logto/core-kit": "workspace:^",
-    "@logto/experience": "workspace:^",
-    "@logto/language-kit": "workspace:^",
-    "@logto/phrases-experience": "workspace:^",
-    "@logto/react": "4.0.13",
-    "@logto/schemas": "workspace:^",
-    "@logto/shared": "workspace:^",
+    "@riven/core-kit": "workspace:^",
+    "@riven/experience": "workspace:^",
+    "@riven/language-kit": "workspace:^",
+    "@riven/phrases-experience": "workspace:^",
+    "@riven/react": "npm:@logto/react@4.0.13",
+    "@riven/schemas": "workspace:^",
+    "@riven/shared": "workspace:^",
     "@silverhand/eslint-config": "6.0.1",
     "@silverhand/eslint-config-react": "6.0.2",
     "@silverhand/essentials": "^2.9.1",

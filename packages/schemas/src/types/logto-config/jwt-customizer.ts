@@ -1,4 +1,4 @@
-import { jsonGuard, jsonObjectGuard, socialUserInfoGuard } from '@logto/connector-kit';
+import { jsonGuard, jsonObjectGuard, socialUserInfoGuard } from '@riven/connector-kit';
 import { type ZodType, z } from 'zod';
 
 import {
@@ -116,7 +116,7 @@ const jwtCustomizerUserInteractionVerificationRecordGuard = z.discriminatedUnion
     .extend({
       // The original `enterpriseSsoUserInfo` field type is extended with `socialUserInfo` with `catchall(unknown)`.
       // However, the unknown type may cause error when using the `sql.jsonb` function in Slonik.
-      // See {@logto/cli/src/queries/logto-config.ts#updateValueByKey} for more reference.
+      // See {@riven/cli/src/queries/logto-config.ts#updateValueByKey} for more reference.
       // So we use `socialUserInfoGuard.catchall(jsonGuard)` to ensure the type is JSON serializable.
       enterpriseSsoUserInfo: socialUserInfoGuard.catchall(jsonGuard).optional(),
     }),

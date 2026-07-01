@@ -1,8 +1,8 @@
 import { readFile } from 'node:fs/promises';
 
-import type { LogtoOidcConfigType } from '@logto/schemas';
-import { LogtoOidcConfigKey, getSeededOidcPrivateKeys, logtoConfigGuards } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import type { LogtoOidcConfigType } from '@riven/schemas';
+import { LogtoOidcConfigKey, getSeededOidcPrivateKeys, logtoConfigGuards } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { getEnvAsStringArray } from '@silverhand/essentials';
 import type { DatabaseTransactionConnection } from '@silverhand/slonik';
 import chalk from 'chalk';

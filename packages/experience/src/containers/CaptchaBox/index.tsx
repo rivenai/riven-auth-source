@@ -1,4 +1,4 @@
-import { CaptchaType, RecaptchaEnterpriseMode } from '@logto/schemas';
+import { CaptchaType, RecaptchaEnterpriseMode } from '@riven/schemas';
 import { useContext } from 'react';
 
 import CaptchaContext from '@/Providers/CaptchaContextProvider/CaptchaContext';

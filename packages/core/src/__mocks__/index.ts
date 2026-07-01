@@ -1,4 +1,4 @@
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 import type {
   AdminConsoleData,
   Application,
@@ -10,7 +10,7 @@ import type {
   Role,
   Scope,
   UsersRole,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import {
   ApplicationType,
   DomainStatus,
@@ -18,7 +18,7 @@ import {
   LogtoJwtTokenKey,
   LogtoOidcConfigKey,
   RoleType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { protectedAppSignInCallbackUrl } from '#src/constants/index.js';
 import { mockId } from '#src/test-utils/nanoid.js';

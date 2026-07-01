@@ -1,4 +1,4 @@
-import { type VerificationType } from '@logto/schemas';
+import { type VerificationType } from '@riven/schemas';
 import { useCallback, useContext, useRef } from 'react';
 
 import UserInteractionContext from '@/Providers/UserInteractionContextProvider/UserInteractionContext';
@@ -74,7 +74,7 @@ const useRedirectCallbackValidation = ({
         return { valid: false, error: 'invalid_connector_auth' };
       }
 
-      // Critical: global API interceptor reads app_id for Logto-App-Id header
+      // Critical: global API interceptor reads app_id for Riven-App-Id header
       if (fallback.appId) {
         sessionStorage.setItem(searchKeys.appId, fallback.appId);
       }

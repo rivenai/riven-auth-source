@@ -1,10 +1,10 @@
-import { ConnectorType, TemplateType } from '@logto/connector-kit';
+import { ConnectorType, TemplateType } from '@riven/connector-kit';
 import {
   AlternativeSignUpIdentifier,
   InteractionEvent,
   SignInIdentifier,
   type VerificationCodeIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { updateSignInExperience } from '#src/api/sign-in-experience.js';

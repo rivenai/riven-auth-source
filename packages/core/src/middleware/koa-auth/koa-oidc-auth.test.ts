@@ -1,4 +1,4 @@
-import { pickDefault } from '@logto/shared/esm';
+import { pickDefault } from '@riven/shared/esm';
 import type { Context } from 'koa';
 import type { IRouterParamContext } from 'koa-router';
 import { Provider } from 'oidc-provider';

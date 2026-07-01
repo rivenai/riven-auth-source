@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { AccountCenterControlValue, ConnectorPlatform, MfaPolicy } from '@logto/schemas';
+import { AccountCenterControlValue, ConnectorPlatform, MfaPolicy } from '@riven/schemas';
 
 import type * as SecurityPageModule from './security-page';
 

@@ -78,7 +78,7 @@ export const allScope = 'all';
  * @returns A configured API client with type-safe methods.
  * @example
  * ```ts
- * import { createApiClient } from '@logto/api/management';
+ * import { createApiClient } from '@riven/api/management';
  *
  * const client = createApiClient({
  *   baseUrl: 'https://my-tenant.logto.app',
@@ -139,7 +139,7 @@ type ManagementApiReturnType = {
  * @returns An object containing the API client and client credentials instance.
  * @example
  * ```ts
- * import { createManagementApi } from '@logto/api/management';
+ * import { createManagementApi } from '@riven/api/management';
  *
  * // Logto Cloud example
  * const { apiClient, clientCredentials } = createManagementApi('my-tenant-id', {

@@ -1,5 +1,5 @@
-import { InteractionEvent, MfaFactor, SignInIdentifier, SignInMode } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { InteractionEvent, MfaFactor, SignInIdentifier, SignInMode } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import {
   createUserMfaVerification,

@@ -1,5 +1,5 @@
-import { generateDarkColor } from '@logto/core-kit';
-import { Theme } from '@logto/schemas';
+import { generateDarkColor } from '@riven/core-kit';
+import { Theme } from '@riven/schemas';
 import { useMemo, useCallback, useEffect, useContext } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';

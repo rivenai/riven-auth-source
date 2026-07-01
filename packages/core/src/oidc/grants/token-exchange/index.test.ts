@@ -1,4 +1,4 @@
-import { type SubjectToken } from '@logto/schemas';
+import { type SubjectToken } from '@riven/schemas';
 import { type KoaContextWithOIDC, errors } from 'oidc-provider';
 import Sinon from 'sinon';
 

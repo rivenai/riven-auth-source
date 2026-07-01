@@ -1,4 +1,4 @@
-import { GoogleConnector } from '@logto/connector-kit';
+import { GoogleConnector } from '@riven/connector-kit';
 import { fromUint8Array } from 'js-base64';
 
 import { logtoGoogleOneTapCookie } from '@/utils/cookies';

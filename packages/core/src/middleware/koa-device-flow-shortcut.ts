@@ -1,4 +1,4 @@
-import { deviceFlowXsrfCookieKey } from '@logto/schemas';
+import { deviceFlowXsrfCookieKey } from '@riven/schemas';
 import { type MiddlewareType } from 'koa';
 
 type DeviceAuthorizationBody = {

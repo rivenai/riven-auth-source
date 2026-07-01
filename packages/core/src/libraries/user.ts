@@ -1,11 +1,11 @@
-import type { BindMfa, CreateUser, Scope, User } from '@logto/schemas';
+import type { BindMfa, CreateUser, Scope, User } from '@riven/schemas';
 import {
   adminTenantId,
   ProductEvent,
   RoleType,
   UsersPasswordEncryptionMethod,
-} from '@logto/schemas';
-import { generateStandardShortId, generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardShortId, generateStandardId } from '@riven/shared';
 import type { Nullable } from '@silverhand/essentials';
 import { deduplicateByKey, condArray } from '@silverhand/essentials';
 import { argon2Verify, bcryptVerify, md5, sha1, sha256 } from 'hash-wasm';

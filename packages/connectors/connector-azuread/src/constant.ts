@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform, ConnectorConfigFormItemType, OidcPrompt } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform, ConnectorConfigFormItemType, OidcPrompt } from '@riven/connector-kit';
 
 export const graphAPIEndpoint = 'https://graph.microsoft.com/v1.0/me';
 export const scopes = ['User.Read'];

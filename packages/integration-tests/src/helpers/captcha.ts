@@ -1,4 +1,4 @@
-import { CaptchaType } from '@logto/schemas';
+import { CaptchaType } from '@riven/schemas';
 
 import { updateCaptchaProvider } from '#src/api/captcha-provider.js';
 

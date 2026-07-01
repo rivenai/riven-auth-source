@@ -1,5 +1,5 @@
-import type { Application, Role } from '@logto/schemas';
-import { RoleType, roleTypeToKey } from '@logto/schemas';
+import type { Application, Role } from '@riven/schemas';
+import { RoleType, roleTypeToKey } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useState } from 'react';
 import { toast } from 'react-hot-toast';

@@ -1,7 +1,7 @@
 import type { CommonQueryMethods, DatabaseTransactionConnection } from '@silverhand/slonik';
 
 /**
- * IMPORTANT: Logto Cloud has a parallel `AlterationScript` type in `@logto/cloud-alterations`
+ * IMPORTANT: Logto Cloud has a parallel `AlterationScript` type in `@riven/cloud-alterations`
  * (logto-cloud repo: `packages/cloud-alterations/src/types.ts`).
  * Any changes to this type must be synchronized with the Cloud type definition.
  */

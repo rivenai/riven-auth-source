@@ -1,6 +1,6 @@
-import type { ConnectorSession } from '@logto/connector-kit';
-import { ConnectorError, ConnectorErrorCodes, ConnectorType } from '@logto/connector-kit';
-import { jsonObjectGuard, SsoAuthenticationQueryKey } from '@logto/schemas';
+import type { ConnectorSession } from '@riven/connector-kit';
+import { ConnectorError, ConnectorErrorCodes, ConnectorType } from '@riven/connector-kit';
+import { jsonObjectGuard, SsoAuthenticationQueryKey } from '@riven/schemas';
 import { z } from 'zod';
 
 import { idpInitiatedSamlSsoSessionCookieName } from '#src/constants/index.js';

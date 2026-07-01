@@ -1,5 +1,5 @@
 import NpmLikeInstallation from '@/mdx-components/NpmLikeInstallation';
-import { generateStandardSecret } from '@logto/shared/universal';
+import { generateStandardSecret } from '@riven/shared/universal';
 import Steps from '@/mdx-components/Steps';
 import Step from '@/mdx-components/Step';
 import Tabs from '@/mdx-components/Tabs';
@@ -15,7 +15,7 @@ import RedirectUrisWeb, { defaultBaseUrl } from '../../fragments/_redirect-uris-
   subtitle="Install Logto SDK"
 >
 
-<NpmLikeInstallation packageName="@logto/react-router" />
+<NpmLikeInstallation packageName="@riven/react-router" />
 
 </Step>
 
@@ -27,7 +27,7 @@ Before initializing the SDK, we have to create a `SessionStorage` instance which
 
 <Code title="app/services/auth.server.ts" className="language-ts">
     {`import { createCookieSessionStorage } from 'react-router';
-import { makeLogtoReactRouter } from '@logto/react-router';
+import { makeLogtoReactRouter } from '@riven/react-router';
 
 const sessionStorage = createCookieSessionStorage({
   cookie: {
@@ -143,7 +143,7 @@ When mounting the routes as described above, you can navigate your browser to `/
 We have prepared the authentication routes, now let's implement the sign-in and sign-out buttons in your home page. We need to redirect the user to the sign-in or sign-out route when needed. To help with this, use `loader` to fetch authentication status from Logto client.
 
 ```tsx title="app/routes/_index.tsx"
-import { type LogtoContext } from '@logto/react-router';
+import { type LogtoContext } from '@riven/react-router';
 import { Link, type LoaderFunctionArgs } from 'react-router';
 
 import { logto } from '../services/auth.server';

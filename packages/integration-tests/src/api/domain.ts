@@ -1,4 +1,4 @@
-import type { DomainResponse } from '@logto/schemas';
+import type { DomainResponse } from '@riven/schemas';
 
 import { generateDomain } from '#src/utils.js';
 

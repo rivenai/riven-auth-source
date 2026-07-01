@@ -1,4 +1,4 @@
-import { experience, type SsoConnectorMetadata } from '@logto/schemas';
+import { experience, type SsoConnectorMetadata } from '@riven/schemas';
 import { useCallback, useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 

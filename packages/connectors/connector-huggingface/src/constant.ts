@@ -1,6 +1,6 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform } from '@logto/connector-kit';
-import { clientIdFormItem, clientSecretFormItem, scopeFormItem } from '@logto/connector-oauth';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform } from '@riven/connector-kit';
+import { clientIdFormItem, clientSecretFormItem, scopeFormItem } from '@riven/connector-oauth';
 
 export const authorizationEndpoint = 'https://huggingface.co/oauth/authorize';
 export const tokenEndpoint = 'https://huggingface.co/oauth/token';

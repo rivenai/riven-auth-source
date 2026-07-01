@@ -1,4 +1,4 @@
-import { createMockUtils } from '@logto/shared/esm';
+import { createMockUtils } from '@riven/shared/esm';
 import pRetry from 'p-retry';
 
 const { jest } = import.meta;

@@ -1,12 +1,12 @@
-import type { RoleResponse } from '@logto/schemas';
+import type { RoleResponse } from '@riven/schemas';
 import {
   ProductEvent,
   RoleType,
   Roles,
   featuredApplicationGuard,
   featuredUserGuard,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { pickState, trySafe, tryThat } from '@silverhand/essentials';
 import { number, object, string, z } from 'zod';
 

@@ -1,4 +1,4 @@
-import { normalizeError } from '@logto/shared';
+import { normalizeError } from '@riven/shared';
 import { pick } from '@silverhand/essentials';
 import pMap from 'p-map';
 

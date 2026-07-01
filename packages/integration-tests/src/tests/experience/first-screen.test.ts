@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { ForgotPasswordMethod, SignInIdentifier, SignInMode } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { ForgotPasswordMethod, SignInIdentifier, SignInMode } from '@riven/schemas';
 
 import { updateSignInExperience } from '#src/api/sign-in-experience.js';
 import { clearSsoConnectors } from '#src/api/sso-connector.js';

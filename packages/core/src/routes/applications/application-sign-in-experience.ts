@@ -1,7 +1,7 @@
 import {
   ApplicationSignInExperiences,
   applicationSignInExperienceCreateGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { object, string } from 'zod';
 
 import RequestError from '#src/errors/RequestError/index.js';

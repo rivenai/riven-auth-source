@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 import classNames from 'classnames';
 
 import Card from '@/ds-components/Card';

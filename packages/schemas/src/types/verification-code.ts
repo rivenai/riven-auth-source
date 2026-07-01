@@ -1,4 +1,4 @@
-import { emailRegEx, phoneRegEx } from '@logto/core-kit';
+import { emailRegEx, phoneRegEx } from '@riven/core-kit';
 import { z } from 'zod';
 
 const emailIdentifierGuard = z.string().regex(emailRegEx);

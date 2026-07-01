@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { deviceFlowXsrfCookieKey, experience, oidcRoutes } from '@logto/schemas';
+import { deviceFlowXsrfCookieKey, experience, oidcRoutes } from '@riven/schemas';
 import { act, fireEvent, waitFor } from '@testing-library/react';
 import { Route, Routes } from 'react-router-dom';
 

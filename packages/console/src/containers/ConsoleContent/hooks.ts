@@ -1,5 +1,5 @@
-import { Prompt, useLogto } from '@logto/react';
-import { getTenantOrganizationId } from '@logto/schemas';
+import { Prompt, useLogto } from '@riven/react';
+import { getTenantOrganizationId } from '@riven/schemas';
 import { useContext, useEffect, useState } from 'react';
 
 import { isCloud } from '@/consts/env';

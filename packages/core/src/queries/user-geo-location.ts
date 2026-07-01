@@ -1,4 +1,4 @@
-import { UserGeoLocations, type UserGeoLocation as UserGeoLocationEntity } from '@logto/schemas';
+import { UserGeoLocations, type UserGeoLocation as UserGeoLocationEntity } from '@riven/schemas';
 import { type CommonQueryMethods, sql } from '@silverhand/slonik';
 
 import { convertToIdentifiers } from '#src/utils/sql.js';

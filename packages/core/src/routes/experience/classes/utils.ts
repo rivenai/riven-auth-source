@@ -6,7 +6,7 @@ import {
   type User,
   type VerificationCodeSignInIdentifier,
   AdditionalIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import type Queries from '#src/tenants/Queries.js';
 

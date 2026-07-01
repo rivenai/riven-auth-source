@@ -1,4 +1,4 @@
-import { extendedIdTokenClaims } from '@logto/core-kit';
+import { extendedIdTokenClaims } from '@riven/core-kit';
 import { type Nullable, type Optional } from '@silverhand/essentials';
 import type { ZodType } from 'zod';
 import { z } from 'zod';

@@ -1,4 +1,4 @@
-import { SignInIdentifier, TemplateType } from '@logto/schemas';
+import { SignInIdentifier, TemplateType } from '@riven/schemas';
 
 import { createAuthenticatedKy } from './base-ky';
 

@@ -7,7 +7,7 @@ import {
   type SamlAcsUrl,
   BindingType,
   type CertificateFingerprints,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 import { addYears } from 'date-fns';
 import forge from 'node-forge';

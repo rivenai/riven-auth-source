@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import type { Nullable } from '@silverhand/essentials';
 import { useCallback, useContext } from 'react';
 

@@ -4,8 +4,8 @@
  * @see {@link https://github.com/logto-io/rfcs | Logto RFCs} for more information about RFC 0005.
  */
 
-import { buildOrganizationUrn } from '@logto/core-kit';
-import { GrantType } from '@logto/schemas';
+import { buildOrganizationUrn } from '@riven/core-kit';
+import { GrantType } from '@riven/schemas';
 import { nanoid } from 'nanoid';
 import type { Provider } from 'oidc-provider';
 import { errors } from 'oidc-provider';

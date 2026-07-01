@@ -11,7 +11,7 @@ import {
   SecretSocialConnectorRelations,
   SecretType,
   type SocialTokenSetSecret,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { sql, type CommonQueryMethods } from '@silverhand/slonik';
 
 import { buildInsertIntoWithPool } from '../database/insert-into.js';

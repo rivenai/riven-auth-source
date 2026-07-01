@@ -3,7 +3,7 @@ import {
   Organizations,
   ProductEvent,
   featuredUserGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { yes } from '@silverhand/essentials';
 import { z } from 'zod';
 

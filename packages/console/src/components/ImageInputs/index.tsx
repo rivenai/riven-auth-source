@@ -1,5 +1,5 @@
-import { type LocalePhrase } from '@logto/phrases';
-import { Theme } from '@logto/schemas';
+import { type LocalePhrase } from '@riven/phrases';
+import { Theme } from '@riven/schemas';
 import { cond, noop } from '@silverhand/essentials';
 import classNames from 'classnames';
 import type React from 'react';

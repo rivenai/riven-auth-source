@@ -2,8 +2,8 @@ import {
   passwordVerificationPayloadGuard,
   SentinelActivityAction,
   VerificationType,
-} from '@logto/schemas';
-import { Action } from '@logto/schemas/lib/types/log/interaction.js';
+} from '@riven/schemas';
+import { Action } from '@riven/schemas/lib/types/log/interaction.js';
 import type Router from 'koa-router';
 import { z } from 'zod';
 

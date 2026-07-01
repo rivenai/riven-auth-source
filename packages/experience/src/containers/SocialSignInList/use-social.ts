@@ -3,7 +3,7 @@ import {
   ConnectorPlatform,
   VerificationType,
   type ExperienceSocialConnector,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useCallback, useContext } from 'react';
 
 import PageContext from '@/Providers/PageContextProvider/PageContext';

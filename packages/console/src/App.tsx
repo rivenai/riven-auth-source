@@ -1,11 +1,11 @@
-import { UserScope } from '@logto/core-kit';
-import { LogtoProvider, Prompt, useLogto } from '@logto/react';
+import { UserScope } from '@riven/core-kit';
+import { LogtoProvider, Prompt, useLogto } from '@riven/react';
 import {
   adminConsoleApplicationId,
   defaultTenantId,
   PredefinedScope,
   TenantScope,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditionalArray } from '@silverhand/essentials';
 import { PostHogProvider, usePostHog } from 'posthog-js/react';
 import { useContext, useEffect, useMemo } from 'react';

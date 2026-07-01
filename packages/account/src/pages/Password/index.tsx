@@ -1,6 +1,6 @@
 import usePasswordErrorMessage from '@experience/shared/hooks/use-password-error-message';
-import { PasswordPolicyChecker, passwordPolicyGuard } from '@logto/core-kit';
-import { AccountCenterControlValue } from '@logto/schemas';
+import { PasswordPolicyChecker, passwordPolicyGuard } from '@riven/core-kit';
+import { AccountCenterControlValue } from '@riven/schemas';
 import { condArray } from '@silverhand/essentials';
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

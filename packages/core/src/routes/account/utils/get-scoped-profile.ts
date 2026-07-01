@@ -1,9 +1,9 @@
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import {
   type AccountCenter,
   AccountCenterControlValue,
   type UserProfileResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 
 import type Libraries from '../../../tenants/Libraries.js';

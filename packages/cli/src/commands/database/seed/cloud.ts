@@ -6,8 +6,8 @@ import {
   createAdminTenantApplicationRole,
   createCloudConnectionConfig,
   AdminTenantRole,
-} from '@logto/schemas';
-import { GlobalValues } from '@logto/shared';
+} from '@riven/schemas';
+import { GlobalValues } from '@riven/shared';
 import { appendPath } from '@silverhand/essentials';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

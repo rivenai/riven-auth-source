@@ -1,4 +1,4 @@
-# @logto/elements
+# @riven/elements
 
 ## 0.1.0
 

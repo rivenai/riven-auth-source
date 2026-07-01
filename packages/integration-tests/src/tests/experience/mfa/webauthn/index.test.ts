@@ -1,6 +1,6 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { MfaFactor, MfaPolicy, SignInIdentifier, SignInMode } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { ConnectorType } from '@riven/connector-kit';
+import { MfaFactor, MfaPolicy, SignInIdentifier, SignInMode } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import {
   createUserMfaVerification,

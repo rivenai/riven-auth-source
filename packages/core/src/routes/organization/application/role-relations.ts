@@ -1,4 +1,4 @@
-import { OrganizationRoles } from '@logto/schemas';
+import { OrganizationRoles } from '@riven/schemas';
 import type Router from 'koa-router';
 import { z } from 'zod';
 

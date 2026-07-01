@@ -1,4 +1,4 @@
-import { type DomainDnsRecords } from '@logto/schemas';
+import { type DomainDnsRecords } from '@riven/schemas';
 
 import CopyToClipboard from '@/ds-components/CopyToClipboard';
 import DynamicT from '@/ds-components/DynamicT';

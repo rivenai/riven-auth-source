@@ -1,4 +1,4 @@
-import type { ConnectorFactoryResponse } from '@logto/schemas';
+import type { ConnectorFactoryResponse } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 
 import UnnamedTrans from '@/components/UnnamedTrans';

@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 
 import DeleteIcon from '@/assets/icons/delete.svg?react';

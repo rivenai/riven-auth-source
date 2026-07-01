@@ -1,7 +1,7 @@
-import type { LanguageTag } from '@logto/language-kit';
-import { builtInLanguages } from '@logto/phrases-experience';
-import { CaptchaType, type CreateSignInExperience, type SignInExperience } from '@logto/schemas';
-import { TtlCache } from '@logto/shared';
+import type { LanguageTag } from '@riven/language-kit';
+import { builtInLanguages } from '@riven/phrases-experience';
+import { CaptchaType, type CreateSignInExperience, type SignInExperience } from '@riven/schemas';
+import { TtlCache } from '@riven/shared';
 
 import {
   mockAliyunDmConnector,

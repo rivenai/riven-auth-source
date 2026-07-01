@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 
-import { buildOrganizationUrn } from '@logto/core-kit';
+import { buildOrganizationUrn } from '@riven/core-kit';
 import {
   type Application,
   ApplicationType,
@@ -8,7 +8,7 @@ import {
   type Resource,
   type Role,
   type Scope,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 import { createRemoteJWKSet, jwtVerify } from 'jose';
 import { HTTPError } from 'ky';

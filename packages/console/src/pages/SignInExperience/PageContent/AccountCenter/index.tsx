@@ -1,4 +1,4 @@
-import { AccountCenterControlValue, type SignInExperience } from '@logto/schemas';
+import { AccountCenterControlValue, type SignInExperience } from '@riven/schemas';
 import { useCallback, useMemo, type ChangeEvent } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';

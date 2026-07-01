@@ -1,5 +1,5 @@
-import { MfaFactor } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { MfaFactor } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 
 import {
   mockUser,

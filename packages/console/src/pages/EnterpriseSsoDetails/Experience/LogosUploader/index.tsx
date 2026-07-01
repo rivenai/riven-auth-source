@@ -1,4 +1,4 @@
-import type { AllowedUploadMimeType } from '@logto/schemas';
+import type { AllowedUploadMimeType } from '@riven/schemas';
 import classNames from 'classnames';
 import { useState } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';

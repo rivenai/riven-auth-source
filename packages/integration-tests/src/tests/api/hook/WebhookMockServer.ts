@@ -7,7 +7,7 @@ import {
   type Server,
 } from 'node:http';
 
-import { hookEventGuard } from '@logto/schemas';
+import { hookEventGuard } from '@riven/schemas';
 import { z } from 'zod';
 
 const webhookHost = process.env.WEBHOOK_HOST_FOR_APP ?? '127.0.0.1';

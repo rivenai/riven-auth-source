@@ -1,4 +1,4 @@
-import { MfaFactor, MfaPolicy, OrganizationRequiredMfaPolicy } from '@logto/schemas';
+import { MfaFactor, MfaPolicy, OrganizationRequiredMfaPolicy } from '@riven/schemas';
 
 import { type MfaConfigForm } from '../types';
 

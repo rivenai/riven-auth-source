@@ -1,10 +1,10 @@
-import { ConnectorType } from '@logto/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 import {
   userOnboardingDataKey,
   InteractionEvent,
   MfaFactor,
   SignInIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { authenticator } from 'otplib';
 
 import { createUserMfaVerification, deleteUser, getUser } from '#src/api/admin-user.js';

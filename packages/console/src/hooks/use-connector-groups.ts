@@ -1,4 +1,4 @@
-import type { ConnectorResponse } from '@logto/schemas';
+import type { ConnectorResponse } from '@riven/schemas';
 import { useMemo } from 'react';
 import useSWR from 'swr';
 

@@ -1,5 +1,5 @@
-import { type IdTokenClaims, useLogto } from '@logto/react';
-import { TenantRole, getTenantIdFromOrganizationId } from '@logto/schemas';
+import { type IdTokenClaims, useLogto } from '@riven/react';
+import { TenantRole, getTenantIdFromOrganizationId } from '@riven/schemas';
 import { useContext, useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { useTranslation } from 'react-i18next';

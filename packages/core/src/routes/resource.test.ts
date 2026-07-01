@@ -2,8 +2,8 @@ import {
   type Resource,
   type CreateResource,
   getManagementApiResourceIndicator,
-} from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 import { type Nullable } from '@silverhand/essentials';
 
 import { mockResource, mockScope } from '#src/__mocks__/index.js';

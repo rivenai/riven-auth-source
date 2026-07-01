@@ -1,5 +1,5 @@
-import { passwordPolicyGuard, type PasswordPolicy } from '@logto/core-kit';
-import { type SignInExperience } from '@logto/schemas';
+import { passwordPolicyGuard, type PasswordPolicy } from '@riven/core-kit';
+import { type SignInExperience } from '@riven/schemas';
 import { useMemo } from 'react';
 import useSWR from 'swr';
 

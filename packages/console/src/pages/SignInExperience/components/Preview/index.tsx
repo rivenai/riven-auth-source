@@ -1,6 +1,6 @@
-import type { LanguageTag } from '@logto/language-kit';
-import { languages as uiLanguageNameMapping } from '@logto/language-kit';
-import { Theme } from '@logto/schemas';
+import type { LanguageTag } from '@riven/language-kit';
+import { languages as uiLanguageNameMapping } from '@riven/language-kit';
+import { Theme } from '@riven/schemas';
 import classNames from 'classnames';
 import { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

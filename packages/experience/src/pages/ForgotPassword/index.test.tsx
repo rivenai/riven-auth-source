@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { Globals } from '@react-spring/web';
 import { assert } from '@silverhand/essentials';
 import { renderHook } from '@testing-library/react';

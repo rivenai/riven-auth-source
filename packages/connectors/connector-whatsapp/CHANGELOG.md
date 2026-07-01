@@ -1,4 +1,4 @@
-# @logto/connector-whatsapp-sms
+# @riven/connector-whatsapp-sms
 
 ## 1.0.1
 

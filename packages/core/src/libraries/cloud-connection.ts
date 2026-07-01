@@ -1,6 +1,6 @@
-import type router from '@logto/cloud/routes';
-import { cloudConnectionDataGuard, CloudScope } from '@logto/schemas';
-import { formUrlEncodedHeaders } from '@logto/shared';
+import type router from '@riven/cloud/routes';
+import { cloudConnectionDataGuard, CloudScope } from '@riven/schemas';
+import { formUrlEncodedHeaders } from '@riven/shared';
 import { appendPath } from '@silverhand/essentials';
 import Client from '@withtyped/client';
 import ky from 'ky';
@@ -107,7 +107,7 @@ export class CloudConnectionLibrary {
 
   /**
    * Get a withtyped client for the Cloud service. It is typed with the router
-   * defined in @logto/cloud/routes.
+   * defined in @riven/cloud/routes.
    */
   public getClient = async (): Promise<Client<typeof router>> => {
     if (!this.client) {

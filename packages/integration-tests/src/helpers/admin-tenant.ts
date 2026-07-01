@@ -1,8 +1,8 @@
 // To refactor: should combine into other similar utils
 // Since they are just different in URLs
 
-import { type SocialUserInfo } from '@logto/connector-kit';
-import type { LogtoConfig } from '@logto/node';
+import { type SocialUserInfo } from '@riven/connector-kit';
+import type { LogtoConfig } from '@riven/node';
 import {
   PredefinedScope,
   adminTenantId,
@@ -14,7 +14,7 @@ import {
   type Role,
   type User,
   RoleType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { authedAdminTenantApi as api, adminTenantApi } from '#src/api/api.js';
 import { adminConsoleRedirectUri, logtoConsoleUrl } from '#src/constants.js';

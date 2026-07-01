@@ -1,4 +1,4 @@
-import { pickDefault } from '@logto/shared/esm';
+import { pickDefault } from '@riven/shared/esm';
 
 import { createContextWithRouteParameters } from '#src/utils/test-utils.js';
 

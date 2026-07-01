@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
 
-import { type TokenSet } from '@logto/schemas';
+import { type TokenSet } from '@riven/schemas';
 import Sinon from 'sinon';
 
 import { EnvSet } from '#src/env-set/index.js';

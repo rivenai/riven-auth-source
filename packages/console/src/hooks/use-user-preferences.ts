@@ -1,5 +1,5 @@
-import { builtInLanguages as builtInConsoleLanguages } from '@logto/phrases';
-import { consoleUserPreferenceKey, type Theme } from '@logto/schemas';
+import { builtInLanguages as builtInConsoleLanguages } from '@riven/phrases';
+import { consoleUserPreferenceKey, type Theme } from '@riven/schemas';
 import { useContext, useEffect, useMemo } from 'react';
 import { z } from 'zod';
 

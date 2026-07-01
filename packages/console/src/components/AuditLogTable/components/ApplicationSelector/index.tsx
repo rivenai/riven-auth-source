@@ -1,5 +1,5 @@
-import type { Application } from '@logto/schemas';
-import { adminConsoleApplicationId, adminTenantId } from '@logto/schemas';
+import type { Application } from '@riven/schemas';
+import { adminConsoleApplicationId, adminTenantId } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';

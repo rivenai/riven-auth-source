@@ -1,6 +1,6 @@
-import { ServiceConnector } from '@logto/connector-kit';
-import { ConnectorType } from '@logto/schemas';
-import type { ConnectorFactoryResponse, ConnectorResponse } from '@logto/schemas';
+import { ServiceConnector } from '@riven/connector-kit';
+import { ConnectorType } from '@riven/schemas';
+import type { ConnectorFactoryResponse, ConnectorResponse } from '@riven/schemas';
 import { condArray, conditional } from '@silverhand/essentials';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';

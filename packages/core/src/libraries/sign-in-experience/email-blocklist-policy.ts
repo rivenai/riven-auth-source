@@ -1,5 +1,5 @@
-import { emailOrEmailDomainRegEx } from '@logto/core-kit';
-import { type EmailBlocklistPolicy } from '@logto/schemas';
+import { emailOrEmailDomainRegEx } from '@riven/core-kit';
+import { type EmailBlocklistPolicy } from '@riven/schemas';
 import { conditional, deduplicate } from '@silverhand/essentials';
 import { got } from 'got';
 import { z } from 'zod';

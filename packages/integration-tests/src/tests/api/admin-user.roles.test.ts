@@ -1,5 +1,5 @@
-import { createManagementApi } from '@logto/api/management';
-import { ApplicationType, RoleType, defaultTenantId } from '@logto/schemas';
+import { createManagementApi } from '@riven/api/management';
+import { ApplicationType, RoleType, defaultTenantId } from '@riven/schemas';
 import { HTTPError } from 'ky';
 
 import { assignRolesToApplication, createApplication } from '#src/api/application.js';

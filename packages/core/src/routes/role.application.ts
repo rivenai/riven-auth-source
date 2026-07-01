@@ -1,5 +1,5 @@
-import { Applications } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { Applications } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { tryThat } from '@silverhand/essentials';
 import { object, string } from 'zod';
 

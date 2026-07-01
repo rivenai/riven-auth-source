@@ -1,4 +1,4 @@
-import { type Resource } from '@logto/schemas';
+import { type Resource } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext, useMemo, useState } from 'react';
 

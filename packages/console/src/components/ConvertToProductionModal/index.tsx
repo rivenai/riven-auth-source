@@ -1,4 +1,4 @@
-import { TenantTag } from '@logto/schemas';
+import { TenantTag } from '@riven/schemas';
 import { useContext, useMemo, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { Trans, useTranslation } from 'react-i18next';

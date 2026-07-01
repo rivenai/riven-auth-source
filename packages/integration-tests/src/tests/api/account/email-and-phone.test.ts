@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
-import { UserScope } from '@logto/core-kit';
-import { SignInIdentifier } from '@logto/schemas';
-import { PhoneNumberParser } from '@logto/shared';
+import { UserScope } from '@riven/core-kit';
+import { SignInIdentifier } from '@riven/schemas';
+import { PhoneNumberParser } from '@riven/shared';
 
 import { enableAllAccountCenterFields } from '#src/api/account-center.js';
 import { authedAdminApi } from '#src/api/api.js';

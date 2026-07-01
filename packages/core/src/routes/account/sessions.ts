@@ -1,9 +1,9 @@
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import {
   AccountCenterControlValue,
   SessionGrantRevokeTarget,
   getUserSessionsResponseGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { z } from 'zod';
 
 import RequestError from '#src/errors/RequestError/index.js';

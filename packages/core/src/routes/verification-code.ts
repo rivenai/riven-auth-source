@@ -1,8 +1,8 @@
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 import {
   requestVerificationCodePayloadGuard,
   verifyVerificationCodePayloadGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import koaGuard from '#src/middleware/koa-guard.js';
 

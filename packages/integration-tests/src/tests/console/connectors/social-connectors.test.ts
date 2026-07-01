@@ -1,4 +1,4 @@
-import { ConnectorType } from '@logto/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 
 import { logtoConsoleUrl as logtoConsoleUrlString } from '#src/constants.js';
 import {

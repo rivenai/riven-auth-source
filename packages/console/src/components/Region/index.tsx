@@ -1,4 +1,4 @@
-import { TenantTag } from '@logto/schemas';
+import { TenantTag } from '@riven/schemas';
 import classNames from 'classnames';
 import { useMemo, type FunctionComponent } from 'react';
 import { useTranslation } from 'react-i18next';

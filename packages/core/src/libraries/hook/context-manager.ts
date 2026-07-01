@@ -9,7 +9,7 @@ import {
   type ManagementApiContext,
   userInfoSelectFields,
   type ExceptionHookEvent,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { pick } from '@silverhand/essentials';
 import { type Context } from 'koa';
 import { type IRouterParamContext } from 'koa-router';

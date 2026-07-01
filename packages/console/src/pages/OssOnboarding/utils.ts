@@ -1,5 +1,5 @@
-import { emailRegEx } from '@logto/core-kit';
-import { type CompanySize, type OssSurveyReportPayload, Project } from '@logto/schemas';
+import { emailRegEx } from '@riven/core-kit';
+import { type CompanySize, type OssSurveyReportPayload, Project } from '@riven/schemas';
 import { type Optional } from '@silverhand/essentials';
 
 export type OssOnboardingFormData = {

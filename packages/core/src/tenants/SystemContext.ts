@@ -8,7 +8,7 @@ import {
   type SystemKey,
   type ProtectedAppConfigProviderData,
   protectedAppConfigProviderDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { type ZodType } from 'zod';
 

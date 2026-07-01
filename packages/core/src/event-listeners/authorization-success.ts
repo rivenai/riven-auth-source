@@ -1,5 +1,5 @@
-import { appInsights } from '@logto/app-insights/node';
-import { LogResult, userApplicationGrantPayloadGuard } from '@logto/schemas';
+import { appInsights } from '@riven/app-insights/node';
+import { LogResult, userApplicationGrantPayloadGuard } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import type { KoaContextWithOIDC, Provider } from 'oidc-provider';
 

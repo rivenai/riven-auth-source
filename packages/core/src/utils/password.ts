@@ -1,7 +1,7 @@
 import crypto from 'node:crypto';
 
-import { type PasswordPolicyChecker } from '@logto/core-kit';
-import { type User, UsersPasswordEncryptionMethod } from '@logto/schemas';
+import { type PasswordPolicyChecker } from '@riven/core-kit';
+import { type User, UsersPasswordEncryptionMethod } from '@riven/schemas';
 import { condObject } from '@silverhand/essentials';
 import { z } from 'zod';
 

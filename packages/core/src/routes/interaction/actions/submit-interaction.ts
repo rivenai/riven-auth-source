@@ -1,6 +1,6 @@
-import { Component, CoreEvent, getEventName } from '@logto/app-insights/custom-event';
-import { appInsights } from '@logto/app-insights/node';
-import type { User, UserOnboardingData } from '@logto/schemas';
+import { Component, CoreEvent, getEventName } from '@riven/app-insights/custom-event';
+import { appInsights } from '@riven/app-insights/node';
+import type { User, UserOnboardingData } from '@riven/schemas';
 import {
   AdminTenantRole,
   InteractionEvent,
@@ -16,8 +16,8 @@ import {
   getTenantRole,
   userMfaDataKey,
   userOnboardingDataKey,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional, conditionalArray } from '@silverhand/essentials';
 
 import { EnvSet } from '#src/env-set/index.js';

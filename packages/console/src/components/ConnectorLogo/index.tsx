@@ -1,5 +1,5 @@
-import { Theme } from '@logto/schemas';
-import type { ConnectorResponse } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
+import type { ConnectorResponse } from '@riven/schemas';
 import classNames from 'classnames';
 
 import ImageWithErrorFallback from '@/ds-components/ImageWithErrorFallback';

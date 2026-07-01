@@ -1,4 +1,4 @@
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 
 import { mockedConfigWithAllRequiredTemplates, mockGenericI18nEmailTemplate } from './mock.js';
 

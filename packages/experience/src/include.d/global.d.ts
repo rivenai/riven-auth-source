@@ -1,4 +1,4 @@
-import { type SsrData } from '@logto/schemas';
+import { type SsrData } from '@riven/schemas';
 
 type LogtoNativeSdkInfo = {
   platform: 'ios' | 'android';

@@ -1,6 +1,6 @@
-import type { LanguageTag } from '@logto/language-kit';
-import { Theme, ConnectorType, ForgotPasswordMethod } from '@logto/schemas';
-import type { ConnectorMetadata, ConnectorResponse } from '@logto/schemas';
+import type { LanguageTag } from '@riven/language-kit';
+import { Theme, ConnectorType, ForgotPasswordMethod } from '@riven/schemas';
+import type { ConnectorMetadata, ConnectorResponse } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import classNames from 'classnames';
 import { format } from 'date-fns';

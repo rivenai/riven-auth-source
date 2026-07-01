@@ -1,4 +1,4 @@
-import { experience } from '@logto/schemas';
+import { experience } from '@riven/schemas';
 import { useMemo } from 'react';
 
 const useFallbackRoute = () =>

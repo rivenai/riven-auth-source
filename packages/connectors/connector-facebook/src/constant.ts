@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform, ConnectorConfigFormItemType } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform, ConnectorConfigFormItemType } from '@riven/connector-kit';
 
 /**
  * Note: If you do not include a version number we will default to the oldest available version, so it's recommended to include the version number in your requests.

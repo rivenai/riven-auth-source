@@ -1,4 +1,4 @@
-import { ConsoleLog, GlobalValues, TtlCache } from '@logto/shared';
+import { ConsoleLog, GlobalValues, TtlCache } from '@riven/shared';
 import type { Optional } from '@silverhand/essentials';
 import { appendPath } from '@silverhand/essentials';
 import type { DatabasePool } from '@silverhand/slonik';

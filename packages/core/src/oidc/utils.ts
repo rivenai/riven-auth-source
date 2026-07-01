@@ -1,12 +1,12 @@
 import path from 'node:path';
 
-import { GoogleConnector } from '@logto/connector-kit';
+import { GoogleConnector } from '@riven/connector-kit';
 import type {
   CustomClientMetadata,
   ExtraParamsObject,
   LogtoUiCookie,
   OidcClientMetadata,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import {
   ApplicationType,
   customClientMetadataGuard,
@@ -14,7 +14,7 @@ import {
   ExtraParamsKey,
   FirstScreen,
   experience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { condArray, conditional, removeUndefinedKeys, trySafe } from '@silverhand/essentials';
 import { type AllClientMetadata, type ClientAuthMethod, errors } from 'oidc-provider';
 

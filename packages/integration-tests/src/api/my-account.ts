@@ -5,7 +5,7 @@ import type {
   SessionGrantRevokeTarget,
   UserMfaVerificationResponse,
   UserProfileResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { type KyInstance } from 'ky';
 

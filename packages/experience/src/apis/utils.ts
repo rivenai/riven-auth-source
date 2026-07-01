@@ -1,4 +1,4 @@
-import { InteractionEvent, type VerificationCodeIdentifier } from '@logto/schemas';
+import { InteractionEvent, type VerificationCodeIdentifier } from '@riven/schemas';
 import { validate } from 'superstruct';
 
 import { type ContinueFlowInteractionEvent, UserFlow } from '@/types';

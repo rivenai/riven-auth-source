@@ -1,5 +1,5 @@
-import type { AllowedUploadMimeType, UserAssets } from '@logto/schemas';
-import { maxUploadFileSize } from '@logto/schemas';
+import type { AllowedUploadMimeType, UserAssets } from '@riven/schemas';
+import { maxUploadFileSize } from '@riven/schemas';
 import classNames from 'classnames';
 import { type KyInstance } from 'ky';
 import { useCallback, useEffect, useState } from 'react';

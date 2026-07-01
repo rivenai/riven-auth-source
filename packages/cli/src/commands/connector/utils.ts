@@ -46,7 +46,7 @@ export const getConnectorDirectory = (instancePath: string) =>
   path.join(instancePath, coreDirectory, connectorDirectory);
 
 export const isOfficialConnector = (packageName: string) =>
-  packageName.startsWith('@logto/connector-');
+  packageName.startsWith('@riven/connector-');
 
 export const getConnectorPackagesFrom = async (instancePath?: string) => {
   const directory = getConnectorDirectory(await inquireInstancePath(instancePath));
@@ -140,7 +140,7 @@ export const addConnectors = async (instancePath: string, packageNames: string[]
   await addConnectorsToPath(cwd, packageNames);
 };
 
-const officialConnectorPrefix = '@logto/connector-';
+const officialConnectorPrefix = '@riven/connector-';
 
 type PackageMeta = { name: string; scope: string; version: string };
 
@@ -155,12 +155,12 @@ const maintainer = 'gaosun';
  *
  * @remarks
  * Known limitations of the NPM registry API:
- * 1. The `fetchList` API request performs a 'fuzzy' search using the `text` parameter with the package name prefix `@logto/connector-`, resulting in many irrelevant results (over 1000), making it difficult to filter all official connectors.
- * 2. The `scope:logto` search qualifier does not function as intended, failing to properly filter `@logto` scope packages.
+ * 1. The `fetchList` API request performs a 'fuzzy' search using the `text` parameter with the package name prefix `@riven/connector-`, resulting in many irrelevant results (over 1000), making it difficult to filter all official connectors.
+ * 2. The `scope:riven` search qualifier does not function as intended, failing to properly filter `@logto` scope packages.
  *
  * To mitigate these limitations:
- * - We replace `scope:logto` with the `maintainer:gaosun` qualifier to reduce irrelevant results, which helps in filtering official connectors.
- * - In addition to the API search, we filter results by checking the package name prefix `@logto/connector-`.
+ * - We replace `scope:riven` with the `maintainer:gaosun` qualifier to reduce irrelevant results, which helps in filtering official connectors.
+ * - In addition to the API search, we filter results by checking the package name prefix `@riven/connector-`.
  * - We continue fetching pages from the registry search API until the last page, applying the above filtering logic to compile the final list of official connectors.
  */
 export const fetchOfficialConnectorList = async (includingCloudConnectors = false) => {

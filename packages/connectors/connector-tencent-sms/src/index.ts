@@ -6,13 +6,13 @@ import type {
   GetConnectorConfig,
   SendMessageFunction,
   SmsConnector,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   ConnectorType,
   validateConfig,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 
 import { defaultMetadata } from './constant.js';
 import { isSmsErrorResponse, sendSmsRequest } from './http.js';

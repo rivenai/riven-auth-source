@@ -1,7 +1,7 @@
 import { Readable } from 'node:stream';
 
-import { StorageProvider } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { StorageProvider } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import SystemContext from '#src/tenants/SystemContext.js';

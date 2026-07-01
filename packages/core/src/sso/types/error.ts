@@ -1,5 +1,5 @@
-import { ConnectorError, ConnectorErrorCodes } from '@logto/connector-kit';
-import { type JsonObject } from '@logto/schemas';
+import { ConnectorError, ConnectorErrorCodes } from '@riven/connector-kit';
+import { type JsonObject } from '@riven/schemas';
 
 export enum SsoConnectorErrorCodes {
   InvalidMetadata = 'invalid_metadata',

@@ -1,5 +1,5 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import { Theme } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import { Theme } from '@riven/schemas';
 import { useCallback } from 'react';
 import { useDropzone, type FileRejection, type Accept } from 'react-dropzone';
 import { type FieldError } from 'react-hook-form';

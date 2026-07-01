@@ -1,6 +1,6 @@
-import type { Application, CreateApplication } from '@logto/schemas';
-import { ApplicationType } from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+import type { Application, CreateApplication } from '@riven/schemas';
+import { ApplicationType } from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 
 import {
   mockApplication,

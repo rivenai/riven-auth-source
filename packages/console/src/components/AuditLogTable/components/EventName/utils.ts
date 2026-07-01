@@ -1,4 +1,4 @@
-import { type Log } from '@logto/schemas';
+import { type Log } from '@riven/schemas';
 
 /**
  * Check if the log (token exchange) is an impersonation log.

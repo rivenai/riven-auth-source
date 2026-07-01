@@ -1,9 +1,9 @@
-import type { ConnectorFactory } from '@logto/cli/lib/connector/index.js';
-import type router from '@logto/cloud/routes';
-import { TemplateType } from '@logto/connector-kit';
-import type { EmailConnector, SmsConnector } from '@logto/connector-kit';
-import { ConnectorType } from '@logto/schemas';
-import { pickDefault, createMockUtils } from '@logto/shared/esm';
+import type { ConnectorFactory } from '@riven/cli/lib/connector/index.js';
+import type router from '@riven/cloud/routes';
+import { TemplateType } from '@riven/connector-kit';
+import type { EmailConnector, SmsConnector } from '@riven/connector-kit';
+import { ConnectorType } from '@riven/schemas';
+import { pickDefault, createMockUtils } from '@riven/shared/esm';
 
 import { mockMetadata, mockConnectorFactory } from '#src/__mocks__/index.js';
 import RequestError from '#src/errors/RequestError/index.js';
@@ -25,7 +25,7 @@ const { loadConnectorFactories } = await mockEsmWithActual(
   })
 );
 
-const { buildRawConnector } = await mockEsmWithActual('@logto/cli/lib/connector/index.js', () => ({
+const { buildRawConnector } = await mockEsmWithActual('@riven/cli/lib/connector/index.js', () => ({
   buildRawConnector: jest.fn(),
 }));
 

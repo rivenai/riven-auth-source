@@ -1,4 +1,4 @@
-import { type Application } from '@logto/schemas';
+import { type Application } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 
 import ApplicationIcon from '@/components/ApplicationIcon';

@@ -1,5 +1,5 @@
-import type { SchemaLike } from '@logto/schemas';
-import { parseTimeoutEnv } from '@logto/shared';
+import type { SchemaLike } from '@riven/schemas';
+import { parseTimeoutEnv } from '@riven/shared';
 import { assert, conditional } from '@silverhand/essentials';
 import {
   createPool,

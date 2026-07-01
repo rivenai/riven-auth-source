@@ -1,4 +1,4 @@
-import { type Sentinel } from '@logto/schemas';
+import { type Sentinel } from '@riven/schemas';
 import type { Provider } from 'oidc-provider';
 
 import type { WellKnownCache } from '#src/caches/well-known.js';

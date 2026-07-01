@@ -1,7 +1,7 @@
 import { yes } from '@silverhand/essentials';
 import { z } from 'zod';
 
-import { oauth2ConfigGuard } from '@logto/connector-oauth';
+import { oauth2ConfigGuard } from '@riven/connector-oauth';
 
 const scopeOpenid = 'openid';
 export const delimiter = /[ +]/;

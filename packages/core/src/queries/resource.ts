@@ -1,5 +1,5 @@
-import type { Resource, CreateResource } from '@logto/schemas';
-import { Resources } from '@logto/schemas';
+import type { Resource, CreateResource } from '@riven/schemas';
+import { Resources } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

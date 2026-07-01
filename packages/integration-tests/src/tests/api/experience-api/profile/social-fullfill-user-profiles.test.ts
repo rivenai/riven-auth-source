@@ -1,5 +1,5 @@
-import { ConnectorType, InteractionEvent, SignInIdentifier } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { ConnectorType, InteractionEvent, SignInIdentifier } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import {
   mockSocialConnectorId,

@@ -1,4 +1,4 @@
-import { type IdTokenConfig } from '@logto/schemas';
+import { type IdTokenConfig } from '@riven/schemas';
 
 import { getIdTokenConfig, upsertIdTokenConfig } from '#src/api/index.js';
 

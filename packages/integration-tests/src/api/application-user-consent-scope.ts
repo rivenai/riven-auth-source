@@ -1,8 +1,8 @@
-import { type UserScope } from '@logto/core-kit';
+import { type UserScope } from '@riven/core-kit';
 import {
   type ApplicationUserConsentScopeType,
   type ApplicationUserConsentScopesResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { authedAdminApi } from './api.js';
 

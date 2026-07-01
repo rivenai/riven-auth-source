@@ -1,4 +1,4 @@
-import type { SignInIdentifier, SignUpIdentifier } from '@logto/schemas';
+import type { SignInIdentifier, SignUpIdentifier } from '@riven/schemas';
 import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
 

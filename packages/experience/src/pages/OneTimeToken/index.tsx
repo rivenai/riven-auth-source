@@ -5,7 +5,7 @@ import {
   InteractionEvent,
   SignInIdentifier,
   type RequestErrorBody,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useCallback, useContext, useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 

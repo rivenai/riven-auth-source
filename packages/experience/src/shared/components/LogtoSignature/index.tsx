@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import { useEffect, useRef } from 'react';
 
 import LogtoLogtoDark from '@/shared/assets/icons/logto-logo-dark.svg?react';

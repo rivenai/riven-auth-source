@@ -1,5 +1,5 @@
-import { Prompt } from '@logto/node';
-import { demoAppApplicationId } from '@logto/schemas';
+import { Prompt } from '@riven/node';
+import { demoAppApplicationId } from '@riven/schemas';
 
 import { assignRolesToUser, putRolesToUser } from '#src/api/index.js';
 import { createRole } from '#src/api/role.js';

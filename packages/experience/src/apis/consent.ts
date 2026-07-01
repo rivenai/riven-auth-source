@@ -1,4 +1,4 @@
-import { type ConsentInfoResponse } from '@logto/schemas';
+import { type ConsentInfoResponse } from '@riven/schemas';
 
 import api from './api';
 

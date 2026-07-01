@@ -1,4 +1,4 @@
-import type { OidcPrivateKey } from '@logto/schemas';
+import type { OidcPrivateKey } from '@riven/schemas';
 import {
   OidcSigningKeyStatus,
   getCurrentOidcPrivateKey,
@@ -7,7 +7,7 @@ import {
   getRotationStateForStagedRotation,
   getStagedRotatedOidcPrivateKeys,
   normalizeOidcPrivateKeys,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import { createLogtoConfigQueries } from '#src/queries/logto-config.js';
@@ -22,7 +22,7 @@ export {
   getOidcProviderPrivateKeys,
   getStagedRotatedOidcPrivateKeys,
   normalizeOidcPrivateKeys,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 /**
  * Promote a staged Next key into Current and demote the previous Current to Previous.

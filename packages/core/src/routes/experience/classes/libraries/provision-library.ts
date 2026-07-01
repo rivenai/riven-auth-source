@@ -1,5 +1,5 @@
-import { Component, CoreEvent, getEventName } from '@logto/app-insights/custom-event';
-import { appInsights } from '@logto/app-insights/node';
+import { Component, CoreEvent, getEventName } from '@riven/app-insights/custom-event';
+import { appInsights } from '@riven/app-insights/node';
 import {
   adminConsoleApplicationId,
   adminTenantId,
@@ -15,8 +15,8 @@ import {
   userOnboardingDataKey,
   type User,
   type UserOnboardingData,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { condArray, conditional, conditionalArray, trySafe } from '@silverhand/essentials';
 
 import { EnvSet } from '#src/env-set/index.js';

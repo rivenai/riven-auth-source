@@ -1,4 +1,4 @@
-import { generateStandardId } from '@logto/shared';
+import { generateStandardId } from '@riven/shared';
 
 import type Queries from '#src/tenants/Queries.js';
 

@@ -1,6 +1,6 @@
 // TODO: @darcyYe refactor this file later to remove disable max line comment
 /* eslint-disable max-lines */
-import type { Role, Application } from '@logto/schemas';
+import type { Role, Application } from '@riven/schemas';
 import {
   adminTenantId,
   Applications,
@@ -10,8 +10,8 @@ import {
   InternalRole,
   ProductEvent,
   isBuiltInApplicationId,
-} from '@logto/schemas';
-import { generateStandardId, generateStandardSecret } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId, generateStandardSecret } from '@riven/shared';
 import { conditional } from '@silverhand/essentials';
 import { boolean, object, string, z } from 'zod';
 

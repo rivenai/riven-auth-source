@@ -1,5 +1,5 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import { type CaptchaType } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import { type CaptchaType } from '@riven/schemas';
 
 type FormField = 'siteKey' | 'secretKey' | 'projectId' | 'domain' | 'mode';
 

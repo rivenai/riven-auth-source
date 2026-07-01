@@ -3,7 +3,7 @@ import {
   type OidcConfigKeysResponse,
   LogtoOidcConfigKeyType,
   OidcSigningKeyStatus,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { condArray } from '@silverhand/essentials';
 import { useEffect, useMemo, useState } from 'react';
 import { toast } from 'react-hot-toast';

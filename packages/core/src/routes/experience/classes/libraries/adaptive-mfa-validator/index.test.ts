@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
 import { type IncomingHttpHeaders } from 'node:http';
 
-import { InteractionEvent, type User } from '@logto/schemas';
+import { InteractionEvent, type User } from '@riven/schemas';
 
 import { mockUser } from '#src/__mocks__/user.js';
 import { EnvSet } from '#src/env-set/index.js';

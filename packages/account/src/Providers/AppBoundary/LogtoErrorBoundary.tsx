@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import type { ReactElement } from 'react';
 import { useEffect } from 'react';
 

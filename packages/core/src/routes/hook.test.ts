@@ -7,8 +7,8 @@ import {
   type HookConfig,
   type HookEvents,
   type Log,
-} from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 import { subDays } from 'date-fns';
 
 import {

@@ -1,4 +1,4 @@
-import { usernameRegEx } from '@logto/core-kit';
+import { usernameRegEx } from '@riven/core-kit';
 
 import type { ErrorType } from '@/shared/components/ErrorMessage';
 

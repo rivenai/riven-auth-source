@@ -1,4 +1,4 @@
-import { type LocalePhrase } from '@logto/phrases-experience';
+import { type LocalePhrase } from '@riven/phrases-experience';
 
 import { type FullSignInExperience } from './sign-in-experience.js';
 

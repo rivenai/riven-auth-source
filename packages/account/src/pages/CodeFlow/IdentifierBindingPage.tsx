@@ -1,5 +1,5 @@
-import type { AccountCenter, SignInIdentifier } from '@logto/schemas';
-import { AccountCenterControlValue } from '@logto/schemas';
+import type { AccountCenter, SignInIdentifier } from '@riven/schemas';
+import { AccountCenterControlValue } from '@riven/schemas';
 import { type TFuncKey } from 'i18next';
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

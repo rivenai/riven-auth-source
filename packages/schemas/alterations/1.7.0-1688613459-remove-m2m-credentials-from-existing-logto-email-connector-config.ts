@@ -1,4 +1,4 @@
-import { GlobalValues } from '@logto/shared';
+import { GlobalValues } from '@riven/shared';
 import { appendPath } from '@silverhand/essentials';
 import { sql } from '@silverhand/slonik';
 

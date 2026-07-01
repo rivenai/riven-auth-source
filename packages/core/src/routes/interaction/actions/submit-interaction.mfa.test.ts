@@ -1,5 +1,5 @@
-import { InteractionEvent, MfaFactor, adminTenantId } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { InteractionEvent, MfaFactor, adminTenantId } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import type { Provider } from 'oidc-provider';
 
 import { mockWebAuthnBind } from '#src/__mocks__/mfa-verification.js';
@@ -31,7 +31,7 @@ mockEsm('#src/libraries/user.utils.js', () => ({
   }),
 }));
 
-mockEsm('@logto/shared', () => ({
+mockEsm('@riven/shared', () => ({
   generateStandardId: jest.fn().mockReturnValue('uid'),
 }));
 

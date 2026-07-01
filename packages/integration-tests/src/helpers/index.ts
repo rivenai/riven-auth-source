@@ -1,12 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { mockConnectorFilePaths, type SendMessagePayload } from '@logto/connector-kit';
+import { mockConnectorFilePaths, type SendMessagePayload } from '@riven/connector-kit';
 import {
   type UserProfile,
   type JsonObject,
   type UsersPasswordEncryptionMethod,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { HTTPError } from 'ky';
 
 import { createUser } from '#src/api/index.js';

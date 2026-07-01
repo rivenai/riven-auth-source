@@ -1,4 +1,4 @@
-import { type CustomUiAssets, maxUploadFileSize, type AllowedUploadMimeType } from '@logto/schemas';
+import { type CustomUiAssets, maxUploadFileSize, type AllowedUploadMimeType } from '@riven/schemas';
 import { type Nullable } from '@silverhand/essentials';
 import { format } from 'date-fns/fp';
 import { useCallback, useContext, useEffect, useState } from 'react';

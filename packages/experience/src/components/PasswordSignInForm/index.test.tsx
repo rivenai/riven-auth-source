@@ -1,4 +1,4 @@
-import { SignInIdentifier, experience } from '@logto/schemas';
+import { SignInIdentifier, experience } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { fireEvent, waitFor } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';

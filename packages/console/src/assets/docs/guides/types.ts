@@ -1,4 +1,4 @@
-import { type ApplicationType } from '@logto/schemas';
+import { type ApplicationType } from '@riven/schemas';
 import { type MDXProps } from 'mdx/types';
 import { type LazyExoticComponent, type ComponentType, type SVGProps } from 'react';
 

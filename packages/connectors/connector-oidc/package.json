@@ -1,11 +1,11 @@
 {
-  "name": "@logto/connector-oidc",
+  "name": "@riven/connector-oidc",
   "version": "1.7.2",
   "description": "OIDC standard connector implementation.",
   "dependencies": {
-    "@logto/connector-kit": "workspace:^",
-    "@logto/connector-oauth": "workspace:^",
-    "@logto/shared": "workspace:^",
+    "@riven/connector-kit": "workspace:^",
+    "@riven/connector-oauth": "workspace:^",
+    "@riven/shared": "workspace:^",
     "@silverhand/essentials": "^2.9.1",
     "jose": "^5.6.3",
     "ky": "^1.2.3",

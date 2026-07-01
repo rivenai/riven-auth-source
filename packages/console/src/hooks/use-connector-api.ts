@@ -1,4 +1,4 @@
-import { type ConnectorResponse } from '@logto/schemas';
+import { type ConnectorResponse } from '@riven/schemas';
 
 import useApi, { type StaticApiProps } from './use-api';
 

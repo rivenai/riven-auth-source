@@ -1,4 +1,4 @@
-import { createTenantDatabaseMetadata } from '@logto/core-kit';
+import { createTenantDatabaseMetadata } from '@riven/core-kit';
 import {
   type AdminData,
   type UpdateAdminData,
@@ -14,8 +14,8 @@ import {
   Roles,
   PredefinedScope,
   getManagementApiResourceIndicator,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { assert } from '@silverhand/essentials';
 import type { CommonQueryMethods, DatabaseTransactionConnection } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

@@ -1,4 +1,4 @@
-import { InteractionHookEvent } from '@logto/schemas';
+import { InteractionHookEvent } from '@riven/schemas';
 
 describe('webhook event visibility', () => {
   afterEach(() => {

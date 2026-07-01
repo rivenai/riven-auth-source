@@ -3,8 +3,8 @@ import {
   type UpdateCustomProfileFieldData,
   type CustomProfileFieldUnion,
   type UpdateCustomProfileFieldSieOrder,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import { EnvSet } from '#src/env-set/index.js';
 import RequestError from '#src/errors/RequestError/index.js';

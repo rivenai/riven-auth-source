@@ -7,14 +7,14 @@ import type {
   SendMessageFunction,
   CreateConnector,
   SmsConnector,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   validateConfig,
   ConnectorType,
   getConfigTemplateByType,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 
 import { defaultMetadata, endpoint } from './constant.js';
 import type { WhatsAppMessagePayload } from './types.js';

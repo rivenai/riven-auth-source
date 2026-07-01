@@ -1,4 +1,4 @@
-import { TenantRole } from '@logto/schemas';
+import { TenantRole } from '@riven/schemas';
 import { condArray, conditional } from '@silverhand/essentials';
 import { useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';

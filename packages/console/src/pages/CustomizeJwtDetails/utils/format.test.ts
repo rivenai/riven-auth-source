@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 
 import { Action } from '../../CustomizeJwt/utils/type';
 

@@ -1,11 +1,11 @@
-import type { User, UserMfaData, UserPasskeySignInData } from '@logto/schemas';
+import type { User, UserMfaData, UserPasskeySignInData } from '@riven/schemas';
 import {
   userLogtoConfigGuard,
   userMfaDataGuard,
   userMfaDataKey,
   userPasskeySignInDataGuard,
   userPasskeySignInDataKey,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { removeUndefinedKeys } from '@silverhand/essentials';
 import { z } from 'zod';
 

@@ -3,7 +3,7 @@ import DynamicT from '@experience/shared/components/DynamicT';
 import VerificationCodeInput, {
   defaultLength,
 } from '@experience/shared/components/VerificationCode';
-import { AccountCenterControlValue, MfaFactor, type Mfa } from '@logto/schemas';
+import { AccountCenterControlValue, MfaFactor, type Mfa } from '@riven/schemas';
 import type { TFuncKey } from 'i18next';
 import qrcode from 'qrcode';
 import { useCallback, useContext, useEffect, useState, type FormEvent } from 'react';

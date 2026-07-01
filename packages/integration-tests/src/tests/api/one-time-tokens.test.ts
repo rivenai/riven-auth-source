@@ -1,5 +1,5 @@
-import { OneTimeTokenStatus } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { OneTimeTokenStatus } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import { authedAdminApi } from '#src/api/api.js';
 import {

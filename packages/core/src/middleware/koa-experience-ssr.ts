@@ -1,4 +1,4 @@
-import { type SsrData, logtoCookieKey, logtoUiCookieGuard, ssrPlaceholder } from '@logto/schemas';
+import { type SsrData, logtoCookieKey, logtoUiCookieGuard, ssrPlaceholder } from '@riven/schemas';
 import { pick, trySafe } from '@silverhand/essentials';
 import type { MiddlewareType } from 'koa';
 

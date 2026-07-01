@@ -1,5 +1,5 @@
-import { useLogto } from '@logto/react';
-import { Theme } from '@logto/schemas';
+import { useLogto } from '@riven/react';
+import { Theme } from '@riven/schemas';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { isMobile } from 'react-device-detect';
 

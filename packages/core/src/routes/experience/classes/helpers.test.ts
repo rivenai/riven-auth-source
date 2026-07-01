@@ -5,7 +5,7 @@ import {
   type Mfa,
   type User,
   userMfaDataKey,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import {
   mockUser,

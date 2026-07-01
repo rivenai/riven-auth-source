@@ -1,4 +1,4 @@
-import { OidcSigningKeyStatus } from '@logto/schemas';
+import { OidcSigningKeyStatus } from '@riven/schemas';
 
 import Queries from '#src/tenants/Queries.js';
 import { createMockCommonQueryMethods } from '#src/test-utils/query.js';

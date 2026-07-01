@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorConfigFormItemType } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorConfigFormItemType } from '@riven/connector-kit';
 
 // WhatsApp Cloud API endpoint
 // {{phoneNumberId}} will be replaced with the actual Phone Number ID from Meta

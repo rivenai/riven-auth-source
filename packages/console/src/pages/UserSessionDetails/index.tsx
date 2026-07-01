@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import { Theme, isBuiltInApplicationId, type GetUserSessionResponse } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import { Theme, isBuiltInApplicationId, type GetUserSessionResponse } from '@riven/schemas';
 import { Fragment, type ReactNode, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';

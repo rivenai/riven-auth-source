@@ -1,4 +1,4 @@
-import { createMockUtils } from '@logto/shared/esm';
+import { createMockUtils } from '@riven/shared/esm';
 
 const { mockEsmWithActual } = createMockUtils(import.meta.jest);
 
@@ -13,7 +13,7 @@ export const mockId = 'mockId';
  * - generateStandardSecret
  */
 export const mockIdGenerators = async () =>
-  mockEsmWithActual('@logto/shared', () => ({
+  mockEsmWithActual('@riven/shared', () => ({
     generateStandardId: () => mockId,
     generateStandardShortId: () => mockId,
     generateStandardSecret: () => mockId,

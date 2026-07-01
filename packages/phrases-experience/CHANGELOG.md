@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - Updated dependencies [93523a1ae0]
-  - @logto/core-kit@2.9.0
+  - @riven/core-kit@2.9.0
 
 ## 1.13.0
 
@@ -35,22 +35,22 @@
 
 - Updated dependencies [74c993a91e]
 - Updated dependencies [5ab931e7ac]
-  - @logto/core-kit@2.8.0
-  - @logto/language-kit@1.3.0
+  - @riven/core-kit@2.8.0
+  - @riven/language-kit@1.3.0
 
 ## 1.12.2
 
 ### Patch Changes
 
 - Updated dependencies [57b0008ee8]
-  - @logto/core-kit@2.7.1
+  - @riven/core-kit@2.7.1
 
 ## 1.12.1
 
 ### Patch Changes
 
 - Updated dependencies [ce65b07964]
-  - @logto/core-kit@2.7.0
+  - @riven/core-kit@2.7.0
 
 ## 1.12.0
 
@@ -83,7 +83,7 @@
 ### Patch Changes
 
 - Updated dependencies [4cc321dbb]
-  - @logto/core-kit@2.6.1
+  - @riven/core-kit@2.6.1
 
 ## 1.10.0
 
@@ -107,8 +107,8 @@
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/language-kit@1.2.0
-  - @logto/core-kit@2.6.0
+  - @riven/language-kit@1.2.0
+  - @riven/core-kit@2.6.0
 
 ## 1.9.1
 
@@ -116,8 +116,8 @@
 
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/language-kit@1.1.1
-  - @logto/core-kit@2.5.4
+  - @riven/language-kit@1.1.1
+  - @riven/core-kit@2.5.4
 
 ## 1.9.0
 
@@ -161,7 +161,7 @@
   > Unlike other database fields (e.g. `name`), the claims stored in the `profile` field will fall back to `undefined` rather than `null`. We refrain from using `?? null` here to reduce the size of ID tokens, since `undefined` fields will be stripped in tokens.
 
 - Updated dependencies [abffb9f95]
-  - @logto/core-kit@2.4.0
+  - @riven/core-kit@2.4.0
 
 ## 1.6.0
 
@@ -182,8 +182,8 @@
 - 9089dbf84: upgrade TypeScript to 5.3.3
 - Updated dependencies [9089dbf84]
 - Updated dependencies [31e60811d]
-  - @logto/language-kit@1.1.0
-  - @logto/core-kit@2.3.0
+  - @riven/language-kit@1.1.0
+  - @riven/core-kit@2.3.0
 
 ## 1.5.0
 
@@ -194,7 +194,7 @@
 ### Patch Changes
 
 - Updated dependencies [b4f702a86]
-  - @logto/core-kit@2.2.1
+  - @riven/core-kit@2.2.1
 
 ## 1.4.0
 
@@ -218,7 +218,7 @@
 
 - 6f5a0acad: fix a bug that prevents user from customizing i18n translations in Sign-in Experience config
 - Updated dependencies [6f5a0acad]
-  - @logto/core-kit@2.1.1
+  - @riven/core-kit@2.1.1
 
 ## 1.3.0
 
@@ -267,7 +267,7 @@
 - f8408fa77: rename the package `phrases-ui` to `phrases-experience`
 - f6723d5e2: rename the package `ui` to `experience`
 - Updated dependencies [e8b0b1d02]
-  - @logto/core-kit@2.1.0
+  - @riven/core-kit@2.1.0
 
 ## 1.2.0
 
@@ -431,11 +431,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ## [1.0.0-beta.5](https://github.com/logto-io/logto/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-08-19)
 
@@ -445,7 +445,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.4](https://github.com/logto-io/logto/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-08-11)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ## [1.0.0-beta.3](https://github.com/logto-io/logto/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-08-01)
 
@@ -455,23 +455,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.2](https://github.com/logto-io/logto/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-07-25)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ## [1.0.0-beta.1](https://github.com/logto-io/logto/compare/v1.0.0-beta.0...v1.0.0-beta.1) (2022-07-19)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ## [1.0.0-beta.0](https://github.com/logto-io/logto/compare/v1.0.0-alpha.4...v1.0.0-beta.0) (2022-07-14)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/phrases-ui
+**Note:** Version bump only for package @riven/phrases-ui
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

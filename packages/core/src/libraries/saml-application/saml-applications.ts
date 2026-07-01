@@ -6,9 +6,9 @@ import {
   type Domain,
   DomainStatus,
   adminTenantId,
-} from '@logto/schemas';
-import { SearchJointMode } from '@logto/schemas';
-import { generateStandardId, ConsoleLog } from '@logto/shared';
+} from '@riven/schemas';
+import { SearchJointMode } from '@riven/schemas';
+import { generateStandardId, ConsoleLog } from '@riven/shared';
 import { removeUndefinedKeys, pick, deduplicate } from '@silverhand/essentials';
 import chalk from 'chalk';
 

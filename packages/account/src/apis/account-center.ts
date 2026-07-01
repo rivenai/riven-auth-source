@@ -1,4 +1,4 @@
-import type { AccountCenter } from '@logto/schemas';
+import type { AccountCenter } from '@riven/schemas';
 import ky from 'ky';
 
 export const getAccountCenterSettings = async (): Promise<AccountCenter> => {

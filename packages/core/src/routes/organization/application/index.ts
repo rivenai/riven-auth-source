@@ -3,7 +3,7 @@ import {
   type CreateOrganization,
   type Organization,
   applicationWithOrganizationRolesGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { z } from 'zod';
 
 import koaGuard from '#src/middleware/koa-guard.js';

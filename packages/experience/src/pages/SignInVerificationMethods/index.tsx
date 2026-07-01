@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { useContext } from 'react';
 
 import SecondaryPageLayout from '@/Layout/SecondaryPageLayout';

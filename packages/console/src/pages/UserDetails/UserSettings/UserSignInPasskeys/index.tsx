@@ -1,4 +1,4 @@
-import { type UserMfaVerificationResponse, MfaFactor, type SignInExperience } from '@logto/schemas';
+import { type UserMfaVerificationResponse, MfaFactor, type SignInExperience } from '@riven/schemas';
 import { useCallback, useMemo } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import useSWR from 'swr';

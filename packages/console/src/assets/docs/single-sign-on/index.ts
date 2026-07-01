@@ -1,4 +1,4 @@
-import { SsoProviderName } from '@logto/schemas';
+import { SsoProviderName } from '@riven/schemas';
 import { type MDXProps } from 'mdx/types';
 import { type ComponentType, type LazyExoticComponent } from 'react';
 import { safeLazy } from 'react-safe-lazy';

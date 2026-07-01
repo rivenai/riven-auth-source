@@ -12,7 +12,7 @@ import {
   parseJson,
   validateConfig,
   ConnectorType,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 
 import {
   authorizationEndpoint,

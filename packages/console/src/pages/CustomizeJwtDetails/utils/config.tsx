@@ -9,7 +9,7 @@ import {
   type JwtCustomizerGrantContext,
   type JwtCustomizerUserInteractionContext,
   InteractionEvent,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type EditorProps } from '@monaco-editor/react';
 
 import TokenFileIcon from '@/assets/icons/token-file-icon.svg?react';

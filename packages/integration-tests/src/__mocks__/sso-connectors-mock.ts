@@ -1,4 +1,4 @@
-import { type JsonObject } from '@logto/schemas';
+import { type JsonObject } from '@riven/schemas';
 
 import { logtoUrl } from '#src/constants.js';
 

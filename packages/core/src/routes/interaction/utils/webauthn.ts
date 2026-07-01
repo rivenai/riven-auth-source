@@ -8,8 +8,8 @@ import {
   type WebAuthnVerificationPayload,
   type VerifyMfaResult,
   webAuthnAuthenticationOptionsTimeout,
-} from '@logto/schemas';
-import { getUserDisplayName } from '@logto/shared';
+} from '@riven/schemas';
+import { getUserDisplayName } from '@riven/shared';
 import {
   type GenerateRegistrationOptionsOpts,
   generateRegistrationOptions,

@@ -1,6 +1,6 @@
-import en from '@logto/phrases-experience/lib/locales/en/index.js';
-import type { SignInExperience } from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+import en from '@riven/phrases-experience/lib/locales/en/index.js';
+import type { SignInExperience } from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 
 import { trTrTag, zhCnTag, mockTag } from '#src/__mocks__/custom-phrase.js';
 import { mockSignInExperience } from '#src/__mocks__/index.js';

@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { AccountCenterControlValue, getUserApplicationGrantsResponseGuard } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { AccountCenterControlValue, getUserApplicationGrantsResponseGuard } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { z } from 'zod';
 

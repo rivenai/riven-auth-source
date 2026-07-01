@@ -1,8 +1,8 @@
-import type { SocialUserInfo } from '@logto/connector-kit';
-import { socialUserInfoGuard } from '@logto/connector-kit';
-import { Theme } from '@logto/schemas';
-import type { ConnectorResponse, UserProfileResponse } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared/universal';
+import type { SocialUserInfo } from '@riven/connector-kit';
+import { socialUserInfoGuard } from '@riven/connector-kit';
+import { Theme } from '@riven/schemas';
+import type { ConnectorResponse, UserProfileResponse } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared/universal';
 import type { Optional } from '@silverhand/essentials';
 import { appendPath, conditional } from '@silverhand/essentials';
 import { useCallback, useMemo } from 'react';

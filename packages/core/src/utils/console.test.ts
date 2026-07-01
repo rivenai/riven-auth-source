@@ -1,4 +1,4 @@
-import { ConsoleLog } from '@logto/shared';
+import { ConsoleLog } from '@riven/shared';
 import Sinon from 'sinon';
 
 import { EnvSet } from '#src/env-set/index.js';

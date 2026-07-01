@@ -1,5 +1,5 @@
-import { Theme } from '@logto/schemas';
-import type { SsoConnectorWithProviderConfig } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
+import type { SsoConnectorWithProviderConfig } from '@riven/schemas';
 import classNames from 'classnames';
 
 import ImageWithErrorFallback from '@/ds-components/ImageWithErrorFallback';

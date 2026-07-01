@@ -4,7 +4,7 @@ import {
   LogtoOidcConfigKey,
   LogtoTenantConfigKey,
   OidcSigningKeyStatus,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { createMockPool, createMockQueryResult, sql } from '@silverhand/slonik';
 
 import { createMockCommonQueryMethods, expectSqlString } from '#src/test-utils/query.js';

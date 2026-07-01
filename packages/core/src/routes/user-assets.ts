@@ -1,14 +1,14 @@
 import { readFile } from 'node:fs/promises';
 
-import type { UserAssets } from '@logto/schemas';
+import type { UserAssets } from '@riven/schemas';
 import {
   userAssetsGuard,
   userAssetsServiceStatusGuard,
   allowUploadMimeTypes,
   maxUploadFileSize,
   uploadFileGuard,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { format } from 'date-fns';
 import { object } from 'zod';
 

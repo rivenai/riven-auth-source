@@ -1,11 +1,11 @@
-import type { CreateApplication } from '@logto/schemas';
+import type { CreateApplication } from '@riven/schemas';
 import {
   ApplicationType,
   accountCenterApplicationId,
   adminConsoleApplicationId,
   demoAppApplicationId,
   deviceDemoAppApplicationId,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath, tryThat, conditional } from '@silverhand/essentials';
 import { addSeconds } from 'date-fns';
 import type { AdapterFactory, AllClientMetadata } from 'oidc-provider';

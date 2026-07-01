@@ -1,5 +1,5 @@
-import { Prompt, QueryKey, ReservedScope, UserScope } from '@logto/js';
-import { ApplicationType, type SsoConnectorIdpInitiatedAuthConfig } from '@logto/schemas';
+import { Prompt, QueryKey, ReservedScope, UserScope } from '@riven/js';
+import { ApplicationType, type SsoConnectorIdpInitiatedAuthConfig } from '@riven/schemas';
 
 import { mockSsoConnector, wellConfiguredSsoConnector } from '#src/__mocks__/sso.js';
 import RequestError from '#src/errors/RequestError/index.js';

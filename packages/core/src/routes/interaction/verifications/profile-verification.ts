@@ -1,5 +1,5 @@
-import type { Profile, User } from '@logto/schemas';
-import { InteractionEvent, UsersPasswordEncryptionMethod } from '@logto/schemas';
+import type { Profile, User } from '@riven/schemas';
+import { InteractionEvent, UsersPasswordEncryptionMethod } from '@riven/schemas';
 import { argon2Verify } from 'hash-wasm';
 
 import RequestError from '#src/errors/RequestError/index.js';

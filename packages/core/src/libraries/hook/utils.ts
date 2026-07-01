@@ -6,7 +6,7 @@ import {
   type HookEvent,
   type HookEventPayload,
   type ManagementApiContext,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, trySafe } from '@silverhand/essentials';
 import { type Context } from 'koa';
 import { type IRouterParamContext } from 'koa-router';

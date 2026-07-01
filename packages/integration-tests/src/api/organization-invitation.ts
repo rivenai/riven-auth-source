@@ -1,8 +1,8 @@
-import { type SendMessagePayload } from '@logto/connector-kit';
+import { type SendMessagePayload } from '@riven/connector-kit';
 import {
   type OrganizationInvitationStatus,
   type OrganizationInvitationEntity,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { authedAdminApi } from './api.js';
 import { ApiFactory } from './factory.js';

@@ -1,10 +1,10 @@
-import type { Application, CreateApplication } from '@logto/schemas';
+import type { Application, CreateApplication } from '@riven/schemas';
 import {
   ApplicationType,
   Applications,
   OrganizationApplicationRelations,
   SearchJointMode,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { condArray, pick } from '@silverhand/essentials';
 import type { CommonQueryMethods, SqlSqlToken } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';

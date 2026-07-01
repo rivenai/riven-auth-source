@@ -6,15 +6,15 @@ import type {
   GetConnectorConfig,
   CreateConnector,
   SocialConnector,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   validateConfig,
   ConnectorType,
   jsonGuard,
-} from '@logto/connector-kit';
-import { generateStandardId } from '@logto/shared/universal';
+} from '@riven/connector-kit';
+import { generateStandardId } from '@riven/shared/universal';
 import { createRemoteJWKSet, jwtVerify } from 'jose';
 
 import { defaultMetadata, jwksUri, issuer, authorizationEndpoint } from './constant.js';

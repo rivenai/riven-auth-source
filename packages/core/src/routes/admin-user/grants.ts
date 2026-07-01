@@ -1,4 +1,4 @@
-import { getUserApplicationGrantsResponseGuard } from '@logto/schemas';
+import { getUserApplicationGrantsResponseGuard } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { object, string, enum as zodEnum } from 'zod';
 

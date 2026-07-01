@@ -1,7 +1,7 @@
 import {
   generateOidcCookieKey,
   generateOidcPrivateKey,
-} from '@logto/cli/lib/commands/database/utils.js';
+} from '@riven/cli/lib/commands/database/utils.js';
 import {
   LogtoOidcConfigKey,
   adminConsoleDataGuard,
@@ -9,7 +9,7 @@ import {
   SupportedSigningKeyAlgorithm,
   LogtoOidcConfigKeyType,
   oidcSessionConfigGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { z } from 'zod';
 
 import { EnvSet } from '#src/env-set/index.js';

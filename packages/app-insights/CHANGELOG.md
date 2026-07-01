@@ -1,4 +1,4 @@
-# @logto/app-insights
+# @riven/app-insights
 
 ## 2.1.0
 

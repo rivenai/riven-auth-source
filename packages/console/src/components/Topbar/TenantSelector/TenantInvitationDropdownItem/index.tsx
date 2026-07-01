@@ -2,7 +2,7 @@ import {
   OrganizationInvitationStatus,
   getTenantIdFromOrganizationId,
   type TenantTag,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useContext } from 'react';
 
 import { useCloudApi } from '@/cloud/hooks/use-cloud-api';

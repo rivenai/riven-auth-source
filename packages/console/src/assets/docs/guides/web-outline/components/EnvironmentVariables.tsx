@@ -1,4 +1,4 @@
-import { type SnakeCaseOidcConfig } from '@logto/schemas';
+import { type SnakeCaseOidcConfig } from '@riven/schemas';
 import { useContext } from 'react';
 import useSWR from 'swr';
 

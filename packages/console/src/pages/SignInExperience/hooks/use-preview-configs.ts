@@ -1,4 +1,4 @@
-import type { SignInExperience } from '@logto/schemas';
+import type { SignInExperience } from '@riven/schemas';
 import { useEffect, useState, useMemo } from 'react';
 
 import { isCloud } from '@/consts/env';

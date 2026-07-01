@@ -8,8 +8,8 @@ import {
   SentinelActionResult,
   SentinelActivityAction,
   defaultSentinelPolicy,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { type Nullable } from '@silverhand/essentials';
 import { sql, type CommonQueryMethods } from '@silverhand/slonik';
 import { addMinutes } from 'date-fns';

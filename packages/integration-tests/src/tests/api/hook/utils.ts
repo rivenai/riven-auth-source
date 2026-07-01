@@ -1,4 +1,4 @@
-import { LogResult, type Hook, type HookEvent, type Log } from '@logto/schemas';
+import { LogResult, type Hook, type HookEvent, type Log } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { getWebhookRecentLogs } from '#src/api/logs.js';

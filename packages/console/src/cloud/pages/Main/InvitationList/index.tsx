@@ -1,4 +1,4 @@
-import { OrganizationInvitationStatus, getTenantIdFromOrganizationId } from '@logto/schemas';
+import { OrganizationInvitationStatus, getTenantIdFromOrganizationId } from '@riven/schemas';
 import { useContext, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 

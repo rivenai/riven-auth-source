@@ -1,4 +1,4 @@
-import { SentinelActivityTargetType } from '@logto/schemas';
+import { SentinelActivityTargetType } from '@riven/schemas';
 import { useCallback } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

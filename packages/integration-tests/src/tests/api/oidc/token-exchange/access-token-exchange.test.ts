@@ -1,5 +1,5 @@
-import { ApplicationType, GrantType, SignInIdentifier, type Resource } from '@logto/schemas';
-import { formUrlEncodedHeaders } from '@logto/shared';
+import { ApplicationType, GrantType, SignInIdentifier, type Resource } from '@riven/schemas';
+import { formUrlEncodedHeaders } from '@riven/shared';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { oidcApi } from '#src/api/api.js';

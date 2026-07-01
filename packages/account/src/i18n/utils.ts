@@ -1,6 +1,6 @@
-import { matchSupportedLanguageTag } from '@logto/language-kit';
-import { builtInLanguages, type BuiltInLanguageTag } from '@logto/phrases-experience';
-import type { LanguageInfo } from '@logto/schemas';
+import { matchSupportedLanguageTag } from '@riven/language-kit';
+import { builtInLanguages, type BuiltInLanguageTag } from '@riven/phrases-experience';
+import type { LanguageInfo } from '@riven/schemas';
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 

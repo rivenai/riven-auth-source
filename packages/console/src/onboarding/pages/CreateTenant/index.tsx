@@ -1,6 +1,6 @@
-import { emailRegEx } from '@logto/core-kit';
-import { useLogto } from '@logto/react';
-import { TenantRole, Theme } from '@logto/schemas';
+import { emailRegEx } from '@riven/core-kit';
+import { useLogto } from '@riven/react';
+import { TenantRole, Theme } from '@riven/schemas';
 import { useCallback, useContext, useMemo } from 'react';
 import { Controller, FormProvider, useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

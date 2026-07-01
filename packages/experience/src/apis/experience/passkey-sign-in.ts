@@ -4,7 +4,7 @@ import {
   type SignInIdentifier,
   type WebAuthnAuthenticationOptions,
   type WebAuthnVerificationPayload,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import api from '../api';
 

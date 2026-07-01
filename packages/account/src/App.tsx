@@ -1,6 +1,6 @@
 import LogtoSignature from '@experience/shared/components/LogtoSignature';
-import { LogtoProvider, Prompt, ReservedScope, useLogto, UserScope } from '@logto/react';
-import { accountCenterApplicationId, ExtraParamsKey, SignInIdentifier } from '@logto/schemas';
+import { LogtoProvider, Prompt, ReservedScope, useLogto, UserScope } from '@riven/react';
+import { accountCenterApplicationId, ExtraParamsKey, SignInIdentifier } from '@riven/schemas';
 import classNames from 'classnames';
 import { useContext, useEffect } from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';

@@ -1,4 +1,4 @@
-import type { RequestErrorBody } from '@logto/schemas';
+import type { RequestErrorBody } from '@riven/schemas';
 import { HTTPError } from 'ky';
 import { toast } from 'react-hot-toast';
 

@@ -3,7 +3,7 @@ import {
   AccountCenterControlValue,
   MfaPolicy,
   type UserMfaVerificationResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import classNames from 'classnames';
 import { useCallback, useContext, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';

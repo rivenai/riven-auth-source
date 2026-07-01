@@ -1,4 +1,4 @@
-import { TenantScope } from '@logto/schemas';
+import { TenantScope } from '@riven/schemas';
 import { useContext, useMemo } from 'react';
 import useSWR from 'swr';
 

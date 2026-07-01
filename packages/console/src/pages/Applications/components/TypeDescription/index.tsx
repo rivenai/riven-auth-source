@@ -1,4 +1,4 @@
-import { type ApplicationType } from '@logto/schemas';
+import { type ApplicationType } from '@riven/schemas';
 import classNames from 'classnames';
 
 import ApplicationIcon from '@/components/ApplicationIcon';

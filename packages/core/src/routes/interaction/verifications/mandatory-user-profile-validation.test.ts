@@ -1,8 +1,8 @@
 import crypto from 'node:crypto';
 
-import { PasswordPolicyChecker } from '@logto/core-kit';
-import { InteractionEvent, MissingProfile, SignInIdentifier } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { PasswordPolicyChecker } from '@riven/core-kit';
+import { InteractionEvent, MissingProfile, SignInIdentifier } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import type { Provider } from 'oidc-provider';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';

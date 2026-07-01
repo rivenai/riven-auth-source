@@ -1,13 +1,13 @@
 /* eslint-disable max-lines */
-import { appInsights } from '@logto/app-insights/node';
+import { appInsights } from '@riven/app-insights/node';
 import {
   InteractionEvent,
   InteractionHookEvent,
   MfaFactor,
   VerificationType,
   type User,
-} from '@logto/schemas';
-import { maskEmail, maskPhone } from '@logto/shared';
+} from '@riven/schemas';
+import { maskEmail, maskPhone } from '@riven/shared';
 import { conditional, trySafe } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

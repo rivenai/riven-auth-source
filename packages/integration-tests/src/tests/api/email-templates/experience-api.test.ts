@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { demoAppApplicationId, InteractionEvent, SignInIdentifier } from '@logto/schemas';
+import { TemplateType } from '@riven/connector-kit';
+import { demoAppApplicationId, InteractionEvent, SignInIdentifier } from '@riven/schemas';
 
 import { mockEmailConnectorConfig } from '#src/__mocks__/connectors-mock.js';
 import { type MockEmailTemplatePayload } from '#src/__mocks__/email-templates.js';

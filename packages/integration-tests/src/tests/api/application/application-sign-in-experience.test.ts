@@ -2,7 +2,7 @@ import {
   ApplicationType,
   type ApplicationSignInExperienceCreate,
   type Application,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import {
   getApplicationSignInExperience,

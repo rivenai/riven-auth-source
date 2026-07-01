@@ -1,4 +1,4 @@
-import { AgreeToTermsPolicy, SignInMode, VerificationType, experience } from '@logto/schemas';
+import { AgreeToTermsPolicy, SignInMode, VerificationType, experience } from '@riven/schemas';
 import { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';

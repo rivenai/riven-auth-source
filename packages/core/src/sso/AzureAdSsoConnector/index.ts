@@ -1,4 +1,4 @@
-import { SsoProviderName, SsoProviderType } from '@logto/schemas';
+import { SsoProviderName, SsoProviderType } from '@riven/schemas';
 
 import { SamlSsoConnector } from '../SamlSsoConnector/index.js';
 import { type SingleSignOnFactory } from '../index.js';

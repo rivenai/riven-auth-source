@@ -2,8 +2,8 @@ import {
   AccountCenterControlValue,
   MfaFactor,
   type UserMfaVerificationResponse,
-} from '@logto/schemas';
-import { formatToInternationalPhoneNumber } from '@logto/shared/universal';
+} from '@riven/schemas';
+import { formatToInternationalPhoneNumber } from '@riven/shared/universal';
 import { useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 

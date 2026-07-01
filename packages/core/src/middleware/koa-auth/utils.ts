@@ -1,7 +1,7 @@
 import { type IncomingHttpHeaders } from 'node:http';
 
-import { adminTenantId } from '@logto/schemas';
-import { TtlCache } from '@logto/shared';
+import { adminTenantId } from '@riven/schemas';
+import { TtlCache } from '@riven/shared';
 import { appendPath, isKeyInObject } from '@silverhand/essentials';
 import { type JWK } from 'jose';
 import ky from 'ky';

@@ -1,9 +1,9 @@
-import { ConnectorType } from '@logto/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 import {
   InteractionEvent,
   SignInIdentifier,
   type VerificationCodeSignInIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { initExperienceClient, logoutClient, processSession } from '#src/helpers/client.js';
 import {

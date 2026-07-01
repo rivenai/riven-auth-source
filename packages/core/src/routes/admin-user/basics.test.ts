@@ -1,6 +1,6 @@
-import type { CreateUser, Role, SignInExperience, User } from '@logto/schemas';
-import { RoleType, UsersPasswordEncryptionMethod } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import type { CreateUser, Role, SignInExperience, User } from '@riven/schemas';
+import { RoleType, UsersPasswordEncryptionMethod } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import { removeUndefinedKeys } from '@silverhand/essentials';
 
 import { mockUser, mockUserResponse } from '#src/__mocks__/index.js';

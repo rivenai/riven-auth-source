@@ -1,10 +1,10 @@
-import { generateDarkColor } from '@logto/core-kit';
+import { generateDarkColor } from '@riven/core-kit';
 import {
   Theme,
   defaultPrimaryColor,
   type Application,
   type ApplicationSignInExperience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { useCallback, useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

@@ -1,5 +1,5 @@
-import { DailyTokenUsage } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { DailyTokenUsage } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 import { z } from 'zod';

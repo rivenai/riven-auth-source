@@ -2,7 +2,7 @@ import {
   type OrganizationRequiredMfaPolicy,
   type MfaPolicy,
   type SignInExperience,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export type MfaConfig = SignInExperience['mfa'];
 export type OptionalMfaPrompt =

@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { pickDefault, createMockUtils } from '@logto/shared/esm';
+import { ConnectorType } from '@riven/connector-kit';
+import { pickDefault, createMockUtils } from '@riven/shared/esm';
 
 import { mockAdminUserRole } from '#src/__mocks__/index.js';
 import RequestError from '#src/errors/RequestError/index.js';

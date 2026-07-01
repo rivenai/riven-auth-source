@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import type { Application } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import type { Application } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import type { KeyboardEvent } from 'react';
 import { useContext, useRef } from 'react';

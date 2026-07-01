@@ -10,7 +10,7 @@
  */
 /* eslint max-lines: 0 */
 
-import { InteractionEvent, SignInIdentifier, userOnboardingDataKey } from '@logto/schemas';
+import { InteractionEvent, SignInIdentifier, userOnboardingDataKey } from '@riven/schemas';
 import { noop } from '@silverhand/essentials';
 
 import { deleteUser, getUser } from '#src/api/admin-user.js';

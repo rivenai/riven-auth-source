@@ -1,7 +1,7 @@
 import { assert, conditional } from '@silverhand/essentials';
 import { HTTPError } from 'got';
 
-import type router from '@logto/cloud/routes';
+import type router from '@riven/cloud/routes';
 import type {
   CreateConnector,
   EmailConnector,
@@ -9,13 +9,13 @@ import type {
   GetConnectorConfig,
   GetUsageFunction,
   SendMessageFunction,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorType,
   validateConfig,
   ConnectorError,
   ConnectorErrorCodes,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 
 import { defaultMetadata, emailEndpoint, usageEndpoint } from './constant.js';
 import { logtoEmailConfigGuard } from './types.js';

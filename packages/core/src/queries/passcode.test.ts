@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { Passcodes } from '@logto/schemas';
+import { TemplateType } from '@riven/connector-kit';
+import { Passcodes } from '@riven/schemas';
 import { createMockPool, createMockQueryResult, sql } from '@silverhand/slonik';
 import { snakeCase } from 'snake-case';
 

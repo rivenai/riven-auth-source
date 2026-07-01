@@ -1,7 +1,7 @@
-import type { Hook } from '@logto/schemas';
-import { InteractionEvent, InteractionHookEvent, LogResult } from '@logto/schemas';
-import { ConsoleLog } from '@logto/shared';
-import { createMockUtils } from '@logto/shared/esm';
+import type { Hook } from '@riven/schemas';
+import { InteractionEvent, InteractionHookEvent, LogResult } from '@riven/schemas';
+import { ConsoleLog } from '@riven/shared';
+import { createMockUtils } from '@riven/shared/esm';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import { mockId, mockIdGenerators } from '#src/test-utils/nanoid.js';

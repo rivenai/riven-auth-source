@@ -4,7 +4,7 @@ import {
   SignInMode,
   type SignInExperience,
   type SignUp,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 
 import { emptyBranding } from '@/types/sign-in-experience';

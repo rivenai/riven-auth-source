@@ -1,15 +1,15 @@
 /* eslint-disable max-lines -- will migrate this file to the latest experience APIs */
-import { appInsights } from '@logto/app-insights/node';
-import { ConnectorError } from '@logto/connector-kit';
-import { validateRedirectUrl } from '@logto/core-kit';
+import { appInsights } from '@riven/app-insights/node';
+import { ConnectorError } from '@riven/connector-kit';
+import { validateRedirectUrl } from '@riven/core-kit';
 import {
   type EncryptedTokenSet,
   InteractionEvent,
   type SupportedSsoConnector,
   type User,
   type UserSsoIdentity,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional, trySafe } from '@silverhand/essentials';
 import { z } from 'zod';
 

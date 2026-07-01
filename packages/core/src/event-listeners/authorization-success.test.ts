@@ -1,5 +1,5 @@
-import { appInsights } from '@logto/app-insights/node';
-import { LogResult } from '@logto/schemas';
+import { appInsights } from '@riven/app-insights/node';
+import { LogResult } from '@riven/schemas';
 
 import { createMockLogContext } from '#src/test-utils/koa-audit-log.js';
 import { MockQueries } from '#src/test-utils/tenant.js';

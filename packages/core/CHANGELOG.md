@@ -39,17 +39,17 @@
 - Updated dependencies [ab073bb65f]
 - Updated dependencies [d4570beed5]
 - Updated dependencies [3350b13ec8]
-  - @logto/experience@1.19.1
-  - @logto/core-kit@2.9.0
-  - @logto/console@1.36.0
-  - @logto/phrases@1.28.0
-  - @logto/schemas@1.39.0
-  - @logto/account@0.4.0
-  - @logto/cli@1.39.0
-  - @logto/shared@3.4.0
-  - @logto/demo-app@1.5.0
-  - @logto/device-demo-app@0.1.0
-  - @logto/phrases-experience@1.13.1
+  - @riven/experience@1.19.1
+  - @riven/core-kit@2.9.0
+  - @riven/console@1.36.0
+  - @riven/phrases@1.28.0
+  - @riven/schemas@1.39.0
+  - @riven/account@0.4.0
+  - @riven/cli@1.39.0
+  - @riven/shared@3.4.0
+  - @riven/demo-app@1.5.0
+  - @riven/device-demo-app@0.1.0
+  - @riven/phrases-experience@1.13.1
 
 ## 1.38.0
 
@@ -218,32 +218,32 @@
 - Updated dependencies [5b7f1cb794]
 - Updated dependencies [4e25126228]
 - Updated dependencies [d2afe7351f]
-  - @logto/experience@1.19.0
-  - @logto/console@1.35.0
-  - @logto/phrases@1.27.0
-  - @logto/phrases-experience@1.13.0
-  - @logto/schemas@1.38.0
-  - @logto/account@0.3.0
-  - @logto/core-kit@2.8.0
-  - @logto/connector-kit@5.0.0
-  - @logto/language-kit@1.3.0
-  - @logto/demo-app@1.5.0
-  - @logto/cli@1.38.0
-  - @logto/device-demo-app@0.1.0
+  - @riven/experience@1.19.0
+  - @riven/console@1.35.0
+  - @riven/phrases@1.27.0
+  - @riven/phrases-experience@1.13.0
+  - @riven/schemas@1.38.0
+  - @riven/account@0.3.0
+  - @riven/core-kit@2.8.0
+  - @riven/connector-kit@5.0.0
+  - @riven/language-kit@1.3.0
+  - @riven/demo-app@1.5.0
+  - @riven/cli@1.38.0
+  - @riven/device-demo-app@0.1.0
 
 ## 1.37.1
 
 ### Patch Changes
 
 - Updated dependencies [57b0008ee8]
-  - @logto/core-kit@2.7.1
-  - @logto/account@0.2.0
-  - @logto/cli@1.37.1
-  - @logto/console@1.34.0
-  - @logto/demo-app@1.5.0
-  - @logto/experience@1.18.2
-  - @logto/phrases-experience@1.12.2
-  - @logto/schemas@1.37.1
+  - @riven/core-kit@2.7.1
+  - @riven/account@0.2.0
+  - @riven/cli@1.37.1
+  - @riven/console@1.34.0
+  - @riven/demo-app@1.5.0
+  - @riven/experience@1.18.2
+  - @riven/phrases-experience@1.12.2
+  - @riven/schemas@1.37.1
 
 ## 1.37.0
 
@@ -285,13 +285,13 @@
 - Updated dependencies [eced1f02d4]
 - Updated dependencies [3c47f4f947]
 - Updated dependencies [b8ca1a40c7]
-  - @logto/account@0.2.0
-  - @logto/cli@1.37.0
-  - @logto/schemas@1.37.0
-  - @logto/console@1.34.0
-  - @logto/phrases@1.26.0
-  - @logto/experience@1.18.2
-  - @logto/demo-app@1.5.0
+  - @riven/account@0.2.0
+  - @riven/cli@1.37.0
+  - @riven/schemas@1.37.0
+  - @riven/console@1.34.0
+  - @riven/phrases@1.26.0
+  - @riven/experience@1.18.2
+  - @riven/demo-app@1.5.0
 
 ## 1.36.0
 
@@ -380,16 +380,16 @@
 - Updated dependencies [10a9e68f1d]
 - Updated dependencies [317f9744d1]
 - Updated dependencies [ce65b07964]
-  - @logto/console@1.33.0
-  - @logto/experience@1.18.1
-  - @logto/schemas@1.36.0
-  - @logto/phrases@1.25.0
-  - @logto/shared@3.3.1
-  - @logto/cli@1.36.0
-  - @logto/core-kit@2.7.0
-  - @logto/account@0.1.0
-  - @logto/demo-app@1.5.0
-  - @logto/phrases-experience@1.12.1
+  - @riven/console@1.33.0
+  - @riven/experience@1.18.1
+  - @riven/schemas@1.36.0
+  - @riven/phrases@1.25.0
+  - @riven/shared@3.3.1
+  - @riven/cli@1.36.0
+  - @riven/core-kit@2.7.0
+  - @riven/account@0.1.0
+  - @riven/demo-app@1.5.0
+  - @riven/phrases-experience@1.12.1
 
 ## 1.35.0
 
@@ -432,14 +432,14 @@
 - Updated dependencies [d551f5ccc3]
 - Updated dependencies [7c87ebc068]
 - Updated dependencies [116dcf5e7d]
-  - @logto/phrases@1.24.0
-  - @logto/schemas@1.35.0
-  - @logto/experience@1.18.0
-  - @logto/console@1.32.0
-  - @logto/connector-kit@4.7.0
-  - @logto/demo-app@1.5.0
-  - @logto/account@0.1.0
-  - @logto/cli@1.35.0
+  - @riven/phrases@1.24.0
+  - @riven/schemas@1.35.0
+  - @riven/experience@1.18.0
+  - @riven/console@1.32.0
+  - @riven/connector-kit@4.7.0
+  - @riven/demo-app@1.5.0
+  - @riven/account@0.1.0
+  - @riven/cli@1.35.0
 
 ## 1.34.0
 
@@ -483,13 +483,13 @@
 - Updated dependencies [900201a48c]
 - Updated dependencies [08f887c448]
 - Updated dependencies [c3266a917a]
-  - @logto/schemas@1.34.0
-  - @logto/experience@1.17.0
-  - @logto/console@1.31.0
-  - @logto/phrases@1.23.0
-  - @logto/account-center@0.1.0
-  - @logto/cli@1.34.0
-  - @logto/demo-app@1.5.0
+  - @riven/schemas@1.34.0
+  - @riven/experience@1.17.0
+  - @riven/console@1.31.0
+  - @riven/phrases@1.23.0
+  - @riven/account-center@0.1.0
+  - @riven/cli@1.34.0
+  - @riven/demo-app@1.5.0
 
 ## 1.33.0
 
@@ -523,12 +523,12 @@
 - Updated dependencies [568db900bb]
 - Updated dependencies [7a32a89911]
 - Updated dependencies [47dbdd8332]
-  - @logto/experience@1.16.1
-  - @logto/console@1.30.0
-  - @logto/phrases@1.22.0
-  - @logto/demo-app@1.5.0
-  - @logto/schemas@1.33.0
-  - @logto/cli@1.33.0
+  - @riven/experience@1.16.1
+  - @riven/console@1.30.0
+  - @riven/phrases@1.22.0
+  - @riven/demo-app@1.5.0
+  - @riven/schemas@1.33.0
+  - @riven/cli@1.33.0
 
 ## 1.32.0
 
@@ -594,14 +594,14 @@
 - Updated dependencies [147f257503]
 - Updated dependencies [1fb8593659]
 - Updated dependencies [0ef4260e34]
-  - @logto/experience@1.16.0
-  - @logto/schemas@1.32.0
-  - @logto/connector-kit@4.6.0
-  - @logto/phrases-experience@1.12.0
-  - @logto/console@1.29.0
-  - @logto/phrases@1.21.0
-  - @logto/cli@1.32.0
-  - @logto/demo-app@1.5.0
+  - @riven/experience@1.16.0
+  - @riven/schemas@1.32.0
+  - @riven/connector-kit@4.6.0
+  - @riven/phrases-experience@1.12.0
+  - @riven/console@1.29.0
+  - @riven/phrases@1.21.0
+  - @riven/cli@1.32.0
+  - @riven/demo-app@1.5.0
 
 ## 1.31.0
 
@@ -651,26 +651,26 @@
 
 - Updated dependencies [8ae82d585e]
 - Updated dependencies [bb385eb15d]
-  - @logto/phrases-experience@1.11.0
-  - @logto/phrases@1.20.0
-  - @logto/experience@1.15.0
-  - @logto/console@1.28.0
-  - @logto/schemas@1.31.0
-  - @logto/demo-app@1.5.0
-  - @logto/cli@1.31.0
+  - @riven/phrases-experience@1.11.0
+  - @riven/phrases@1.20.0
+  - @riven/experience@1.15.0
+  - @riven/console@1.28.0
+  - @riven/schemas@1.31.0
+  - @riven/demo-app@1.5.0
+  - @riven/cli@1.31.0
 
 ## 1.30.1
 
 ### Patch Changes
 
 - Updated dependencies [4cc321dbb]
-  - @logto/core-kit@2.6.1
-  - @logto/cli@1.30.1
-  - @logto/console@1.27.0
-  - @logto/demo-app@1.5.0
-  - @logto/experience@1.14.0
-  - @logto/phrases-experience@1.10.1
-  - @logto/schemas@1.30.1
+  - @riven/core-kit@2.6.1
+  - @riven/cli@1.30.1
+  - @riven/console@1.27.0
+  - @riven/demo-app@1.5.0
+  - @riven/experience@1.14.0
+  - @riven/phrases-experience@1.10.1
+  - @riven/schemas@1.30.1
 
 ## 1.30.0
 
@@ -724,12 +724,12 @@
 - Updated dependencies [0343699d7]
 - Updated dependencies [0343699d7]
 - Updated dependencies [3f5533080]
-  - @logto/schemas@1.30.0
-  - @logto/connector-kit@4.4.0
-  - @logto/console@1.27.0
-  - @logto/cli@1.30.0
-  - @logto/demo-app@1.5.0
-  - @logto/experience@1.14.0
+  - @riven/schemas@1.30.0
+  - @riven/connector-kit@4.4.0
+  - @riven/console@1.27.0
+  - @riven/cli@1.30.0
+  - @riven/demo-app@1.5.0
+  - @riven/experience@1.14.0
 
 ## 1.29.0
 
@@ -809,9 +809,9 @@
 - Updated dependencies [db77aad7a]
 - Updated dependencies [a9324332a]
 - Updated dependencies [50d50f73b]
-  - @logto/schemas@1.29.0
-  - @logto/console@1.26.0
-  - @logto/cli@1.29.0
+  - @riven/schemas@1.29.0
+  - @riven/console@1.26.0
+  - @riven/cli@1.29.0
 
 ## 1.28.0
 
@@ -865,11 +865,11 @@
 - Updated dependencies [80112708d]
 - Updated dependencies [e8df19b7e]
 - Updated dependencies [c1dfbfdd2]
-  - @logto/experience@1.14.0
-  - @logto/console@1.25.0
-  - @logto/shared@3.3.0
-  - @logto/schemas@1.28.0
-  - @logto/cli@1.28.0
+  - @riven/experience@1.14.0
+  - @riven/console@1.25.0
+  - @riven/shared@3.3.0
+  - @riven/schemas@1.28.0
+  - @riven/cli@1.28.0
 
 ## 1.27.0
 
@@ -979,8 +979,8 @@
 
   - Removed feature flags and migration-related logic
   - Cleaned up transitional code used during gradual rollout
-  - Deprecated and removed `@logto/experience-legacy` package
-  - Fully adopted `@logto/experience` package with Experience API for all user interactions
+  - Deprecated and removed `@riven/experience-legacy` package
+  - Fully adopted `@riven/experience` package with Experience API for all user interactions
 
   This marks the completion of our authentication UI modernization, providing a more maintainable and extensible foundation for future enhancements.
 
@@ -991,18 +991,18 @@
 - Updated dependencies [83e7be741]
 - Updated dependencies [e69ea0373]
 - Updated dependencies [e69ea0373]
-  - @logto/experience@1.13.0
-  - @logto/schemas@1.27.0
-  - @logto/connector-kit@4.3.0
-  - @logto/language-kit@1.2.0
-  - @logto/phrases-experience@1.10.0
-  - @logto/core-kit@2.6.0
-  - @logto/app-insights@2.1.0
-  - @logto/demo-app@1.5.0
-  - @logto/console@1.24.0
-  - @logto/phrases@1.19.0
-  - @logto/shared@3.2.0
-  - @logto/cli@1.27.0
+  - @riven/experience@1.13.0
+  - @riven/schemas@1.27.0
+  - @riven/connector-kit@4.3.0
+  - @riven/language-kit@1.2.0
+  - @riven/phrases-experience@1.10.0
+  - @riven/core-kit@2.6.0
+  - @riven/app-insights@2.1.0
+  - @riven/demo-app@1.5.0
+  - @riven/console@1.24.0
+  - @riven/phrases@1.19.0
+  - @riven/shared@3.2.0
+  - @riven/cli@1.27.0
 
 ## 1.26.0
 
@@ -1080,8 +1080,8 @@
 
   ### Sign-in experience settings
 
-  - `@logto/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
-  - `@logto/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
+  - `@riven/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
+  - `@riven/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
 
   ### End-user experience
 
@@ -1100,11 +1100,11 @@
   2. Removed the constraint requiring sign-up identifiers to be enabled as sign-in methods.
   3. Removed the requirement for password verification across all sign-in methods when password is enabled for sign-up.
 
-- 3594e1316: refactor: switch to `@logto/experience` package with latest [Experience API](https://openapi.logto.io/group/endpoint-experience)
+- 3594e1316: refactor: switch to `@riven/experience` package with latest [Experience API](https://openapi.logto.io/group/endpoint-experience)
 
-  In this release, we have transitioned the user sign-in experience from the legacy `@logto/experience-legacy` package to the latest `@logto/experience` package. This change fully adopts our new [Experience API](https://openapi.logto.io/group/endpoint-experience), enhancing the underlying architecture while maintaining the same user experience.
+  In this release, we have transitioned the user sign-in experience from the legacy `@riven/experience-legacy` package to the latest `@riven/experience` package. This change fully adopts our new [Experience API](https://openapi.logto.io/group/endpoint-experience), enhancing the underlying architecture while maintaining the same user experience.
 
-  - Package update: The user sign-in experience now utilizes the `@logto/experience` package by default.
+  - Package update: The user sign-in experience now utilizes the `@riven/experience` package by default.
     API Transition: The new package leverages our latest [Experience API](https://openapi.logto.io/group/endpoint-experience).
   - No feature changes: Users will notice no changes in functionality or experience compared to the previous implementation.
 
@@ -1135,11 +1135,11 @@
 - Updated dependencies [13d04d776]
 - Updated dependencies [dc13cc73d]
 - Updated dependencies [5da01bc47]
-  - @logto/schemas@1.26.0
-  - @logto/console@1.23.0
-  - @logto/experience@1.12.0
-  - @logto/language-kit@1.1.3
-  - @logto/cli@1.26.0
+  - @riven/schemas@1.26.0
+  - @riven/console@1.23.0
+  - @riven/experience@1.12.0
+  - @riven/language-kit@1.1.3
+  - @riven/cli@1.26.0
 
 ## 1.25.0
 
@@ -1203,19 +1203,19 @@
 
   ### Supported email connectors
 
-  - `@logto/connector-aliyun-dm`
-  - `@logto/connector-aws-ses`
-  - `@logto/connector-mailgun`
-  - `@logto/connector-sendgrid-email`
-  - `@logto/connector-smtp`
+  - `@riven/connector-aliyun-dm`
+  - `@riven/connector-aws-ses`
+  - `@riven/connector-mailgun`
+  - `@riven/connector-sendgrid-email`
+  - `@riven/connector-smtp`
 
   ### Unsupported email connectors
 
   The following email connectors have their templates managed at the provider side and do not support reading templates from Logto.
   The user's preferred language will be passed to the provider as the `locale` parameter in the email sending request payload. For i18n support, administrators must manage the template selection logic at the provider side.
 
-  - `@logto/connector-postmark`
-  - `@logto/connector-http-email`
+  - `@riven/connector-postmark`
+  - `@riven/connector-http-email`
 
 - 03ea1f96c: pass additional context variables to email templates
 
@@ -1279,10 +1279,10 @@
 - Updated dependencies [1c7bdf9ba]
 - Updated dependencies [b0135bcd3]
 - Updated dependencies [31adfb6ac]
-  - @logto/schemas@1.25.0
-  - @logto/connector-kit@4.2.0
-  - @logto/console@1.22.1
-  - @logto/cli@1.25.0
+  - @riven/schemas@1.25.0
+  - @riven/connector-kit@4.2.0
+  - @riven/console@1.22.1
+  - @riven/cli@1.25.0
 
 ## 1.24.1
 
@@ -1331,19 +1331,19 @@
 - Updated dependencies [5086f4bd2]
 - Updated dependencies [e11e57de8]
 - Updated dependencies [d44007faa]
-  - @logto/console@1.22.0
-  - @logto/experience@1.11.2
-  - @logto/experience-legacy@1.11.1
-  - @logto/phrases@1.18.0
-  - @logto/cli@1.24.1
-  - @logto/connector-kit@4.1.1
-  - @logto/language-kit@1.1.1
-  - @logto/core-kit@2.5.4
-  - @logto/app-insights@2.0.1
-  - @logto/schemas@1.24.1
-  - @logto/shared@3.1.4
-  - @logto/demo-app@1.4.2
-  - @logto/phrases-experience@1.9.1
+  - @riven/console@1.22.0
+  - @riven/experience@1.11.2
+  - @riven/experience-legacy@1.11.1
+  - @riven/phrases@1.18.0
+  - @riven/cli@1.24.1
+  - @riven/connector-kit@4.1.1
+  - @riven/language-kit@1.1.1
+  - @riven/core-kit@2.5.4
+  - @riven/app-insights@2.0.1
+  - @riven/schemas@1.24.1
+  - @riven/shared@3.1.4
+  - @riven/demo-app@1.4.2
+  - @riven/phrases-experience@1.9.1
 
 ## 1.24.0
 
@@ -1367,10 +1367,10 @@
   Added a new `Organization.Membership.Accepted` webhook event in the `PUT /api/organization-invitations/{id}/status` endpoint. This event will be triggered when the organization-invitation status is updated to `accepted`, and user is added to the organization.
 
 - Updated dependencies [1337669e1]
-  - @logto/console@1.21.0
-  - @logto/phrases@1.17.0
-  - @logto/schemas@1.24.0
-  - @logto/cli@1.24.0
+  - @riven/console@1.21.0
+  - @riven/phrases@1.17.0
+  - @riven/schemas@1.24.0
+  - @riven/cli@1.24.0
 
 ## 1.23.1
 
@@ -1378,9 +1378,9 @@
 
 - 39cef8ea4: support custom endpoint and addressing style for S3
 - Updated dependencies [d2468683c]
-  - @logto/experience@1.11.1
-  - @logto/schemas@1.23.1
-  - @logto/cli@1.23.1
+  - @riven/experience@1.11.1
+  - @riven/schemas@1.23.1
+  - @riven/cli@1.23.1
 
 ## 1.23.0
 
@@ -1419,13 +1419,13 @@
 - Updated dependencies [217858950]
 - Updated dependencies [f1b1d9e95]
 - Updated dependencies [239b81e31]
-  - @logto/cli@1.23.0
-  - @logto/experience-legacy@1.11.0
-  - @logto/experience@1.11.0
-  - @logto/console@1.20.0
-  - @logto/phrases@1.16.0
-  - @logto/schemas@1.23.0
-  - @logto/core-kit@2.5.2
+  - @riven/cli@1.23.0
+  - @riven/experience-legacy@1.11.0
+  - @riven/experience@1.11.0
+  - @riven/console@1.20.0
+  - @riven/phrases@1.16.0
+  - @riven/schemas@1.23.0
+  - @riven/core-kit@2.5.2
 
 ## 1.22.0
 
@@ -1488,14 +1488,14 @@
 - Updated dependencies [640425414]
 - Updated dependencies [7ebef18e3]
 - Updated dependencies [640425414]
-  - @logto/console@1.19.0
-  - @logto/phrases@1.15.0
-  - @logto/experience@1.10.0
-  - @logto/experience-legacy@1.10.0
-  - @logto/phrases-experience@1.9.0
-  - @logto/schemas@1.22.0
-  - @logto/connector-kit@4.1.0
-  - @logto/cli@1.22.0
+  - @riven/console@1.19.0
+  - @riven/phrases@1.15.0
+  - @riven/experience@1.10.0
+  - @riven/experience-legacy@1.10.0
+  - @riven/phrases-experience@1.9.0
+  - @riven/schemas@1.22.0
+  - @riven/connector-kit@4.1.0
+  - @riven/cli@1.22.0
 
 ## 1.21.0
 
@@ -1516,11 +1516,11 @@
 - Updated dependencies [bc2a0ac03]
 - Updated dependencies [3c993d59c]
 - Updated dependencies [5bb937505]
-  - @logto/shared@3.1.2
-  - @logto/phrases@1.14.1
-  - @logto/console@1.18.1
-  - @logto/schemas@1.21.0
-  - @logto/cli@1.21.0
+  - @riven/shared@3.1.2
+  - @riven/phrases@1.14.1
+  - @riven/console@1.18.1
+  - @riven/schemas@1.21.0
+  - @riven/cli@1.21.0
 
 ## 1.20.0
 
@@ -1680,14 +1680,14 @@
 - Updated dependencies [0183d0c33]
 - Updated dependencies [b837efead]
 - Updated dependencies [53060c203]
-  - @logto/console@1.18.0
-  - @logto/phrases@1.14.0
-  - @logto/experience@1.9.0
-  - @logto/schemas@1.20.0
-  - @logto/experience-legacy@1.9.0
-  - @logto/demo-app@1.4.1
-  - @logto/cli@1.20.0
-  - @logto/phrases-experience@1.8.0
+  - @riven/console@1.18.0
+  - @riven/phrases@1.14.0
+  - @riven/experience@1.9.0
+  - @riven/schemas@1.20.0
+  - @riven/experience-legacy@1.9.0
+  - @riven/demo-app@1.4.1
+  - @riven/cli@1.20.0
+  - @riven/phrases-experience@1.8.0
 
 ## 1.19.0
 
@@ -1710,7 +1710,7 @@
   For example, in the JavaScript SDK:
 
   ```ts
-  import LogtoClient from "@logto/client";
+  import LogtoClient from "@riven/client";
 
   const logtoClient = new LogtoClient(/* your configuration */);
 
@@ -1821,12 +1821,12 @@
 - Updated dependencies [62f5e5e0c]
 - Updated dependencies [d56bc2f73]
 - Updated dependencies [510f681fa]
-  - @logto/schemas@1.19.0
-  - @logto/console@1.17.0
-  - @logto/experience@1.8.0
-  - @logto/phrases@1.13.0
-  - @logto/demo-app@1.4.0
-  - @logto/cli@1.19.0
+  - @riven/schemas@1.19.0
+  - @riven/console@1.17.0
+  - @riven/experience@1.8.0
+  - @riven/phrases@1.13.0
+  - @riven/demo-app@1.4.0
+  - @riven/cli@1.19.0
 
 ## 1.18.0
 
@@ -1982,14 +1982,14 @@
 - Updated dependencies [efa884c40]
 - Updated dependencies [b50ba0b7e]
 - Updated dependencies [d81e13d21]
-  - @logto/connector-kit@4.0.0
-  - @logto/console@1.16.0
-  - @logto/phrases@1.12.0
-  - @logto/schemas@1.18.0
-  - @logto/demo-app@1.3.0
-  - @logto/phrases-experience@1.7.0
-  - @logto/experience@1.7.0
-  - @logto/cli@1.18.0
+  - @riven/connector-kit@4.0.0
+  - @riven/console@1.16.0
+  - @riven/phrases@1.12.0
+  - @riven/schemas@1.18.0
+  - @riven/demo-app@1.3.0
+  - @riven/phrases-experience@1.7.0
+  - @riven/experience@1.7.0
+  - @riven/cli@1.18.0
 
 ## 1.17.0
 
@@ -2102,12 +2102,12 @@
 - Updated dependencies [07ac3e87c]
 - Updated dependencies [c558affac]
 - Updated dependencies [76fd33b7e]
-  - @logto/schemas@1.17.0
-  - @logto/cli@1.17.0
-  - @logto/console@1.15.0
-  - @logto/phrases@1.11.0
-  - @logto/experience@1.6.2
-  - @logto/core-kit@2.5.0
+  - @riven/schemas@1.17.0
+  - @riven/cli@1.17.0
+  - @riven/console@1.15.0
+  - @riven/phrases@1.11.0
+  - @riven/experience@1.6.2
+  - @riven/core-kit@2.5.0
 
 ## 1.16.0
 
@@ -2219,13 +2219,13 @@
 - Updated dependencies [3486b12e8]
 - Updated dependencies [9cf03c8ed]
 - Updated dependencies [c1c746bca]
-  - @logto/schemas@1.16.0
-  - @logto/console@1.14.0
-  - @logto/phrases@1.10.1
-  - @logto/experience@1.6.1
-  - @logto/app-insights@2.0.0
-  - @logto/shared@3.1.1
-  - @logto/cli@1.16.0
+  - @riven/schemas@1.16.0
+  - @riven/console@1.14.0
+  - @riven/phrases@1.10.1
+  - @riven/experience@1.6.1
+  - @riven/app-insights@2.0.0
+  - @riven/shared@3.1.1
+  - @riven/cli@1.16.0
 
 ## 1.15.0
 
@@ -2312,16 +2312,16 @@
 - Updated dependencies [2cbc591ff]
 - Updated dependencies [57d97a4df]
 - Updated dependencies [2c10c2423]
-  - @logto/console@1.13.0
-  - @logto/phrases@1.10.0
-  - @logto/connector-kit@3.0.0
-  - @logto/experience@1.6.0
-  - @logto/core-kit@2.4.0
-  - @logto/schemas@1.15.0
-  - @logto/phrases-experience@1.6.1
-  - @logto/demo-app@1.2.0
-  - @logto/cli@1.15.0
-  - @logto/shared@3.1.0
+  - @riven/console@1.13.0
+  - @riven/phrases@1.10.0
+  - @riven/connector-kit@3.0.0
+  - @riven/experience@1.6.0
+  - @riven/core-kit@2.4.0
+  - @riven/schemas@1.15.0
+  - @riven/phrases-experience@1.6.1
+  - @riven/demo-app@1.2.0
+  - @riven/cli@1.15.0
+  - @riven/shared@3.1.0
 
 ## 1.14.0
 
@@ -2333,17 +2333,17 @@
 
 ### Patch Changes
 
-- @logto/schemas@1.14.0
-- @logto/cli@1.14.0
+- @riven/schemas@1.14.0
+- @riven/cli@1.14.0
 
 ## 1.13.1
 
 ### Patch Changes
 
 - Updated dependencies [677054a24]
-  - @logto/console@1.12.1
-  - @logto/schemas@1.13.1
-  - @logto/cli@1.13.1
+  - @riven/console@1.12.1
+  - @riven/schemas@1.13.1
+  - @riven/cli@1.13.1
 
 ## 1.13.0
 
@@ -2393,18 +2393,18 @@
 - Updated dependencies [570a4ea9e]
 - Updated dependencies [570a4ea9e]
 - Updated dependencies [6befe6014]
-  - @logto/schemas@1.13.0
-  - @logto/cli@1.13.0
-  - @logto/shared@3.1.0
-  - @logto/experience@1.5.0
-  - @logto/connector-kit@2.1.0
-  - @logto/language-kit@1.1.0
-  - @logto/phrases-experience@1.6.0
-  - @logto/core-kit@2.3.0
-  - @logto/app-insights@1.4.0
-  - @logto/demo-app@1.1.0
-  - @logto/console@1.12.0
-  - @logto/phrases@1.9.0
+  - @riven/schemas@1.13.0
+  - @riven/cli@1.13.0
+  - @riven/shared@3.1.0
+  - @riven/experience@1.5.0
+  - @riven/connector-kit@2.1.0
+  - @riven/language-kit@1.1.0
+  - @riven/phrases-experience@1.6.0
+  - @riven/core-kit@2.3.0
+  - @riven/app-insights@1.4.0
+  - @riven/demo-app@1.1.0
+  - @riven/console@1.12.0
+  - @riven/phrases@1.9.0
 
 ## 1.12.0
 
@@ -2476,13 +2476,13 @@
 - Updated dependencies [3e92a2032]
 - Updated dependencies [9a7b19e49]
 - Updated dependencies [9a7b19e49]
-  - @logto/experience@1.4.0
-  - @logto/phrases@1.8.0
-  - @logto/cli@1.12.0
-  - @logto/console@1.11.0
-  - @logto/core-kit@2.2.1
-  - @logto/schemas@1.12.0
-  - @logto/phrases-experience@1.5.0
+  - @riven/experience@1.4.0
+  - @riven/phrases@1.8.0
+  - @riven/cli@1.12.0
+  - @riven/console@1.11.0
+  - @riven/core-kit@2.2.1
+  - @riven/schemas@1.12.0
+  - @riven/phrases-experience@1.5.0
 
 ## 1.11.0
 
@@ -2509,12 +2509,12 @@
   - path parameters now follow the swagger convention, using `{foo}` instead of `:foo`.
 
 - Updated dependencies [6727f629d]
-  - @logto/console@1.10.0
-  - @logto/experience@1.3.0
-  - @logto/phrases@1.7.0
-  - @logto/phrases-experience@1.4.0
-  - @logto/schemas@1.11.0
-  - @logto/cli@1.11.0
+  - @riven/console@1.10.0
+  - @riven/experience@1.3.0
+  - @riven/phrases@1.7.0
+  - @riven/phrases-experience@1.4.0
+  - @riven/schemas@1.11.0
+  - @riven/cli@1.11.0
 
 ## 1.10.1
 
@@ -2526,13 +2526,13 @@
 - Updated dependencies [1ab39d19b]
 - Updated dependencies [87df417d1]
 - Updated dependencies [d24aaedf5]
-  - @logto/schemas@1.10.1
-  - @logto/cli@1.10.1
-  - @logto/console@1.9.0
-  - @logto/phrases@1.6.0
-  - @logto/connector-kit@2.0.0
-  - @logto/experience@1.2.1
-  - @logto/shared@3.0.0
+  - @riven/schemas@1.10.1
+  - @riven/cli@1.10.1
+  - @riven/console@1.9.0
+  - @riven/phrases@1.6.0
+  - @riven/connector-kit@2.0.0
+  - @riven/experience@1.2.1
+  - @riven/shared@3.0.0
 
 ## 1.10.0
 
@@ -2575,9 +2575,9 @@
 ### Patch Changes
 
 - Updated dependencies [2c340d379]
-  - @logto/core-kit@2.2.0
-  - @logto/schemas@1.10.0
-  - @logto/cli@1.10.0
+  - @riven/core-kit@2.2.0
+  - @riven/schemas@1.10.0
+  - @riven/cli@1.10.0
 
 ## 1.9.2
 
@@ -2585,20 +2585,20 @@
 
 - 18181f892: standardize id and secret generators
 
-  - Remove `buildIdGenerator` export from `@logto/shared`
-  - Add `generateStandardSecret` and `generateStandardShortId` exports to `@logto/shared`
-  - Align comment and implementation of `buildIdGenerator` in `@logto/shared`
+  - Remove `buildIdGenerator` export from `@riven/shared`
+  - Add `generateStandardSecret` and `generateStandardShortId` exports to `@riven/shared`
+  - Align comment and implementation of `buildIdGenerator` in `@riven/shared`
     - The comment stated the function will include uppercase letters by default, but it did not; Now it does.
   - Use `generateStandardSecret` for all secret generation
 
 - 827123faa: block an identifier from verification for 10 minutes after 5 failed attempts within 1 hour
 - Updated dependencies [a8b5a020f]
 - Updated dependencies [18181f892]
-  - @logto/console@1.8.0
-  - @logto/shared@3.0.0
-  - @logto/schemas@1.9.2
-  - @logto/cli@1.9.2
-  - @logto/core-kit@2.1.2
+  - @riven/console@1.8.0
+  - @riven/shared@3.0.0
+  - @riven/schemas@1.9.2
+  - @riven/cli@1.9.2
+  - @riven/core-kit@2.1.2
 
 ## 1.9.1
 
@@ -2606,12 +2606,12 @@
 
 - Updated dependencies [a4b44dde5]
 - Updated dependencies [6f5a0acad]
-  - @logto/console@1.7.1
-  - @logto/phrases-experience@1.3.1
-  - @logto/core-kit@2.1.1
-  - @logto/experience@1.2.1
-  - @logto/schemas@1.9.1
-  - @logto/cli@1.9.1
+  - @riven/console@1.7.1
+  - @riven/phrases-experience@1.3.1
+  - @riven/core-kit@2.1.1
+  - @riven/experience@1.2.1
+  - @riven/schemas@1.9.1
+  - @riven/cli@1.9.1
 
 ## 1.9.0
 
@@ -2669,14 +2669,14 @@
 - Updated dependencies [f6723d5e2]
 - Updated dependencies [310698b0d]
 - Updated dependencies [5d78c7271]
-  - @logto/schemas@1.9.0
-  - @logto/console@1.7.0
-  - @logto/phrases@1.5.0
-  - @logto/phrases-experience@1.3.0
-  - @logto/core-kit@2.1.0
-  - @logto/experience@1.2.0
-  - @logto/cli@1.9.0
-  - @logto/shared@2.0.1
+  - @riven/schemas@1.9.0
+  - @riven/console@1.7.0
+  - @riven/phrases@1.5.0
+  - @riven/phrases-experience@1.3.0
+  - @riven/core-kit@2.1.0
+  - @riven/experience@1.2.0
+  - @riven/cli@1.9.0
+  - @riven/shared@2.0.1
 
 ## 1.8.0
 
@@ -2686,9 +2686,9 @@
 - Updated dependencies [0b519e548]
 - Updated dependencies [d90b4e7f6]
 - Updated dependencies [ae0ef919f]
-  - @logto/console@1.6.0
-  - @logto/schemas@1.8.0
-  - @logto/cli@1.8.0
+  - @riven/console@1.6.0
+  - @riven/schemas@1.8.0
+  - @riven/cli@1.8.0
 
 ## 1.7.0
 
@@ -2701,9 +2701,9 @@
 - Updated dependencies [16d83dd2f]
 - Updated dependencies [5ccdd7f31]
 - Updated dependencies [fde330a8b]
-  - @logto/console@1.5.1
-  - @logto/schemas@1.7.0
-  - @logto/cli@1.7.0
+  - @riven/console@1.5.1
+  - @riven/schemas@1.7.0
+  - @riven/cli@1.7.0
 
 ## 1.6.0
 
@@ -2722,13 +2722,13 @@
 - Updated dependencies [c743cef42]
 - Updated dependencies [ecbecd8e4]
 - Updated dependencies [cfe4fce51]
-  - @logto/cli@1.6.0
-  - @logto/core-kit@2.0.1
+  - @riven/cli@1.6.0
+  - @riven/core-kit@2.0.1
   - @logto/ui@1.1.5
-  - @logto/console@1.5.0
-  - @logto/schemas@1.6.0
-  - @logto/phrases@1.4.1
-  - @logto/app-insights@1.3.1
+  - @riven/console@1.5.0
+  - @riven/schemas@1.6.0
+  - @riven/phrases@1.4.1
+  - @riven/app-insights@1.3.1
 
 ## 1.5.0
 
@@ -2785,10 +2785,10 @@
 - Updated dependencies [268dc50e7]
 - Updated dependencies [fa0dbafe8]
 - Updated dependencies [497d5b526]
-  - @logto/schemas@1.5.0
-  - @logto/console@1.4.0
-  - @logto/phrases@1.4.0
-  - @logto/cli@1.5.0
+  - @riven/schemas@1.5.0
+  - @riven/console@1.4.0
+  - @riven/phrases@1.4.0
+  - @riven/cli@1.5.0
 
 ## 1.4.0
 
@@ -2804,18 +2804,18 @@
 - 5d6720805: parse requests with `application/json` content-type for `/oidc` APIs to increase compatibility
 - Updated dependencies [5d6720805]
 - Updated dependencies [5d6720805]
-  - @logto/cli@1.4.0
-  - @logto/console@1.3.0
-  - @logto/phrases@1.3.0
-  - @logto/schemas@1.4.0
+  - @riven/cli@1.4.0
+  - @riven/console@1.3.0
+  - @riven/phrases@1.3.0
+  - @riven/schemas@1.4.0
 
 ## 1.3.1
 
 ### Patch Changes
 
 - 5a59cd38e: Disable pkce requirement for traditional web app
-  - @logto/schemas@1.3.1
-  - @logto/cli@1.3.1
+  - @riven/schemas@1.3.1
+  - @riven/cli@1.3.1
 
 ## 1.3.0
 
@@ -2831,9 +2831,9 @@
 - 1642df7e1: add response schemas to swagger.json API
 - Updated dependencies [a65bc9b13]
 - Updated dependencies [beb6ebad5]
-  - @logto/console@1.2.4
-  - @logto/schemas@1.3.0
-  - @logto/cli@1.3.0
+  - @riven/console@1.2.4
+  - @riven/schemas@1.3.0
+  - @riven/cli@1.3.0
 
 ## 1.2.3
 
@@ -2841,11 +2841,11 @@
 
 - 046a5771b: upgrade i18next series packages (#3733, #3743)
 - Updated dependencies [046a5771b]
-  - @logto/console@1.2.3
-  - @logto/demo-app@1.0.1
+  - @riven/console@1.2.3
+  - @riven/demo-app@1.0.1
   - @logto/ui@1.1.4
-  - @logto/schemas@1.2.3
-  - @logto/cli@1.2.3
+  - @riven/schemas@1.2.3
+  - @riven/cli@1.2.3
 
 ## 1.2.2
 
@@ -2853,22 +2853,22 @@
 
 - Updated dependencies [4331deb6f]
 - Updated dependencies [748878ce5]
-  - @logto/app-insights@1.2.0
-  - @logto/console@1.2.2
+  - @riven/app-insights@1.2.0
+  - @riven/console@1.2.2
   - @logto/ui@1.1.3
-  - @logto/schemas@1.2.2
-  - @logto/cli@1.2.2
+  - @riven/schemas@1.2.2
+  - @riven/cli@1.2.2
 
 ## 1.2.1
 
 ### Patch Changes
 
 - Updated dependencies [352807b16]
-  - @logto/app-insights@1.1.0
-  - @logto/console@1.2.1
+  - @riven/app-insights@1.1.0
+  - @riven/console@1.2.1
   - @logto/ui@1.1.2
-  - @logto/schemas@1.2.1
-  - @logto/cli@1.2.1
+  - @riven/schemas@1.2.1
+  - @riven/cli@1.2.1
 
 ## 1.2.0
 
@@ -2906,16 +2906,16 @@
 - Updated dependencies [5553425fc]
 - Updated dependencies [30033421c]
 - Updated dependencies [91906f0eb]
-  - @logto/console@1.2.0
-  - @logto/cli@1.2.0
-  - @logto/phrases@1.2.0
-  - @logto/phrases-ui@1.2.0
-  - @logto/schemas@1.2.0
-  - @logto/shared@2.0.0
+  - @riven/console@1.2.0
+  - @riven/cli@1.2.0
+  - @riven/phrases@1.2.0
+  - @riven/phrases-ui@1.2.0
+  - @riven/schemas@1.2.0
+  - @riven/shared@2.0.0
   - @logto/ui@1.1.1
-  - @logto/core-kit@2.0.0
-  - @logto/connector-kit@1.1.1
-  - @logto/demo-app@1.0.0
+  - @riven/core-kit@2.0.0
+  - @riven/connector-kit@1.1.1
+  - @riven/demo-app@1.0.0
 
 ## 1.1.0
 
@@ -2927,36 +2927,36 @@
 - Updated dependencies [5c50957a9]
 - Updated dependencies [e9e8a6e11]
 - Updated dependencies [e2ec1f93e]
-  - @logto/phrases@1.1.0
-  - @logto/phrases-ui@1.1.0
-  - @logto/cli@1.1.0
-  - @logto/schemas@1.1.0
-  - @logto/shared@1.0.3
+  - @riven/phrases@1.1.0
+  - @riven/phrases-ui@1.1.0
+  - @riven/cli@1.1.0
+  - @riven/schemas@1.1.0
+  - @riven/shared@1.0.3
 
 ## 1.0.3
 
 ### Patch Changes
 
 - Updated dependencies [5b4da1e3d]
-  - @logto/schemas@1.0.7
-  - @logto/cli@1.0.3
-  - @logto/shared@1.0.2
+  - @riven/schemas@1.0.7
+  - @riven/cli@1.0.3
+  - @riven/shared@1.0.2
 
 ## 1.0.2
 
 ### Patch Changes
 
 - Updated dependencies [621b09ba1]
-  - @logto/schemas@1.0.1
-  - @logto/cli@1.0.2
-  - @logto/shared@1.0.1
+  - @riven/schemas@1.0.1
+  - @riven/cli@1.0.2
+  - @riven/shared@1.0.1
 
 ## 1.0.1
 
 ### Patch Changes
 
 - 03ac35e75: fix applications_roles query
-  - @logto/cli@1.0.1
+  - @riven/cli@1.0.1
 
 ## 1.0.0
 
@@ -3115,7 +3115,7 @@
   - cli!: remove `oidc` option for `database seed` command as it's unused
   - cli: add hidden `--cloud` option for `database seed` command to init cloud data
   - cli, cloud: appending Redirect URIs to Admin Console will deduplicate values before update
-  - move `UrlSet` and `GlobalValues` to `@logto/shared`
+  - move `UrlSet` and `GlobalValues` to `@riven/shared`
 
 - 5e1466f40: Allow localhost CORS when only one endpoint available
 - Updated dependencies [343b1090f]
@@ -3150,20 +3150,20 @@
 - Updated dependencies [f41fd3f05]
 - Updated dependencies [2d45cc3e6]
 - Updated dependencies [3ff2e90cd]
-  - @logto/schemas@1.0.0
-  - @logto/shared@1.0.0
-  - @logto/cli@1.0.0
-  - @logto/phrases-ui@1.0.0
-  - @logto/phrases@1.0.0
-  - @logto/connector-kit@1.1.0
-  - @logto/core-kit@1.1.0
+  - @riven/schemas@1.0.0
+  - @riven/shared@1.0.0
+  - @riven/cli@1.0.0
+  - @riven/phrases-ui@1.0.0
+  - @riven/phrases@1.0.0
+  - @riven/connector-kit@1.1.0
+  - @riven/core-kit@1.1.0
 
 ## 1.0.0-rc.3
 
 ### Patch Changes
 
 - 5e1466f40: Allow localhost CORS when only one endpoint available
-  - @logto/cli@1.0.0-rc.3
+  - @riven/cli@1.0.0-rc.3
 
 ## 1.0.0-rc.2
 
@@ -3224,11 +3224,11 @@
 - Updated dependencies [c12717412]
 - Updated dependencies [c12717412]
 - Updated dependencies [c12717412]
-  - @logto/phrases@1.0.0-rc.1
-  - @logto/phrases-ui@1.0.0-rc.1
-  - @logto/schemas@1.0.0-rc.1
-  - @logto/cli@1.0.0-rc.2
-  - @logto/shared@1.0.0-rc.1
+  - @riven/phrases@1.0.0-rc.1
+  - @riven/phrases-ui@1.0.0-rc.1
+  - @riven/schemas@1.0.0-rc.1
+  - @riven/cli@1.0.0-rc.2
+  - @riven/shared@1.0.0-rc.1
 
 ## 1.0.0-rc.1
 
@@ -3238,7 +3238,7 @@
 
   - core: fix 500 error when enabling app admin access in console
   - ui: handle required profile errors on social binding flow
-  - @logto/cli@1.0.0-rc.1
+  - @riven/cli@1.0.0-rc.1
 
 ## 1.0.0-rc.0
 
@@ -3277,18 +3277,18 @@
 - Updated dependencies [f41fd3f0]
 - Updated dependencies [f41fd3f0]
 - Updated dependencies [f41fd3f0]
-  - @logto/cli@1.0.0-rc.0
-  - @logto/schemas@1.0.0-rc.0
-  - @logto/shared@1.0.0-rc.0
+  - @riven/cli@1.0.0-rc.0
+  - @riven/schemas@1.0.0-rc.0
+  - @riven/shared@1.0.0-rc.0
 
 ## 1.0.0-beta.19
 
 ### Patch Changes
 
 - Updated dependencies [df9e98dc]
-  - @logto/cli@1.0.0-beta.19
-  - @logto/schemas@1.0.0-beta.18
-  - @logto/shared@1.0.0-beta.18
+  - @riven/cli@1.0.0-beta.19
+  - @riven/schemas@1.0.0-beta.18
+  - @riven/shared@1.0.0-beta.18
 
 ## 1.0.0-beta.18
 
@@ -3312,11 +3312,11 @@
 - Updated dependencies [1c916011]
 - Updated dependencies [1c916011]
 - Updated dependencies [1c916011]
-  - @logto/cli@1.0.0-beta.18
-  - @logto/phrases@1.0.0-beta.17
-  - @logto/phrases-ui@1.0.0-beta.17
-  - @logto/schemas@1.0.0-beta.17
-  - @logto/shared@1.0.0-beta.17
+  - @riven/cli@1.0.0-beta.18
+  - @riven/phrases@1.0.0-beta.17
+  - @riven/phrases-ui@1.0.0-beta.17
+  - @riven/schemas@1.0.0-beta.17
+  - @riven/shared@1.0.0-beta.17
 
 ## 1.0.0-beta.17
 
@@ -3326,10 +3326,10 @@
 
 - 38970fb8: Fix a Sign-in experience bug that may block some users to sign in.
 - Updated dependencies [38970fb8]
-  - @logto/cli@1.0.0-beta.16
-  - @logto/phrases@1.0.0-beta.16
-  - @logto/schemas@1.0.0-beta.16
-  - @logto/shared@1.0.0-beta.16
+  - @riven/cli@1.0.0-beta.16
+  - @riven/phrases@1.0.0-beta.16
+  - @riven/schemas@1.0.0-beta.16
+  - @riven/shared@1.0.0-beta.16
 
 ## 1.0.0-beta.15
 
@@ -3337,18 +3337,18 @@
 
 - Bump connector kit version to fix "Continue" issues on sending email/sms.
 - Updated dependencies
-  - @logto/schemas@1.0.0-beta.15
-  - @logto/cli@1.0.0-beta.15
-  - @logto/shared@1.0.0-beta.15
+  - @riven/schemas@1.0.0-beta.15
+  - @riven/cli@1.0.0-beta.15
+  - @riven/shared@1.0.0-beta.15
 
 ## 1.0.0-beta.14
 
 ### Patch Changes
 
 - Updated dependencies [2d45cc3e]
-  - @logto/schemas@1.0.0-beta.14
-  - @logto/cli@1.0.0-beta.14
-  - @logto/shared@1.0.0-beta.14
+  - @riven/schemas@1.0.0-beta.14
+  - @riven/cli@1.0.0-beta.14
+  - @riven/shared@1.0.0-beta.14
 
 ## 1.0.0-beta.13
 
@@ -3376,18 +3376,18 @@
 
 - Updated dependencies [68f2d56a]
 - Updated dependencies [3ff2e90c]
-  - @logto/phrases@1.0.0-beta.13
-  - @logto/phrases-ui@1.0.0-beta.13
-  - @logto/cli@1.0.0-beta.13
-  - @logto/schemas@1.0.0-beta.13
-  - @logto/shared@1.0.0-beta.13
+  - @riven/phrases@1.0.0-beta.13
+  - @riven/phrases-ui@1.0.0-beta.13
+  - @riven/cli@1.0.0-beta.13
+  - @riven/schemas@1.0.0-beta.13
+  - @riven/shared@1.0.0-beta.13
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [1.0.0-beta.12](https://github.com/logto-io/logto/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-10-19)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ## [1.0.0-beta.11](https://github.com/logto-io/logto/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-10-19)
 
@@ -3578,7 +3578,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-alpha.2](https://github.com/logto-io/logto/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-07-07)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ## [1.0.0-alpha.1](https://github.com/logto-io/logto/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-07-05)
 
@@ -3588,15 +3588,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-alpha.0](https://github.com/logto-io/logto/compare/v0.1.2-alpha.5...v1.0.0-alpha.0) (2022-07-04)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ### [0.1.2-alpha.4](https://github.com/logto-io/logto/compare/v0.1.2-alpha.3...v0.1.2-alpha.4) (2022-07-03)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ### [0.1.2-alpha.3](https://github.com/logto-io/logto/compare/v0.1.2-alpha.2...v0.1.2-alpha.3) (2022-07-03)
 
@@ -3606,15 +3606,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### [0.1.2-alpha.2](https://github.com/logto-io/logto/compare/v0.1.2-alpha.1...v0.1.2-alpha.2) (2022-07-02)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ### [0.1.2-alpha.0](https://github.com/logto-io/logto/compare/v0.1.1-alpha.0...v0.1.2-alpha.0) (2022-07-02)
 
-**Note:** Version bump only for package @logto/core
+**Note:** Version bump only for package @riven/core
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

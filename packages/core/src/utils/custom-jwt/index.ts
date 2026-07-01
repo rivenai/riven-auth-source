@@ -4,7 +4,7 @@ import {
   CustomJwtErrorCode,
   LogtoJwtTokenKey,
   type JwtCustomizerType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, trySafe } from '@silverhand/essentials';
 import { ResponseError } from '@withtyped/client';
 import { type HTTPError } from 'got';

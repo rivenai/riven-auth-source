@@ -1,4 +1,4 @@
-import { type CreateEmailTemplate, TemplateType } from '@logto/schemas';
+import { type CreateEmailTemplate, TemplateType } from '@riven/schemas';
 
 export type MockEmailTemplatePayload = Omit<CreateEmailTemplate, 'id'>;
 

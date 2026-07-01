@@ -1,10 +1,10 @@
-import { type AdminConsoleKey } from '@logto/phrases';
+import { type AdminConsoleKey } from '@riven/phrases';
 import {
   DataHookSchema,
   InteractionHookEvent,
   hookEvents,
   type DataHookEvent,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export const dataHookEventsLabel = Object.freeze({
   [DataHookSchema.User]: 'webhooks.schemas.user',

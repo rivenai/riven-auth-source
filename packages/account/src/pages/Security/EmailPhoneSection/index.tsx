@@ -1,5 +1,5 @@
-import { AccountCenterControlValue } from '@logto/schemas';
-import { formatToInternationalPhoneNumber } from '@logto/shared/universal';
+import { AccountCenterControlValue } from '@riven/schemas';
+import { formatToInternationalPhoneNumber } from '@riven/shared/universal';
 import classNames from 'classnames';
 import { useCallback, useContext, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';

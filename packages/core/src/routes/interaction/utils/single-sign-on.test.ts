@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { createMockUtils } from '@logto/shared/esm';
+import { createMockUtils } from '@riven/shared/esm';
 import type { Provider } from 'oidc-provider';
 import Sinon from 'sinon';
 

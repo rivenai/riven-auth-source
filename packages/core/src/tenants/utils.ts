@@ -1,4 +1,4 @@
-import { Tenants } from '@logto/schemas/models';
+import { Tenants } from '@riven/schemas/models';
 import { conditional } from '@silverhand/essentials';
 import { parseDsn, sql, stringifyDsn } from '@silverhand/slonik';
 import { z } from 'zod';

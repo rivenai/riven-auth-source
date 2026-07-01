@@ -1,5 +1,5 @@
-import type { Log, ApplicationResponse } from '@logto/schemas';
-import { LogResult, ApplicationType } from '@logto/schemas';
+import type { Log, ApplicationResponse } from '@riven/schemas';
+import { LogResult, ApplicationType } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useTranslation } from 'react-i18next';
 import useSWR from 'swr';

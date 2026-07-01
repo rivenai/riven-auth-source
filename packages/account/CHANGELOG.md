@@ -1,4 +1,4 @@
-# @logto/account
+# @riven/account
 
 ## 0.4.0
 
@@ -8,8 +8,8 @@
 
   End users can now manage their account security from the account center:
 
-  - `@logto/account` ships the `/account/security` route with social account linking and unlinking, MFA 2-step verification, and account deletion.
-  - `@logto/console` exposes the delete-account URL field on the sign-in experience account center settings, and surfaces the account center and social prebuilt UI entries.
+  - `@riven/account` ships the `/account/security` route with social account linking and unlinking, MFA 2-step verification, and account deletion.
+  - `@riven/console` exposes the delete-account URL field on the sign-in experience account center settings, and surfaces the account center and social prebuilt UI entries.
 
 ## 0.3.0
 

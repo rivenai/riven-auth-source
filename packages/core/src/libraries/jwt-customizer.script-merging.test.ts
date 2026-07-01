@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKey } from '@logto/schemas';
+import { LogtoJwtTokenKey } from '@riven/schemas';
 import { cond } from '@silverhand/essentials';
 import deepmerge from 'deepmerge';
 

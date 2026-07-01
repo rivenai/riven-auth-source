@@ -1,4 +1,4 @@
-import { type LogtoJwtTokenKeyType } from '@logto/schemas';
+import { type LogtoJwtTokenKeyType } from '@riven/schemas';
 import classNames from 'classnames';
 import { FormProvider, useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';

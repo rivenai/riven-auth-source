@@ -1,4 +1,4 @@
-import { InteractionEvent, SignInIdentifier } from '@logto/schemas';
+import { InteractionEvent, SignInIdentifier } from '@riven/schemas';
 import { useCallback, useMemo, useState } from 'react';
 
 import SecondaryPageLayout from '@/Layout/SecondaryPageLayout';

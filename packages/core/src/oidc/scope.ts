@@ -1,13 +1,13 @@
 import assert from 'node:assert';
 
-import type { UserClaim } from '@logto/core-kit';
+import type { UserClaim } from '@riven/core-kit';
 import {
   extendedIdTokenClaimsByScope,
   idTokenClaims,
   userClaims,
   UserScope,
-} from '@logto/core-kit';
-import { userProfileKeys, type User, type UserProfile } from '@logto/schemas';
+} from '@riven/core-kit';
+import { userProfileKeys, type User, type UserProfile } from '@riven/schemas';
 import { cond, pick } from '@silverhand/essentials';
 import { snakeCase } from 'snake-case';
 import { type SnakeCaseKeys } from 'snakecase-keys';

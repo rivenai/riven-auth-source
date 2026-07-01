@@ -13,8 +13,8 @@ import {
   jsonObjectGuard,
   isBuiltInApplicationId,
   buildBuiltInApplicationDataForTenant,
-} from '@logto/schemas';
-import { type ConsoleLog } from '@logto/shared';
+} from '@riven/schemas';
+import { type ConsoleLog } from '@riven/shared';
 import {
   assert,
   deduplicate,
@@ -212,7 +212,7 @@ export class JwtCustomizerLibrary {
     }
 
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment, @typescript-eslint/prefer-ts-expect-error
-    // @ts-ignore TS2589: caused by router type growth from @logto/cloud
+    // @ts-ignore TS2589: caused by router type growth from @riven/cloud
     const [client, jwtCustomizers] = await Promise.all([
       this.cloudConnection.getClient(),
       this.logtoConfigs.getJwtCustomizers(consoleLog),

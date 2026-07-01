@@ -10,8 +10,8 @@ import type {
   GetCloudServiceClient,
   GetI18nEmailTemplate,
   EmailConnector,
-} from '@logto/connector-kit';
-import { ConnectorError, ConnectorErrorCodes, ConnectorType } from '@logto/connector-kit';
+} from '@riven/connector-kit';
+import { ConnectorError, ConnectorErrorCodes, ConnectorType } from '@riven/connector-kit';
 import type { BaseRoutes, Router } from '@withtyped/server';
 
 import { consoleLog } from '../utils.js';

@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import { type ReactNode } from 'react';
 
 import UserRoleIconDark from '@/assets/icons/role-feature-dark.svg?react';

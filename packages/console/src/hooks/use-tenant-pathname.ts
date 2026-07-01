@@ -1,4 +1,4 @@
-import { ossConsolePath } from '@logto/schemas';
+import { ossConsolePath } from '@riven/schemas';
 import { appendPath, joinPath } from '@silverhand/essentials';
 import { useCallback, useContext, useMemo } from 'react';
 import {

@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { SignInIdentifier } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { SignInIdentifier } from '@riven/schemas';
 
 export const identifierRequiredConnectorMapping: {
   [key in SignInIdentifier]?: ConnectorType;

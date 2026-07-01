@@ -5,14 +5,14 @@ import type {
   CreateConnector,
   EmailConnector,
   SendMessageFunction,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   validateConfig,
   ConnectorType,
   getConfigTemplateByType,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import { ServerClient } from 'postmark';
 
 import { defaultMetadata } from './constant.js';

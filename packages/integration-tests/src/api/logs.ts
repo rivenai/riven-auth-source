@@ -1,4 +1,4 @@
-import type { Log } from '@logto/schemas';
+import type { Log } from '@riven/schemas';
 import { conditionalString } from '@silverhand/essentials';
 
 import { authedAdminApi } from './api.js';

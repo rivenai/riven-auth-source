@@ -1,4 +1,4 @@
-# @logto/connector-http-sms
+# @riven/connector-http-sms
 
 ## 0.2.1
 
@@ -6,7 +6,7 @@
 
 - Updated dependencies [4e25126228]
 - Updated dependencies [4e25126228]
-  - @logto/connector-kit@5.0.0
+  - @riven/connector-kit@5.0.0
 
 ## 0.2.0
 
@@ -20,7 +20,7 @@
 
 - Updated dependencies [462e430445]
 - Updated dependencies [7c87ebc068]
-  - @logto/connector-kit@4.7.0
+  - @riven/connector-kit@4.7.0
 
 ## 0.1.0
 

@@ -1,6 +1,6 @@
 import type { SignInExperienceResponse } from '@experience/shared/types';
-import type { AccountCenter, UserProfileResponse } from '@logto/schemas';
-import { AccountCenterControlValue } from '@logto/schemas';
+import type { AccountCenter, UserProfileResponse } from '@riven/schemas';
+import { AccountCenterControlValue } from '@riven/schemas';
 
 import { getAvailableSocialConnectors } from './social-connector.js';
 

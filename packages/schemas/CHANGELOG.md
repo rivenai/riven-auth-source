@@ -27,10 +27,10 @@
 - Updated dependencies [93523a1ae0]
 - Updated dependencies [ab073bb65f]
 - Updated dependencies [3350b13ec8]
-  - @logto/core-kit@2.9.0
-  - @logto/phrases@1.28.0
-  - @logto/shared@3.4.0
-  - @logto/phrases-experience@1.13.1
+  - @riven/core-kit@2.9.0
+  - @riven/phrases@1.28.0
+  - @riven/shared@3.4.0
+  - @riven/phrases-experience@1.13.1
 
 ## 1.38.0
 
@@ -86,19 +86,19 @@
 - Updated dependencies [a816cf77cb]
 - Updated dependencies [5ab931e7ac]
 - Updated dependencies [4e25126228]
-  - @logto/phrases@1.27.0
-  - @logto/phrases-experience@1.13.0
-  - @logto/core-kit@2.8.0
-  - @logto/connector-kit@5.0.0
-  - @logto/language-kit@1.3.0
+  - @riven/phrases@1.27.0
+  - @riven/phrases-experience@1.13.0
+  - @riven/core-kit@2.8.0
+  - @riven/connector-kit@5.0.0
+  - @riven/language-kit@1.3.0
 
 ## 1.37.1
 
 ### Patch Changes
 
 - Updated dependencies [57b0008ee8]
-  - @logto/core-kit@2.7.1
-  - @logto/phrases-experience@1.12.2
+  - @riven/core-kit@2.7.1
+  - @riven/phrases-experience@1.12.2
 
 ## 1.37.0
 
@@ -123,7 +123,7 @@
 
 - Updated dependencies [eced1f02d4]
 - Updated dependencies [b8ca1a40c7]
-  - @logto/phrases@1.26.0
+  - @riven/phrases@1.26.0
 
 ## 1.36.0
 
@@ -179,10 +179,10 @@
 - Updated dependencies [c8b2caec5c]
 - Updated dependencies [317f9744d1]
 - Updated dependencies [ce65b07964]
-  - @logto/phrases@1.25.0
-  - @logto/shared@3.3.1
-  - @logto/core-kit@2.7.0
-  - @logto/phrases-experience@1.12.1
+  - @riven/phrases@1.25.0
+  - @riven/shared@3.3.1
+  - @riven/core-kit@2.7.0
+  - @riven/phrases-experience@1.12.1
 
 ## 1.35.0
 
@@ -215,8 +215,8 @@
 - Updated dependencies [d551f5ccc3]
 - Updated dependencies [7c87ebc068]
 - Updated dependencies [116dcf5e7d]
-  - @logto/phrases@1.24.0
-  - @logto/connector-kit@4.7.0
+  - @riven/phrases@1.24.0
+  - @riven/connector-kit@4.7.0
 
 ## 1.34.0
 
@@ -233,14 +233,14 @@
   Now set the OIDC grant TTL to 180 days so refresh tokens can live for their configured duration, also expand the refresh token TTL up to 180 days.
 
 - Updated dependencies [c3266a917a]
-  - @logto/phrases@1.23.0
+  - @riven/phrases@1.23.0
 
 ## 1.33.0
 
 ### Patch Changes
 
 - Updated dependencies [47dbdd8332]
-  - @logto/phrases@1.22.0
+  - @riven/phrases@1.22.0
 
 ## 1.32.0
 
@@ -301,9 +301,9 @@
 - Updated dependencies [147f257503]
 - Updated dependencies [1fb8593659]
 - Updated dependencies [0ef4260e34]
-  - @logto/connector-kit@4.6.0
-  - @logto/phrases-experience@1.12.0
-  - @logto/phrases@1.21.0
+  - @riven/connector-kit@4.6.0
+  - @riven/phrases-experience@1.12.0
+  - @riven/phrases@1.21.0
 
 ## 1.31.0
 
@@ -329,16 +329,16 @@
 ### Patch Changes
 
 - Updated dependencies [8ae82d585e]
-  - @logto/phrases-experience@1.11.0
-  - @logto/phrases@1.20.0
+  - @riven/phrases-experience@1.11.0
+  - @riven/phrases@1.20.0
 
 ## 1.30.1
 
 ### Patch Changes
 
 - Updated dependencies [4cc321dbb]
-  - @logto/core-kit@2.6.1
-  - @logto/phrases-experience@1.10.1
+  - @riven/core-kit@2.6.1
+  - @riven/phrases-experience@1.10.1
 
 ## 1.30.0
 
@@ -394,7 +394,7 @@
   As a result, the account API will be enabled by default, allowing users to access and manage their accounts. To control the visibility and accessibility of individual fields, use the `fields` property. By default, all fields are inaccessible; you can selectively enable them as needed.
 
 - Updated dependencies [34964af46]
-  - @logto/connector-kit@4.4.0
+  - @riven/connector-kit@4.4.0
 
 ## 1.29.0
 
@@ -428,7 +428,7 @@
 ### Patch Changes
 
 - Updated dependencies [35bbc4399]
-  - @logto/shared@3.3.0
+  - @riven/shared@3.3.0
 
 ## 1.27.0
 
@@ -475,12 +475,12 @@
 - Updated dependencies [2961d355d]
 - Updated dependencies [0a76f3389]
 - Updated dependencies [e69ea0373]
-  - @logto/connector-kit@4.3.0
-  - @logto/language-kit@1.2.0
-  - @logto/phrases-experience@1.10.0
-  - @logto/core-kit@2.6.0
-  - @logto/phrases@1.19.0
-  - @logto/shared@3.2.0
+  - @riven/connector-kit@4.3.0
+  - @riven/language-kit@1.2.0
+  - @riven/phrases-experience@1.10.0
+  - @riven/core-kit@2.6.0
+  - @riven/phrases@1.19.0
+  - @riven/shared@3.2.0
 
 ## 1.26.0
 
@@ -558,8 +558,8 @@
 
   ### Sign-in experience settings
 
-  - `@logto/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
-  - `@logto/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
+  - `@riven/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
+  - `@riven/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
 
   ### End-user experience
 
@@ -581,7 +581,7 @@
 ### Patch Changes
 
 - Updated dependencies [5da01bc47]
-  - @logto/language-kit@1.1.3
+  - @riven/language-kit@1.1.3
 
 ## 1.25.0
 
@@ -622,7 +622,7 @@
 ### Patch Changes
 
 - Updated dependencies [b0135bcd3]
-  - @logto/connector-kit@4.2.0
+  - @riven/connector-kit@4.2.0
 
 ## 1.24.1
 
@@ -632,19 +632,19 @@
 - Updated dependencies [0b785ee0d]
 - Updated dependencies [5086f4bd2]
 - Updated dependencies [e11e57de8]
-  - @logto/phrases@1.18.0
-  - @logto/connector-kit@4.1.1
-  - @logto/language-kit@1.1.1
-  - @logto/core-kit@2.5.4
-  - @logto/shared@3.1.4
-  - @logto/phrases-experience@1.9.1
+  - @riven/phrases@1.18.0
+  - @riven/connector-kit@4.1.1
+  - @riven/language-kit@1.1.1
+  - @riven/core-kit@2.5.4
+  - @riven/shared@3.1.4
+  - @riven/phrases-experience@1.9.1
 
 ## 1.24.0
 
 ### Patch Changes
 
 - Updated dependencies [1337669e1]
-  - @logto/phrases@1.17.0
+  - @riven/phrases@1.17.0
 
 ## 1.23.1
 
@@ -671,8 +671,8 @@
 
 - Updated dependencies [f1b1d9e95]
 - Updated dependencies [239b81e31]
-  - @logto/phrases@1.16.0
-  - @logto/core-kit@2.5.2
+  - @riven/phrases@1.16.0
+  - @riven/core-kit@2.5.2
 
 ## 1.22.0
 
@@ -724,9 +724,9 @@
 - Updated dependencies [640425414]
 - Updated dependencies [7ebef18e3]
 - Updated dependencies [640425414]
-  - @logto/phrases@1.15.0
-  - @logto/phrases-experience@1.9.0
-  - @logto/connector-kit@4.1.0
+  - @riven/phrases@1.15.0
+  - @riven/phrases-experience@1.9.0
+  - @riven/connector-kit@4.1.0
 
 ## 1.21.0
 
@@ -734,8 +734,8 @@
 
 - Updated dependencies [bc2a0ac03]
 - Updated dependencies [3c993d59c]
-  - @logto/shared@3.1.2
-  - @logto/phrases@1.14.1
+  - @riven/shared@3.1.2
+  - @riven/phrases@1.14.1
 
 ## 1.20.0
 
@@ -785,8 +785,8 @@
 - Updated dependencies [f150a67d5]
 - Updated dependencies [e0326c96c]
 - Updated dependencies [53060c203]
-  - @logto/phrases@1.14.0
-  - @logto/phrases-experience@1.8.0
+  - @riven/phrases@1.14.0
+  - @riven/phrases-experience@1.8.0
 
 ## 1.19.0
 
@@ -845,7 +845,7 @@
   For example, in the JavaScript SDK:
 
   ```ts
-  import LogtoClient from "@logto/client";
+  import LogtoClient from "@riven/client";
 
   const logtoClient = new LogtoClient(/* your configuration */);
 
@@ -864,7 +864,7 @@
 - Updated dependencies [3a839f6d6]
 - Updated dependencies [b91ec0cd6]
 - Updated dependencies [b188bb161]
-  - @logto/phrases@1.13.0
+  - @riven/phrases@1.13.0
 
 ## 1.18.0
 
@@ -983,9 +983,9 @@
 - Updated dependencies [efa884c40]
 - Updated dependencies [b50ba0b7e]
 - Updated dependencies [d81e13d21]
-  - @logto/connector-kit@4.0.0
-  - @logto/phrases@1.12.0
-  - @logto/phrases-experience@1.7.0
+  - @riven/connector-kit@4.0.0
+  - @riven/phrases@1.12.0
+  - @riven/phrases-experience@1.7.0
 
 ## 1.17.0
 
@@ -1073,8 +1073,8 @@
 - Updated dependencies [e04d9523a]
 - Updated dependencies [0c70d65c7]
 - Updated dependencies [76fd33b7e]
-  - @logto/phrases@1.11.0
-  - @logto/core-kit@2.5.0
+  - @riven/phrases@1.11.0
+  - @riven/core-kit@2.5.0
 
 ## 1.16.0
 
@@ -1097,8 +1097,8 @@
 - Updated dependencies [5b03030de]
 - Updated dependencies [21bb35b12]
 - Updated dependencies [3486b12e8]
-  - @logto/phrases@1.10.1
-  - @logto/shared@3.1.1
+  - @riven/phrases@1.10.1
+  - @riven/shared@3.1.1
 
 ## 1.15.0
 
@@ -1152,11 +1152,11 @@
 - Updated dependencies [cc01acbd0]
 - Updated dependencies [57d97a4df]
 - Updated dependencies [2c10c2423]
-  - @logto/phrases@1.10.0
-  - @logto/connector-kit@3.0.0
-  - @logto/core-kit@2.4.0
-  - @logto/phrases-experience@1.6.1
-  - @logto/shared@3.1.0
+  - @riven/phrases@1.10.0
+  - @riven/connector-kit@3.0.0
+  - @riven/core-kit@2.4.0
+  - @riven/phrases-experience@1.6.1
+  - @riven/shared@3.1.0
 
 ## 1.14.0
 
@@ -1191,12 +1191,12 @@
 - Updated dependencies [570a4ea9e]
 - Updated dependencies [570a4ea9e]
 - Updated dependencies [6befe6014]
-  - @logto/shared@3.1.0
-  - @logto/connector-kit@2.1.0
-  - @logto/language-kit@1.1.0
-  - @logto/phrases-experience@1.6.0
-  - @logto/core-kit@2.3.0
-  - @logto/phrases@1.9.0
+  - @riven/shared@3.1.0
+  - @riven/connector-kit@2.1.0
+  - @riven/language-kit@1.1.0
+  - @riven/phrases-experience@1.6.0
+  - @riven/core-kit@2.3.0
+  - @riven/phrases@1.9.0
 
 ## 1.12.0
 
@@ -1216,9 +1216,9 @@
 - Updated dependencies [becf59169]
 - Updated dependencies [b4f702a86]
 - Updated dependencies [9a7b19e49]
-  - @logto/phrases@1.8.0
-  - @logto/core-kit@2.2.1
-  - @logto/phrases-experience@1.5.0
+  - @riven/phrases@1.8.0
+  - @riven/core-kit@2.2.1
+  - @riven/phrases-experience@1.5.0
 
 ## 1.11.0
 
@@ -1239,8 +1239,8 @@
 ### Patch Changes
 
 - Updated dependencies [6727f629d]
-  - @logto/phrases@1.7.0
-  - @logto/phrases-experience@1.4.0
+  - @riven/phrases@1.7.0
+  - @riven/phrases-experience@1.4.0
 
 ## 1.10.1
 
@@ -1249,16 +1249,16 @@
 - 46d0d4c0b: convert private signing key type from string to JSON object, in order to provide additional information such as key ID and creation timestamp.
 - Updated dependencies [87df417d1]
 - Updated dependencies [d24aaedf5]
-  - @logto/phrases@1.6.0
-  - @logto/connector-kit@2.0.0
-  - @logto/shared@3.0.0
+  - @riven/phrases@1.6.0
+  - @riven/connector-kit@2.0.0
+  - @riven/shared@3.0.0
 
 ## 1.10.0
 
 ### Patch Changes
 
 - Updated dependencies [2c340d379]
-  - @logto/core-kit@2.2.0
+  - @riven/core-kit@2.2.0
 
 ## 1.9.2
 
@@ -1266,23 +1266,23 @@
 
 - 18181f892: standardize id and secret generators
 
-  - Remove `buildIdGenerator` export from `@logto/shared`
-  - Add `generateStandardSecret` and `generateStandardShortId` exports to `@logto/shared`
-  - Align comment and implementation of `buildIdGenerator` in `@logto/shared`
+  - Remove `buildIdGenerator` export from `@riven/shared`
+  - Add `generateStandardSecret` and `generateStandardShortId` exports to `@riven/shared`
+  - Align comment and implementation of `buildIdGenerator` in `@riven/shared`
     - The comment stated the function will include uppercase letters by default, but it did not; Now it does.
   - Use `generateStandardSecret` for all secret generation
 
 - Updated dependencies [18181f892]
-  - @logto/shared@3.0.0
-  - @logto/core-kit@2.1.2
+  - @riven/shared@3.0.0
+  - @riven/core-kit@2.1.2
 
 ## 1.9.1
 
 ### Patch Changes
 
 - Updated dependencies [6f5a0acad]
-  - @logto/phrases-experience@1.3.1
-  - @logto/core-kit@2.1.1
+  - @riven/phrases-experience@1.3.1
+  - @riven/core-kit@2.1.1
 
 ## 1.9.0
 
@@ -1341,10 +1341,10 @@
 - Updated dependencies [f8408fa77]
 - Updated dependencies [f6723d5e2]
 - Updated dependencies [310698b0d]
-  - @logto/phrases@1.5.0
-  - @logto/phrases-experience@1.3.0
-  - @logto/core-kit@2.1.0
-  - @logto/shared@2.0.1
+  - @riven/phrases@1.5.0
+  - @riven/phrases-experience@1.3.0
+  - @riven/core-kit@2.1.0
+  - @riven/shared@2.0.1
 
 ## 1.8.0
 
@@ -1372,8 +1372,8 @@
 
 - Updated dependencies [e9c2c9a6d]
 - Updated dependencies [ecbecd8e4]
-  - @logto/core-kit@2.0.1
-  - @logto/phrases@1.4.1
+  - @riven/core-kit@2.0.1
+  - @riven/phrases@1.4.1
 
 ## 1.5.0
 
@@ -1419,7 +1419,7 @@
 - Updated dependencies [268dc50e7]
 - Updated dependencies [fa0dbafe8]
 - Updated dependencies [497d5b526]
-  - @logto/phrases@1.4.0
+  - @riven/phrases@1.4.0
 
 ## 1.4.0
 
@@ -1432,7 +1432,7 @@
 ### Patch Changes
 
 - Updated dependencies [5d6720805]
-  - @logto/phrases@1.3.0
+  - @riven/phrases@1.3.0
 
 ## 1.3.1
 
@@ -1442,7 +1442,7 @@
 
 - beb6ebad5: ## Add min length 1 type guard for all string typed db schema fields
 
-  Update the `@logto/schemas` zod guard generation method to include a min length of 1 for all the required string typed db fields.
+  Update the `@riven/schemas` zod guard generation method to include a min length of 1 for all the required string typed db fields.
 
 ## 1.2.3
 
@@ -1461,11 +1461,11 @@
 - Updated dependencies [c5eb3a2ba]
 - Updated dependencies [5553425fc]
 - Updated dependencies [30033421c]
-  - @logto/phrases@1.2.0
-  - @logto/phrases-ui@1.2.0
-  - @logto/shared@2.0.0
-  - @logto/core-kit@2.0.0
-  - @logto/connector-kit@1.1.1
+  - @riven/phrases@1.2.0
+  - @riven/phrases-ui@1.2.0
+  - @riven/shared@2.0.0
+  - @riven/core-kit@2.0.0
+  - @riven/connector-kit@1.1.1
 
 ## 1.1.0
 
@@ -1476,8 +1476,8 @@
 - Updated dependencies [f3d60a516]
 - Updated dependencies [5c50957a9]
 - Updated dependencies [e9e8a6e11]
-  - @logto/phrases@1.1.0
-  - @logto/phrases-ui@1.1.0
+  - @riven/phrases@1.1.0
+  - @riven/phrases-ui@1.1.0
 
 ## 1.0.7
 
@@ -1580,7 +1580,7 @@
   - cli!: remove `oidc` option for `database seed` command as it's unused
   - cli: add hidden `--cloud` option for `database seed` command to init cloud data
   - cli, cloud: appending Redirect URIs to Admin Console will deduplicate values before update
-  - move `UrlSet` and `GlobalValues` to `@logto/shared`
+  - move `UrlSet` and `GlobalValues` to `@riven/shared`
 
 - 7fb689b73: Fix version lifecycle script
 - 2d45cc3e6: Update alteration script names after versioning
@@ -1600,10 +1600,10 @@
 - Updated dependencies [1c9160112]
 - Updated dependencies [343b1090f]
 - Updated dependencies [1c9160112]
-  - @logto/phrases-ui@1.0.0
-  - @logto/phrases@1.0.0
-  - @logto/connector-kit@1.1.0
-  - @logto/core-kit@1.1.0
+  - @riven/phrases-ui@1.0.0
+  - @riven/phrases@1.0.0
+  - @riven/connector-kit@1.1.0
+  - @riven/core-kit@1.1.0
 
 ## 1.0.0-rc.1
 
@@ -1638,8 +1638,8 @@
 - Updated dependencies [c12717412]
 - Updated dependencies [c12717412]
 - Updated dependencies [c12717412]
-  - @logto/phrases@1.0.0-rc.1
-  - @logto/phrases-ui@1.0.0-rc.1
+  - @riven/phrases@1.0.0-rc.1
+  - @riven/phrases-ui@1.0.0-rc.1
 
 ## 1.0.0-rc.0
 
@@ -1688,8 +1688,8 @@
 
 - Updated dependencies [1c916011]
 - Updated dependencies [1c916011]
-  - @logto/phrases@1.0.0-beta.17
-  - @logto/phrases-ui@1.0.0-beta.17
+  - @riven/phrases@1.0.0-beta.17
+  - @riven/phrases-ui@1.0.0-beta.17
 
 ## 1.0.0-beta.16
 
@@ -1697,7 +1697,7 @@
 
 - 38970fb8: Fix a Sign-in experience bug that may block some users to sign in.
 - Updated dependencies [38970fb8]
-  - @logto/phrases@1.0.0-beta.16
+  - @riven/phrases@1.0.0-beta.16
 
 ## 1.0.0-beta.15
 
@@ -1716,8 +1716,8 @@
 ### Patch Changes
 
 - Updated dependencies [68f2d56a]
-  - @logto/phrases@1.0.0-beta.13
-  - @logto/phrases-ui@1.0.0-beta.13
+  - @riven/phrases@1.0.0-beta.13
+  - @riven/phrases-ui@1.0.0-beta.13
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
@@ -1763,19 +1763,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.9](https://github.com/logto-io/logto/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2022-09-07)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-beta.5](https://github.com/logto-io/logto/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-08-19)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-beta.4](https://github.com/logto-io/logto/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-08-11)
 
@@ -1786,11 +1786,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.3](https://github.com/logto-io/logto/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-08-01)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-beta.2](https://github.com/logto-io/logto/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-07-25)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-beta.1](https://github.com/logto-io/logto/compare/v1.0.0-beta.0...v1.0.0-beta.1) (2022-07-19)
 
@@ -1800,7 +1800,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.0](https://github.com/logto-io/logto/compare/v1.0.0-alpha.4...v1.0.0-beta.0) (2022-07-14)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-alpha.4](https://github.com/logto-io/logto/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2022-07-08)
 
@@ -1810,7 +1810,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-alpha.3](https://github.com/logto-io/logto/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-07-07)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-alpha.2](https://github.com/logto-io/logto/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-07-07)
 
@@ -1820,35 +1820,35 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-alpha.1](https://github.com/logto-io/logto/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-07-05)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ## [1.0.0-alpha.0](https://github.com/logto-io/logto/compare/v0.1.2-alpha.5...v1.0.0-alpha.0) (2022-07-04)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.2-alpha.4](https://github.com/logto-io/logto/compare/v0.1.2-alpha.3...v0.1.2-alpha.4) (2022-07-03)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.2-alpha.3](https://github.com/logto-io/logto/compare/v0.1.2-alpha.2...v0.1.2-alpha.3) (2022-07-03)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.2-alpha.2](https://github.com/logto-io/schemas/compare/v0.1.2-alpha.1...v0.1.2-alpha.2) (2022-07-02)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/schemas/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.2-alpha.0](https://github.com/logto-io/schemas/compare/v0.1.1-alpha.0...v0.1.2-alpha.0) (2022-07-02)
 
-**Note:** Version bump only for package @logto/schemas
+**Note:** Version bump only for package @riven/schemas
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/schemas/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

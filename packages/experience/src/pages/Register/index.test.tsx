@@ -1,5 +1,5 @@
-import type { SignUp } from '@logto/schemas';
-import { SignInMode, SignInIdentifier } from '@logto/schemas';
+import type { SignUp } from '@riven/schemas';
+import { SignInMode, SignInIdentifier } from '@riven/schemas';
 import { Route, Routes } from 'react-router-dom';
 
 import renderWithPageContext from '@/__mocks__/RenderWithPageContext';

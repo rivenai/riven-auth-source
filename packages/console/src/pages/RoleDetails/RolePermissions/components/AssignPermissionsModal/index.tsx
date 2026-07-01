@@ -1,4 +1,4 @@
-import type { ScopeResponse, RoleType } from '@logto/schemas';
+import type { ScopeResponse, RoleType } from '@riven/schemas';
 import { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { Trans, useTranslation } from 'react-i18next';

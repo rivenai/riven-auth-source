@@ -1,4 +1,4 @@
-import { type AdminConsoleKey } from '@logto/phrases';
+import { type AdminConsoleKey } from '@riven/phrases';
 import { conditional, type Nullable } from '@silverhand/essentials';
 import classNames from 'classnames';
 import { useContext } from 'react';

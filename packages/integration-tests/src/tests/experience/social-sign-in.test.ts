@@ -1,7 +1,7 @@
 import crypto from 'node:crypto';
 
-import { ConnectorType } from '@logto/connector-kit';
-import { AgreeToTermsPolicy, SignInIdentifier, SignInMode, SsoProviderName } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { AgreeToTermsPolicy, SignInIdentifier, SignInMode, SsoProviderName } from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 
 import { updateSignInExperience } from '#src/api/sign-in-experience.js';

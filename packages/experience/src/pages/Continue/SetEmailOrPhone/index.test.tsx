@@ -1,4 +1,4 @@
-import { InteractionEvent, MissingProfile, SignInIdentifier } from '@logto/schemas';
+import { InteractionEvent, MissingProfile, SignInIdentifier } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { fireEvent, waitFor } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';

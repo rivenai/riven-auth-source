@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import { type HostnameProviderData, cloudflareDataGuard } from '@logto/schemas';
+import { type HostnameProviderData, cloudflareDataGuard } from '@riven/schemas';
 import { got } from 'got';
 
 import RequestError from '#src/errors/RequestError/index.js';

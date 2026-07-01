@@ -1,4 +1,4 @@
-import { getManagementApiResourceIndicator } from '@logto/schemas';
+import { getManagementApiResourceIndicator } from '@riven/schemas';
 import Koa from 'koa';
 import Router from 'koa-router';
 

@@ -1,4 +1,4 @@
-import { InteractionEvent, type SocialVerificationCallbackPayload } from '@logto/schemas';
+import { InteractionEvent, type SocialVerificationCallbackPayload } from '@riven/schemas';
 
 import api from '../api';
 

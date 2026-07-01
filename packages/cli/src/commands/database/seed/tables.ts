@@ -27,14 +27,14 @@ import {
   OrganizationRoleUserRelations,
   TenantRole,
   AccountCenters,
-} from '@logto/schemas';
-import { getTenantRole } from '@logto/schemas';
+} from '@riven/schemas';
+import { getTenantRole } from '@riven/schemas';
 import {
   createDefaultAccountCenter,
   createAdminTenantAccountCenter,
-} from '@logto/schemas/lib/seeds/account-center.js';
-import { Tenants } from '@logto/schemas/models';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas/lib/seeds/account-center.js';
+import { Tenants } from '@riven/schemas/models';
+import { generateStandardId } from '@riven/shared';
 import type { DatabaseTransactionConnection } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 
@@ -93,7 +93,7 @@ export const createTables = async (
   connection: DatabaseTransactionConnection,
   encryptBaseRole: boolean
 ): Promise<{ password: string }> => {
-  const tableDirectory = getPathInModule('@logto/schemas', 'tables');
+  const tableDirectory = getPathInModule('@riven/schemas', 'tables');
   const directoryFiles = await readdir(tableDirectory);
   const tableFiles = directoryFiles.filter((file) => file.endsWith('.sql'));
   const queries = await Promise.all(

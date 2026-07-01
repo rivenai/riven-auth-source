@@ -1,4 +1,4 @@
-import { SsoProviderName, SsoProviderType } from '@logto/schemas';
+import { SsoProviderName, SsoProviderType } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import camelcaseKeys from 'camelcase-keys';
 import { decodeJwt } from 'jose';

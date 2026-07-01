@@ -1,6 +1,6 @@
-import { UserScope } from '@logto/core-kit';
-import { ConnectorType } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { UserScope } from '@riven/core-kit';
+import { ConnectorType } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import {
   mockEmailConnectorId,

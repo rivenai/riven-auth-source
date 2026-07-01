@@ -1,14 +1,14 @@
 /* eslint-disable max-lines */
-import { UserScope, buildOrganizationUrn } from '@logto/core-kit';
-import { decodeAccessToken } from '@logto/js';
+import { UserScope, buildOrganizationUrn } from '@riven/core-kit';
+import { decodeAccessToken } from '@riven/js';
 import {
   ApplicationType,
   GrantType,
   MfaFactor,
   SignInIdentifier,
   type Resource,
-} from '@logto/schemas';
-import { formUrlEncodedHeaders } from '@logto/shared';
+} from '@riven/schemas';
+import { formUrlEncodedHeaders } from '@riven/shared';
 import { HTTPError } from 'ky';
 import { z } from 'zod';
 

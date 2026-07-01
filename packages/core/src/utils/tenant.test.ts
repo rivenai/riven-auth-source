@@ -1,6 +1,6 @@
-import { adminTenantId, defaultTenantId } from '@logto/schemas';
-import { GlobalValues } from '@logto/shared';
-import { createMockUtils } from '@logto/shared/esm';
+import { adminTenantId, defaultTenantId } from '@riven/schemas';
+import { GlobalValues } from '@riven/shared';
+import { createMockUtils } from '@riven/shared/esm';
 
 const { jest } = import.meta;
 

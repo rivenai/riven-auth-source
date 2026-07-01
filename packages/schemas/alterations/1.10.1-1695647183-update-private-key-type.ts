@@ -1,4 +1,4 @@
-import { generateStandardId } from '@logto/shared';
+import { generateStandardId } from '@riven/shared';
 import type { DatabaseTransactionConnection } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

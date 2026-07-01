@@ -1,4 +1,4 @@
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 import {
   adminConsoleApplicationId,
   adminTenantId,
@@ -8,8 +8,8 @@ import {
   SignInMode,
   type User,
   VerificationType,
-} from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';
 import { mockUser, mockUserWithMfaVerifications } from '#src/__mocks__/user.js';

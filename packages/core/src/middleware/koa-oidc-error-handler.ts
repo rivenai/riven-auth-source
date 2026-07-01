@@ -1,4 +1,4 @@
-import { appInsights } from '@logto/app-insights/node';
+import { appInsights } from '@riven/app-insights/node';
 import { condObject, isObject } from '@silverhand/essentials';
 import type { Middleware } from 'koa';
 import { errors } from 'oidc-provider';

@@ -1,4 +1,4 @@
-import { SsoProviderName } from '@logto/schemas';
+import { SsoProviderName } from '@riven/schemas';
 import { HTTPError } from 'ky';
 
 import {

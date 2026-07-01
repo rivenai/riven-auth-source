@@ -1,5 +1,5 @@
-import { isValidUrl } from '@logto/core-kit';
-import { type Resource } from '@logto/schemas';
+import { isValidUrl } from '@riven/core-kit';
+import { type Resource } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext } from 'react';
 import { useForm } from 'react-hook-form';

@@ -1,5 +1,5 @@
-import type { LogKey } from '@logto/schemas';
-import { LogResult, VerificationType } from '@logto/schemas';
+import type { LogKey } from '@riven/schemas';
+import { LogResult, VerificationType } from '@riven/schemas';
 import i18next from 'i18next';
 import type { Context } from 'koa';
 import Router, { type IRouterParamContext } from 'koa-router';

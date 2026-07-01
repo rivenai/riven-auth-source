@@ -1,5 +1,5 @@
-import type { SchemaLike, GeneratedSchema, SchemaValue } from '@logto/schemas';
-import type { UpdateWhereData } from '@logto/shared';
+import type { SchemaLike, GeneratedSchema, SchemaValue } from '@riven/schemas';
+import type { UpdateWhereData } from '@riven/shared';
 import type { Truthy } from '@silverhand/essentials';
 import { notFalsy } from '@silverhand/essentials';
 import type { CommonQueryMethods } from '@silverhand/slonik';

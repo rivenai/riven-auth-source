@@ -1,4 +1,4 @@
-import { MfaFactor, experience } from '@logto/schemas';
+import { MfaFactor, experience } from '@riven/schemas';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
 import { handleSearchParametersData } from '@/shared/utils/search-parameters';

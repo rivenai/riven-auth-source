@@ -1,6 +1,6 @@
 import http from 'node:http';
 
-import { isValidUrl } from '@logto/core-kit';
+import { isValidUrl } from '@riven/core-kit';
 import { conditional } from '@silverhand/essentials';
 import chalk from 'chalk';
 import type { CommandModule } from 'yargs';

@@ -1,4 +1,4 @@
-# @logto/api
+# @riven/api
 
 ## 1.39.0
 

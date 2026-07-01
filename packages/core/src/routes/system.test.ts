@@ -1,4 +1,4 @@
-import { pickDefault } from '@logto/shared/esm';
+import { pickDefault } from '@riven/shared/esm';
 
 import { mockProtectedAppConfigProviderConfig } from '#src/__mocks__/index.js';
 import { mockIdGenerators } from '#src/test-utils/nanoid.js';

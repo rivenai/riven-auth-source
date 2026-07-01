@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import type http from 'node:http';
 import path from 'node:path';
 
-import { isFileAssetPath, isValidUrl, parseRange } from '@logto/core-kit';
+import { isFileAssetPath, isValidUrl, parseRange } from '@riven/core-kit';
 import { conditional, trySafe } from '@silverhand/essentials';
 import chalk from 'chalk';
 import { createProxyMiddleware, responseInterceptor } from 'http-proxy-middleware';

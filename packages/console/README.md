@@ -1,4 +1,4 @@
-# @logto/console
+# @riven/console
 
 The web admin console for Logto.
 

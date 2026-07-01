@@ -1,4 +1,4 @@
-import { type SsoConnectorWithProviderConfig } from '@logto/schemas';
+import { type SsoConnectorWithProviderConfig } from '@riven/schemas';
 import classNames from 'classnames';
 import { Suspense } from 'react';
 

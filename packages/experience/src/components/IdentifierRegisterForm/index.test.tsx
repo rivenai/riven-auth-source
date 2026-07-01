@@ -1,4 +1,4 @@
-import { SignInIdentifier, experience, type SsoConnectorMetadata } from '@logto/schemas';
+import { SignInIdentifier, experience, type SsoConnectorMetadata } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { fireEvent, act, waitFor, renderHook } from '@testing-library/react';
 

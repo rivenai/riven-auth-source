@@ -1,5 +1,5 @@
-import type { Profile, SignInExperience, User } from '@logto/schemas';
-import { InteractionEvent, MissingProfile, SignInIdentifier } from '@logto/schemas';
+import type { Profile, SignInExperience, User } from '@riven/schemas';
+import { InteractionEvent, MissingProfile, SignInIdentifier } from '@riven/schemas';
 import type { Nullable } from '@silverhand/essentials';
 import { conditional } from '@silverhand/essentials';
 

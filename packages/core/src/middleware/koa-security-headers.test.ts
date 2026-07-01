@@ -1,5 +1,5 @@
-import { GlobalValues } from '@logto/shared';
-import { createMockUtils } from '@logto/shared/esm';
+import { GlobalValues } from '@riven/shared';
+import { createMockUtils } from '@riven/shared/esm';
 import { noop } from '@silverhand/essentials';
 import type Koa from 'koa';
 

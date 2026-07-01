@@ -1,5 +1,5 @@
-import { DomainStatus } from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+import { DomainStatus } from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 
 import { mockCloudflareData, mockProtectedApplication } from '#src/__mocks__/index.js';
 import { mockIdGenerators } from '#src/test-utils/nanoid.js';

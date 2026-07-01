@@ -1,4 +1,4 @@
-import { ReservedPlanId } from '@logto/schemas';
+import { ReservedPlanId } from '@riven/schemas';
 
 import { type CloudConnectionLibrary } from '#src/libraries/cloud-connection.js';
 import { type Subscription } from '#src/utils/subscription/types.js';

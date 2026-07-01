@@ -1,6 +1,6 @@
-import type { LogtoConfig, SignInOptions } from '@logto/node';
-import LogtoClient from '@logto/node';
-import { demoAppApplicationId } from '@logto/schemas';
+import type { LogtoConfig, SignInOptions } from '@riven/node';
+import LogtoClient from '@riven/node';
+import { demoAppApplicationId } from '@riven/schemas';
 import type { Nullable, Optional } from '@silverhand/essentials';
 import { assert } from '@silverhand/essentials';
 import ky, { type KyInstance } from 'ky';

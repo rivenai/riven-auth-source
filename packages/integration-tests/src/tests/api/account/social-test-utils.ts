@@ -1,4 +1,4 @@
-import { type SignInIdentifier } from '@logto/schemas';
+import { type SignInIdentifier } from '@riven/schemas';
 import { type KyInstance } from 'ky';
 
 import { updateIdentities } from '#src/api/my-account.js';

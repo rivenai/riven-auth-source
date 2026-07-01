@@ -10,8 +10,8 @@ import {
   hookResponseGuard,
   type Hook,
   type HookResponse,
-} from '@logto/schemas';
-import { generateStandardId, generateStandardSecret } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId, generateStandardSecret } from '@riven/shared';
 import { conditional, deduplicate, yes } from '@silverhand/essentials';
 import { subDays } from 'date-fns';
 import { z } from 'zod';

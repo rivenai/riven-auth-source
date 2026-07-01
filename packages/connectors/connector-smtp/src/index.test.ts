@@ -1,4 +1,4 @@
-import { type EmailTemplateDetails, TemplateType } from '@logto/connector-kit';
+import { type EmailTemplateDetails, TemplateType } from '@riven/connector-kit';
 import type { Transporter } from 'nodemailer';
 import nodemailer from 'nodemailer';
 

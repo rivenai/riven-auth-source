@@ -1,5 +1,5 @@
-import { GlobalValues, UrlSet } from '@logto/shared';
-import { createMockUtils } from '@logto/shared/esm';
+import { GlobalValues, UrlSet } from '@riven/shared';
+import { createMockUtils } from '@riven/shared/esm';
 import type { RequestMethod } from 'node-mocks-http';
 
 import createMockContext from '#src/test-utils/jest-koa-mocks/create-mock-context.js';

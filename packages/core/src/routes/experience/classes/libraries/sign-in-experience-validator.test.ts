@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 import {
   InteractionEvent,
   MfaFactor,
@@ -8,7 +8,7 @@ import {
   SignInIdentifier,
   SignInMode,
   VerificationType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';
 import RequestError from '#src/errors/RequestError/index.js';

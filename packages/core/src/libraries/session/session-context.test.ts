@@ -1,5 +1,5 @@
-import { type User } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { type User } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import type { Provider } from 'oidc-provider';
 
 import { mockUser } from '#src/__mocks__/user.js';

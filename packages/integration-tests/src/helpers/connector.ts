@@ -1,4 +1,4 @@
-import { ConnectorType } from '@logto/schemas';
+import { ConnectorType } from '@riven/schemas';
 import { type KyInstance } from 'ky';
 
 import {

@@ -1,4 +1,4 @@
-import { type Hook } from '@logto/schemas';
+import { type Hook } from '@riven/schemas';
 import Modal from 'react-modal';
 
 import modalStyles from '@/scss/modal.module.scss';

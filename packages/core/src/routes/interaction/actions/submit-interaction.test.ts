@@ -6,8 +6,8 @@ import {
   userMfaDataKey,
   type CreateUser,
   type User,
-} from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import type { Provider } from 'oidc-provider';
 
 import { type InsertUserResult } from '#src/libraries/user.js';
@@ -40,7 +40,7 @@ const { encryptUserPassword } = mockEsm('#src/libraries/user.utils.js', () => ({
   }),
 }));
 
-mockEsm('@logto/shared', () => ({
+mockEsm('@riven/shared', () => ({
   generateStandardId: jest.fn().mockReturnValue('uid'),
 }));
 

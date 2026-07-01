@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { act, waitFor, fireEvent } from '@testing-library/react';
 import { useLocation } from 'react-router-dom';
 

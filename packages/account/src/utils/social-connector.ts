@@ -1,4 +1,4 @@
-import { ConnectorPlatform, type ExperienceSocialConnector } from '@logto/schemas';
+import { ConnectorPlatform, type ExperienceSocialConnector } from '@riven/schemas';
 
 export const getAvailableSocialConnectors = (
   connectors: ExperienceSocialConnector[]

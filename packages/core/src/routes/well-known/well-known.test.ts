@@ -1,4 +1,4 @@
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import {
   mockAliyunDmConnector,

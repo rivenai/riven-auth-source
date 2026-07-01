@@ -4,7 +4,7 @@ import {
   MfaFactor,
   type WebAuthnRegistrationOptions,
   type BindWebAuthnPayload,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { verificationRecordIdHeader } from './account';
 import { createAuthenticatedKy } from './base-ky';

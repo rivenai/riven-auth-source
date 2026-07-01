@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { type ConsentInfoResponse } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { type ConsentInfoResponse } from '@riven/schemas';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 

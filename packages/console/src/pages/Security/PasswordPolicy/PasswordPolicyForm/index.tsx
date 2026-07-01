@@ -1,5 +1,5 @@
-import { PasswordPolicyChecker } from '@logto/core-kit';
-import { type SignInExperience } from '@logto/schemas';
+import { PasswordPolicyChecker } from '@riven/core-kit';
+import { type SignInExperience } from '@riven/schemas';
 import { cond } from '@silverhand/essentials';
 import { type ChangeEvent } from 'react';
 import { Controller, FormProvider, useForm } from 'react-hook-form';

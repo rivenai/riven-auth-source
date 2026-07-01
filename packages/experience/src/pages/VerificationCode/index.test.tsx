@@ -1,4 +1,4 @@
-import { SignInIdentifier, VerificationType } from '@logto/schemas';
+import { SignInIdentifier, VerificationType } from '@riven/schemas';
 import { renderHook } from '@testing-library/react';
 import { Routes, Route } from 'react-router-dom';
 import { remove } from 'tiny-cookie';

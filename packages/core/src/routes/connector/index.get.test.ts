@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/schemas';
-import { pickDefault, createMockUtils } from '@logto/shared/esm';
+import { ConnectorType } from '@riven/schemas';
+import { pickDefault, createMockUtils } from '@riven/shared/esm';
 
 import {
   mockMetadata0,

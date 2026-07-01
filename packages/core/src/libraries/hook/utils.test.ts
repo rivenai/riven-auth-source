@@ -1,5 +1,5 @@
-import { type HookEvent, InteractionHookEvent } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { type HookEvent, InteractionHookEvent } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 import ky from 'ky';
 
 const { jest } = import.meta;

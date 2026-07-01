@@ -8,13 +8,13 @@ import type {
   CreateConnector,
   GetConnectorConfig,
   ValidateSamlAssertion,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   validateConfig,
   ConnectorType,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import * as saml from 'samlify';
 
 import { defaultMetadata } from './constant.js';

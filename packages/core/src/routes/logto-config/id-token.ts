@@ -1,4 +1,4 @@
-import { idTokenConfigGuard } from '@logto/schemas';
+import { idTokenConfigGuard } from '@riven/schemas';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import koaGuard from '#src/middleware/koa-guard.js';

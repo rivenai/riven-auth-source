@@ -1,6 +1,6 @@
 @use '@/scss/underscore' as _;
-@use '@logto/core-kit/scss/fonts';
-@use '@logto/core-kit/scss/console-themes' as themes;
+@use '@riven/core-kit/scss/fonts';
+@use '@riven/core-kit/scss/console-themes' as themes;
 
 .app {
   min-height: 100vh;

@@ -1,7 +1,7 @@
 import crypto from 'node:crypto';
 
-import { PasswordPolicyChecker } from '@logto/core-kit';
-import { MfaPolicy, type SignInExperience } from '@logto/schemas';
+import { PasswordPolicyChecker } from '@riven/core-kit';
+import { MfaPolicy, type SignInExperience } from '@riven/schemas';
 import type { MiddlewareType } from 'koa';
 import { type IRouterParamContext } from 'koa-router';
 

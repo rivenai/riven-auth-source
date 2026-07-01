@@ -1,6 +1,6 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { SignInMode, SignInIdentifier } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { ConnectorType } from '@riven/connector-kit';
+import { SignInMode, SignInIdentifier } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import ky from 'ky';
 
 import { authedAdminTenantApi as api } from '#src/api/api.js';

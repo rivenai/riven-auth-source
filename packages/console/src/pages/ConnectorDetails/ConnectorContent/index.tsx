@@ -1,6 +1,6 @@
-import { ServiceConnector, GoogleConnector } from '@logto/connector-kit';
-import { ConnectorType } from '@logto/schemas';
-import type { ConnectorResponse } from '@logto/schemas';
+import { ServiceConnector, GoogleConnector } from '@riven/connector-kit';
+import { ConnectorType } from '@riven/schemas';
+import type { ConnectorResponse } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useCallback, useMemo } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';

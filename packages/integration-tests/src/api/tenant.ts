@@ -1,5 +1,5 @@
-import { type TenantTag } from '@logto/schemas';
-import type { TenantModel } from '@logto/schemas/models';
+import { type TenantTag } from '@riven/schemas';
+import type { TenantModel } from '@riven/schemas/models';
 
 import { cloudApi } from './api.js';
 

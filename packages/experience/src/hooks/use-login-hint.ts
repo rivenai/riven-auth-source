@@ -1,4 +1,4 @@
-import { ExtraParamsKey } from '@logto/schemas';
+import { ExtraParamsKey } from '@riven/schemas';
 import { useSearchParams } from 'react-router-dom';
 
 const useLoginHint = () => {

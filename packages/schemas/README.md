@@ -1,4 +1,4 @@
-# @logto/schemas
+# @riven/schemas
 
 The central packages for all database schemas and their TypeScript definitions and utilities.
 

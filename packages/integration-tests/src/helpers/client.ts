@@ -1,5 +1,5 @@
-import type { LogtoConfig, SignInOptions } from '@logto/node';
-import { InteractionEvent } from '@logto/schemas';
+import type { LogtoConfig, SignInOptions } from '@riven/node';
+import { InteractionEvent } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { type KyInstance } from 'ky';
 

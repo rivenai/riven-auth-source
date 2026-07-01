@@ -1,4 +1,4 @@
-import { AgreeToTermsPolicy, experience, SignInMode } from '@logto/schemas';
+import { AgreeToTermsPolicy, experience, SignInMode } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 import { Navigate } from 'react-router-dom';
 

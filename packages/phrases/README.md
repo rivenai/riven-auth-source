@@ -1,4 +1,4 @@
-# `@logto/phrases`
+# `@riven/phrases`
 
 See [the main README](../../README.md) for more information.
 

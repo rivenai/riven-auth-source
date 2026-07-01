@@ -1,5 +1,5 @@
-import { useLogto } from '@logto/react';
-import type { AdminConsoleData } from '@logto/schemas';
+import { useLogto } from '@riven/react';
+import type { AdminConsoleData } from '@riven/schemas';
 import useSWR from 'swr';
 
 import type { RequestError } from './use-api';

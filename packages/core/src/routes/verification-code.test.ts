@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { TemplateType } from '@riven/connector-kit';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import { MockTenant } from '#src/test-utils/tenant.js';
 import { createRequester } from '#src/utils/test-utils.js';

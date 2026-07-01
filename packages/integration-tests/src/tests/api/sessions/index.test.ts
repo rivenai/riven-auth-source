@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { SessionGrantRevokeTarget, SignInIdentifier, demoAppApplicationId } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { SessionGrantRevokeTarget, SignInIdentifier, demoAppApplicationId } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { deleteApplication } from '#src/api/application.js';

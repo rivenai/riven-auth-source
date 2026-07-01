@@ -1,4 +1,4 @@
-import type router from '@logto/cloud/routes';
+import type router from '@riven/cloud/routes';
 import Client from '@withtyped/client';
 
 import { type LogtoConfigLibrary } from '#src/libraries/logto-config.js';

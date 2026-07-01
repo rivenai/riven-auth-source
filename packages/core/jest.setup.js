@@ -2,8 +2,8 @@
  * Setup environment variables for unit test
  */
 
-import en from '@logto/phrases/lib/locales/en/index.js';
-import { createMockUtils } from '@logto/shared/esm';
+import en from '@riven/phrases/lib/locales/en/index.js';
+import { createMockUtils } from '@riven/shared/esm';
 import { init } from 'i18next';
 
 const { jest } = import.meta;

@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import classNames from 'classnames';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';

@@ -2,7 +2,7 @@ import {
   reservedBuiltInProfileKeys,
   reservedCustomDataKeys,
   reservedSignInIdentifierKeys,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export const protectedAppSignInCallbackUrl = 'sign-in-callback';
 /** The default lifetime of subject tokens (in seconds) */

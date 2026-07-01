@@ -3,7 +3,7 @@ import {
   type User,
   type IdentifierPayload,
   type VerifyVerificationCodePayload,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import type { PasswordIdentifierPayload } from '../types/index.js';
 

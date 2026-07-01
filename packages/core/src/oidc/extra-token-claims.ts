@@ -1,4 +1,4 @@
-import { appInsights } from '@logto/app-insights/node';
+import { appInsights } from '@riven/app-insights/node';
 import {
   type Json,
   LogtoJwtTokenKey,
@@ -8,7 +8,7 @@ import {
   type CustomJwtFetcher,
   GrantType,
   jwtCustomizerUserInteractionContextGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, trySafe } from '@silverhand/essentials';
 import { ResponseError } from '@withtyped/client';
 import type { i18n } from 'i18next';

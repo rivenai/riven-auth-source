@@ -1,4 +1,4 @@
-import { MfaPolicy } from '@logto/schemas';
+import { MfaPolicy } from '@riven/schemas';
 
 export const isNoSkipMfaPolicy = (policy: MfaPolicy): boolean =>
   [

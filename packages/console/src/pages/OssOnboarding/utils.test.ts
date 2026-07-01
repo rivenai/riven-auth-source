@@ -1,4 +1,4 @@
-import { CompanySize, Project, type OssSurveyReportPayload } from '@logto/schemas';
+import { CompanySize, Project, type OssSurveyReportPayload } from '@riven/schemas';
 
 import {
   getBaseOssOnboardingPayload,

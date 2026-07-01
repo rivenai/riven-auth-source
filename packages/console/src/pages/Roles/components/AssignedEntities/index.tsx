@@ -1,4 +1,4 @@
-import { type RoleResponse, RoleType, ApplicationType } from '@logto/schemas';
+import { type RoleResponse, RoleType, ApplicationType } from '@riven/schemas';
 import classNames from 'classnames';
 
 import type { GetArrayElementType } from '@/cloud/types/router';

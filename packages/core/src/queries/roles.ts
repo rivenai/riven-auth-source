@@ -1,5 +1,5 @@
-import type { CreateRole, Role, RoleType } from '@logto/schemas';
-import { internalRolePrefix, SearchJointMode, Roles } from '@logto/schemas';
+import type { CreateRole, Role, RoleType } from '@riven/schemas';
+import { internalRolePrefix, SearchJointMode, Roles } from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

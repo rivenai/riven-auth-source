@@ -1,4 +1,4 @@
-import { ReservedPlanId } from '@logto/schemas';
+import { ReservedPlanId } from '@riven/schemas';
 import { conditional, trySafe, type Nullable } from '@silverhand/essentials';
 import { ResponseError } from '@withtyped/client';
 import dayjs from 'dayjs';

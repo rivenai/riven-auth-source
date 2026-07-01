@@ -1,5 +1,5 @@
-import type { SignIn } from '@logto/schemas';
-import { SignInIdentifier } from '@logto/schemas';
+import type { SignIn } from '@riven/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { useCallback, useContext } from 'react';
 
 import UserInteractionContext from '@/Providers/UserInteractionContextProvider/UserInteractionContext';

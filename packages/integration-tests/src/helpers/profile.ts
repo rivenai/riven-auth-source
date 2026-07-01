@@ -1,5 +1,5 @@
-import { type LogtoConfig } from '@logto/node';
-import { demoAppApplicationId, SignInIdentifier, type User } from '@logto/schemas';
+import { type LogtoConfig } from '@riven/node';
+import { demoAppApplicationId, SignInIdentifier, type User } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 
 import { demoAppRedirectUri, logtoUrl } from '#src/constants.js';

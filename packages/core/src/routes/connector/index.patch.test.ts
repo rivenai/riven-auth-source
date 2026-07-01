@@ -1,6 +1,6 @@
-import { ConnectorError, ConnectorErrorCodes } from '@logto/connector-kit';
-import { ConnectorType } from '@logto/schemas';
-import { pickDefault } from '@logto/shared/esm';
+import { ConnectorError, ConnectorErrorCodes } from '@riven/connector-kit';
+import { ConnectorType } from '@riven/schemas';
+import { pickDefault } from '@riven/shared/esm';
 
 import {
   mockMetadata,

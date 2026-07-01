@@ -1,5 +1,5 @@
-import { jsonObjectGuard, subjectTokenResponseGuard } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { jsonObjectGuard, subjectTokenResponseGuard } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { addSeconds } from 'date-fns';
 import { object, string } from 'zod';
 

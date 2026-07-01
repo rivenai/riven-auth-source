@@ -5,8 +5,8 @@ import { createRequire } from 'node:module';
 import path from 'node:path';
 import { promisify } from 'node:util';
 
-import { type LanguageTag } from '@logto/language-kit';
-import { ConsoleLog } from '@logto/shared';
+import { type LanguageTag } from '@riven/language-kit';
+import { ConsoleLog } from '@riven/shared';
 import { assert, conditional } from '@silverhand/essentials';
 import chalk from 'chalk';
 import inquirer from 'inquirer';
@@ -60,7 +60,7 @@ const validatePath = async (value: string) => {
     .then(({ name }) => name)
     .catch(() => '');
 
-  if (packageName !== '@logto/core') {
+  if (packageName !== '@riven/core') {
     return buildPathErrorMessage(value);
   }
 

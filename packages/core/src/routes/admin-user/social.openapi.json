@@ -25,7 +25,7 @@
           }
         },
         "summary": "Link social identity to user",
-        "description": "Link authenticated user identity from a social platform to a Logto user.\n\nThe usage of this API is usually coupled with `POST /connectors/:connectorId/authorization-uri`. With the help of these pair of APIs, you can implement a user profile page with the link social account feature in your application.\n\nNote: Currently due to technical limitations, this API does not support the following connectors that rely on Logto interaction session: `@logto/connector-apple`, `@logto/connector-saml`, `@logto/connector-oidc` and `@logto/connector-oauth`."
+        "description": "Link authenticated user identity from a social platform to a Logto user.\n\nThe usage of this API is usually coupled with `POST /connectors/:connectorId/authorization-uri`. With the help of these pair of APIs, you can implement a user profile page with the link social account feature in your application.\n\nNote: Currently due to technical limitations, this API does not support the following connectors that rely on Logto interaction session: `@riven/connector-apple`, `@riven/connector-saml`, `@riven/connector-oidc` and `@riven/connector-oauth`."
       }
     },
     "/api/users/{userId}/identities/{target}": {

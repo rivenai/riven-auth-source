@@ -1,4 +1,4 @@
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 
 import { codeTest, mockedConnectorConfig, mockedTemplateCode, phoneTest } from './mock.js';
 

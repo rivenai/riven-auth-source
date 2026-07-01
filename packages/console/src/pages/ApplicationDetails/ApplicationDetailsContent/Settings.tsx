@@ -1,6 +1,6 @@
-import { validateRedirectUrl } from '@logto/core-kit';
-import type { Application } from '@logto/schemas';
-import { ApplicationType } from '@logto/schemas';
+import { validateRedirectUrl } from '@riven/core-kit';
+import type { Application } from '@riven/schemas';
+import { ApplicationType } from '@riven/schemas';
 import { useContext } from 'react';
 import { Controller, useFormContext } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';

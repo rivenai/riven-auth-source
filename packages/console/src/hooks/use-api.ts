@@ -3,15 +3,15 @@ import {
   getOrganizationIdFromUrn,
   httpCodeToMessage,
   organizationUrnPrefix,
-} from '@logto/core-kit';
-import { type LogtoErrorCode } from '@logto/phrases';
-import { useLogto } from '@logto/react';
+} from '@riven/core-kit';
+import { type LogtoErrorCode } from '@riven/phrases';
+import { useLogto } from '@riven/react';
 import {
   getTenantOrganizationId,
   type RequestErrorBody,
   getManagementApiResourceIndicator,
   defaultTenantId,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath, conditionalArray } from '@silverhand/essentials';
 import ky from 'ky';
 import { type KyInstance } from 'node_modules/ky/distribution/types/ky';

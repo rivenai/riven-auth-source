@@ -1,4 +1,4 @@
-# @logto/core
+# @riven/core
 
 The core backend service.
 

@@ -1,4 +1,4 @@
-import { ApplicationType } from '@logto/schemas';
+import { ApplicationType } from '@riven/schemas';
 import ky from 'ky';
 
 import { oidcApi } from '#src/api/api.js';

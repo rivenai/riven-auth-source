@@ -30,7 +30,7 @@ To proceed, you'll need to integrate the Logto SDK into your client application.
 You'll also need to tweak the Logto SDK configuration to inform Logto that you want to request an access token for your API in this grant. Here's an example using React:
 
 <Code className="language-ts">
-  {`import { LogtoProvider } from '@logto/react';
+  {`import { LogtoProvider } from '@riven/react';
 
 const App = () => {
   return (
@@ -49,7 +49,7 @@ const App = () => {
 Once a user signs in with Logto, `isAuthenticated` within the Logto SDK will become `true`:
 
 <Code className="language-ts">
-  {`import { useLogto } from '@logto/react';
+  {`import { useLogto } from '@riven/react';
 
 const Content = () => {
   const { isAuthenticated } = useLogto();

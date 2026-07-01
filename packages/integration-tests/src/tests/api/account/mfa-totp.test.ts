@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { MfaFactor } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { MfaFactor } from '@riven/schemas';
 import { authenticator } from 'otplib';
 
 import { enableAllAccountCenterFields } from '#src/api/account-center.js';

@@ -1,5 +1,5 @@
-import type { LocalePhrase } from '@logto/phrases-experience';
-import resource, { isBuiltInLanguageTag } from '@logto/phrases-experience';
+import type { LocalePhrase } from '@riven/phrases-experience';
+import resource, { isBuiltInLanguageTag } from '@riven/phrases-experience';
 import { trySafe } from '@silverhand/essentials';
 import cleanDeep from 'clean-deep';
 import deepmerge from 'deepmerge';

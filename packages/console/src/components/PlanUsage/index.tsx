@@ -1,4 +1,4 @@
-import { ReservedPlanId } from '@logto/schemas';
+import { ReservedPlanId } from '@riven/schemas';
 import { cond } from '@silverhand/essentials';
 import classNames from 'classnames';
 import dayjs from 'dayjs';

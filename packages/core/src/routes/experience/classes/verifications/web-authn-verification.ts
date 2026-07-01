@@ -10,8 +10,8 @@ import {
   type SignInPasskeyVerificationRecordData,
   type SanitizedWebAuthnVerificationRecordData,
   type SanitizedSignInPasskeyVerificationRecordData,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional } from '@silverhand/essentials';
 import { isoBase64URL } from '@simplewebauthn/server/helpers';
 import { type PublicKeyCredentialRequestOptionsJSON } from 'node_modules/@simplewebauthn/server/esm/deps.js';
@@ -40,7 +40,7 @@ export {
   type SanitizedSignInPasskeyVerificationRecordData,
   sanitizedWebAuthnVerificationRecordDataGuard,
   sanitizedSignInPasskeyVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 abstract class BaseWebAuthnVerification {
   readonly id: string;

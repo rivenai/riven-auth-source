@@ -1,4 +1,4 @@
-import { LogtoJwtTokenKeyType, ReservedPlanId, type ExtendedIdTokenClaim } from '@logto/schemas';
+import { LogtoJwtTokenKeyType, ReservedPlanId, type ExtendedIdTokenClaim } from '@riven/schemas';
 import { cond } from '@silverhand/essentials';
 import { useCallback, useContext, useMemo, useState } from 'react';
 import { toast } from 'react-hot-toast';

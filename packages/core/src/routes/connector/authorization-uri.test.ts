@@ -1,4 +1,4 @@
-import { pickDefault } from '@logto/shared/esm';
+import { pickDefault } from '@riven/shared/esm';
 
 import { mockLogtoConnectorList } from '#src/__mocks__/connector.js';
 import { mockConnector0, mockLogtoConnector, mockMetadata0 } from '#src/__mocks__/index.js';

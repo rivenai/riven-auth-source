@@ -1,5 +1,5 @@
-import { ReservedResource, UserScope } from '@logto/core-kit';
-import { type Application, ApplicationType, SignInIdentifier } from '@logto/schemas';
+import { ReservedResource, UserScope } from '@riven/core-kit';
+import { type Application, ApplicationType, SignInIdentifier } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 
 import { deleteUser } from '#src/api/admin-user.js';

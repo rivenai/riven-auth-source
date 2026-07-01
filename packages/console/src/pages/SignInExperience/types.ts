@@ -6,7 +6,7 @@ import {
   type SignInIdentifier,
   type SignUpIdentifier as SignUpIdentifierMethod,
   type AccountCenterFieldControl,
-} from '@logto/schemas';
+} from '@riven/schemas';
 /**
  * Omit the `mfa`, `adaptiveMfa`, `captchaPolicy`, `passwordPolicy`, `sentinelPolicy` and `emailBlocklistPolicy` fields from the sign-in experience.
  * Since those fields are not managed by the sign-in experience page.

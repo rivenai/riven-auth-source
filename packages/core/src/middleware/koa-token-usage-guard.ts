@@ -1,5 +1,5 @@
-import { appInsights } from '@logto/app-insights/node';
-import { adminTenantId } from '@logto/schemas';
+import { appInsights } from '@riven/app-insights/node';
+import { adminTenantId } from '@riven/schemas';
 import { type Nullable } from '@silverhand/essentials';
 import { type MiddlewareType } from 'koa';
 

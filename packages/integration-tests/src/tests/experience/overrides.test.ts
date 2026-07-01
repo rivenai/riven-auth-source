@@ -3,7 +3,7 @@
  */
 /* eslint max-lines: 0 */
 
-import { ConnectorType } from '@logto/connector-kit';
+import { ConnectorType } from '@riven/connector-kit';
 import {
   ApplicationType,
   type Branding,
@@ -11,7 +11,7 @@ import {
   SignInIdentifier,
   type FullSignInExperience,
   type PartialColor,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { appendPath, pick } from '@silverhand/essentials';
 
 import api from '#src/api/api.js';

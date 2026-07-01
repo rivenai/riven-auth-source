@@ -1,4 +1,4 @@
-import { type PersonalAccessToken } from '@logto/schemas';
+import { type PersonalAccessToken } from '@riven/schemas';
 import { addDays, format } from 'date-fns';
 import { useCallback, useEffect, useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';

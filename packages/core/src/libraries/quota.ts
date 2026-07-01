@@ -1,4 +1,4 @@
-import { adminTenantId, ConnectorType } from '@logto/schemas';
+import { adminTenantId, ConnectorType } from '@riven/schemas';
 
 import { EnvSet } from '#src/env-set/index.js';
 import RequestError from '#src/errors/RequestError/index.js';

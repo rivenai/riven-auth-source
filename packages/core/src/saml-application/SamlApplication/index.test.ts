@@ -1,5 +1,5 @@
-import { UserScope, ReservedScope } from '@logto/core-kit';
-import { NameIdFormat } from '@logto/schemas';
+import { UserScope, ReservedScope } from '@riven/core-kit';
+import { NameIdFormat } from '@riven/schemas';
 import nock from 'nock';
 
 import { EnvSet, getTenantEndpoint } from '#src/env-set/index.js';

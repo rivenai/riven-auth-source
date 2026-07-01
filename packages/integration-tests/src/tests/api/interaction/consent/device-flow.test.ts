@@ -1,11 +1,11 @@
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import {
   ApplicationType,
   InteractionEvent,
   SignInIdentifier,
   deviceFlowXsrfCookieKey,
   oidcRoutes,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import ky, { type Options } from 'ky';
 
 import { deleteUser } from '#src/api/admin-user.js';

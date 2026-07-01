@@ -1,4 +1,4 @@
-import { type CustomProfileField } from '@logto/schemas';
+import { type CustomProfileField } from '@riven/schemas';
 import { useForm, useFieldArray } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
 import { useTranslation } from 'react-i18next';

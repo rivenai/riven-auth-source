@@ -1,4 +1,4 @@
-import { OrganizationUserRelations, UsersRoles } from '@logto/schemas';
+import { OrganizationUserRelations, UsersRoles } from '@riven/schemas';
 import { type Nullable, tryThat, yes } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

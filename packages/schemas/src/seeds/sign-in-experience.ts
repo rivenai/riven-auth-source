@@ -1,4 +1,4 @@
-import { generateDarkColor } from '@logto/core-kit';
+import { generateDarkColor } from '@riven/core-kit';
 
 import type { CreateSignInExperience } from '../db-entries/index.js';
 import { SignInMode } from '../db-entries/index.js';

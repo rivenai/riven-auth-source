@@ -1,4 +1,4 @@
-import { type OrganizationRole } from '@logto/schemas';
+import { type OrganizationRole } from '@riven/schemas';
 
 export type OrganizationRoleDetailsOutletContext = {
   organizationRole: OrganizationRole;

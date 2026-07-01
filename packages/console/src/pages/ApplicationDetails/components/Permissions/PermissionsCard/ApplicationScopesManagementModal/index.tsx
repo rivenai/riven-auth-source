@@ -1,4 +1,4 @@
-import { ApplicationUserConsentScopeType } from '@logto/schemas';
+import { ApplicationUserConsentScopeType } from '@riven/schemas';
 import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';

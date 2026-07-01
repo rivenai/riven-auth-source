@@ -1,4 +1,4 @@
-import type { LogtoErrorCode } from '@logto/phrases';
+import type { LogtoErrorCode } from '@riven/phrases';
 import { assert } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

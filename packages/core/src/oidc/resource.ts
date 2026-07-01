@@ -1,5 +1,5 @@
-import { ReservedResource } from '@logto/core-kit';
-import { type Resource } from '@logto/schemas';
+import { ReservedResource } from '@riven/core-kit';
+import { type Resource } from '@riven/schemas';
 import { trySafe, type Nullable } from '@silverhand/essentials';
 import { type ResourceServer } from 'oidc-provider';
 

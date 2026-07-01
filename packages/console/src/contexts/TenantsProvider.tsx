@@ -1,4 +1,4 @@
-import { adminTenantId, defaultTenantId, TenantTag } from '@logto/schemas';
+import { adminTenantId, defaultTenantId, TenantTag } from '@riven/schemas';
 import { conditionalArray, noop } from '@silverhand/essentials';
 import type { ReactNode } from 'react';
 import { useCallback, useMemo, createContext, useState } from 'react';

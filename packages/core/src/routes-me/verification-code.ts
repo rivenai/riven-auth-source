@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { emailRegEx } from '@logto/core-kit';
+import { TemplateType } from '@riven/connector-kit';
+import { emailRegEx } from '@riven/core-kit';
 import { object, string } from 'zod';
 
 import koaGuard from '#src/middleware/koa-guard.js';

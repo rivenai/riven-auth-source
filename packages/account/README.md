@@ -72,13 +72,13 @@ import useSendVerificationCode from '@experience/hooks/use-send-verification-cod
 
 If you need functionality from `@experience/utils/*` or other non-shared locations:
 
-1. **Use shared packages** - Check if `@logto/core-kit`, `@logto/schemas`, or `@logto/shared` has what you need
+1. **Use shared packages** - Check if `@riven/core-kit`, `@riven/schemas`, or `@riven/shared` has what you need
 2. **Re-implement locally** - Simple utilities can be implemented in account-center
 3. **Move to shared** - If the utility is truly reusable, consider moving it to `@experience/shared/`
 
 ### Available Shared Packages
 
-- `@logto/core-kit` - Core utilities like `emailRegEx` for validation
-- `@logto/schemas` - TypeScript types and schemas
-- `@logto/phrases-experience` - i18n translations
-- `@logto/shared/universal` - Universal utilities (browser + Node.js compatible)
+- `@riven/core-kit` - Core utilities like `emailRegEx` for validation
+- `@riven/schemas` - TypeScript types and schemas
+- `@riven/phrases-experience` - i18n translations
+- `@riven/shared/universal` - Universal utilities (browser + Node.js compatible)

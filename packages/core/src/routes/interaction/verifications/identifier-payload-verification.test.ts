@@ -1,8 +1,8 @@
 import crypto from 'node:crypto';
 
-import { PasswordPolicyChecker } from '@logto/core-kit';
-import { InteractionEvent } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { PasswordPolicyChecker } from '@riven/core-kit';
+import { InteractionEvent } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';
 import RequestError from '#src/errors/RequestError/index.js';

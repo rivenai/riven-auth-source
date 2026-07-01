@@ -1,4 +1,4 @@
-import { urlRegEx } from '@logto/connector-kit';
+import { urlRegEx } from '@riven/connector-kit';
 import { conditionalString } from '@silverhand/essentials';
 import { Controller, useFormContext } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';

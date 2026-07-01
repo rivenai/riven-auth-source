@@ -1,4 +1,4 @@
-import { SignInIdentifier, Theme } from '@logto/schemas';
+import { SignInIdentifier, Theme } from '@riven/schemas';
 import type { TFuncKey } from 'i18next';
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';

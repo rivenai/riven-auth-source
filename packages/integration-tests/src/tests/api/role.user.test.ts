@@ -1,4 +1,4 @@
-import { RoleType } from '@logto/schemas';
+import { RoleType } from '@riven/schemas';
 import { HTTPError } from 'ky';
 
 import { createUser, updateUser } from '#src/api/index.js';

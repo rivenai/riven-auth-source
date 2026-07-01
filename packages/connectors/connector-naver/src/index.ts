@@ -11,14 +11,14 @@ import type {
   GetConnectorConfig,
   GetUserInfo,
   SocialConnector,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   ConnectorType,
   validateConfig,
   parseJson,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 
 import {
   accessTokenEndpoint,

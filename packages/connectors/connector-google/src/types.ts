@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { GoogleConnector } from '@logto/connector-kit';
+import { GoogleConnector } from '@riven/connector-kit';
 
 export const accessTokenResponseGuard = z.object({
   access_token: z.string(),

@@ -1,4 +1,4 @@
-import { Prompt, UserScope } from '@logto/react';
+import { Prompt, UserScope } from '@riven/react';
 import { z } from 'zod';
 
 type ToZodObject<T> = z.ZodObject<{

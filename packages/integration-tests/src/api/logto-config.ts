@@ -10,7 +10,7 @@ import {
   type Json,
   type IdTokenConfig,
   type OidcSessionConfig,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { waitFor } from '#src/utils.js';
 

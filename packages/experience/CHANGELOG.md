@@ -352,8 +352,8 @@
 
   ### Sign-in experience settings
 
-  - `@logto/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
-  - `@logto/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
+  - `@riven/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
+  - `@riven/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
 
   ### End-user experience
 
@@ -552,7 +552,7 @@
   For example, in the JavaScript SDK:
 
   ```ts
-  import LogtoClient from "@logto/client";
+  import LogtoClient from "@riven/client";
 
   const logtoClient = new LogtoClient(/* your configuration */);
 
@@ -586,7 +586,7 @@
   Removed ParcelJS and replaced with Vite. No breaking changes should be expected, but use a minor version bump to catch your attention.
 
   > [!Important]
-  > The browserlist configuration for `@logto/experience` and been synced with what is stated in README.md.
+  > The browserlist configuration for `@riven/experience` and been synced with what is stated in README.md.
 
 - 62f5e5e0c: support dark favicon
 

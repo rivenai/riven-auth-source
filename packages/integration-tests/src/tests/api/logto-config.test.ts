@@ -5,7 +5,7 @@ import {
   LogtoJwtTokenKey,
   LogtoJwtTokenKeyType,
   OidcSigningKeyStatus,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import {
   accessTokenJwtCustomizerPayload,

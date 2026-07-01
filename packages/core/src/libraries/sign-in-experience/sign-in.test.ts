@@ -1,4 +1,4 @@
-import { ConnectorType, SignInIdentifier, MfaFactor, MfaPolicy } from '@logto/schemas';
+import { ConnectorType, SignInIdentifier, MfaFactor, MfaPolicy } from '@riven/schemas';
 
 import {
   mockAliyunDmConnector,

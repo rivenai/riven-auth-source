@@ -1,5 +1,5 @@
-import type { User } from '@logto/schemas';
-import { MfaFactor, UsersPasswordEncryptionMethod } from '@logto/schemas';
+import type { User } from '@riven/schemas';
+import { MfaFactor, UsersPasswordEncryptionMethod } from '@riven/schemas';
 
 import { transpileUserProfileResponse } from '../utils/user.js';
 

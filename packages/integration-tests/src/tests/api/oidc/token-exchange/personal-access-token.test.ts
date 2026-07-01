@@ -1,6 +1,6 @@
-import { buildOrganizationUrn } from '@logto/core-kit';
-import { ApplicationType, GrantType, type Resource } from '@logto/schemas';
-import { formUrlEncodedHeaders } from '@logto/shared';
+import { buildOrganizationUrn } from '@riven/core-kit';
+import { ApplicationType, GrantType, type Resource } from '@riven/schemas';
+import { formUrlEncodedHeaders } from '@riven/shared';
 
 import { createPersonalAccessToken } from '#src/api/admin-user.js';
 import { oidcApi } from '#src/api/api.js';

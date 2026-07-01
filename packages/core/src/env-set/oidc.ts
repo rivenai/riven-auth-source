@@ -1,11 +1,11 @@
 import crypto from 'node:crypto';
 
-import type { LogtoOidcConfigType } from '@logto/schemas';
+import type { LogtoOidcConfigType } from '@riven/schemas';
 import {
   LogtoOidcConfigKey,
   getCurrentOidcPrivateKey,
   getOidcProviderPrivateKeys,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { createLocalJWKSet } from 'jose';
 

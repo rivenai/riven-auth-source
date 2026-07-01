@@ -1,5 +1,5 @@
 import { InkeepModalChat } from '@inkeep/cxkit-react';
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import classNames from 'classnames';
 import { type ReactNode, useState } from 'react';
 import { useTranslation } from 'react-i18next';

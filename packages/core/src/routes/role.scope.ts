@@ -1,5 +1,5 @@
-import { scopeResponseGuard, Scopes } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { scopeResponseGuard, Scopes } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { tryThat } from '@silverhand/essentials';
 import { object, string } from 'zod';
 

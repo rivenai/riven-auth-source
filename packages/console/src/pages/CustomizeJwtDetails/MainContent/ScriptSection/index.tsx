@@ -1,5 +1,5 @@
 /* Code Editor for the custom JWT claims script. */
-import { LogtoJwtTokenKeyType } from '@logto/schemas';
+import { LogtoJwtTokenKeyType } from '@riven/schemas';
 import classNames from 'classnames';
 import { useCallback, useContext, useMemo } from 'react';
 import { Controller, useFormContext, useWatch } from 'react-hook-form';

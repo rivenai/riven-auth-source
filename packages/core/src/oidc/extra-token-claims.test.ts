@@ -1,4 +1,4 @@
-import { InteractionEvent } from '@logto/schemas';
+import { InteractionEvent } from '@riven/schemas';
 import { ResponseError } from '@withtyped/client';
 import Router from 'koa-router';
 import { errors, type AccessToken, type KoaContextWithOIDC } from 'oidc-provider';
@@ -12,7 +12,7 @@ const runScriptInLocalVm = jest.fn().mockResolvedValue({});
 const accountId = 'user-1';
 const sessionUid = 'session-1';
 
-jest.unstable_mockModule('@logto/app-insights/node', () => ({
+jest.unstable_mockModule('@riven/app-insights/node', () => ({
   appInsights: {
     trackException: jest.fn(),
   },

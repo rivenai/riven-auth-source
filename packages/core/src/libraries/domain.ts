@@ -1,5 +1,5 @@
-import { type CloudflareData, type Domain, DomainStatus } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { type CloudflareData, type Domain, DomainStatus } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { trySafe } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

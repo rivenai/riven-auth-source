@@ -1,4 +1,4 @@
-import { Theme } from '@logto/schemas';
+import { Theme } from '@riven/schemas';
 import { useState, useMemo } from 'react';
 import { isMobile } from 'react-device-detect';
 import { useSearchParams } from 'react-router-dom';

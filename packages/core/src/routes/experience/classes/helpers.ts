@@ -16,7 +16,7 @@ import {
   userPasskeySignInDataKey,
   type JsonObject,
   userLogtoConfigGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, type Nullable } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';

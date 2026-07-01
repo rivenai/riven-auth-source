@@ -8,16 +8,16 @@ import type {
   GetConnectorConfig,
   GetTokenResponseAndUserInfo,
   GetAccessTokenByRefreshToken,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   validateConfig,
   ConnectorType,
   jsonGuard,
-} from '@logto/connector-kit';
-import { constructAuthorizationUri } from '@logto/connector-oauth';
-import { generateStandardId } from '@logto/shared/universal';
+} from '@riven/connector-kit';
+import { constructAuthorizationUri } from '@riven/connector-oauth';
+import { generateStandardId } from '@riven/shared/universal';
 import { createRemoteJWKSet, jwtVerify } from 'jose';
 import { HTTPError } from 'ky';
 

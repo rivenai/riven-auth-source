@@ -1,5 +1,5 @@
-import { SubscriptionRedisCacheKey } from '@logto/schemas';
-import { TtlCache } from '@logto/shared';
+import { SubscriptionRedisCacheKey } from '@riven/schemas';
+import { TtlCache } from '@riven/shared';
 
 import { TenantSubscriptionCache } from '#src/caches/tenant-subscription.js';
 import { type CacheStore } from '#src/caches/types.js';

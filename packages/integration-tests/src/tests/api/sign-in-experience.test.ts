@@ -5,7 +5,7 @@ import {
   OrganizationRequiredMfaPolicy,
   SignInIdentifier,
   ConnectorType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { HTTPError, type ResponsePromise } from 'ky';
 
 import {

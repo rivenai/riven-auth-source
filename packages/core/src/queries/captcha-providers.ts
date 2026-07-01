@@ -3,8 +3,8 @@ import {
   CaptchaProviders,
   type CaptchaProviderKeys,
   type CreateCaptchaProvider,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { type CommonQueryMethods } from '@silverhand/slonik';
 
 import SchemaQueries from '../utils/SchemaQueries.js';

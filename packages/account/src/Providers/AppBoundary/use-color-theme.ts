@@ -1,6 +1,6 @@
 import PageContext from '@/Providers/PageContextProvider/PageContext';
-import { absoluteDarken, absoluteLighten } from '@logto/core-kit';
-import { Theme } from '@logto/schemas';
+import { absoluteDarken, absoluteLighten } from '@riven/core-kit';
+import { Theme } from '@riven/schemas';
 import color from 'color';
 import { useEffect, useContext } from 'react';
 

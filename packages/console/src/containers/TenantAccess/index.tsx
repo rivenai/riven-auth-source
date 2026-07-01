@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import { useContext, useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { useSWRConfig } from 'swr';

@@ -1,4 +1,4 @@
-import { type SsoConnector, SsoProviderName } from '@logto/schemas';
+import { type SsoConnector, SsoProviderName } from '@riven/schemas';
 
 export const mockSsoConnector = {
   id: 'mock-sso-connector',

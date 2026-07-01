@@ -2,7 +2,7 @@ import {
   type CustomProfileField,
   type UpdateCustomProfileFieldSieOrder,
   CustomProfileFields,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type CommonQueryMethods, sql } from '@silverhand/slonik';
 
 import {

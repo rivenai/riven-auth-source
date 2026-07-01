@@ -1,4 +1,4 @@
-import { type JsonObject, jsonObjectGuard } from '@logto/schemas';
+import { type JsonObject, jsonObjectGuard } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import cleanDeep from 'clean-deep';
 

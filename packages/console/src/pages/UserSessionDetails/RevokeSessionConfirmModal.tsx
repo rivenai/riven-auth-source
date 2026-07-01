@@ -1,4 +1,4 @@
-import { SessionGrantRevokeTarget } from '@logto/schemas';
+import { SessionGrantRevokeTarget } from '@riven/schemas';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 

@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import { yes, conditional } from '@silverhand/essentials';
 import { useContext, useEffect } from 'react';
 import { Outlet, useMatch, useSearchParams } from 'react-router-dom';

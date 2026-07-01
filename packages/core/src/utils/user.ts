@@ -7,8 +7,8 @@ import {
   type UserSsoIdentity,
   type User,
   type UserMfaVerificationResponse,
-} from '@logto/schemas';
-import { PhoneNumberParser } from '@logto/shared/universal';
+} from '@riven/schemas';
+import { PhoneNumberParser } from '@riven/shared/universal';
 import { pick } from '@silverhand/essentials';
 import { type z } from 'zod';
 

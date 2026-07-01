@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform, ConnectorConfigFormItemType } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform, ConnectorConfigFormItemType } from '@riven/connector-kit';
 
 // See https://developer.amazon.com/loginwithamazon/console/site/lwa/overview.html
 export const authorizationEndpoint = 'https://www.amazon.com/ap/oa';

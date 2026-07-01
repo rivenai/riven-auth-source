@@ -13,7 +13,7 @@ import {
   type OidcConfigKey,
   type OidcPrivateKey,
   type SigningKeyRotationState,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 
 import { getRowsByKeys, updateValueByKey } from '../../queries/logto-config.js';

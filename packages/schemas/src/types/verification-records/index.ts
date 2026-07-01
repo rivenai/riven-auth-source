@@ -1,8 +1,8 @@
 /**
  * This file defines the data types and guards for verification records in Logto.
- * We keep these definitions in @logto/schemas to ensure it can be shared accross different packages.
+ * We keep these definitions in @riven/schemas to ensure it can be shared accross different packages.
  *
- * Check {@link @logto/core/src/routes/experience/classes/verifications} for the implementation of verification records.
+ * Check {@link @riven/core/src/routes/experience/classes/verifications} for the implementation of verification records.
  */
 
 export * from './verification-type.js';

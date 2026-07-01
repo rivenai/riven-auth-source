@@ -1,5 +1,5 @@
-import { useLogto } from '@logto/react';
-import { OrganizationInvitationStatus, getTenantIdFromOrganizationId } from '@logto/schemas';
+import { useLogto } from '@riven/react';
+import { OrganizationInvitationStatus, getTenantIdFromOrganizationId } from '@riven/schemas';
 import { useContext, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';

@@ -3,8 +3,8 @@
  * redirect URIs and vice versa. Both should work without any issues.
  */
 
-import { Prompt } from '@logto/js';
-import { ApplicationType, SignInIdentifier } from '@logto/schemas';
+import { Prompt } from '@riven/js';
+import { ApplicationType, SignInIdentifier } from '@riven/schemas';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { createApplication } from '#src/api/application.js';

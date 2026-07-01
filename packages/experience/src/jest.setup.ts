@@ -1,5 +1,5 @@
-import { type LocalePhrase } from '@logto/phrases-experience';
-import { ssrPlaceholder } from '@logto/schemas';
+import { type LocalePhrase } from '@riven/phrases-experience';
+import { ssrPlaceholder } from '@riven/schemas';
 import { type DeepPartial } from '@silverhand/essentials';
 import i18next from 'i18next';
 import { createElement, forwardRef, type ReactNode } from 'react';

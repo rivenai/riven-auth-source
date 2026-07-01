@@ -1,4 +1,4 @@
-import { OrganizationJitEmailDomains } from '@logto/schemas';
+import { OrganizationJitEmailDomains } from '@riven/schemas';
 import type Router from 'koa-router';
 import { z } from 'zod';
 

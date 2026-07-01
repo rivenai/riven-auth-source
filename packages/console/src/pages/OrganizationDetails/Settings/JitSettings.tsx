@@ -1,4 +1,4 @@
-import { RoleType, type SsoConnectorWithProviderConfig } from '@logto/schemas';
+import { RoleType, type SsoConnectorWithProviderConfig } from '@riven/schemas';
 import classNames from 'classnames';
 import { useCallback, useMemo, useState } from 'react';
 import { Controller, type UseFormReturn } from 'react-hook-form';

@@ -1,4 +1,4 @@
-import { logtoUiCookieGuard, logtoCookieKey } from '@logto/schemas';
+import { logtoUiCookieGuard, logtoCookieKey } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { type Context } from 'koa';
 

@@ -10,7 +10,7 @@ import {
   VerificationType,
   webAuthnVerificationRecordDataGuard,
   signInPasskeyVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { z } from 'zod';
 
 import type Libraries from '#src/tenants/Libraries.js';

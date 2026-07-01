@@ -1,6 +1,6 @@
-import { emailRegEx } from '@logto/core-kit';
-import { SignInIdentifier } from '@logto/schemas';
-import { PhoneNumberParser } from '@logto/shared/universal';
+import { emailRegEx } from '@riven/core-kit';
+import { SignInIdentifier } from '@riven/schemas';
+import { PhoneNumberParser } from '@riven/shared/universal';
 import i18next from 'i18next';
 import type { TFuncKey } from 'i18next';
 import { ParseError } from 'libphonenumber-js/mobile';

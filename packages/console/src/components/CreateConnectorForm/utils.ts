@@ -1,5 +1,5 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import { ConnectorType, type ConnectorResponse } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import { ConnectorType, type ConnectorResponse } from '@riven/schemas';
 
 import { type ConnectorRadioGroupSize } from './ConnectorRadioGroup';
 import { featuredConnectorTargets } from './constants';

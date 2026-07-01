@@ -5,8 +5,8 @@ import {
   type User,
   VerificationType,
   type OneTimeTokenVerificationRecordData,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import type Libraries from '#src/tenants/Libraries.js';
@@ -21,7 +21,7 @@ import { type IdentifierVerificationRecord } from './verification-record.js';
 export {
   type OneTimeTokenVerificationRecordData,
   oneTimeTokenVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export class OneTimeTokenVerification
   implements IdentifierVerificationRecord<VerificationType.OneTimeToken>

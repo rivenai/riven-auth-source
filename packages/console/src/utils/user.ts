@@ -1,5 +1,5 @@
-import type { UserInfo } from '@logto/schemas';
-import { getUserDisplayName } from '@logto/shared/universal';
+import type { UserInfo } from '@riven/schemas';
+import { getUserDisplayName } from '@riven/shared/universal';
 import { t } from 'i18next';
 
 export const getUserTitle = (user?: Partial<UserInfo>): string =>

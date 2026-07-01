@@ -1,5 +1,5 @@
-import type { CreateRole, Role, Scope, User, Application } from '@logto/schemas';
-import { RoleType } from '@logto/schemas';
+import type { CreateRole, Role, Scope, User, Application } from '@riven/schemas';
+import { RoleType } from '@riven/schemas';
 
 import { generateRoleName } from '#src/utils.js';
 

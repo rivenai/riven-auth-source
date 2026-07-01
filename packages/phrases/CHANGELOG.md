@@ -55,7 +55,7 @@
 
 - 343410f2b0: support `identifier` URL parameter on OOTB Account Center to pre-fill identifier input fields
 - Updated dependencies [5ab931e7ac]
-  - @logto/language-kit@1.3.0
+  - @riven/language-kit@1.3.0
 
 ## 1.26.0
 
@@ -197,7 +197,7 @@
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/language-kit@1.2.0
+  - @riven/language-kit@1.2.0
 
 ## 1.18.0
 
@@ -210,7 +210,7 @@
 - 5086f4bd2: update documentation links in Console
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/language-kit@1.1.1
+  - @riven/language-kit@1.1.1
 
 ## 1.17.0
 
@@ -371,7 +371,7 @@
   For example, in the JavaScript SDK:
 
   ```ts
-  import LogtoClient from "@logto/client";
+  import LogtoClient from "@riven/client";
 
   const logtoClient = new LogtoClient(/* your configuration */);
 
@@ -576,7 +576,7 @@
 - 04ec78a91: improve error handling when user associated application is removed
 - Updated dependencies [9089dbf84]
 - Updated dependencies [31e60811d]
-  - @logto/language-kit@1.1.0
+  - @riven/language-kit@1.1.0
 
 ## 1.8.0
 
@@ -825,7 +825,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency @logto/language-kit to v1.0.0-beta.16 ([89e4800](https://github.com/logto-io/logto/commit/89e4800ca8e30cbf62a0000fa350ee2f5dd094de))
+- **deps:** update dependency @riven/language-kit to v1.0.0-beta.16 ([89e4800](https://github.com/logto-io/logto/commit/89e4800ca8e30cbf62a0000fa350ee2f5dd094de))
 
 ## [1.0.0-beta.10](https://github.com/logto-io/logto/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2022-09-28)
 
@@ -854,7 +854,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
@@ -923,11 +923,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-alpha.3](https://github.com/logto-io/logto/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2022-07-07)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ## [1.0.0-alpha.2](https://github.com/logto-io/logto/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-07-07)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ## [1.0.0-alpha.1](https://github.com/logto-io/logto/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-07-05)
 
@@ -943,23 +943,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ### [0.1.2-alpha.4](https://github.com/logto-io/logto/compare/v0.1.2-alpha.3...v0.1.2-alpha.4) (2022-07-03)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ### [0.1.2-alpha.3](https://github.com/logto-io/logto/compare/v0.1.2-alpha.2...v0.1.2-alpha.3) (2022-07-03)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ### [0.1.2-alpha.2](https://github.com/logto-io/logto/compare/v0.1.2-alpha.1...v0.1.2-alpha.2) (2022-07-02)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/phrases
+**Note:** Version bump only for package @riven/phrases
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

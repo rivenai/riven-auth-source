@@ -3,7 +3,7 @@ import {
   jwtCustomizerUserInteractionContextGuard,
   oidcSessionInstancePayloadGuard,
   userApplicationGrantPayloadGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { deduplicate } from '@silverhand/essentials';
 import type { Provider, Session } from 'oidc-provider';
 

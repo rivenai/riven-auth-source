@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
 
-import { UsersPasswordEncryptionMethod } from '@logto/schemas';
+import { UsersPasswordEncryptionMethod } from '@riven/schemas';
 
 import RequestError from '../errors/RequestError/index.js';
 

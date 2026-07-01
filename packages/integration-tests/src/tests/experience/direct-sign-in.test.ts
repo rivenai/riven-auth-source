@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { AgreeToTermsPolicy, SignInIdentifier, SsoProviderName } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { AgreeToTermsPolicy, SignInIdentifier, SsoProviderName } from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 
 import { mockSocialConnectorTarget } from '#src/__mocks__/connectors-mock.js';

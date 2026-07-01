@@ -19,7 +19,7 @@
  * The commit hash of the original file is `cf2069cbb31a6a855876e95157372d25dde2511c`.
  */
 
-import { UserScope } from '@logto/core-kit';
+import { UserScope } from '@riven/core-kit';
 import { isKeyInObject } from '@silverhand/essentials';
 import type { Provider } from 'oidc-provider';
 import { errors } from 'oidc-provider';

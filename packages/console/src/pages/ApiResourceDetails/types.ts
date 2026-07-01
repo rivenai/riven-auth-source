@@ -1,4 +1,4 @@
-import type { Resource } from '@logto/schemas';
+import type { Resource } from '@riven/schemas';
 
 export type ApiResourceDetailsOutletContext = {
   resource: Resource;

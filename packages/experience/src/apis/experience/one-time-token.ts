@@ -1,4 +1,4 @@
-import { InteractionEvent, type OneTimeTokenVerificationVerifyPayload } from '@logto/schemas';
+import { InteractionEvent, type OneTimeTokenVerificationVerifyPayload } from '@riven/schemas';
 
 import api from '../api';
 

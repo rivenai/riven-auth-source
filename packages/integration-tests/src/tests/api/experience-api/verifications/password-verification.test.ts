@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 
 import { deleteUser } from '#src/api/admin-user.js';
 import { initExperienceClient } from '#src/helpers/client.js';

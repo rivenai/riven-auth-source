@@ -1,8 +1,8 @@
 import crypto from 'node:crypto';
 
-import { PasswordPolicyChecker } from '@logto/core-kit';
-import { InteractionEvent, MfaFactor, MfaPolicy } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { PasswordPolicyChecker } from '@riven/core-kit';
+import { InteractionEvent, MfaFactor, MfaPolicy } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 import type { Provider } from 'oidc-provider';
 
 import { mockBackupCodeBind, mockTotpBind } from '#src/__mocks__/mfa-verification.js';

@@ -1,4 +1,4 @@
-import { SessionGrantRevokeTarget } from '@logto/schemas';
+import { SessionGrantRevokeTarget } from '@riven/schemas';
 import type { Provider } from 'oidc-provider';
 
 import type Queries from '#src/tenants/Queries.js';

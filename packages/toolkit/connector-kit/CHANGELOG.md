@@ -17,7 +17,7 @@
 ### Patch Changes
 
 - Updated dependencies [5ab931e7ac]
-  - @logto/language-kit@1.3.0
+  - @riven/language-kit@1.3.0
 
 ## 4.7.0
 
@@ -86,7 +86,7 @@ If you are using Email/SMS as a MFA method, you should update your connector con
 ### Patch Changes
 
 - Updated dependencies [2961d355d]
-  - @logto/language-kit@1.2.0
+  - @riven/language-kit@1.2.0
 
 ## 4.2.0
 
@@ -150,7 +150,7 @@ If you are using Email/SMS as a MFA method, you should update your connector con
 
 - e11e57de8: bump dependencies for security update
 - Updated dependencies [e11e57de8]
-  - @logto/language-kit@1.1.1
+  - @riven/language-kit@1.1.1
 
 ## 4.1.0
 
@@ -246,7 +246,7 @@ If you are using Email/SMS as a MFA method, you should update your connector con
 - 9089dbf84: upgrade TypeScript to 5.3.3
 - Updated dependencies [9089dbf84]
 - Updated dependencies [31e60811d]
-  - @logto/language-kit@1.1.0
+  - @riven/language-kit@1.1.0
 
 ## 2.0.0
 
@@ -294,7 +294,7 @@ If you are using Email/SMS as a MFA method, you should update your connector con
 
 - ad3611f5a: Remove connector database `storage` column and its corresponding access.
 - Updated dependencies [738675a7d]
-  - @logto/language-kit@1.0.0
+  - @riven/language-kit@1.0.0
 
 ## 1.0.0-rc.3
 
@@ -340,8 +340,8 @@ If you are using Email/SMS as a MFA method, you should update your connector con
 ### Patch Changes
 
 - Updated dependencies [738675a7]
-  - @logto/core-kit@1.0.0-beta.30
-  - @logto/language-kit@1.0.0-beta.30
+  - @riven/core-kit@1.0.0-beta.30
+  - @riven/language-kit@1.0.0-beta.30
 
 ## 1.0.0-beta.30
 
@@ -362,7 +362,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.28](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.27...v1.0.0-beta.28) (2022-12-06)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.27](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.26...v1.0.0-beta.27) (2022-11-29)
 
@@ -372,15 +372,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.26](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.25...v1.0.0-beta.26) (2022-11-23)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.25](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.24...v1.0.0-beta.25) (2022-11-22)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.24](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2022-11-22)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.23](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.22...v1.0.0-beta.23) (2022-11-18)
 
@@ -402,23 +402,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.20](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.19...v1.0.0-beta.20) (2022-10-21)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.19](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.18...v1.0.0-beta.19) (2022-10-19)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.18](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2022-10-12)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.17](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2022-10-12)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.16](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-09-28)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.15](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-09-27)
 
@@ -428,19 +428,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.14](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2022-09-23)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.13](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2022-09-19)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.12](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-09-17)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## [1.0.0-beta.11](https://github.com/logto-io/toolkit/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-09-16)
 
-**Note:** Version bump only for package @logto/connector-kit
+**Note:** Version bump only for package @riven/connector-kit
 
 ## 1.0.0-beta.10 (2022-09-16)
 

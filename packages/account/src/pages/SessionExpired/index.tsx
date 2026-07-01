@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 
 import ErrorPage from '@ac/components/ErrorPage';
 import { accountCenterBasePath, setRouteRestore } from '@ac/utils/account-center-route';

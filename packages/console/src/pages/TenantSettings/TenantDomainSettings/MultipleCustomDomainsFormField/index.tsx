@@ -1,4 +1,4 @@
-import { DomainStatus, type Domain } from '@logto/schemas';
+import { DomainStatus, type Domain } from '@riven/schemas';
 import { type Optional } from '@silverhand/essentials';
 import { useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';

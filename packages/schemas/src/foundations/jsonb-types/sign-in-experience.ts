@@ -1,5 +1,5 @@
-import { hexColorRegEx } from '@logto/core-kit';
-import { languageTagGuard } from '@logto/language-kit';
+import { hexColorRegEx } from '@riven/core-kit';
+import { languageTagGuard } from '@riven/language-kit';
 import { z } from 'zod';
 
 import { Theme } from '../../types/theme.js';

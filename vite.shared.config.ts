@@ -17,8 +17,8 @@ export const manualChunks: Rollup.GetManualChunk = (id, { getModuleInfo }) => {
     return 'react';
   }
 
-  if (id.includes('/@logto/')) {
-    return '@logto';
+  if (id.includes('/@riven/')) {
+    return 'riven';
   }
 
   if (id.includes('/node_modules/')) {

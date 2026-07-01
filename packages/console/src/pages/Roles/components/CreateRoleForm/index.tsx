@@ -1,6 +1,6 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import type { Role, ScopeResponse } from '@logto/schemas';
-import { RoleType, internalRolePrefix } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import type { Role, ScopeResponse } from '@riven/schemas';
+import { RoleType, internalRolePrefix } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext } from 'react';
 import { Controller, useForm } from 'react-hook-form';

@@ -1,6 +1,6 @@
-import { getAvailableAlterations } from '@logto/cli/lib/commands/database/alteration/index.js';
-import { ServiceLogs, Systems } from '@logto/schemas';
-import { ConsoleLog, isKeyInObject } from '@logto/shared';
+import { getAvailableAlterations } from '@riven/cli/lib/commands/database/alteration/index.js';
+import { ServiceLogs, Systems } from '@riven/schemas';
+import { ConsoleLog, isKeyInObject } from '@riven/shared';
 import { conditionalString } from '@silverhand/essentials';
 import { sql, type CommonQueryMethods, type DatabasePool } from '@silverhand/slonik';
 import chalk from 'chalk';

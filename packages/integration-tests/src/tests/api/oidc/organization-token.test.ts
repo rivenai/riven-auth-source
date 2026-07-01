@@ -1,8 +1,8 @@
 import assert from 'node:assert';
 
-import { UserScope, buildOrganizationUrn } from '@logto/core-kit';
-import { LogtoRequestError } from '@logto/js';
-import { MfaFactor } from '@logto/schemas';
+import { UserScope, buildOrganizationUrn } from '@riven/core-kit';
+import { LogtoRequestError } from '@riven/js';
+import { MfaFactor } from '@riven/schemas';
 
 import { createUserMfaVerification, deleteUser } from '#src/api/admin-user.js';
 import { type ExperienceClient } from '#src/client/experience/index.js';

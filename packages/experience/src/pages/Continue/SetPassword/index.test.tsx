@@ -1,4 +1,4 @@
-import { InteractionEvent } from '@logto/schemas';
+import { InteractionEvent } from '@riven/schemas';
 import { act, waitFor, fireEvent } from '@testing-library/react';
 
 import renderWithPageContext from '@/__mocks__/RenderWithPageContext';

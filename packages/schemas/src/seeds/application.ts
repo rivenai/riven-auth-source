@@ -1,4 +1,4 @@
-import { generateStandardId, generateStandardSecret } from '@logto/shared/universal';
+import { generateStandardId, generateStandardSecret } from '@riven/shared/universal';
 
 import type {
   Application,

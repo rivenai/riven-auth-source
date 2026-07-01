@@ -1,4 +1,4 @@
-import { generateDarkColor } from '@logto/core-kit';
+import { generateDarkColor } from '@riven/core-kit';
 import { sql } from '@silverhand/slonik';
 
 import type { AlterationScript } from '../lib/types/alteration.js';

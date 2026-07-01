@@ -1,6 +1,6 @@
-import type { BindMfa, MfaVerification } from '@logto/schemas';
-import { MfaFactor, UsersPasswordEncryptionMethod } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import type { BindMfa, MfaVerification } from '@riven/schemas';
+import { MfaFactor, UsersPasswordEncryptionMethod } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 
 import { encryptPassword } from '#src/utils/password.js';
 

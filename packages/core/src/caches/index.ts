@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { setTimeout } from 'node:timers/promises';
 
-import { appInsights } from '@logto/app-insights/node';
+import { appInsights } from '@riven/app-insights/node';
 import { type Optional, conditional, yes, trySafe } from '@silverhand/essentials';
 import { createClient, createCluster, type RedisClientType, type RedisClusterType } from 'redis';
 

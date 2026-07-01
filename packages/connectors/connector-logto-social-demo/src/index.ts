@@ -3,8 +3,8 @@ import type {
   SocialConnector,
   CreateConnector,
   GetConnectorConfig,
-} from '@logto/connector-kit';
-import { validateConfig, ConnectorType } from '@logto/connector-kit';
+} from '@riven/connector-kit';
+import { validateConfig, ConnectorType } from '@riven/connector-kit';
 
 import { defaultMetadata, getProviderConfigs } from './constant.js';
 import { socialDemoConfigGuard } from './types.js';

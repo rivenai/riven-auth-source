@@ -1,4 +1,4 @@
-import { InteractionEvent } from '@logto/schemas';
+import { InteractionEvent } from '@riven/schemas';
 import { useState, useCallback, useMemo, useContext } from 'react';
 
 import CaptchaContext from '@/Providers/CaptchaContextProvider/CaptchaContext';

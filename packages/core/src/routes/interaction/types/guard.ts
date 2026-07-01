@@ -1,12 +1,12 @@
-import { socialUserInfoGuard } from '@logto/connector-kit';
-import { validateRedirectUrl } from '@logto/core-kit';
+import { socialUserInfoGuard } from '@riven/connector-kit';
+import { validateRedirectUrl } from '@riven/core-kit';
 import {
   bindMfaGuard,
   eventGuard,
   verifyMfaResultGuard,
   pendingMfaGuard,
   profileGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { z } from 'zod';
 
 // Social Authorization Uri Route Payload Guard

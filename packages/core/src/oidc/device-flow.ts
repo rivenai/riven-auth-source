@@ -1,4 +1,4 @@
-import { deviceFlowXsrfCookieKey, experience, logtoCookieKey } from '@logto/schemas';
+import { deviceFlowXsrfCookieKey, experience, logtoCookieKey } from '@riven/schemas';
 import type { KoaContextWithOIDC, errors } from 'oidc-provider';
 
 import {

@@ -1,5 +1,5 @@
-import { NameIdFormat } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import { NameIdFormat } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { appendPath } from '@silverhand/essentials';
 import camelCase from 'camelcase';
 

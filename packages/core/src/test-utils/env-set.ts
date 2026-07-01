@@ -1,4 +1,4 @@
-import { defaultTenantId } from '@logto/schemas';
+import { defaultTenantId } from '@riven/schemas';
 
 import { EnvSet } from '#src/env-set/index.js';
 

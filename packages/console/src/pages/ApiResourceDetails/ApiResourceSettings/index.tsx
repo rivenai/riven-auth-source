@@ -1,4 +1,4 @@
-import { type Resource } from '@logto/schemas';
+import { type Resource } from '@riven/schemas';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-hot-toast';
 import { Trans, useTranslation } from 'react-i18next';

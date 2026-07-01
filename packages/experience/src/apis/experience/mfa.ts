@@ -5,7 +5,7 @@ import {
   type WebAuthnAuthenticationOptions,
   type BindMfaPayload,
   type VerifyMfaPayload,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import api from '../api';
 

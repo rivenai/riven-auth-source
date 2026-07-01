@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import { Theme } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import { Theme } from '@riven/schemas';
 import type { ReactNode } from 'react';
 
 import { CombinedAddOnAndFeatureTag, type PaywallPlanId } from '@/components/FeatureTag';

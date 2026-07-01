@@ -1,5 +1,5 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import { DomainStatus } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import { DomainStatus } from '@riven/schemas';
 
 import DynamicT from '@/ds-components/DynamicT';
 import type { Props as TagProps } from '@/ds-components/Tag';

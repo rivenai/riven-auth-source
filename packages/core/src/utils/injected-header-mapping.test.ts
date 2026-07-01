@@ -1,6 +1,6 @@
 import type { IncomingHttpHeaders } from 'node:http';
 
-import { createMockUtils } from '@logto/shared/esm';
+import { createMockUtils } from '@riven/shared/esm';
 
 const { jest } = import.meta;
 

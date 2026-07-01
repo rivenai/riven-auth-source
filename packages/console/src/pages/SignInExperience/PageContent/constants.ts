@@ -1,5 +1,5 @@
-import type { AdminConsoleKey } from '@logto/phrases';
-import { SignInIdentifier } from '@logto/schemas';
+import type { AdminConsoleKey } from '@riven/phrases';
+import { SignInIdentifier } from '@riven/schemas';
 
 import { type SignUpIdentifier } from '../types';
 

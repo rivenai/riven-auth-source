@@ -2,13 +2,13 @@ import {
   GoogleConnector,
   isGoogleOneTap as isGoogleOneTapChecker,
   logtoGoogleOneTapCookieKey,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   VerificationType,
   socialAuthorizationUrlPayloadGuard,
   socialVerificationCallbackPayloadGuard,
-} from '@logto/schemas';
-import { Action } from '@logto/schemas/lib/types/log/interaction.js';
+} from '@riven/schemas';
+import { Action } from '@riven/schemas/lib/types/log/interaction.js';
 import type Router from 'koa-router';
 import { z } from 'zod';
 

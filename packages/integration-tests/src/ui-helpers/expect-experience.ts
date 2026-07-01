@@ -1,4 +1,4 @@
-import { demoAppApplicationId, type MfaFactor } from '@logto/schemas';
+import { demoAppApplicationId, type MfaFactor } from '@riven/schemas';
 import { appendPath } from '@silverhand/essentials';
 
 import { logtoUrl, mockSocialAuthPageUrl } from '#src/constants.js';

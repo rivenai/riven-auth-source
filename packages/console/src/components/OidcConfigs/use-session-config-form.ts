@@ -1,4 +1,4 @@
-import { type OidcSessionConfig, oidcSessionConfigGuard } from '@logto/schemas';
+import { type OidcSessionConfig, oidcSessionConfigGuard } from '@riven/schemas';
 import { useEffect } from 'react';
 import type { UseFormReturn } from 'react-hook-form';
 import { toast } from 'react-hot-toast';

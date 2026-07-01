@@ -11,7 +11,7 @@ import {
   idTokenConfigGuard,
   type SigningKeyRotationState,
   signingKeyRotationStateGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { type Nullable } from '@silverhand/essentials';
 import { type ZodType, z } from 'zod';
 

@@ -2,7 +2,7 @@ import {
   ApplicationType,
   type ApplicationResponse,
   type SnakeCaseOidcConfig,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { condArray } from '@silverhand/essentials';
 import { useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';

@@ -1,5 +1,5 @@
-import { noSpaceRegEx } from '@logto/core-kit';
-import type { Scope, CreateScope } from '@logto/schemas';
+import { noSpaceRegEx } from '@riven/core-kit';
+import type { Scope, CreateScope } from '@riven/schemas';
 import { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';

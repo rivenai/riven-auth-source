@@ -1,4 +1,4 @@
-import { type FullSignInExperience } from '@logto/schemas';
+import { type FullSignInExperience } from '@riven/schemas';
 
 export type SignInExperienceResponse = Omit<FullSignInExperience, 'socialSignInConnectorTargets'>;
 

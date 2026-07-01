@@ -1,4 +1,4 @@
-import { TenantRole } from '@logto/schemas';
+import { TenantRole } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext, useEffect, useMemo, useState } from 'react';
 import { Controller, FormProvider, useForm } from 'react-hook-form';

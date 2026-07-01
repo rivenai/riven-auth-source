@@ -1,5 +1,5 @@
-import { adminTenantId, defaultTenantId } from '@logto/schemas';
-import { createMockUtils, pickDefault } from '@logto/shared/esm';
+import { adminTenantId, defaultTenantId } from '@riven/schemas';
+import { createMockUtils, pickDefault } from '@riven/shared/esm';
 import Sinon from 'sinon';
 
 import { RedisCache } from '#src/caches/index.js';

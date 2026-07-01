@@ -1,4 +1,4 @@
-import { ssrPlaceholder } from '@logto/schemas';
+import { ssrPlaceholder } from '@riven/schemas';
 
 import { mockSignInExperience } from '#src/__mocks__/sign-in-experience.js';
 import { MockTenant } from '#src/test-utils/tenant.js';

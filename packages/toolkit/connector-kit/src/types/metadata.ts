@@ -1,5 +1,5 @@
-import type { LanguageTag } from '@logto/language-kit';
-import { isLanguageTag } from '@logto/language-kit';
+import type { LanguageTag } from '@riven/language-kit';
+import { isLanguageTag } from '@riven/language-kit';
 import { type Nullable } from '@silverhand/essentials';
 import type { ZodType } from 'zod';
 import { z } from 'zod';

@@ -1,6 +1,6 @@
-import { GoogleConnector } from '@logto/connector-kit';
-import type { ConnectorMetadata } from '@logto/schemas';
-import { ConnectorPlatform } from '@logto/schemas';
+import { GoogleConnector } from '@riven/connector-kit';
+import type { ConnectorMetadata } from '@riven/schemas';
+import { ConnectorPlatform } from '@riven/schemas';
 import { getCookie } from 'tiny-cookie';
 
 import { SearchParameters } from '@/types';

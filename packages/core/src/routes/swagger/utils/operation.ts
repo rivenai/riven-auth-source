@@ -1,4 +1,4 @@
-import { httpCodeToMessage } from '@logto/core-kit';
+import { httpCodeToMessage } from '@riven/core-kit';
 import { deduplicate, conditionalArray, cond } from '@silverhand/essentials';
 import type Router from 'koa-router';
 import { type IMiddleware } from 'koa-router';

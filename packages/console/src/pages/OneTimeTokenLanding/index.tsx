@@ -1,5 +1,5 @@
-import { useLogto } from '@logto/react';
-import { ExtraParamsKey } from '@logto/schemas';
+import { useLogto } from '@riven/react';
+import { ExtraParamsKey } from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { useContext, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';

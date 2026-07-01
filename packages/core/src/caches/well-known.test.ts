@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/schemas';
-import { TtlCache } from '@logto/shared';
+import { TemplateType } from '@riven/schemas';
+import { TtlCache } from '@riven/shared';
 import { pick } from '@silverhand/essentials';
 
 import { mockConnector0 } from '#src/__mocks__/connector-base-data.js';

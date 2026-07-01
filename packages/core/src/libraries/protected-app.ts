@@ -3,8 +3,8 @@ import {
   type Application,
   type ProtectedAppMetadata,
   type CustomDomain,
-} from '@logto/schemas';
-import { isValidSubdomain } from '@logto/shared';
+} from '@riven/schemas';
+import { isValidSubdomain } from '@riven/shared';
 
 import { protectedAppSignInCallbackUrl } from '#src/constants/index.js';
 import { EnvSet, getTenantEndpoint } from '#src/env-set/index.js';

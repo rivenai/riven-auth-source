@@ -2,7 +2,7 @@ import {
   CustomProfileFieldType,
   type CustomProfileFieldUnion,
   type FullnameProfileField,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import {
   nameData,

@@ -1,10 +1,10 @@
-import { ConnectorType, connectorMetadataGuard } from '@logto/connector-kit';
+import { ConnectorType, connectorMetadataGuard } from '@riven/connector-kit';
 import { z } from 'zod';
 
 import { Connectors } from '../db-entries/index.js';
 
-export type { ConnectorMetadata } from '@logto/connector-kit';
-export { ConnectorType, ConnectorPlatform } from '@logto/connector-kit';
+export type { ConnectorMetadata } from '@riven/connector-kit';
+export { ConnectorType, ConnectorPlatform } from '@riven/connector-kit';
 
 export const connectorResponseGuard = Connectors.guard
   .pick({

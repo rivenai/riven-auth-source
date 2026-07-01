@@ -1,5 +1,5 @@
-import type { Hook } from '@logto/schemas';
-import { InteractionHookEvent } from '@logto/schemas';
+import type { Hook } from '@riven/schemas';
+import { InteractionHookEvent } from '@riven/schemas';
 
 import { authedAdminApi } from '#src/api/index.js';
 import { getHookCreationPayload } from '#src/helpers/hook.js';

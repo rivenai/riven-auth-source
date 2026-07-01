@@ -1,4 +1,4 @@
-import { maxFreeTenantLimit, adminTenantId, ReservedPlanId } from '@logto/schemas';
+import { maxFreeTenantLimit, adminTenantId, ReservedPlanId } from '@riven/schemas';
 import classNames from 'classnames';
 import { useContext, useMemo } from 'react';
 import { Trans, useTranslation } from 'react-i18next';

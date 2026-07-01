@@ -1,4 +1,4 @@
-import type { OssSurveyReportPayload, OssUserOnboardingData } from '@logto/schemas';
+import type { OssSurveyReportPayload, OssUserOnboardingData } from '@riven/schemas';
 import { type Optional, trySafe } from '@silverhand/essentials';
 import ky from 'ky';
 

@@ -10,7 +10,7 @@ import {
   builtInCustomProfileFieldKeys,
   nameAndAvatarGuard,
   reservedBuiltInProfileKeyGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import { resolveSignUpCustomProfileFields } from '#src/libraries/custom-profile-fields/utils.js';

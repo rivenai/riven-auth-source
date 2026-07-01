@@ -1,6 +1,6 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform } from '@logto/connector-kit';
-import type { Connector } from '@logto/schemas';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform } from '@riven/connector-kit';
+import type { Connector } from '@riven/schemas';
 
 export const mockMetadata: ConnectorMetadata = {
   id: 'id',

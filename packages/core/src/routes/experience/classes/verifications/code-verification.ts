@@ -1,4 +1,4 @@
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 import {
   type InteractionEvent,
   SignInIdentifier,
@@ -8,8 +8,8 @@ import {
   type VerificationCodeIdentifierOf,
   type VerificationCodeIdentifier,
   type CodeVerificationRecordData,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { z } from 'zod';
 
 import RequestError from '#src/errors/RequestError/index.js';
@@ -29,7 +29,7 @@ export {
   type CodeVerificationRecordData,
   emailCodeVerificationRecordDataGuard,
   phoneCodeVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 const eventToTemplateTypeMap: Record<InteractionEvent, TemplateType> = {
   SignIn: TemplateType.SignIn,

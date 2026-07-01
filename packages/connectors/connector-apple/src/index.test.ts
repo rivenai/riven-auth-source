@@ -1,4 +1,4 @@
-import { ConnectorError, ConnectorErrorCodes } from '@logto/connector-kit';
+import { ConnectorError, ConnectorErrorCodes } from '@riven/connector-kit';
 
 import { mockedConfig } from './mock.js';
 

@@ -1,5 +1,5 @@
-import { AdditionalIdentifier, SentinelActivityAction, VerificationType } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { AdditionalIdentifier, SentinelActivityAction, VerificationType } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 import { z } from 'zod';
 
 import { mockUser } from '#src/__mocks__/user.js';

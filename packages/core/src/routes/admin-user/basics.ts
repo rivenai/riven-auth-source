@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { emailRegEx, phoneRegEx, usernameRegEx } from '@logto/core-kit';
+import { emailRegEx, phoneRegEx, usernameRegEx } from '@riven/core-kit';
 import {
   ProductEvent,
   UsersPasswordEncryptionMethod,
@@ -8,7 +8,7 @@ import {
   userMfaDataGuard,
   userPasskeySignInDataGuard,
   userProfileGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional, yes } from '@silverhand/essentials';
 import { boolean, literal, nativeEnum, object, string } from 'zod';
 

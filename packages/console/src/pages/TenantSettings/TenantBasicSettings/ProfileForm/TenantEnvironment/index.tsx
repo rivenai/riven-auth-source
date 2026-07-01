@@ -1,4 +1,4 @@
-import { type TenantTag } from '@logto/schemas';
+import { type TenantTag } from '@riven/schemas';
 import { useContext, useState } from 'react';
 
 import RocketIcon from '@/assets/icons/rocket.svg?react';

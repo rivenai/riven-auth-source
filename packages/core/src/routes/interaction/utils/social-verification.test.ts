@@ -1,5 +1,5 @@
-import { ConnectorType, GoogleConnector } from '@logto/connector-kit';
-import { createMockUtils } from '@logto/shared/esm';
+import { ConnectorType, GoogleConnector } from '@riven/connector-kit';
+import { createMockUtils } from '@riven/shared/esm';
 
 import { mockConnector } from '#src/__mocks__/connector.js';
 import type { WithLogContext } from '#src/middleware/koa-audit-log.js';
@@ -12,7 +12,7 @@ const { mockEsm, mockEsmWithActual } = createMockUtils(jest);
 
 const isExternalGoogleOneTap = jest.fn().mockReturnValue(false);
 
-await mockEsmWithActual('@logto/connector-kit', () => ({
+await mockEsmWithActual('@riven/connector-kit', () => ({
   isExternalGoogleOneTap,
 }));
 

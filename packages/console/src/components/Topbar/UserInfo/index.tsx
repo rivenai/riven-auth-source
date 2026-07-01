@@ -1,5 +1,5 @@
-import { builtInLanguageOptions as consoleBuiltInLanguageOptions } from '@logto/phrases';
-import { Theme } from '@logto/schemas';
+import { builtInLanguageOptions as consoleBuiltInLanguageOptions } from '@riven/phrases';
+import { Theme } from '@riven/schemas';
 import classNames from 'classnames';
 import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';

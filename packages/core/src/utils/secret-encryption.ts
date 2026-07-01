@@ -1,6 +1,6 @@
 import crypto from 'node:crypto';
 
-import type { TokenResponse } from '@logto/connector-kit';
+import type { TokenResponse } from '@riven/connector-kit';
 import {
   type TokenSet,
   tokenSetGuard,
@@ -10,7 +10,7 @@ import {
   type SocialTokenSetSecret,
   type DesensitizedTokenSetSecret,
   type TokenSetMetadata,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { conditional } from '@silverhand/essentials';
 import { z } from 'zod';
 

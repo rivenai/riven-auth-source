@@ -1,4 +1,4 @@
-import { AgreeToTermsPolicy, experience, InteractionEvent } from '@logto/schemas';
+import { AgreeToTermsPolicy, experience, InteractionEvent } from '@riven/schemas';
 import { useCallback } from 'react';
 
 import { registerWithVerifiedIdentifier } from '@/apis/experience';

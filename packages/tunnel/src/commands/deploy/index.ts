@@ -1,4 +1,4 @@
-import { isValidUrl } from '@logto/core-kit';
+import { isValidUrl } from '@riven/core-kit';
 import chalk from 'chalk';
 import ora from 'ora';
 import type { CommandModule } from 'yargs';

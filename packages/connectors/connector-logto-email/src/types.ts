@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { emailServiceBrandingGuard } from '@logto/connector-kit';
+import { emailServiceBrandingGuard } from '@riven/connector-kit';
 
 export const emailServiceBasicConfigGuard = z
   .object({

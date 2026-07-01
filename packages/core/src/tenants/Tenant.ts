@@ -1,5 +1,5 @@
-import { adminTenantId, experience } from '@logto/schemas';
-import { ConsoleLog } from '@logto/shared';
+import { adminTenantId, experience } from '@riven/schemas';
+import { ConsoleLog } from '@riven/shared';
 import type { MiddlewareType } from 'koa';
 import Koa from 'koa';
 import compose from 'koa-compose';

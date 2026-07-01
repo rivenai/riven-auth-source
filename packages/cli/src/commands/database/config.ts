@@ -1,11 +1,11 @@
-import type { LogtoConfigKey } from '@logto/schemas';
+import type { LogtoConfigKey } from '@riven/schemas';
 import {
   defaultTenantId,
   LogtoOidcConfigKey,
   logtoConfigGuards,
   logtoConfigKeys,
   SupportedSigningKeyAlgorithm,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { deduplicate, noop } from '@silverhand/essentials';
 import chalk from 'chalk';
 import type { CommandModule } from 'yargs';

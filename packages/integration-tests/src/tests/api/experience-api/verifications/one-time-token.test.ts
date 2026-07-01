@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 
 import { createOneTimeToken } from '#src/api/one-time-token.js';
 import { initExperienceClient } from '#src/helpers/client.js';

@@ -8,14 +8,14 @@ import type {
   GetConnectorConfig,
   GetI18nEmailTemplate,
   SendMessageFunction,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   ConnectorError,
   ConnectorErrorCodes,
   ConnectorType,
   getConfigTemplateByType,
   validateConfig,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 
 import { defaultMetadata } from './constant.js';
 import { awsSesConfigGuard } from './types.js';

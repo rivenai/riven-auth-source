@@ -1,5 +1,5 @@
-import { appInsights } from '@logto/app-insights/node';
-import { type DirectSignInOptions, Prompt, QueryKey, ReservedScope, UserScope } from '@logto/js';
+import { appInsights } from '@riven/app-insights/node';
+import { type DirectSignInOptions, Prompt, QueryKey, ReservedScope, UserScope } from '@riven/js';
 import {
   ApplicationType,
   type SsoSamlAssertionContent,
@@ -8,8 +8,8 @@ import {
   type SsoConnectorIdpInitiatedAuthConfig,
   type EncryptedTokenSet,
   type SecretEnterpriseSsoConnectorRelationPayload,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { assert, deduplicate, trySafe } from '@silverhand/essentials';
 
 import { defaultIdPInitiatedSamlSsoSessionTtl } from '#src/constants/index.js';

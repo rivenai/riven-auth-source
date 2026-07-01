@@ -1,4 +1,4 @@
-import { type RecaptchaEnterpriseMode } from '@logto/schemas';
+import { type RecaptchaEnterpriseMode } from '@riven/schemas';
 
 export type CaptchaFormType = {
   siteKey: string;

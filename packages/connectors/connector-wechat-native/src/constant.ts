@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorPlatform, ConnectorConfigFormItemType } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorPlatform, ConnectorConfigFormItemType } from '@riven/connector-kit';
 
 export const authorizationEndpoint = 'wechat://'; // This is used to arouse the native WeChat App
 export const accessTokenEndpoint = 'https://api.weixin.qq.com/sns/oauth2/access_token';

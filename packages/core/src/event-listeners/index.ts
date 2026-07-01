@@ -1,4 +1,4 @@
-import { appInsights } from '@logto/app-insights/node';
+import { appInsights } from '@riven/app-insights/node';
 import { type Provider } from 'oidc-provider';
 
 import { TokenUsageType } from '#src/queries/daily-token-usage.js';

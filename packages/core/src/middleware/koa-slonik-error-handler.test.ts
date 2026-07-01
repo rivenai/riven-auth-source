@@ -1,4 +1,4 @@
-import { Users } from '@logto/schemas';
+import { Users } from '@riven/schemas';
 import {
   NotFoundError,
   SlonikError,

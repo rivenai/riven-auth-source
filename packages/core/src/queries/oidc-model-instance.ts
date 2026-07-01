@@ -1,5 +1,5 @@
-import type { OidcModelInstance, OidcModelInstancePayload } from '@logto/schemas';
-import { Applications, OidcModelInstances } from '@logto/schemas';
+import type { OidcModelInstance, OidcModelInstancePayload } from '@riven/schemas';
+import { Applications, OidcModelInstances } from '@riven/schemas';
 import type { Nullable } from '@silverhand/essentials';
 import { conditional } from '@silverhand/essentials';
 import type { CommonQueryMethods, ValueExpression } from '@silverhand/slonik';

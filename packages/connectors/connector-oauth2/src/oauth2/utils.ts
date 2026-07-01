@@ -1,8 +1,8 @@
 import { removeUndefinedKeys } from '@silverhand/essentials';
 import snakecaseKeys from 'snakecase-keys';
 
-import { ConnectorError, ConnectorErrorCodes } from '@logto/connector-kit';
-import { generateStandardId } from '@logto/shared/universal';
+import { ConnectorError, ConnectorErrorCodes } from '@riven/connector-kit';
+import { generateStandardId } from '@riven/shared/universal';
 import { SignJWT } from 'jose';
 import ky, { HTTPError } from 'ky';
 

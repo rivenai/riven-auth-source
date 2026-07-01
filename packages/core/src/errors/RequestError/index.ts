@@ -1,5 +1,5 @@
-import type { LogtoErrorCode, LogtoErrorI18nKey } from '@logto/phrases';
-import type { RequestErrorBody, RequestErrorMetadata } from '@logto/schemas';
+import type { LogtoErrorCode, LogtoErrorI18nKey } from '@riven/phrases';
+import type { RequestErrorBody, RequestErrorMetadata } from '@riven/schemas';
 import type { Optional } from '@silverhand/essentials';
 import { conditional, pick } from '@silverhand/essentials';
 import i18next, { type i18n } from 'i18next';

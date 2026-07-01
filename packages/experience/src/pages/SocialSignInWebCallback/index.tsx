@@ -1,4 +1,4 @@
-import { experience } from '@logto/schemas';
+import { experience } from '@riven/schemas';
 import { Navigate, useParams } from 'react-router-dom';
 
 import useConnectors from '@/hooks/use-connectors';

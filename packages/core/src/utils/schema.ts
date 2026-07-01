@@ -1,4 +1,4 @@
-import type { GeneratedSchema, SchemaLike } from '@logto/schemas';
+import type { GeneratedSchema, SchemaLike } from '@riven/schemas';
 
 export const isKeyOf =
   <

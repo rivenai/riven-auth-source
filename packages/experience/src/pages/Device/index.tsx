@@ -1,4 +1,4 @@
-import { experience } from '@logto/schemas';
+import { experience } from '@riven/schemas';
 import type { TFuncKey } from 'i18next';
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';

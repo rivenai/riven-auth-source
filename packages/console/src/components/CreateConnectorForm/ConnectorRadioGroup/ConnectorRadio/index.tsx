@@ -1,4 +1,4 @@
-import { type ConnectorFactoryResponse } from '@logto/schemas';
+import { type ConnectorFactoryResponse } from '@riven/schemas';
 import classNames from 'classnames';
 
 import ConnectorLogo from '@/components/ConnectorLogo';

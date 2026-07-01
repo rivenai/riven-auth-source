@@ -16,8 +16,8 @@
 
   End users can now manage their account security from the account center:
 
-  - `@logto/account` ships the `/account/security` route with social account linking and unlinking, MFA 2-step verification, and account deletion.
-  - `@logto/console` exposes the delete-account URL field on the sign-in experience account center settings, and surfaces the account center and social prebuilt UI entries.
+  - `@riven/account` ships the `/account/security` route with social account linking and unlinking, MFA 2-step verification, and account deletion.
+  - `@riven/console` exposes the delete-account URL field on the sign-in experience account center settings, and surfaces the account center and social prebuilt UI entries.
 
 - 3350b13ec8: add grace period support to private signing key rotation
 
@@ -448,8 +448,8 @@
 
   ### Sign-in experience settings
 
-  - `@logto/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
-  - `@logto/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
+  - `@riven/core`: Update the `/api/sign-in-experience` endpoint to support the new `secondaryIdentifiers` field in the sign-up settings.
+  - `@riven/console`: Replace the sign-up identifier single selector with a multi-selector to support multiple sign-up identifiers. The order of the identifiers can be rearranged by dragging and dropping the items in the list. The first item in the list will be considered the primary identifier and stored in the `signUp.identifiers` field, while the rest will be stored in the `signUp.secondaryIdentifiers` field.
 
   ### End-user experience
 
@@ -631,7 +631,7 @@
   For example, in the JavaScript SDK:
 
   ```ts
-  import LogtoClient from "@logto/client";
+  import LogtoClient from "@riven/client";
 
   const logtoClient = new LogtoClient(/* your configuration */);
 
@@ -659,7 +659,7 @@
   Removed ParcelJS and replaced with Vite. No breaking changes should be expected, but use a minor version bump to catch your attention.
 
   > [!Important]
-  > The browserlist configuration for `@logto/experience` and been synced with what is stated in README.md.
+  > The browserlist configuration for `@riven/experience` and been synced with what is stated in README.md.
 
 - b188bb161: support multiple app secrets with expiration
 
@@ -1050,9 +1050,9 @@
 
 - 18181f892: standardize id and secret generators
 
-  - Remove `buildIdGenerator` export from `@logto/shared`
-  - Add `generateStandardSecret` and `generateStandardShortId` exports to `@logto/shared`
-  - Align comment and implementation of `buildIdGenerator` in `@logto/shared`
+  - Remove `buildIdGenerator` export from `@riven/shared`
+  - Add `generateStandardSecret` and `generateStandardShortId` exports to `@riven/shared`
+  - Align comment and implementation of `buildIdGenerator` in `@riven/shared`
     - The comment stated the function will include uppercase letters by default, but it did not; Now it does.
   - Use `generateStandardSecret` for all secret generation
 
@@ -1351,7 +1351,7 @@
   - cli!: remove `oidc` option for `database seed` command as it's unused
   - cli: add hidden `--cloud` option for `database seed` command to init cloud data
   - cli, cloud: appending Redirect URIs to Admin Console will deduplicate values before update
-  - move `UrlSet` and `GlobalValues` to `@logto/shared`
+  - move `UrlSet` and `GlobalValues` to `@riven/shared`
 
 - 1c9160112: Various UI improvements
 
@@ -1462,7 +1462,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.12](https://github.com/logto-io/logto/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-10-19)
 
-**Note:** Version bump only for package @logto/console
+**Note:** Version bump only for package @riven/console
 
 ## [1.0.0-beta.11](https://github.com/logto-io/logto/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-10-19)
 
@@ -1532,7 +1532,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.0-beta.8](https://github.com/logto-io/logto/compare/v1.0.0-beta.6...v1.0.0-beta.8) (2022-09-01)
 
-**Note:** Version bump only for package @logto/console
+**Note:** Version bump only for package @riven/console
 
 ## [1.0.0-beta.6](https://github.com/logto-io/logto/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-08-30)
 
@@ -1703,11 +1703,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### [0.1.2-alpha.5](https://github.com/logto-io/logto/compare/v0.1.2-alpha.4...v0.1.2-alpha.5) (2022-07-03)
 
-**Note:** Version bump only for package @logto/console
+**Note:** Version bump only for package @riven/console
 
 ### [0.1.2-alpha.4](https://github.com/logto-io/logto/compare/v0.1.2-alpha.3...v0.1.2-alpha.4) (2022-07-03)
 
-**Note:** Version bump only for package @logto/console
+**Note:** Version bump only for package @riven/console
 
 ### [0.1.2-alpha.3](https://github.com/logto-io/logto/compare/v0.1.2-alpha.2...v0.1.2-alpha.3) (2022-07-03)
 
@@ -1723,11 +1723,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### [0.1.2-alpha.1](https://github.com/logto-io/logto/compare/v0.1.2-alpha.0...v0.1.2-alpha.1) (2022-07-02)
 
-**Note:** Version bump only for package @logto/console
+**Note:** Version bump only for package @riven/console
 
 ### [0.1.2-alpha.0](https://github.com/logto-io/logto/compare/v0.1.1-alpha.0...v0.1.2-alpha.0) (2022-07-02)
 
-**Note:** Version bump only for package @logto/console
+**Note:** Version bump only for package @riven/console
 
 ### [0.1.1-alpha.0](https://github.com/logto-io/logto/compare/v0.1.0-internal...v0.1.1-alpha.0) (2022-07-01)
 

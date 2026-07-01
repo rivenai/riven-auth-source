@@ -1,5 +1,5 @@
-import { TemplateType } from '@logto/connector-kit';
-import { type EmailTemplateDetails } from '@logto/schemas';
+import { TemplateType } from '@riven/connector-kit';
+import { type EmailTemplateDetails } from '@riven/schemas';
 
 import { mockEmailTemplates } from '#src/__mocks__/email-templates.js';
 import { EmailTemplatesApiTest } from '#src/helpers/email-templates.js';

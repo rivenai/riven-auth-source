@@ -1,6 +1,6 @@
-import { appInsights } from '@logto/app-insights/node';
-import { UserScope } from '@logto/core-kit';
-import { VerificationType, AccountCenterControlValue } from '@logto/schemas';
+import { appInsights } from '@riven/app-insights/node';
+import { UserScope } from '@riven/core-kit';
+import { VerificationType, AccountCenterControlValue } from '@riven/schemas';
 import { trySafe } from '@silverhand/essentials';
 import { z } from 'zod';
 

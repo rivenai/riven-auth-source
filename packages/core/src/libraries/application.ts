@@ -5,7 +5,7 @@ import {
   ApplicationUserConsentScopeType,
   getManagementApiResourceIndicator,
   ApplicationType,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import RequestError from '#src/errors/RequestError/index.js';
 import type Queries from '#src/tenants/Queries.js';

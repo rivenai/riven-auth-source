@@ -1,5 +1,5 @@
-import type { ConnectorMetadata } from '@logto/connector-kit';
-import { ConnectorConfigFormItemType, ConnectorPlatform } from '@logto/connector-kit';
+import type { ConnectorMetadata } from '@riven/connector-kit';
+import { ConnectorConfigFormItemType, ConnectorPlatform } from '@riven/connector-kit';
 
 export const authorizationEndpoint = 'alipay://'; // This is used to arouse the native Alipay App
 export const alipayEndpoint = 'https://openapi.alipay.com/gateway.do';

@@ -1,5 +1,5 @@
-import { emailRegEx, PasswordPolicyChecker, usernameRegEx } from '@logto/core-kit';
-import { userInfoSelectFields, jsonObjectGuard } from '@logto/schemas';
+import { emailRegEx, PasswordPolicyChecker, usernameRegEx } from '@riven/core-kit';
+import { userInfoSelectFields, jsonObjectGuard } from '@riven/schemas';
 import { condArray, conditional, pick } from '@silverhand/essentials';
 import { literal, object, string } from 'zod';
 

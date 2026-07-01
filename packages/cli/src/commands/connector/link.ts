@@ -42,7 +42,7 @@ const link: CommandModule<{ path?: string }, { path?: string; cloud: boolean; mo
         }
 
         try {
-          const targetPath = path.join(connectorDirectory, '@logto-' + packageName);
+          const targetPath = path.join(connectorDirectory, '@riven-' + packageName);
 
           await fs.rm(targetPath, { recursive: true, force: true });
           await fs.symlink(path.relative(connectorDirectory, packagePath), targetPath);

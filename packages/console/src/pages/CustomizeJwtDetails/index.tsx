@@ -1,4 +1,4 @@
-import { type LogtoJwtTokenKeyType } from '@logto/schemas';
+import { type LogtoJwtTokenKeyType } from '@riven/schemas';
 import { useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 

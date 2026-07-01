@@ -5,7 +5,7 @@ import {
   GrantType,
   InteractionMode,
   demoAppApplicationId,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { mockEnvSet } from '#src/test-utils/env-set.js';
 

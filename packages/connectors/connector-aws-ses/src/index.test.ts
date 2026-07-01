@@ -1,5 +1,5 @@
 import { SESv2Client } from '@aws-sdk/client-sesv2';
-import { TemplateType } from '@logto/connector-kit';
+import { TemplateType } from '@riven/connector-kit';
 
 import createConnector from './index.js';
 import { mockedConfig, mockGenericI18nEmailTemplate } from './mock.js';

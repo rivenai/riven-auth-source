@@ -1,5 +1,5 @@
-import { ReservedResource } from '@logto/core-kit';
-import { type MissingResourceScopes, type Scope, missingResourceScopesGuard } from '@logto/schemas';
+import { ReservedResource } from '@riven/core-kit';
+import { type MissingResourceScopes, type Scope, missingResourceScopesGuard } from '@riven/schemas';
 import { errors } from 'oidc-provider';
 
 import {

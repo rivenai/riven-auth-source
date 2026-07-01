@@ -2,9 +2,9 @@ import {
   LogtoJwtTokenKey,
   LogtoJwtTokenKeyType,
   type JwtCustomizerTestRequestBody,
-} from '@logto/schemas';
-import { ConsoleLog } from '@logto/shared';
-import { pickDefault } from '@logto/shared/esm';
+} from '@riven/schemas';
+import { ConsoleLog } from '@riven/shared';
+import { pickDefault } from '@riven/shared/esm';
 import { pick } from '@silverhand/essentials';
 
 import {

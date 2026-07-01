@@ -1,5 +1,5 @@
-import { useLogto } from '@logto/react';
-import { demoAppApplicationId } from '@logto/schemas';
+import { useLogto } from '@riven/react';
+import { demoAppApplicationId } from '@riven/schemas';
 import { decodeJwt } from 'jose';
 import { useCallback, useState, type FormEventHandler } from 'react';
 

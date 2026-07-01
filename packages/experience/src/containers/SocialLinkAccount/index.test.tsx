@@ -1,4 +1,4 @@
-import { SignInIdentifier } from '@logto/schemas';
+import { SignInIdentifier } from '@riven/schemas';
 import { fireEvent, waitFor } from '@testing-library/react';
 
 import renderWithPageContext from '@/__mocks__/RenderWithPageContext';

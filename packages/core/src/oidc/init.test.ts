@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 
-import { GrantType, type Scope } from '@logto/schemas';
+import { GrantType, type Scope } from '@riven/schemas';
 import type { KoaContextWithOIDC } from 'oidc-provider';
 import instance from 'oidc-provider/lib/helpers/weak_cache.js';
 

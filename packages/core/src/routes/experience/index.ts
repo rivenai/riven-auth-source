@@ -10,7 +10,7 @@
  * The experience APIs can be used by developers to build custom user interaction experiences.
  */
 
-import { identificationApiPayloadGuard, InteractionEvent } from '@logto/schemas';
+import { identificationApiPayloadGuard, InteractionEvent } from '@riven/schemas';
 import type Router from 'koa-router';
 import { z } from 'zod';
 

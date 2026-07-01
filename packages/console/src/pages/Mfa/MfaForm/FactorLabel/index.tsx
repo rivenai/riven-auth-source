@@ -1,5 +1,5 @@
-import { type AdminConsoleKey } from '@logto/phrases';
-import { MfaFactor } from '@logto/schemas';
+import { type AdminConsoleKey } from '@riven/phrases';
+import { MfaFactor } from '@riven/schemas';
 
 import MfaFactorTitle from '@/components/MfaFactorTitle';
 import DynamicT from '@/ds-components/DynamicT';

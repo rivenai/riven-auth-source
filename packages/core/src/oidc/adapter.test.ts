@@ -1,5 +1,5 @@
-import { accountCenterApplicationId, demoAppApplicationId, type Application } from '@logto/schemas';
-import { createMockUtils } from '@logto/shared/esm';
+import { accountCenterApplicationId, demoAppApplicationId, type Application } from '@riven/schemas';
+import { createMockUtils } from '@riven/shared/esm';
 import snakecaseKeys from 'snakecase-keys';
 
 import { mockApplication } from '#src/__mocks__/index.js';

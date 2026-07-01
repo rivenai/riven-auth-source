@@ -5,7 +5,7 @@ import {
   type SsoConnector,
   type SsoConnectorProvidersResponse,
   type SsoConnectorIdpInitiatedAuthConfig,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 import { metadataXml } from '#src/__mocks__/sso-connectors-mock.js';
 import { authedAdminApi } from '#src/api/api.js';

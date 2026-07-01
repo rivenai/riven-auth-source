@@ -1,4 +1,4 @@
-import { experience } from '@logto/schemas';
+import { experience } from '@riven/schemas';
 import { useTranslation } from 'react-i18next';
 import { Navigate } from 'react-router-dom';
 

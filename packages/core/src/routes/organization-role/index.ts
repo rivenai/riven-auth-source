@@ -6,8 +6,8 @@ import {
   type CreateOrganizationRole,
   type OrganizationRole,
   type OrganizationRoleKeys,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { z } from 'zod';
 
 import { buildManagementApiContext } from '#src/libraries/hook/utils.js';

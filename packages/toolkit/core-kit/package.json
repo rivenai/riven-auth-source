@@ -1,5 +1,5 @@
 {
-  "name": "@logto/core-kit",
+  "name": "@riven/core-kit",
   "version": "2.9.0",
   "author": "Silverhand Inc. <contact@silverhand.io>",
   "homepage": "https://github.com/logto-io/toolkit#readme",
@@ -46,8 +46,8 @@
     "node": "^22.14.0"
   },
   "dependencies": {
-    "@logto/language-kit": "workspace:^",
-    "@logto/shared": "workspace:^",
+    "@riven/language-kit": "workspace:^",
+    "@riven/shared": "workspace:^",
     "@silverhand/essentials": "^2.9.1",
     "color": "^4.2.3"
   },

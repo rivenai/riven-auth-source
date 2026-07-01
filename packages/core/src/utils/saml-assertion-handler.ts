@@ -1,5 +1,5 @@
-import type { ConnectorSession } from '@logto/connector-kit';
-import { connectorSessionGuard } from '@logto/connector-kit';
+import type { ConnectorSession } from '@riven/connector-kit';
+import { connectorSessionGuard } from '@riven/connector-kit';
 import type { Provider } from 'oidc-provider';
 import { z } from 'zod';
 

@@ -1,6 +1,6 @@
-import type { CustomPhrase, Translation } from '@logto/schemas';
-import { CustomPhrases } from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+import type { CustomPhrase, Translation } from '@riven/schemas';
+import { CustomPhrases } from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import type { CommonQueryMethods } from '@silverhand/slonik';
 import { sql } from '@silverhand/slonik';
 

@@ -1,9 +1,9 @@
-import resource from '@logto/phrases-experience';
+import resource from '@riven/phrases-experience';
 import {
   InteractionEvent,
   SignInIdentifier,
   type VerificationCodeIdentifier,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { act, fireEvent, waitFor } from '@testing-library/react';
 
 import renderWithPageContext from '@/__mocks__/RenderWithPageContext';

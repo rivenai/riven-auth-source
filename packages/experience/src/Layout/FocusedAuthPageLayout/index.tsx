@@ -1,4 +1,4 @@
-import { type AgreeToTermsPolicy } from '@logto/schemas';
+import { type AgreeToTermsPolicy } from '@riven/schemas';
 import { type TFuncKey } from 'i18next';
 import { useMemo, type ReactNode } from 'react';
 

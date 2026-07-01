@@ -1,4 +1,4 @@
-import { type ApplicationSignInExperience } from '@logto/schemas';
+import { type ApplicationSignInExperience } from '@riven/schemas';
 
 import { removeFalsyValues } from '@/utils/object';
 

@@ -10,8 +10,8 @@ import {
   type SanitizedEnterpriseSsoVerificationRecordData,
   type EncryptedTokenSet,
   type SecretEnterpriseSsoConnectorRelationPayload,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';
@@ -36,7 +36,7 @@ export {
   type SanitizedEnterpriseSsoVerificationRecordData,
   enterpriseSsoVerificationRecordDataGuard,
   sanitizedEnterpriseSsoVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export type EnterpriseSsoConnectorTokenSetSecret = {
   encryptedTokenSet: EncryptedTokenSet;

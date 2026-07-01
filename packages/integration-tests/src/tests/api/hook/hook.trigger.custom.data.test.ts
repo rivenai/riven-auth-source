@@ -3,7 +3,7 @@ import {
   SignInIdentifier,
   hookEvents,
   userInfoSelectFields,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import { pick } from '@silverhand/essentials';
 
 import { deleteUser } from '#src/api/admin-user.js';

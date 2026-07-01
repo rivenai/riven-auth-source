@@ -1,5 +1,5 @@
 {
-  "name": "@logto/schemas",
+  "name": "@riven/schemas",
   "version": "1.39.0",
   "author": "Silverhand Inc. <contact@silverhand.io>",
   "license": "MPL-2.0",
@@ -79,12 +79,12 @@
   },
   "prettier": "@silverhand/eslint-config/.prettierrc",
   "dependencies": {
-    "@logto/connector-kit": "workspace:^",
-    "@logto/core-kit": "workspace:^",
-    "@logto/language-kit": "workspace:^",
-    "@logto/phrases": "workspace:^",
-    "@logto/phrases-experience": "workspace:^",
-    "@logto/shared": "workspace:^",
+    "@riven/connector-kit": "workspace:^",
+    "@riven/core-kit": "workspace:^",
+    "@riven/language-kit": "workspace:^",
+    "@riven/phrases": "workspace:^",
+    "@riven/phrases-experience": "workspace:^",
+    "@riven/shared": "workspace:^",
     "@withtyped/server": "^0.14.0",
     "nanoid": "^5.0.9"
   },

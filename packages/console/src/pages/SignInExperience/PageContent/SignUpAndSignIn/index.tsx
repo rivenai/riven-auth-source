@@ -1,4 +1,4 @@
-import type { SignInExperience } from '@logto/schemas';
+import type { SignInExperience } from '@riven/schemas';
 
 import PageMeta from '@/components/PageMeta';
 

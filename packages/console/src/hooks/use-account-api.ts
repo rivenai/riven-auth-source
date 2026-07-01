@@ -1,4 +1,4 @@
-import { useLogto } from '@logto/react';
+import { useLogto } from '@riven/react';
 import ky from 'ky';
 import { useMemo } from 'react';
 

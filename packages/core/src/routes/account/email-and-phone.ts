@@ -1,5 +1,5 @@
-import { emailRegEx, phoneRegEx, UserScope } from '@logto/core-kit';
-import { VerificationType, AccountCenterControlValue } from '@logto/schemas';
+import { emailRegEx, phoneRegEx, UserScope } from '@riven/core-kit';
+import { VerificationType, AccountCenterControlValue } from '@riven/schemas';
 import { z } from 'zod';
 
 import koaGuard from '#src/middleware/koa-guard.js';

@@ -1,6 +1,6 @@
-import { emailRegEx } from '@logto/core-kit';
-import { OneTimeTokens, oneTimeTokenStatusGuard } from '@logto/schemas';
-import { generateStandardId, generateStandardSecret } from '@logto/shared';
+import { emailRegEx } from '@riven/core-kit';
+import { OneTimeTokens, oneTimeTokenStatusGuard } from '@riven/schemas';
+import { generateStandardId, generateStandardSecret } from '@riven/shared';
 import { cond, trySafe } from '@silverhand/essentials';
 import { addSeconds } from 'date-fns';
 import { z } from 'zod';
@@ -107,7 +107,7 @@ export default function oneTimeTokenRoutes<T extends ManagementApiRouter>(
       const oneTimeToken = await insertOneTimeToken({
         ...rest,
         id: generateStandardId(),
-        // TODO: export generate random string with specified length from @logto/shared.
+        // TODO: export generate random string with specified length from @riven/shared.
         token: generateStandardSecret(),
         expiresAt: expiresAt.getTime(),
       });

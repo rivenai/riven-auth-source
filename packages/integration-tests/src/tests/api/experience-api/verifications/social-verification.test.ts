@@ -1,5 +1,5 @@
-import { ConnectorType } from '@logto/connector-kit';
-import { InteractionEvent, SignInIdentifier } from '@logto/schemas';
+import { ConnectorType } from '@riven/connector-kit';
+import { InteractionEvent, SignInIdentifier } from '@riven/schemas';
 
 import { mockEmailConnectorId, mockSocialConnectorId } from '#src/__mocks__/connectors-mock.js';
 import { initExperienceClient } from '#src/helpers/client.js';

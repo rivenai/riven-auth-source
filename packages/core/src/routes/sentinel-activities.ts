@@ -1,4 +1,4 @@
-import { SentinelActivityTargetType } from '@logto/schemas';
+import { SentinelActivityTargetType } from '@riven/schemas';
 import { sha256 } from 'hash-wasm';
 import { z } from 'zod';
 

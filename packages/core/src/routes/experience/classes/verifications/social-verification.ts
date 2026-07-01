@@ -8,7 +8,7 @@ import {
   isExternalGoogleOneTap as isExternalGoogleOneTapChecker,
   isGoogleOneTap as isGoogleOneTapChecker,
   logtoGoogleOneTapCookieKey,
-} from '@logto/connector-kit';
+} from '@riven/connector-kit';
 import {
   VerificationType,
   type JsonObject,
@@ -20,8 +20,8 @@ import {
   type SocialConnectorPayload,
   type EncryptedTokenSet,
   type SecretSocialConnectorRelationPayload,
-} from '@logto/schemas';
-import { generateStandardId } from '@logto/shared';
+} from '@riven/schemas';
+import { generateStandardId } from '@riven/shared';
 import { conditional } from '@silverhand/essentials';
 
 import RequestError from '#src/errors/RequestError/index.js';
@@ -45,7 +45,7 @@ export {
   type SanitizedSocialVerificationRecordData,
   socialVerificationRecordDataGuard,
   sanitizedSocialVerificationRecordDataGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 type SocialAuthorizationSessionStorageType = 'interactionSession' | 'verificationRecord';
 

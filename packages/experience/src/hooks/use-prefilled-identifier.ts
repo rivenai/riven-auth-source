@@ -1,4 +1,4 @@
-import { type SignInIdentifier } from '@logto/schemas';
+import { type SignInIdentifier } from '@riven/schemas';
 import { type Optional } from '@silverhand/essentials';
 import { useContext, useMemo } from 'react';
 

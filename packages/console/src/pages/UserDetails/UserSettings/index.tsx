@@ -1,6 +1,6 @@
-import { emailRegEx, usernameRegEx } from '@logto/core-kit';
-import type { SignInExperience, User } from '@logto/schemas';
-import { parsePhoneNumber } from '@logto/shared/universal';
+import { emailRegEx, usernameRegEx } from '@riven/core-kit';
+import type { SignInExperience, User } from '@riven/schemas';
+import { parsePhoneNumber } from '@riven/shared/universal';
 import { conditionalString, trySafe } from '@silverhand/essentials';
 import { parsePhoneNumberWithError } from 'libphonenumber-js/mobile';
 import { useForm, useController } from 'react-hook-form';

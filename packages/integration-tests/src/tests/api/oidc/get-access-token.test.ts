@@ -1,7 +1,7 @@
 import path from 'node:path';
 
-import { fetchTokenByRefreshToken } from '@logto/js';
-import { InteractionEvent, type Resource, RoleType, VerificationType } from '@logto/schemas';
+import { fetchTokenByRefreshToken } from '@riven/js';
+import { InteractionEvent, type Resource, RoleType, VerificationType } from '@riven/schemas';
 import { assert } from '@silverhand/essentials';
 import { createRemoteJWKSet, jwtVerify } from 'jose';
 

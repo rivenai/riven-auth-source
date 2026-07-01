@@ -3,7 +3,7 @@ import {
   type CloudflareData,
   type Domain,
   type DomainResponse,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export const mockNanoIdForDomain = 'random_string';
 

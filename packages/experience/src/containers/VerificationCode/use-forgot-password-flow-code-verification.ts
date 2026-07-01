@@ -1,4 +1,4 @@
-import type { VerificationCodeIdentifier } from '@logto/schemas';
+import type { VerificationCodeIdentifier } from '@riven/schemas';
 import { useCallback, useMemo } from 'react';
 
 import { identifyWithVerificationCode } from '@/apis/experience';

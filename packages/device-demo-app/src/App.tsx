@@ -1,4 +1,4 @@
-import { deviceDemoAppApplicationId } from '@logto/schemas';
+import { deviceDemoAppApplicationId } from '@riven/schemas';
 import { decodeJwt } from 'jose';
 import { toDataURL } from 'qrcode';
 import { useCallback, useEffect, useRef, useState } from 'react';

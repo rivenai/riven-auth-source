@@ -1,5 +1,5 @@
 import cors from '@koa/cors';
-import type { UrlSet } from '@logto/shared';
+import type { UrlSet } from '@riven/shared';
 import type { MiddlewareType } from 'koa';
 
 import { EnvSet } from '#src/env-set/index.js';

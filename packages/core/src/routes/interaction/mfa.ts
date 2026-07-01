@@ -3,7 +3,7 @@ import {
   MfaFactor,
   bindMfaPayloadGuard,
   verifyMfaPayloadGuard,
-} from '@logto/schemas';
+} from '@riven/schemas';
 import type Router from 'koa-router';
 import { type IRouterParamContext } from 'koa-router';
 import { z } from 'zod';

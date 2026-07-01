@@ -1,4 +1,4 @@
-import { InteractionEvent } from '@logto/schemas';
+import { InteractionEvent } from '@riven/schemas';
 
 import { initExperienceClient, logoutClient, processSession } from './client.js';
 import {

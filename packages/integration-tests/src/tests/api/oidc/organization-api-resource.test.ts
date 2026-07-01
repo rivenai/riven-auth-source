@@ -1,5 +1,5 @@
-import { UserScope } from '@logto/core-kit';
-import { type Resource } from '@logto/schemas';
+import { UserScope } from '@riven/core-kit';
+import { type Resource } from '@riven/schemas';
 
 import { createResource, deleteResource, deleteUser } from '#src/api/index.js';
 import { createScope, deleteScope } from '#src/api/scope.js';

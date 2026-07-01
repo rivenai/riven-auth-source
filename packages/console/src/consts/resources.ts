@@ -4,7 +4,7 @@ import {
   CloudScope,
   getManagementApiResourceIndicator,
   PredefinedScope,
-} from '@logto/schemas';
+} from '@riven/schemas';
 
 export type ApiResource = {
   indicator: string;

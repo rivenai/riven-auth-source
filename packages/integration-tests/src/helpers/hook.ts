@@ -1,4 +1,4 @@
-import { type CreateHook, type Hook, type HookConfig, type HookEvent } from '@logto/schemas';
+import { type CreateHook, type Hook, type HookConfig, type HookEvent } from '@riven/schemas';
 
 import { authedAdminApi } from '#src/api/api.js';
 

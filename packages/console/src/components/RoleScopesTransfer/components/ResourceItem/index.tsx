@@ -1,4 +1,4 @@
-import type { ScopeResponse } from '@logto/schemas';
+import type { ScopeResponse } from '@riven/schemas';
 import classNames from 'classnames';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
